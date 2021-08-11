@@ -1,0 +1,141 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20232a;
+}
+.header div p {
+  color: #fff;
+  border-right: 1px solid #32363e;
+  /* border-left:  1px solid #32363E; */
+  padding: 20px;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 1.5vmin;
+  font-weight: 500;
+  transition: 0.5s ease all;
+}
+.header div .nav-item {
+    outline: none;
+    text-decoration: none;
+  }
+.header div p:hover {
+  /* background-color: #32363e; */
+  /* border: 1px solid #008b70; */
+  text-decoration: line-through;
+  color: #067B65;
+  cursor: pointer;
+  font-weight: 700;
+}
+.product-box {
+  /* width: 1000px; */
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: 0 auto;
+  border-top: 3px solid #32363e;
+  background-color: #20232a;
+  position: absolute;
+  z-index: 1000;
+}
+.product-box div div p {
+  color: #fff;
+  font-size: 1.5vmin;
+  font-family: "Gowun Dodum", sans-serif;
+  transition: 0.5s ease all;
+  border-bottom: 1px solid #32363e;
+  padding: 7px 10px;
+}
+@media all and (max-width:900px) {
+  .product-box div div p {
+    font-size: 3.5vmin;
+    
+  }
+  .product-box div div {
+    width: 100%;
+    text-align: center;
+  }
+}
+.product-box div h3 {
+  color: #008b70;
+  font-size: 2vmin;
+  font-family: "Gowun Dodum", sans-serif;
+  transition: 0.5s ease all;
+}
+.product-box div div p:hover {
+  background-color: #32363e;
+  cursor: pointer;
+}
+.product-box div .partners img:hover {
+    box-shadow: #32363e 0px 7px 29px 0px;
+}
+.product-box div .products-right img:hover {
+    box-shadow: #008B70 0px 7px 29px 0px;
+}
+.product-box div .products-right2 img {
+  box-shadow: #008B70 0px 7px 29px 0px;
+}
+.full-box-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: left;
+  transition-duration: 2s;
+}
+.footer-div {
+  margin: 0 auto; max-width: 1366px; width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.footer-div div {
+  color: #fff;
+  font-family: "Gowun Dodum", sans-serif;
+}
+.img-divs img {
+  width: 20px;
+}
+.footer-div {
+  display: flex;
+  font-size: 1.8vmin;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-div div div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+@media all and (min-width: 1919px) {
+    .full-box-div {
+        max-width: 1266px;
+    }
+    .footer-div {
+      max-width: 1266px;
+    }
+}
+@media all and (min-width: 2559px) {
+    .full-box-div {
+        max-width: 1618px;
+    }
+    .footer-div {
+      max-width: 1618px;
+  }
+}
+@media all and (min-width: 4508px) {
+    .full-box-div {
+        max-width: 2066px;
+    }
+    .footer-div {
+      max-width: 2066px;
+  }
+}
+.nav-active p {
+        /* background-color: #32363e !important; */
+        color: #067B65 !important;
+  text-decoration: line-through;
+  font-weight: 700 !important;
+}

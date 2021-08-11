@@ -1,0 +1,115 @@
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20232a;
+    padding-right: 20px;
+}
+#mob-menu div .nav-item {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    
+  }
+#mob-menu div p:hover {
+    /* background-color: #32363e; */
+    /* border: 1px solid #008b70; */
+    text-decoration: line-through;
+    color: #067B65;
+    cursor: pointer;
+    font-weight: 700;
+  }  
+
+  .product-box1 {
+    /* width: 1000px; */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: 0 auto;
+    border-top: 3px solid #32363e;
+    background-color: #20232a;
+    position: absolute;
+    z-index: 10001;
+  }
+  .product-box2 {
+    /* width: 1000px; */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: 0 auto;
+    border-top: 3px solid #32363e;
+    background-color: #20232a;
+    position: absolute;
+    z-index: 10002;
+  }
+  #prodc-menu h5  {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+#prodc-menu div div p {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+
+#aud-menu h5  {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+#aud-menu div div p {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+
+
+#serv-menu h5  {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+#serv-menu div div p {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+
+
+#about-menu h5  {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
+#about-menu div div p {
+    color: #fff;
+    font-size: 3.5vmin;
+    font-family: "Gowun Dodum", sans-serif;
+    transition: 0.5s ease all;
+    border-bottom: 1px solid #32363e;
+    padding: 7px 10px;
+}
