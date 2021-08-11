@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Right from './../../assets/right1.png'
 
 export const Footer = () => {
-    const [ProductsBox, setProductsBox] = useState(true);
+    let ProductsBox = true;
     const [isMobile, setMobile] = useState(false);
     let width = 0;
 

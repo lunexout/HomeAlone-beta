@@ -4,7 +4,7 @@ import './mobile-header.css'
 import logo from './../../assets/logo.png';
 import menu from './../../assets/burger.png';
 import close from './../../assets/close.svg'
-import { NavLink, Router } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const MobileHeader = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

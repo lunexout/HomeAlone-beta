@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./testHome.css";
 
 import cameraLeft from "./../../videos/cameraLeft.mp4";
@@ -32,10 +32,7 @@ export const TestYourHome = () => {
     },
 ]
 
-//   useEffect(() => {
-//     const video = document.getElementById("mainvideo")
-//     video.play();
-//   }, [activeVideo]);
+
   const PlayVideo = () => {
     return (
       <video id="mainvideo" className="video-container" controls autoPlay loop>
