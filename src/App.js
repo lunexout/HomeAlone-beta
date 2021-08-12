@@ -10,6 +10,8 @@ import {MobileHeader} from './components/header/MobileHeader'
 import {Contact} from './components/contact/Contact'
 import { Products } from './components/products/Products';
 import { TestYourHome } from './components/testing/TestYourHome';
+import { News } from './components/news/News';
+import {about } from './components/about/About';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -42,6 +44,8 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/about" component={about} />
+          <Route exact path="/news" component={News} />
           <Route exact path="/test-system" component={TestYourHome} />
       </Switch>
     </div>

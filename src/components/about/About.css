@@ -1,0 +1,81 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.grid-container>div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-size: 30px;
+}
+
+.abouttitlewidth {
+	width: 100%;
+}
+
+.marginizer {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.fontsizer {
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.colorizer {
+	--tw-text-opacity: 1;
+	color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+
+.gradient {
+	background: linear-gradient(90deg, green 0%, lightgreen 100%);
+}
+
+.padinizer {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.rounded-t {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.widthcontroller {
+	width: 16rem;
+}
+
+.heightcontroller {
+	height: .25rem;
+}
+
+.margincontroller {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.automarginizer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 1214px) {
+	.grid-container {
+		grid-template-columns: auto;
+	}
+}
