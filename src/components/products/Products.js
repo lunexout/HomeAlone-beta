@@ -1,32 +1,35 @@
 import React, { useEffect } from 'react'
-import product_card from "./product_data";
 import './product.css'
 import {Footer} from './../footer/Footer'
 
 import {Spinner} from './../spinner/Spinner'
+import axios from 'axios';
+
+import apiJSON from './../../API.json'
 
 export const Products = () => {
     const [spinner, setSpinner] = React.useState(false)
-
+    const [data, setData] = React.useState([])
     useEffect(() => {
         setSpinner(true);
-        setTimeout(() => {
+        axios.get(`${apiJSON.API_URL}api/getallprod`).then(r => {
+            console.log(r.data)
+            setData(r.data)
             setSpinner(false);
-        }, 1000)
+        })
+
     }, [])
 
-    const listItems = product_card.map((item) =>
+    const listItems = data.map((item) =>
         <div className="card" key={item.id}>
             <div className="card_img">
-                <img src={item.thumb} alt="" />
+                <img src={`${apiJSON.API_URL}` + item.mainImage} alt="" />
             </div>
             <div className="card_header">
-                <h2>{item.product_name}</h2>
+                <h2>{item.name}</h2>
                 <p>{item.description}</p>
-                <p className="price">{item.price}<span>{item.currency}</span></p>
             </div>
         </div>
-
     );
     return (
         <>

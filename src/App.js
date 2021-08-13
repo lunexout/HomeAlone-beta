@@ -14,6 +14,7 @@ import { News } from './components/news/News';
 import { about } from './components/about/About';
 import { Services } from './components/services/Services';
 import Partners from './components/partners/Partners';
+import { RightTestSysytem } from './components/righttesting/RightTestSystem';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -21,7 +22,6 @@ function App() {
 
   const handleResize = () => {
       width = window.innerWidth;
-      console.log(width);
       if (width < 900) {
         setMobile(true);
       } else {
@@ -53,6 +53,7 @@ function App() {
     <>
     <div className="App">
       {!isMobile ? <Header/> : <MobileHeader/>}
+      <RightTestSysytem/>
       <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>

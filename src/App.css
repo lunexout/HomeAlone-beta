@@ -21,7 +21,7 @@
   border: 1px solid white;
   border-radius: 50%;
   position: absolute;
-  z-index: 99999999;
+  z-index: 9999999999;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
 }

@@ -69,14 +69,16 @@ export const Header = () => {
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/news'>
-                    <p>NEWSFEED</p>
+                    <p>NEWS</p>
                     </NavLink>
-
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/contact'>
-                    <p style={{borderRight: 'none'}}>CONTACT</p>
+                    <p >CONTACT</p>
                     </NavLink>
+                </div>
+                <div >
+                    <p style={{borderRight: 'none'}} className='nav-item-lang'>EN</p>
                 </div>
                 </div>
             </div>
