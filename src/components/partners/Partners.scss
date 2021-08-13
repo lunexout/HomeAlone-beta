@@ -5,7 +5,74 @@
     -webkit-transition: $x $y $z;
     -o-transition: $x $y $z;
   }
-  
+
+  .card1{
+    background-image: url(./images/7th-heaven.jpg);
+}
+
+.card2{
+    background-image: url(./images/alley-palace-400x235.jpg);
+}
+
+.card3{
+    background-image: url(./images/aquamarine-400x235.jpg);
+}
+
+.card4{
+    background-image: url(./images/arfi.jpg);
+}
+
+.card5{
+    background-image: url(./images/batumipalace-400x235.jpg);
+}
+
+.card6{
+    background-image: url(./images/Black-Sea-Panorama-400x235.jpg);
+}
+
+.card7{
+    background-image: url(./images/Citron-400x235.jpg);
+}
+
+.card8{
+    background-image: url(./images/gumbati.jpg);
+}
+.card9{
+    background-image: url(./images/Guru-Holding-600x353.jpg);
+}
+ 
+
+.card10{
+    background-image: url(./images/like.jpg);
+}
+
+.card11{
+    background-image: url(./images/logo-grand-maision-400x235.jpg);
+}
+
+.card12{
+    background-image: url(./images/MJM-400x235.jpg);
+}
+
+.card13{
+    background-image: url(./images/nbg-600x353.jpg);
+}
+
+.card14{
+    background-image: url(./images/New-Project-400x235.jpg);
+}
+.card14{
+    background-image: url(./images/premium-group-400x235.jpg);
+}
+.card15{
+    background-image: url(./images/real-palace-400x235.jpg);
+}
+.card16{
+    background-image: url(./images/starpalace.jpg);
+}
+.card17{
+    background-image: url(./images/sunrise.jpg);
+}
   @mixin rotate($x){
     -ms-transform: rotate($x); /* IE 9 */
      -webkit-transform: rotate($x); /* Chrome, Safari, Opera */
@@ -62,13 +129,7 @@
       @include rotate(-3deg);
     }
   
-    &:last-child {
-      margin-right: none;
-      background-color: purple;
-      background-image: url("https://goo.gl/LURaLH");
-      background-size: cover;
-      background-position: center center;
-    }
+    
   
     
   }
