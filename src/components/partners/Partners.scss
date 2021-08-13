@@ -6,73 +6,6 @@
     -o-transition: $x $y $z;
   }
 
-  .card1{
-    background-image: url(./images/7th-heaven.jpg);
-}
-
-.card2{
-    background-image: url(./images/alley-palace-400x235.jpg);
-}
-
-.card3{
-    background-image: url(./images/aquamarine-400x235.jpg);
-}
-
-.card4{
-    background-image: url(./images/arfi.jpg);
-}
-
-.card5{
-    background-image: url(./images/batumipalace-400x235.jpg);
-}
-
-.card6{
-    background-image: url(./images/Black-Sea-Panorama-400x235.jpg);
-}
-
-.card7{
-    background-image: url(./images/Citron-400x235.jpg);
-}
-
-.card8{
-    background-image: url(./images/gumbati.jpg);
-}
-.card9{
-    background-image: url(./images/Guru-Holding-600x353.jpg);
-}
- 
-
-.card10{
-    background-image: url(./images/like.jpg);
-}
-
-.card11{
-    background-image: url(./images/logo-grand-maision-400x235.jpg);
-}
-
-.card12{
-    background-image: url(./images/MJM-400x235.jpg);
-}
-
-.card13{
-    background-image: url(./images/nbg-600x353.jpg);
-}
-
-.card14{
-    background-image: url(./images/New-Project-400x235.jpg);
-}
-.card14{
-    background-image: url(./images/premium-group-400x235.jpg);
-}
-.card15{
-    background-image: url(./images/real-palace-400x235.jpg);
-}
-.card16{
-    background-image: url(./images/starpalace.jpg);
-}
-.card17{
-    background-image: url(./images/sunrise.jpg);
-}
   @mixin rotate($x){
     -ms-transform: rotate($x); /* IE 9 */
      -webkit-transform: rotate($x); /* Chrome, Safari, Opera */
@@ -93,7 +26,7 @@
     position: relative;
     width: 100%;
     flex-flow: row wrap;
-    // overflow: hidden;
+    overflow: hidden;
   }
   
   //Use this class as wrapper to keep content INSIDE the card
@@ -103,19 +36,17 @@
     height: 100%;
   }
   
-  .card {
-    background-color: purple;
+  .cardn {
     display: inline-block;
     max-width: 300px;
-    min-width: 150px;
-    min-height: 200px;
-    content: "";
+    height: auto;
     margin: 1rem 1rem 0 0;
     box-shadow: 0 1px 3px 0 rgba(58, 62, 75, 0.25);
     flex: 0 0 25%;
     align-items: flex-start;
     align-content: flex-start;
     border-radius: .2rem;
+    margin-top: 40px;
     @include transition(all, 250ms, ease-in-out);
     
     &:hover {

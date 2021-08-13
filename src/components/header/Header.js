@@ -148,7 +148,9 @@ export const Header = () => {
                         <div onMouseLeave={() => setAboutBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
-                                    <p>Partners</p>
+                                <p>
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
+                                </p>
                                     <p>Showroom</p>
                                     <p>Gallery</p>
                                 </div>
@@ -156,12 +158,12 @@ export const Header = () => {
                                     <img src={PARTNER1} style={{height: 130, width: 'auto'}} alt=''/>
                                     <img src={PARTNER2} style={{height: 130}}alt=''/>
                                     <img src={PARTNER3} style={{height: 130}}alt=''/>
-                                    {/* <img src={PARTNER4} style={{height: 130}}alt=''/> */}
                                     <div style={{height: 130, padding: 10, display:'flex', justifyContent:'center', alignItems:'center'}}>
-                                        <p>Show more</p>
+                                    <p>
+                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>See More</NavLink>
+                                    </p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </>

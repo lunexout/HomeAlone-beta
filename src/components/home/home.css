@@ -85,7 +85,7 @@
     margin: 20px auto;
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -119,6 +119,14 @@
   .test-btn:hover {
     background-color: #15171C;
   }
+  .partners-div {
+    max-width: 1586px; 
+    margin: 20px auto;
+  }
+  .about-container {
+    max-width: 1586px; 
+    margin: 20px auto;
+  }
   @media all and (min-width: 2400px) {
     .owl-prod-cont {
       max-width: 1766px; 
@@ -136,6 +144,14 @@
     .smart-home-banner {
       max-width: 1766px; 
       margin: 60px auto;
+    }
+    .partners-div {
+      max-width: 1766px; 
+      margin: 20px auto;
+    }
+    .about-container {
+      max-width: 1766px; 
+      margin: 20px auto;
     }
   }
 

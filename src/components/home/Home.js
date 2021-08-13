@@ -7,6 +7,8 @@ import { HeadingContent } from "../headings/HeadingContent";
 import {Footer} from './../footer/Footer'
 import { Gallery } from "../gallery/Gallery";
 import { SmartBanner } from "../smartbanner/SmartBanner";
+import {Spinner} from './../spinner/Spinner'
+
 const ContentList = [
   {
     id: 1,
@@ -41,15 +43,34 @@ const RenderProductList = () => {
 }
 
 export const Home = () => {
+  const [spinner, setSpinner] = React.useState(false)
+
+  React.useEffect(() => {
+    setSpinner(true);
+    setTimeout(() => {
+        setSpinner(false);
+    }, 700)
+}, [])
 
   return (
     <>
+    {spinner ? (
+      <>
+      <div style={{height: '100vh',backgroundColor: '#20232A', display: 'flex', justifyContent: 'center', alignItems:'center', borderTop: '4px solid #32363E'}}>
+      <Spinner/>
+      </div>
+
+      </>
+    ): (
+      <>
       <BannerCarousel/>
       <SmartBanner/>
       <ProductTypesCarousel/>
       <Gallery/>
       {RenderProductList()}
       <Footer/>
+      </>
+    )}
     </>
   );
 };

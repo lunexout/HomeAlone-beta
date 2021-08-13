@@ -47,9 +47,8 @@ export const Gallery = () => {
     return(
         <>
         <div className={model?"model open":"model"}>
+        <button onClick={()=>setModel(false)} style={{backgroundColor: 'transparent',border: 'none',width: 100, height: 100}}><img src={CLOSE} alt='close'/></button>
             <img src={tempimgSrc} alt=''/>
-            
-            <button onClick={()=>setModel(false)} style={{backgroundColor: 'transparent',border: 'none',width: 100, height: 100}}><img src={CLOSE} alt='close'/></button>
         </div>
         <div className='gallery'>
             {data.map((item,index)=>{

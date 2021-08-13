@@ -9,6 +9,7 @@ import img7 from './images/2c0b7003c0c82dfe9ea10981e831bc54.jpg';
 import img8 from './images/ba062de88f3188a9979f16f673adc397.jpg';
 import img9 from './images/646395786aecf08bb6351703d65a74d9.jpg';
 import './News.css';
+import { Footer } from '../footer/Footer';
 
 
 export const News = () => {
@@ -23,11 +24,11 @@ export const News = () => {
                    <div className="u-size-26">
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
-                         <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1">
+                         <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1" style={{backgroundColor: '#009073 !important'}}>
                            <div className="u-border-9 u-border-palette-1-base u-line u-line-vertical u-line-1" />
-                           <h1 className="u-align-left-md u-text u-title u-text-1">Spaces<br />That&nbsp;Inspire
+                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Spaces<br />That&nbsp;Inspire
                            </h1>
-                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2">If is there any list of the most important architecture projects of 2018 will definetely feature an abundance of superlatives. </p>
+                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>If is there any list of the most important architecture projects of 2018 will definetely feature an abundance of superlatives. </p>
                          </div>
                        </div>
                      </div>
@@ -62,8 +63,8 @@ export const News = () => {
              <img src={img5} alt="Myimage" className="u-align-left u-image u-image-2" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-white u-group-1">
                <div className="u-container-layout u-valign-middle-sm u-container-layout-1">
-                 <h2 className="u-text u-text-1">Nation’s Top in Design and Architecture</h2>
-                 <p className="u-text u-text-2">Design excellence adds real value to what we build—not just in terms of buildings’ visual appeal but in their urban design, functionality as workplaces, and overall sustainability. We support the delivery of vital public services to
+                 <h2 className="u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Nation’s Top in Design and Architecture</h2>
+                 <p className="u-text u-text-2" style={{fontFamily: "Gowun Dodum"}}>Design excellence adds real value to what we build—not just in terms of buildings’ visual appeal but in their urban design, functionality as workplaces, and overall sustainability. We support the delivery of vital public services to
                    the American people with buildings that are distinct and valued landmarks in their local communities
                  </p>
                </div>
@@ -77,7 +78,7 @@ export const News = () => {
              <img src={img6} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
-                 <h2 className="u-align-left-md u-text u-text-1">One Of The Most Beautiful Buildings&nbsp;In The World</h2>
+                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>One Of The Most Beautiful Buildings&nbsp;In The World</h2>
                  <p className="u-align-left-md u-text u-text-2">Comprising a series of overlapping fluid surfaces, the building was designed by Zaha Hadid Architects as the main venue for exhibitions, concerts and other cultural activities in Azerbaijan's capital city.</p>
                </div>
              </div>
@@ -139,6 +140,7 @@ export const News = () => {
            </div>
          </section>
        </div>
+       <Footer/>
     </>
     )
 }

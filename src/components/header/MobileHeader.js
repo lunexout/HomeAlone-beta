@@ -58,10 +58,11 @@ export const MobileHeader = () => {
     return(
         <>
             <div className='mobile-header'>
+                <NavLink to="/" >
                 <div>
-                    <NavLink to="/"><img src={logo} className="App-logo" style={{height: '18vmin'}} alt="logo"  /></NavLink>
-                    
+                    <img src={logo} className="App-logo" style={{height: '18vmin'}} alt="logo"/>
                 </div>
+                </NavLink>
                 <div>
                     {!isMenuOpen ? 
                     <img src={menu} onClick={()=>setIsMenuOpen(true)} style={{height: '12vmin'}} alt='burgermenu' /> : 
@@ -173,7 +174,9 @@ export const MobileHeader = () => {
                         <h5 style={{color: '#fff'}} onClick={() => closeAboutMenu()}>Back</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                    <p>Partners</p>
+                                <p>
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
+                                </p>
                                     <p>Showroom</p>
                                     <p>Gallery</p>
                                 </div>

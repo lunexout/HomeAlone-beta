@@ -1,7 +1,10 @@
 import React from 'react'
 
+import {Footer} from './../footer/Footer'
+
 export const Services = () => {
     return (
+        <>
         <section className="u-clearfix u-palette-1-light-3 u-section-6" id="carousel_2bc3">
         <div className="u-clearfix u-sheet u-sheet-1">
           <div className="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
@@ -186,6 +189,8 @@ export const Services = () => {
           </div>
         </div>
       </section>
+      <Footer/>
+        </>
     )
 }
 

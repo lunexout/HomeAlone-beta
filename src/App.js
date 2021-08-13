@@ -32,7 +32,19 @@ function App() {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     handleResize();
+    const cursor = document.querySelector('.cursor');
 
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    })
+    
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+    
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500)
+    })
     return () => {
       window.removeEventListener("resize", handleResize);
     }
@@ -41,7 +53,6 @@ function App() {
     <>
     <div className="App">
       {!isMobile ? <Header/> : <MobileHeader/>}
-      {/* <Header/> */}
       <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>
@@ -49,7 +60,7 @@ function App() {
           <Route exact path="/services" component={Services} />
           <Route exact path="/about" component={about} />
           <Route exact path="/news" component={News} />
-          <Route exact path="/partners" component={Partners} />
+          <Route exact path="/about/partners" component={Partners} />
           <Route exact path="/test-system" component={TestYourHome} />
       </Switch>
     </div>
