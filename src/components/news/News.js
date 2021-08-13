@@ -36,17 +36,17 @@ export const News = () => {
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-2">
                          <div className="u-container-layout">
-                           <img src={img1} alt="" className="u-image u-image-default u-image-1" />
+                           <img src={img1} alt="Myimage" className="u-image u-image-default u-image-1" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-3">
                          <div className="u-container-layout">
-                           <img src={img2} alt="" className="u-image u-image-default u-image-2" />
+                           <img src={img2} alt="Myimage" className="u-image u-image-default u-image-2" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-4">
                          <div className="u-container-layout">
-                           <img src={img3} alt="" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" />
+                           <img src={img3} alt="Myimage" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" />
                          </div>
                        </div>
                      </div>
@@ -58,8 +58,8 @@ export const News = () => {
          </section>
          <section className="u-clearfix u-section-2" id="carousel_43dc">
            <div className="u-clearfix u-sheet u-sheet-1">
-             <img src={img4} className="u-align-left u-image u-image-1" />
-             <img src={img5} alt="" className="u-align-left u-image u-image-2" />
+             <img src={img4} alt="Myimage" className="u-align-left u-image u-image-1" />
+             <img src={img5} alt="Myimage" className="u-align-left u-image u-image-2" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-white u-group-1">
                <div className="u-container-layout u-valign-middle-sm u-container-layout-1">
                  <h2 className="u-text u-text-1">Nation’s Top in Design and Architecture</h2>
@@ -74,7 +74,7 @@ export const News = () => {
            <div className="u-clearfix u-sheet u-sheet-1">
              <div className="u-opacity u-opacity-25 u-palette-2-light-1 u-shape u-shape-rectangle u-shape-1" />
              <div className="u-align-left u-left-0 u-palette-1-base u-shape u-shape-2" />
-             <img src={img6} className="u-align-left u-image u-image-1" />
+             <img src={img6} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
                  <h2 className="u-align-left-md u-text u-text-1">One Of The Most Beautiful Buildings&nbsp;In The World</h2>
@@ -93,7 +93,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-36 u-layout-cell-1">
                          <div className="u-container-layout">
                            <div className="u-align-left u-expanded-width-md u-palette-1-light-2 u-shape u-shape-1" />
-                           <img src={img7} alt="" className="u-align-left u-image u-image-1" />
+                           <img src={img7} alt="Myimage" className="u-align-left u-image u-image-1" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
@@ -113,7 +113,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
                          <div className="u-container-layout">
                            <div className="u-align-left u-palette-1-light-2 u-shape u-shape-2" />
-                           <img src={img8} alt="" className="u-align-left u-image u-image-2" />
+                           <img src={img8} alt="Myimage"className="u-align-left u-image u-image-2" />
                          </div>
                        </div>
                      </div>
@@ -123,7 +123,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-36 u-layout-cell-5">
                          <div className="u-container-layout u-container-layout-5">
                            <div className="u-align-left u-palette-1-light-2 u-shape u-shape-3" />
-                           <img src={img9} alt="" className="u-align-left u-image u-image-3" />
+                           <img src={img9} alt="Myimage" className="u-align-left u-image u-image-3" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">
