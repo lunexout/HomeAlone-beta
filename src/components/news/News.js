@@ -138,68 +138,6 @@ export const News = () => {
              </div>
            </div>
          </section>
-         <section className="u-clearfix u-palette-1-light-3 u-section-6" id="carousel_2bc3">
-           <div className="u-clearfix u-sheet u-sheet-1">
-             <div className="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
-               <div className="u-gutter-0 u-layout">
-                 <div className="u-layout-row">
-                   <div className="u-size-30 u-size-60-md">
-                     <div className="u-layout-row">
-                       <div className="u-container-style u-image u-layout-cell u-left-cell u-size-60 u-image-1">
-                       </div>
-                     </div>
-                   </div>
-                   <div className="u-size-30 u-size-60-md">
-                     <div className="u-layout-col">
-                       <div className="u-size-30">
-                         <div className="u-layout-row">
-                           <div className="u-align-center u-container-style u-layout-cell u-size-31 u-white u-layout-cell-2">
-                             <div className="u-container-layout u-valign-middle u-container-layout-3">
-                               <span className="u-icon u-icon-circle u-text-palette-1-base u-icon-1">
-                               </span>
-                               <h4 className="u-custom-font u-heading-font u-text u-text-2">
-                                 All Projects
-                               </h4>
-                             </div>
-                           </div>
-                           <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-3">
-                             <div className="u-container-layout u-valign-middle u-container-layout-4">
-                               <span className="u-icon u-icon-circle u-text-palette-1-base u-icon-2">
-                               </span>
-                               <h4 className="u-custom-font u-heading-font u-text u-text-3">Events</h4>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                       <div className="u-size-30">
-                         <div className="u-layout-row">
-                           <div className="u-align-center u-container-style u-layout-cell u-size-31 u-white u-layout-cell-4">
-                             <div className="u-container-layout u-valign-middle u-container-layout-5">
-                               <span className="u-icon u-icon-circle u-text-palette-1-base u-icon-3">
-                               </span>
-                               <h4 className="u-custom-font u-heading-font u-text u-text-4">
-                                 Articles
-                               </h4>
-                             </div>
-                           </div>
-                           <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-5">
-                             <div className="u-container-layout u-valign-middle u-container-layout-6">
-                               <span className="u-icon u-icon-circle u-text-palette-1-base u-icon-4">
-                               </span>
-                               <h4 className="u-custom-font u-heading-font u-text u-text-5">
-                                 Interviews
-                               </h4>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </section>
        </div>
     </>
     )
