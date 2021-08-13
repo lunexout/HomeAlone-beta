@@ -7,7 +7,7 @@ export const SmartBanner = () => {
     return(
         <>
         <div className='smart-home-banner'>
-            <p >Test your smart system</p>
+            {/* <p >Test your smart system</p> */}
                 <NavLink className='test-btn' to='/test-system'>
                     <img src={NEXT} alt='testing'/>
                 </NavLink>

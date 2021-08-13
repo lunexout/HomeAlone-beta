@@ -13,6 +13,7 @@ import { TestYourHome } from './components/testing/TestYourHome';
 import { News } from './components/news/News';
 import { about } from './components/about/About';
 import { Services } from './components/services/Services';
+import Partners from './components/partners/Partners';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -48,6 +49,7 @@ function App() {
           <Route exact path="/services" component={Services} />
           <Route exact path="/about" component={about} />
           <Route exact path="/news" component={News} />
+          <Route exact path="/partners" component={Partners} />
           <Route exact path="/test-system" component={TestYourHome} />
       </Switch>
     </div>

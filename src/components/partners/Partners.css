@@ -1,0 +1,52 @@
+.abouttitlewidth {
+	width: 100%;
+}
+
+.marginizer {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.fontsizer {
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.colorizer {
+	--tw-text-opacity: 1;
+    font-family: "Gowun Dodum", sans-serif ;
+}
+
+.gradient {
+	background: linear-gradient(90deg, green 0%, lightgreen 100%);
+}
+
+.rounded-t {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.widthcontroller {
+	width: 16rem;
+}
+
+.heightcontroller {
+	height: .25rem;
+}
+
+.automarginizer {
+	margin-left: auto;
+	margin-right: auto;
+}
