@@ -23,7 +23,7 @@ export const Products = () => {
     const listItems = data.map((item) =>
         <div className="card" key={item.id}>
             <div className="card_img">
-                <img src={`${apiJSON.API_URL}` + item.mainImage} alt="" />
+                <img src={`${apiJSON.API_URL}public/images/` + item.mainImage} alt="" />
             </div>
             <div className="card_header">
                 <h2>{item.name}</h2>
