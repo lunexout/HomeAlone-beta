@@ -14,7 +14,7 @@
 #mob-menu div p:hover {
     /* background-color: #32363e; */
     /* border: 1px solid #008b70; */
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     color: #067B65;
     cursor: pointer;
     font-weight: 700;

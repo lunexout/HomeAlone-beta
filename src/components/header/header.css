@@ -24,7 +24,7 @@
   color: #fff;  
 }
 .insidemenu-nav-item:hover {
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   color: #067B65;
   cursor: pointer;
   font-weight: 700;
@@ -32,7 +32,7 @@
 .header div p:hover {
   /* background-color: #32363e; */
   /* border: 1px solid #008b70; */
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   color: #067B65;
   cursor: pointer;
   font-weight: 700;
@@ -147,17 +147,17 @@
 .nav-active p {
         /* background-color: #32363e !important; */
         color: #067B65 !important;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   font-weight: 700 !important;
 }
 .nav-item-lang {
   color: #067B65 !important;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   font-weight: 700 !important;
 }
 .nav-active  {
   /* background-color: #32363e !important; */
   color: #067B65 !important;
-text-decoration: line-through;
+/* text-decoration: line-through; */
 font-weight: 700 !important;
 }
