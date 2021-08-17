@@ -9,7 +9,13 @@ import Img3 from './img/img3.jpg';
 import Img4 from './img/img4.jpg';
 import Img5 from './img/img5.jpg';
 import Img6 from './img/img6.jpg';
-
+import Img7 from './img/img7.jpg';
+import Img8 from './img/img8.jpg';
+import Img9 from './img/img9.jpg';
+import Img10 from './img/img10.jpg';
+import Img11 from './img/img11.jpg';
+import Img12 from './img/img12.jpg';
+import Img13 from './img/img13.jpg';
 export const Gallery = () => {
     let data=[
         {
@@ -36,6 +42,35 @@ export const Gallery = () => {
             id: 6,
             imgSrc: Img6,
         },
+        {
+            id: 7,
+            imgSrc: Img7,
+        },
+        {
+            id: 8,
+            imgSrc: Img8,
+        },
+        {
+            id: 9,
+            imgSrc: Img9,
+        },
+        {
+            id: 10,
+            imgSrc: Img10,
+        },
+        {
+            id: 11,
+            imgSrc: Img11,
+        },
+        {
+            id: 12,
+            imgSrc: Img12,
+        },
+        {
+            id: 13,
+            imgSrc: Img13,
+        },
+
         
     ]
     const [model,setModel] = useState(false);
