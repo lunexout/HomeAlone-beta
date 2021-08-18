@@ -26,9 +26,9 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
                          <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1" style={{backgroundColor: '#009073 !important'}}>
                            <div className="u-border-9 u-border-palette-1-base u-line u-line-vertical u-line-1" />
-                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Spaces<br />That&nbsp;Inspire
+                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Home Alone<br />News
                            </h1>
-                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>If is there any list of the most important architecture projects of 2018 will definetely feature an abundance of superlatives. </p>
+                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>Company Main News About Our Products, Company, and Projects, Mainstream of our News</p>
                          </div>
                        </div>
                      </div>
