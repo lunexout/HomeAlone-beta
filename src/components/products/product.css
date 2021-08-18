@@ -48,7 +48,11 @@
     transition: all .3s ease-in-out;
     margin-bottom: 70px;
   }
-  
+  @media all and (max-width: 768px) {
+    .main_content .card {
+     width: inherit; 
+    }
+  }
   .main_content .card .card_img {
     margin-top: -5vw;
   }
@@ -113,3 +117,32 @@
     transition: background-color .3s ease;
     overflow: hidden;
   } */
+  .row-div {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    width: 100%;
+  }
+  .prop-div {
+    background-color: #20232A;
+    border: 1px solid #32363E;
+  }
+  .value-div {
+    background-color: #11886e;
+    border: 1px solid #32363E;
+
+  }
+  .single-prod-header {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: bolder;
+  }
+  .single-desc {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  @media all and (max-width: 1005px) {
+    .single-prod-cont{
+      flex-direction: column;
+    }
+  }

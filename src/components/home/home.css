@@ -127,6 +127,10 @@
     max-width: 1586px; 
     margin: 20px auto;
   }
+  .single-div {
+    max-width: 1586px; 
+    margin: 20px auto;
+  }
   @media all and (min-width: 2400px) {
     .owl-prod-cont {
       max-width: 1766px; 
@@ -151,6 +155,11 @@
     }
     .about-container {
       max-width: 1766px; 
+      margin: 20px auto;
+    }
+    .single-div {
+      max-width: 1766px; 
+ 
       margin: 20px auto;
     }
   }

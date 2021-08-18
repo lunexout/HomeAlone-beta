@@ -6,6 +6,7 @@ import {Spinner} from './../spinner/Spinner'
 import axios from 'axios';
 
 import apiJSON from './../../API.json'
+import { NavLink } from 'react-router-dom';
 
 export const Products = () => {
     const [spinner, setSpinner] = React.useState(false)
@@ -21,7 +22,8 @@ export const Products = () => {
     }, [])
 
     const listItems = data.map((item) =>
-        <div className="card" key={item.id}>
+        <NavLink to={`/products/${item._id}`} style={{textDecoration: 'none'}}>
+            <div className="card" key={item.id}>
             <div className="card_img">
                 <img src={`${apiJSON.API_URL}public/images/` + item.mainImage} alt="" />
             </div>
@@ -29,7 +31,8 @@ export const Products = () => {
                 <h2>{item.name}</h2>
                 <p>{item.description}</p>
             </div>
-        </div>
+            </div>
+        </NavLink>
     );
     return (
         <>

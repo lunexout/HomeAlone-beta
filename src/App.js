@@ -15,6 +15,7 @@ import { about } from './components/about/About';
 import { Services } from './components/services/Services';
 import Partners from './components/partners/Partners';
 import { RightTestSysytem } from './components/righttesting/RightTestSystem';
+import { SingleProduct } from './components/products/singleProduct/SingleProduct';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -57,6 +58,7 @@ function App() {
       <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>
+          <Route exact path="/products/:id" component={SingleProduct} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/about" component={about} />
