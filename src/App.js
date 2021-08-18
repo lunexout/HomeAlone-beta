@@ -16,6 +16,7 @@ import { Services } from './components/services/Services';
 import Partners from './components/partners/Partners';
 import { RightTestSysytem } from './components/righttesting/RightTestSystem';
 import { SingleProduct } from './components/products/singleProduct/SingleProduct';
+import { Groups } from './components/products/groups/Groups';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -59,6 +60,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>
           <Route exact path="/products/:id" component={SingleProduct} />
+          <Route exact path="/products/group/:group_id" component={Groups} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/about" component={about} />

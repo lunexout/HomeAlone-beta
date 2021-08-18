@@ -1,3 +1,5 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
 import axios from 'axios'
 import React, { useEffect } from 'react'
 
@@ -16,17 +18,35 @@ import "swiper/components/navigation/navigation.min.css"
 import SwiperCore, {
   Pagination,Navigation
 } from 'swiper/core';
+import { ProductTypesCarousel } from '../../carousels/ProductTypesCarousel';
+import { SmartBanner } from '../../smartbanner/SmartBanner';
 
 SwiperCore.use([Pagination,Navigation]);
 
 export const SingleProduct = ({match}) => {
     const [singleProd, setSingleProd] = React.useState({})
+    const [relatedProducts, setRelatedProducts] = React.useState([])
     const [isSpinner, setSpinner] = React.useState(false)
     useEffect(() => {
+        window.scrollTo(0,0);
         setSpinner(true)
         axios.get(`${dataJSON.API_URL}api/getconcretprod/${match.params.id}`).then(result => {
-            setSingleProd(result.data);
-            setSpinner(false)
+            setSingleProd(result.data.product);
+            axios.get(`${dataJSON.API_URL}api/getconcrettypeprod/${result.data.productType}`).then(r => {
+                    r.data.map((item) => {
+                        let newArr = item.products.map(item => {
+                            return {
+                                mainImage: `${dataJSON.API_URL}public/images/` + item.mainImage,
+                                name: item.name,
+                                type: result.data.productType,
+                                single: true,
+                                _id: item._id
+                            }
+                        });
+                        setRelatedProducts([...relatedProducts, ...newArr])
+                        setSpinner(false)
+                    })
+            })
         })
     },[match.params.id])
     return (
@@ -80,8 +100,30 @@ export const SingleProduct = ({match}) => {
                             )
                         })}
                     </div>
+                    <div>
+                    <h1 style={{textAlign:'left', alignItems:'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073',paddingLeft: 15}}>Related products</h1>
+                    </div>
+                    <ProductTypesCarousel ProductList={relatedProducts}/>
+                <div style={{marginBottom: 20}}></div>
+                <div>
+                <h1 style={{textAlign:'left', alignItems:'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073',paddingLeft: 15}}>Other type of products</h1>
+                </div>
+                <ProductTypesCarousel ProductList={[
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/audio.png', name: 'Audio Products', type: 'Audio_Products'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/interact.png', name: 'Interaction Center', type: 'Interaction_Center'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/light.png', name: 'Smart Lighting', type: 'Smart_Lighting'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/security.png', name: 'Home Security', type: 'Home_Security'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/curtain.png', name: 'Smart R+T', type: 'Smart_R+T'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/hvac.png', name: 'Home Entertaiment', type: 'Home_Entertaiment'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png', name: 'Smart HVAC', type: 'Smart_HVAC'},
+                {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/home.png', name: 'Domestic Appliances', type: 'Domestic_Appliances'},
+                ]}/>
+                <div style={{marginBottom: 20}}></div>
                 </div>
                 
+                <div>
+                    <SmartBanner/>
+                </div>
                 </>
             )}
         </>

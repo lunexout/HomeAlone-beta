@@ -6,40 +6,41 @@
     border-top: 3px solid #2d343e;
 }
 .test-home {
-    max-width: 1566px;
+    /* max-width: 1566px; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 30px auto;
+    margin: 0px auto;
 
 }
 .controllers-container {
-    margin-top: 30px;
-    /* width: 100%; */
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
 .video-container {
     width: 100%;
-  height: auto;
+}
+.video-container2 {
+    width: 100%;
+    height: auto;
 }
 .active-video {
     background-color: #009073 !important; 
     color: #fff;
 }
 .controller-btn {
-    padding: 20px 30px;
+    width: 178.5px;
     font-family: "Gowun Dodum", sans-serif;
-    font-weight: 700;
     border: none;
     font-size: 20px;
-    border-radius: 5px;
-    background-color: #EFEFEF;
+    color: #fff;
+    background-color: black;
+    border: 1px solid #32363E;  
+    padding: 10px;
 }

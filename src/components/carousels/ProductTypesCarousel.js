@@ -2,6 +2,7 @@ import React from 'react'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { NavLink } from 'react-router-dom';
 
 const options = {
   0: {
@@ -21,25 +22,15 @@ const options = {
   }
 }
 
-export const ProductTypesCarousel = () => {
-  const ProductList = [
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/audio.png', name: 'Audio Products'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/interact.png', name: 'Interaction Center'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/light.png', name: 'Smart Lighting'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/security.png', name: 'Home Security'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/curtain.png', name: 'Smart R+T'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/hvac.png', name: 'Home Entertaiment'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png', name: 'Smart HVAC'},
-    {img: 'http://homealone.ge/wp-content/uploads/2021/07/home.png', name: 'Domestic Appliances'},
-  ]
-  const RenderProductTypeCarousel = () => {
-    return(
-      ProductList.map((el, index) => {
+export const ProductTypesCarousel = ({ProductList}) => {
+
+  const RenderProductTypeCarousel = ProductList.map((el, index) => {
         return (
           <>
+            <NavLink className='nav-item' activeClassName="nav-active" to={el.single ? `/products/${el._id}` : `/products/group/${el.type}`} style={{textDecoration: 'none',color: '#000'}}>
             <div
               className="prod-circle"
-              key={el.img + el.name + index}
+              key={el.mainImage + el.name + index}
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -48,17 +39,17 @@ export const ProductTypesCarousel = () => {
               }}
             >
               <div className="prod-item">
-                <img alt={el.name} className="slider-img" src={el.img} />
+                <img alt={el.name} className="slider-img" src={el.mainImage} />
               </div>
               <div>
-                <p style={{ fontWeight: 700 }}>{el.name}</p>
+                <p style={{ textDecoration: 'none',fontWeight: 700 }}>{el.name}</p>
               </div>
             </div>
+            </NavLink>
           </>
         )
       })
-    )
-  }
+  
     return(
         <>
           <div className='owl-prod-cont'>
@@ -66,7 +57,7 @@ export const ProductTypesCarousel = () => {
             className="owl-theme"
             responsive={options}
           >
-            {RenderProductTypeCarousel()}
+            {RenderProductTypeCarousel}
           </OwlCarousel>
           </div>
         </>
