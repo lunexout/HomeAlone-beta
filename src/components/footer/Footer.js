@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="row">
               <div className="col-lg-4 col-md-12 m-md-auto align-self-center">
                 <div className="block">
-                  <a href="index.html">
+                  <a href="#">
                     <img
                       src={logo}
                       alt="footer-logo"
