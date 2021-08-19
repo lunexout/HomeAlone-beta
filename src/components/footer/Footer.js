@@ -50,13 +50,13 @@ export const Footer = () => {
                   <h6>Services</h6>
                   <ul>
                     <li>
-                      <a>Smart Office Solutions</a>
+                       <a href="#">Smart Office Solutions</a>
                     </li>
                     <li>
-                      <a>Smart Hotel Solutions</a>
+                      <a href="#">Smart Hotel Solutions</a>
                     </li>
                     <li>
-                      <a>Smart Home Solutions</a>
+                       <a href="#">Smart Home Solutions</a>
                     </li>
                   </ul>
                 </div>
@@ -66,13 +66,13 @@ export const Footer = () => {
                   <h6>About</h6>
                   <ul>
                     <li>
-                      <a>Partners</a>
+                       <a href="#">Partners</a>
                     </li>
                     <li>
-                      <a>Showroom</a>
+                       <a href="#">Showroom</a>
                     </li>
                     <li>
-                      <a>Gallery</a>
+                       <a href="#">Gallery</a>
                     </li>
                   </ul>
                 </div>
@@ -82,16 +82,16 @@ export const Footer = () => {
                   <h6>Company</h6>
                   <ul>
                     <li>
-                      <a>Home</a>
+                       <a href="#">Home</a>
                     </li>
                     <li>
-                      <a>Contact</a>
+                       <a href="#">Contact</a>
                     </li>
                     <li>
-                      <a>News</a>
+                       <a href="#">News</a>
                     </li>
                     <li>
-                      <a>Products</a>
+                       <a href="#">Products</a>
                     </li>
                   </ul>
                 </div>
@@ -101,16 +101,16 @@ export const Footer = () => {
                   <h6>Inovations</h6>
                   <ul>
                     <li>
-                      <a>Installment</a>
+                       <a href="#">Installment</a>
                     </li>
                     <li>
-                      <a>Packs</a>
+                       <a href="#">Packs</a>
                     </li>
                     <li>
-                      <a>Team</a>
+                       <a href="#">Team</a>
                     </li>
                     <li>
-                      <a>Solutions</a>
+                       <a href="#">Solutions</a>
                     </li>
                   </ul>
                 </div>
