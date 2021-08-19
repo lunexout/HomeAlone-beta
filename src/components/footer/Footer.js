@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import logo from "./../../assets/logo.png";
+import {NavLink } from "react-router-dom";
+
 export const Footer = () => {
   return (
     <>
@@ -10,13 +12,11 @@ export const Footer = () => {
             <div className="row">
               <div className="col-lg-4 col-md-12 m-md-auto align-self-center">
                 <div className="block">
-                  <a href="#">
                     <img
                       src={logo}
                       alt="footer-logo"
                       style={{ width: "150px" }}
                     />
-                  </a>
                   <ul className="social-icon list-inline">
                     <li className="list-inline-item">
                       <img
@@ -50,13 +50,13 @@ export const Footer = () => {
                   <h6>Services</h6>
                   <ul>
                     <li>
-                       <a href="#">Smart Office Solutions</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Office Solutions</NavLink>
                     </li>
                     <li>
-                      <a href="#">Smart Hotel Solutions</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Hotel Solutions</NavLink>
                     </li>
                     <li>
-                       <a href="#">Smart Home Solutions</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Home Solutions</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -66,13 +66,13 @@ export const Footer = () => {
                   <h6>About</h6>
                   <ul>
                     <li>
-                       <a href="#">Partners</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Partners</NavLink>
                     </li>
                     <li>
-                       <a href="#">Showroom</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Showroom</NavLink>
                     </li>
                     <li>
-                       <a href="#">Gallery</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Gallery</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -82,16 +82,16 @@ export const Footer = () => {
                   <h6>Company</h6>
                   <ul>
                     <li>
-                       <a href="#">Home</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Home</NavLink>
                     </li>
                     <li>
-                       <a href="#">Contact</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Contact</NavLink>
                     </li>
                     <li>
-                       <a href="#">News</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">News</NavLink>
                     </li>
                     <li>
-                       <a href="#">Products</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Products</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -101,16 +101,16 @@ export const Footer = () => {
                   <h6>Inovations</h6>
                   <ul>
                     <li>
-                       <a href="#">Installment</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Installment</NavLink>
                     </li>
                     <li>
-                       <a href="#">Packs</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Packs</NavLink>
                     </li>
                     <li>
-                       <a href="#">Team</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Team</NavLink>
                     </li>
                     <li>
-                       <a href="#">Solutions</a>
+                    <NavLink style={{textDecoration: 'none'}} to="/">Solutions</NavLink>
                     </li>
                   </ul>
                 </div>
