@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import logo from "./../../assets/logo.png";
-import {NavLink } from "react-router-dom";
-
 export const Footer = () => {
   return (
     <>
@@ -12,11 +10,13 @@ export const Footer = () => {
             <div className="row">
               <div className="col-lg-4 col-md-12 m-md-auto align-self-center">
                 <div className="block">
+                  <p >
                     <img
                       src={logo}
                       alt="footer-logo"
                       style={{ width: "150px" }}
                     />
+                  </p>
                   <ul className="social-icon list-inline">
                     <li className="list-inline-item">
                       <img
@@ -50,13 +50,13 @@ export const Footer = () => {
                   <h6>Services</h6>
                   <ul>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Office Solutions</NavLink>
+                       <p >Smart Office Solutions</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Hotel Solutions</NavLink>
+                      <p >Smart Hotel Solutions</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Smart Home Solutions</NavLink>
+                       <p >Smart Home Solutions</p>
                     </li>
                   </ul>
                 </div>
@@ -66,13 +66,13 @@ export const Footer = () => {
                   <h6>About</h6>
                   <ul>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Partners</NavLink>
+                       <p >Partners</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Showroom</NavLink>
+                       <p >Showroom</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Gallery</NavLink>
+                       <p >Gallery</p>
                     </li>
                   </ul>
                 </div>
@@ -82,16 +82,16 @@ export const Footer = () => {
                   <h6>Company</h6>
                   <ul>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Home</NavLink>
+                       <p >Home</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Contact</NavLink>
+                       <p >Contact</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">News</NavLink>
+                       <p >News</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Products</NavLink>
+                       <p >Products</p>
                     </li>
                   </ul>
                 </div>
@@ -101,16 +101,16 @@ export const Footer = () => {
                   <h6>Inovations</h6>
                   <ul>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Installment</NavLink>
+                       <p >Installment</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Packs</NavLink>
+                       <p >Packs</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Team</NavLink>
+                       <p >Team</p>
                     </li>
                     <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/">Solutions</NavLink>
+                       <p >Solutions</p>
                     </li>
                   </ul>
                 </div>

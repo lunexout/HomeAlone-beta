@@ -191,7 +191,11 @@ export const Header = () => {
                                 <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
                                 </p>
                                     <p>Showroom</p>
-                                    <p>Gallery</p>
+                                <p>
+                                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
+                                Gallery
+                                </NavLink>
+                                </p>
                                 </div>
                                 <div className='partners' style={{ display: 'flex', justifyContent:'center', gap: 10, alignItems:'center'}}>
                                     <img src={PARTNER1} style={{height: 130, width: 'auto'}} alt=''/>

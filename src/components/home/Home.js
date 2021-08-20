@@ -32,10 +32,29 @@ const ContentList = [
 
 const RenderProductList = () => {
     return(
-      ContentList.map(el => {
+      ContentList.map((el,i) => {
         return(
           <>
+            {i === 1 ? (
+              <div style={{width: '100%', marginTop: 30, position:'relative', display:"flex",}}>
+              <p>
+                <span style={{position: 'absolute', color: '#fff',top: "25%", left: '20%', transform: 'translate(-20%, -25%)',fontFamily: "Anton", color: '#fff'}} className='banner-font'>
+                Full house lighting
+                one-key control
+                </span>
+                <span style={{position: 'absolute', color: '#fff',top: "50%", left: '20%', transform: 'translate(-20%, -50%)', fontFamily: "Gowun Dodum",fontSize: 25}}>
+                One panel can control multiple lights, turn<br/>
+                off all lights with one button, and no need<br/>
+                to switch one by one.
+                </span>
+              </p>
+              <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 2}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png" alt=""/>
+              <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 1}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_active_1-b21b5a6d78.png" alt=""/>
+            </div>
+            ) : (
             <HeadingContent key={el.id} f1={el.f1} f2={el.f2} desc={el.desc} img={el.img}/>
+
+            )}
           </>
         )
       })
@@ -75,7 +94,11 @@ export const Home = () => {
       {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png', name: 'Smart HVAC', type: 'Smart_HVAC'},
       {mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/home.png', name: 'Domestic Appliances', type: 'Domestic_Appliances'},
       ]}/>
-      <Gallery/>
+      <div style={{width: '100%', marginTop: 30, position:'relative'}}>
+        <p style={{position: 'absolute', color: '#fff',top: 20, left: '50%', transform: 'translateX(-50%)',fontFamily: "Anton"}} className='banner-font'>One MixPad Mini is equal to many smart products</p>
+        <img style={{maxWidth: '100%', width: '100%', height: 'auto',}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt=""/>
+      </div>
+      {/* <Gallery/> */}
       {RenderProductList()}
       <Footer/>
       </>

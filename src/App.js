@@ -17,6 +17,7 @@ import Partners from './components/partners/Partners';
 import { RightTestSysytem } from './components/righttesting/RightTestSystem';
 import { SingleProduct } from './components/products/singleProduct/SingleProduct';
 import { Groups } from './components/products/groups/Groups';
+import { Gallery } from './components/gallery/Gallery';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -66,6 +67,7 @@ function App() {
           <Route exact path="/about" component={about} />
           <Route exact path="/news" component={News} />
           <Route exact path="/about/partners" component={Partners} />
+          <Route exact path="/about/gallery" component={Gallery} />
           <Route exact path="/test-system" component={TestYourHome} />
       </Switch>
     </div>

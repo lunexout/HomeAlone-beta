@@ -303,3 +303,21 @@
     opacity: 1;
     transform: scale(1,1);
   }
+  .banner-font {
+    font-size: 65px;
+  }
+  @media all and (max-width: 956px) {
+    .banner-font {
+      font-size: 40px !important;
+    }
+  }
+  @media all and (max-width: 667px) {
+    .banner-font {
+      font-size: 30px !important;
+    }
+  }
+  @media all and (max-width: 467px) {
+    .banner-font {
+      font-size: 20px !important;
+    }
+  }

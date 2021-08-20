@@ -13,8 +13,6 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 
-
-
 import SwiperCore, {
   Pagination,Navigation
 } from 'swiper/core';
@@ -24,6 +22,7 @@ import { SmartBanner } from '../../smartbanner/SmartBanner';
 SwiperCore.use([Pagination,Navigation]);
 
 export const SingleProduct = ({match}) => {
+
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
     const [isSpinner, setSpinner] = React.useState(false)
@@ -43,7 +42,7 @@ export const SingleProduct = ({match}) => {
                                 _id: item._id
                             }
                         });
-                        setRelatedProducts([...relatedProducts, ...newArr])
+                        setRelatedProducts([...newArr])
                         setSpinner(false)
                     })
             })
@@ -59,6 +58,41 @@ export const SingleProduct = ({match}) => {
                 </>
             ) : (
                 <>
+                <div style={{display: 'flex', flexDirection:'column',}}>
+                {singleProd.images && singleProd.images.map((el,eli) => {
+                        return(
+                            <>
+                            {singleProd.properties && singleProd.properties.map((ele,elei) => {
+                                return(
+                                    <>
+                                        {eli === elei && (
+                                            <>
+                                            {singleProd.description && singleProd.description.split('●').map((it,i) => {
+                                                return(
+                                                    <>
+                                                    {elei === i && (<div style={{display:'flex', justifyContent:'center',flexWrap:'wrap', alignItems:'center', gap: 30, color: '#20232A'}}>
+                                                    <div style={{}}>
+                                                        <img src={`${dataJSON.API_URL}public/images/` + el.url} alt=""
+                                                        style={{ width: 900, height: 'auto', maxWidth: '100%'}} className="animate__animated animate__backInLeft" />
+                                                    </div>
+                                                    <div style={{display: 'flex', flexDirection:'column', fontSize: 30}} >
+                                                        <p  style={{fontFamily: "Gowun Dodum", fontSize: 30,fontWeight:'bold'}} className="animate__animated animate__backInUp">{ele.prop} {ele.value}</p>
+                                                        <p> {i > 0 && <><span style={{color: '#009073'}}>●</span></>} {it}</p>
+                                                    </div>
+                                                    </div>)}
+                                                    </>
+                                                )
+                                            })}
+                                                
+                                            </>
+                                        )}
+                                    </>
+                                )
+                            })}
+                            </>
+                        )
+                    })}
+                </div>
                 <div className='single-div'>
                     <div style={{display: 'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', gap: 30}} className="single-prod-cont">
                         <Swiper style={{display:'flex', flex:1.4}} pagination={{

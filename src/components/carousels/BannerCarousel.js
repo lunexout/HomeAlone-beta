@@ -6,6 +6,7 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
+import BACKVIDEO from '../../videos/backvideo.mp4'
 
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
@@ -14,9 +15,9 @@ SwiperCore.use([Pagination, Navigation]);
 
 export const BannerCarousel = () => {
   const Banners = [
-    {id:1,img: 'https://homealone.ge/wp-content/uploads/2021/02/3.jpg', name: 'banner1'},
-    {id:2,img: 'https://homealone.ge/wp-content/uploads/2021/02/1.jpg', name: 'banner2'},
-    {id:3,img: 'http://www.homealone.ge/wp-content/uploads/2021/02/5.jpg', name: 'banner3'},
+    {id:1,img: BACKVIDEO, name: 'banner1'},
+    // {id:2,img: 'https://homealone.ge/wp-content/uploads/2021/02/1.jpg', name: 'banner2'},
+    // {id:3,img: 'http://www.homealone.ge/wp-content/uploads/2021/02/5.jpg', name: 'banner3'},
   ]
   
   const RenderBanners = () => {
@@ -25,7 +26,7 @@ export const BannerCarousel = () => {
     <Swiper
           slidesPerView={1}
           spaceBetween={30}
-          loop={true}
+          // loop={true}
           pagination={{
             clickable: true,
           }}
@@ -35,10 +36,13 @@ export const BannerCarousel = () => {
           {Banners.map((el,index) => {
               return(
                 <SwiperSlide key={el.img + el.id + index}>
-                  <img
+                  {/* <img
                     src={el.img}
                     alt={el.name}
-                  />
+                  /> */}
+                  <video style={{borderTop: '3px solid #30343C'}} id="mainvideo" className="video-container" autoPlay loop>
+                    <source src={el.img} type="video/mp4" />
+                  </video>
                 </SwiperSlide>
               )
             })}
