@@ -43,7 +43,7 @@ const RenderProductList = () => {
               <>
               <div style={{width: '100%', marginTop: 30, position:'relative', display:"flex",}}>
               <p>
-                <span style={{position: 'absolute', color: '#fff',top: "25%", left: '20%', transform: 'translate(-20%, -25%)',fontFamily: "Anton", color: '#fff'}} className='banner-font'>
+                <span style={{position: 'absolute',top: "25%", left: '20%', transform: 'translate(-20%, -25%)',fontFamily: "Anton", color: '#fff'}} className='banner-font'>
                 Full house lighting
                 one-key control
                 </span>
