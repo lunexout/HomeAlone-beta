@@ -315,9 +315,19 @@
     .banner-font {
       font-size: 30px !important;
     }
+    .clean {
+      display: none;
+    }
   }
   @media all and (max-width: 467px) {
     .banner-font {
       font-size: 20px !important;
     }
   }
+  .serv-boxes{
+    transition: 1 ease all;
+  }
+  .serv-boxes:hover{
+    background-color: #AADAD0;
+  }
+  

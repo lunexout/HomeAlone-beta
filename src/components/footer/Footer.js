@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from "./../../assets/logo.png";
+import { NavLink } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
@@ -46,53 +47,62 @@ export const Footer = () => {
                 </div>
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                <div className="block-2">
-                  <h6>Services</h6>
+              <div className="block-2">
+                  <h6>Company</h6>
                   <ul>
                     <li>
-                       <p >Smart Office Solutions</p>
+                    <NavLink className='insidemenu-nav-item'  activeClassName="nav-active" exact to='/' >
+                       <p >Home</p>
+                    </NavLink>
                     </li>
                     <li>
-                      <p >Smart Hotel Solutions</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services'>
+                       <p >Services</p>
+                    </NavLink>
                     </li>
                     <li>
-                       <p >Smart Home Solutions</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/products'>
+                       <p >Products</p>
+                    </NavLink>
                     </li>
+
                   </ul>
                 </div>
+                
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
                 <div className="block-2">
                   <h6>About</h6>
                   <ul>
                     <li>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>
                        <p >Partners</p>
+                       </NavLink>
                     </li>
+
                     <li>
-                       <p >Showroom</p>
-                    </li>
-                    <li>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
                        <p >Gallery</p>
+                       </NavLink>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                <div className="block-2">
-                  <h6>Company</h6>
+              <div className="block-2">
+                  <h6>Services</h6>
                   <ul>
                     <li>
-                       <p >Home</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services'>
+                       <p >Everything Smart</p>
+                       </NavLink>
+                    </li>
+                    {/* <li>
+                      <p >Smart Hotel Solutions</p>
                     </li>
                     <li>
-                       <p >Contact</p>
-                    </li>
-                    <li>
-                       <p >News</p>
-                    </li>
-                    <li>
-                       <p >Products</p>
-                    </li>
+                       <p >Smart Home Solutions</p>
+                    </li> */}
                   </ul>
                 </div>
               </div>

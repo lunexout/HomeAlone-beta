@@ -18,6 +18,7 @@ import SwiperCore, {
 } from 'swiper/core';
 import { ProductTypesCarousel } from '../../carousels/ProductTypesCarousel';
 import { SmartBanner } from '../../smartbanner/SmartBanner';
+import { Footer } from '../../footer/Footer';
 
 SwiperCore.use([Pagination,Navigation]);
 
@@ -158,6 +159,7 @@ export const SingleProduct = ({match}) => {
                 <div>
                     <SmartBanner/>
                 </div>
+                <Footer/>
                 </>
             )}
         </>

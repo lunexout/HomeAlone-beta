@@ -55,8 +55,13 @@ function App() {
   return (
     <>
     <div className="App">
-      {!isMobile ? <Header/> : <MobileHeader/>}
-      <RightTestSysytem/>
+      {!isMobile ? (
+      <>
+      <Header/>
+      <RightTestSysytem/> 
+      </>
+      ): <MobileHeader/>}
+      
       <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products" component={Products}/>

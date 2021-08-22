@@ -3,6 +3,9 @@ import React from 'react'
 import {Footer} from './../footer/Footer'
 
 export const Services = () => {
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
     return (
         <>
         <section className="u-clearfix u-palette-1-light-3 u-section-6" id="carousel_2bc3">
@@ -210,6 +213,7 @@ export const Services = () => {
           </div>
         </div>
       </section>
+
       <Footer/>
         </>
     )

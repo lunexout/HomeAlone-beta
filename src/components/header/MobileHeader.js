@@ -106,15 +106,31 @@ export const MobileHeader = () => {
                                     <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
                                     <p onClick={() => setIsAudioOpen(true)}>Audio Products {`>`}</p>
 
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{textDecoration: 'none'}}>
                                     <p>Interaction Center</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Lighting' style={{textDecoration: 'none'}}>
                                     <p>Smart Lighting</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Security' style={{textDecoration: 'none'}}>
                                     <p>Home Security</p>
+                                    </NavLink>
+                                    
+                                    
                                 </div>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
-                                <p>Smart HVAC</p>
-                                    <p>Home Entertaiment</p>
-                                    <p>Domestic Appliances</p>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_R+T' style={{textDecoration: 'none'}}>
                                     <p>Smart R+T</p>
+                                    </NavLink>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_HVAC' style={{textDecoration: 'none'}}>
+                                    <p>Smart HVAC</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Entertaiment' style={{textDecoration: 'none'}}>
+                                    <p>Home Entertaiment</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{textDecoration: 'none'}}>
+                                    <p>Domestic Appliances</p>
+                                    </NavLink>
 
                                 </div>
                             </div>
@@ -130,19 +146,41 @@ export const MobileHeader = () => {
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
 
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                    <p>Flush Mount Ceiling Speaker</p>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Flush_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
+                                            <p>Flush Mount Ceiling Speaker</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Coaxial_Ceiling_Speaker' style={{textDecoration: 'none'}}>
                                             <p>Coaxial Ceiling Speaker</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Two-Way_Ceiling_Speaker' style={{textDecoration: 'none'}}>
                                             <p>Two-Way Ceiling Speaker</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Fireproof_Ceiling_Speaker' style={{textDecoration: 'none'}}>
                                             <p>Fireproof Ceiling Speaker</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/EN54_Ceiling_Speaker' style={{textDecoration: 'none'}}>
                                             <p>EN54 Ceiling Speaker</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Surface_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
                                             <p>Surface Mount Ceiling Speaker</p>
+                                    </NavLink>
                                 </div>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
-                                <p>Mini Smart Music Host</p>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Mini_Smart_Music_Host' style={{textDecoration: 'none'}}>
+                                            <p>Mini Smart Music Host</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Network_Smart_Music_Sys' style={{textDecoration: 'none'}}>
                                             <p>Network Smart Music Sys</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Central_Music_Sys' style={{textDecoration: 'none'}}>
                                             <p>Smart Central Music Sys</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Economic_Music_Sys' style={{textDecoration: 'none'}}>
                                             <p>Economic Music Sys</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Speaker' style={{textDecoration: 'none'}}>
                                             <p>Speaker</p>
+                                    </NavLink>
 
                                 </div>
                             </div>

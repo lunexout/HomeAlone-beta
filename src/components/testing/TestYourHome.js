@@ -101,12 +101,12 @@ export const TestYourHome = () => {
           })}
         </div>
         <div>
-          <img src={CLOSE} onClick={() => {setPhone(false)}} style={{width: 50, marginTop: 30}} alt='close'/>
+          <img src={CLOSE} onClick={() => {setPhone(false)}} style={{width: 50, marginTop: 13}} alt='close'/>
         </div>
         <div className="bottom"></div>
       </div>
       {!phone && 
-      <div className={`calculator animate__animated animate__fadeInUp`} style={{bottom: -650}} onClick={() => setPhone(true)}>
+      <div className={`calculator animate__animated animate__fadeInUp`} style={{bottom: -550}} onClick={() => setPhone(true)}>
       <div className="top-container" >
         <div className="clock">
           <span className="hour"></span>:<span className="minute"></span>

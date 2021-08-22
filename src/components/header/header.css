@@ -120,6 +120,11 @@
   justify-content: center;
 
 }
+@media all and (min-width: 1200px) {
+  .full-box-div {
+      max-width: 1200px;
+  }
+}
 @media all and (min-width: 1919px) {
     .full-box-div {
         max-width: 1266px;

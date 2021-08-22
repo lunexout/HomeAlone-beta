@@ -43,6 +43,9 @@ const imageJSON = [
 ]
 
 export const Partners = () => {
+    React.useEffect(()=>{
+        window.scrollTo(0,0)
+      },[])
     return (
         <>
         <div className="partners-div" style={{marginTop: 100}}> 
@@ -60,7 +63,6 @@ export const Partners = () => {
             </div>
             </div>
             <div style={{marginTop: 40}}></div>
-            <Footer/>
         </>
     )
 }

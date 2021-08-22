@@ -56,12 +56,13 @@ export const Header = () => {
                     </NavLink>
                 </div>
                 </div>
-
+                <NavLink className='nav-item'  activeClassName="nav-active" exact to='/' >
                 <div onMouseEnter={() => OpenBox(0)} className='animate__animated animate__zoomIn'>
                     <img src={logo} className="App-logo" alt="logo" />
                 </div>
-                <div className='animate__animated animate__fadeInRight' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                </NavLink>
 
+                <div className='animate__animated animate__fadeInRight' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <div onMouseEnter={() => OpenBox(4)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
                     <p>ABOUT </p>
