@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {Footer} from './../footer/Footer'
+import {NavLink } from "react-router-dom";
 
 export const Services = () => {
   React.useEffect(()=>{
@@ -42,7 +43,7 @@ export const Services = () => {
                             <h4 className="u-custom-font u-heading-font u-text u-text-2">
                               Hotel Solution
                             </h4>
-                            read more
+                            <NavLink to='/services/smarthotel'  style={{textDecoration: 'none', color: 'black'}}>read more</NavLink>
                           </div>
                         </div>
                         <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-3">
@@ -61,7 +62,7 @@ export const Services = () => {
       </svg>
                             </span>
                             <h4 className="u-custom-font u-heading-font u-text u-text-3">Office Solution</h4>
-                            read more
+                            <NavLink to='/services/smartoffice'  style={{textDecoration: 'none', color: 'black'}}> read more</NavLink>
                           </div>
                         </div>
                       </div>
@@ -131,7 +132,7 @@ export const Services = () => {
                             <h4 className="u-custom-font u-heading-font u-text u-text-4">
                               Home Solution
                             </h4>
-                            read more
+                            <NavLink to='/services/smarthome'  style={{textDecoration: 'none', color: 'black'}}>read more</NavLink>
                           </div>
                         </div>
                         <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-5">
@@ -201,7 +202,7 @@ export const Services = () => {
                             <h4 className="u-custom-font u-heading-font u-text u-text-5">
                               Installment
                             </h4>
-                            read more
+                            <NavLink to='/services/installment'  style={{textDecoration: 'none', color: 'black'}}> read more</NavLink>
                           </div>
                         </div>
                       </div>

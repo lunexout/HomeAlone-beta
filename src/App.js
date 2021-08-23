@@ -18,6 +18,11 @@ import { RightTestSysytem } from './components/righttesting/RightTestSystem';
 import { SingleProduct } from './components/products/singleProduct/SingleProduct';
 import { Groups } from './components/products/groups/Groups';
 import { Gallery } from './components/gallery/Gallery';
+import { SmartHome } from './components/services/Smarthome';
+import { SmartOffice } from './components/services/Smartoffice';
+import { SmartHotel } from './components/services/Smarthotel';
+import { Installment } from './components/services/Installment';
+import { ShowRoom } from './components/showroom/Showroom';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -72,8 +77,13 @@ function App() {
           <Route exact path="/about" component={about} />
           <Route exact path="/news" component={News} />
           <Route exact path="/about/partners" component={Partners} />
+          <Route exact path="/services/smarthome" component={SmartHome} />
+          <Route exact path="/services/smartoffice" component={SmartOffice} />
+          <Route exact path="/services/smarthotel" component={SmartHotel} />
+          <Route exact path="/services/installment" component={Installment} />
           <Route exact path="/about/gallery" component={Gallery} />
           <Route exact path="/test-system" component={TestYourHome} />
+          <Route exact path="/showroom/showroom" component={ShowRoom} />
       </Switch>
     </div>
     </>

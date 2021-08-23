@@ -166,12 +166,20 @@ export const Header = () => {
                         <div onMouseLeave={() => setServicesBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{textDecoration: 'none'}}>
                                     <p>Installment</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{textDecoration: 'none'}}>
                                     <p>Smart Home System</p>
+                                    </NavLink>
                                 </div>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{textDecoration: 'none'}}>
                                     <p>Smart Hotel System</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{textDecoration: 'none'}}>
                                     <p>Smart Office System</p>
+                                    </NavLink>
                                 </div>
                                 <div>
                                     <img src={TBC_LOGO} alt ='' style={{height: 120}}/>
@@ -191,7 +199,9 @@ export const Header = () => {
                                 <p>
                                 <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
                                 </p>
-                                    <p>Showroom</p>
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/showroom/showroom'>
+                                     <p>Showroom</p>
+                                     </NavLink>
                                 <p>
                                     <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
                                 Gallery
