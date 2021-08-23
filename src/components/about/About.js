@@ -11,11 +11,9 @@ export const about = () => {
         </h1>
         <div className="grid-container">
           <div style={{marginTop: 100}}>
-            <h3 className="colorizer font-bold">
-              Lorem ipsum dolor sit amet
-            </h3>
             <p style={{fontFamily: "Gowun Dodum"}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            We are in Batumi, founded in 2019 by the company “Home Alone”, we produce innovative technologies and systems based on smart home management, which aims to improve living conditions. With the help of these technologies it is possible to quickly and easily create ideal conditions for the home and change daily life for the better.
+The company keeps driving edge technology to develop and improve smart systems. The company focuses on the introduction of IoT systems, which include home automation, energy efficiency, ventilation and heating, curtain and sunlight management, smart audio systems and smart shutter systems.
             </p>
           </div>
           <div style={{marginTop: 100}}>
@@ -112,11 +110,9 @@ export const about = () => {
           <div style={{marginTop: 100}}>
             <div className="abouttitlewidth sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="colorizer font-bold mb-3">
-                  Lorem ipsum dolor sit amet1
-                </h3>
+                
                 <p style={{fontFamily: "Gowun Dodum"}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Our technologies are based on ZIGBEE technology. It is an innovative technology built on wireless networking that makes full use of the capabilities of the network to create a fast connection between products. If one product goes out of order, the other products will continue to work smoothly. Compared to other technologies ZEGBEE is fast, secure and reliable.
                 </p>
               </div>
             </div>
