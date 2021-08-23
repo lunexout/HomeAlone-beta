@@ -20,28 +20,33 @@ export const Footer = () => {
                   </p>
                   <ul className="social-icon list-inline">
                     <li className="list-inline-item">
+                    <a href="tel:577410510">
                       <img
                         alt="phone"
                         src="https://uxwing.com/wp-content/themes/uxwing/download/37-communication-chat-call/accept-call.png"
                         width={38}
                         style={{ width: '"38px"' }}
                       />
+                      </a>
                     </li>
                     <li className="list-inline-item">
+                    <a href="mailto:info@homealone.ge">
                       <img
-                        alt="phone"
+                        alt="Mail"
                         src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png"
                         width={38}
                         style={{ width: '"38px"' }}
-                      />
+                      /></a>
                     </li>
                     <li className="list-inline-item">
+                    <a href="https://www.facebook.com/Ltd-Home-Alone-112617230247518">
                       <img
-                        alt="phone"
+                        alt="Facebook"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/768px-Facebook_f_logo_%282019%29.svg.png"
                         width={38}
                         style={{ width: '"38px"' }}
                       />
+                      </a>
                     </li>
                   </ul>
                 </div>
