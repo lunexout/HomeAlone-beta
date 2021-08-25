@@ -23,6 +23,7 @@ import { SmartOffice } from './components/services/Smartoffice';
 import { SmartHotel } from './components/services/Smarthotel';
 import { Installment } from './components/services/Installment';
 import { ShowRoom } from './components/showroom/Showroom';
+import { PartnerPage } from './components/partners/singlepartner';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -82,8 +83,11 @@ function App() {
           <Route exact path="/services/smarthotel" component={SmartHotel} />
           <Route exact path="/services/installment" component={Installment} />
           <Route exact path="/about/gallery" component={Gallery} />
-          <Route exact path="/test-system" component={TestYourHome} />
           <Route exact path="/showroom/showroom" component={ShowRoom} />
+          <Route exact path="/test-system" component={TestYourHome} />
+
+          <Route path="/about/partners/:id" component={PartnerPage} />
+
       </Switch>
     </div>
     </>

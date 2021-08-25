@@ -101,7 +101,7 @@ Low Power Consumption. ZigBee communication is stable and economic
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
                          <div className="u-container-layout u-container-layout-2">
-                           <NavLink to="" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">Smart Office System</h4></NavLink>
+                           <NavLink to="/services/smartoffice" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">Smart Office System</h4></NavLink>
                          </div>
                        </div>
                      </div>
@@ -110,7 +110,7 @@ Low Power Consumption. ZigBee communication is stable and economic
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-size-24 u-layout-cell-3">
                          <div className="u-container-layout u-container-layout-3">
-                         <NavLink to="" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">Smart Hotel System</h4></NavLink>
+                         <NavLink to="/services/smarthotel" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">Smart Hotel System</h4></NavLink>
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
@@ -131,7 +131,7 @@ Low Power Consumption. ZigBee communication is stable and economic
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">
                          <div className="u-container-layout u-container-layout-6">
-                         <NavLink to="" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">Smart Home System</h4></NavLink>
+                         <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">Smart Home System</h4></NavLink>
                          </div>
                        </div>
                      </div>
