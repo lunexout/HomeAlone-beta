@@ -273,8 +273,21 @@
   -o-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 } 
-@media (max-width: 320px) { 
+@media (max-width: 443px) and (max-width: 569px){ 
+  .col-md-4 {
+    width: 100%;
+  }
 }
+
+
+
+
+@media (min-width: 569px) and (max-width: 767px) { 
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 767px) {
   #generic_price_table .generic_content{
