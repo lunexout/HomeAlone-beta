@@ -22,7 +22,6 @@ import IMG15 from './images/premium group.jpg'
 import IMG16  from './images/real palace.jpg'
 import IMG17  from './images/star palace.jpg'
 import IMG18  from './images/sunrise development.jpg'
-import { Footer } from '../footer/Footer';
 import { Link } from 'react-router-dom'
 
 // import { Footer } from './../footer/Footer'
