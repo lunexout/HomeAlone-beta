@@ -4,9 +4,9 @@ import logo from './../../assets/logo.png';
 import Right from './../../assets/right1.png'
 import TBC_LOGO from './../../assets/TBC_Bank_logo.svg'
 
-import PARTNER1 from './../../assets/partners/guru.jpg'
+import PARTNER1 from './../partners/images/al mare batumi.jpg'
 import PARTNER2 from './../../assets/partners/citron.jpg'
-import PARTNER3 from './../../assets/partners/black-sea.jpg'
+import PARTNER3 from './../../assets/partners/guru.jpg'
 
 import {NavLink } from "react-router-dom";
 
@@ -209,9 +209,9 @@ export const Header = () => {
                                 </p>
                                 </div>
                                 <div className='partners' style={{ display: 'flex', justifyContent:'center', gap: 10, alignItems:'center'}}>
-                                    <img src={PARTNER1} style={{height: 130, width: 'auto'}} alt=''/>
-                                    <img src={PARTNER2} style={{height: 130}}alt=''/>
-                                    <img src={PARTNER3} style={{height: 130}}alt=''/>
+                                    <NavLink to="/about/partners/0"><img src={PARTNER1} style={{height: 130, width: 'auto'}} alt=''/></NavLink>
+                                    <NavLink to="/about/partners/6"><img src={PARTNER2} style={{height: 130}}alt=''/></NavLink>
+                                    <NavLink to="/about/partners/8"><img src={PARTNER3} style={{height: 130}}alt=''/></NavLink>
                                     <div style={{height: 130, padding: 10, display:'flex', justifyContent:'center', alignItems:'center'}}>
                                     <p>
                                         <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>See More</NavLink>

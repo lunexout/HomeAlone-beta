@@ -3,7 +3,10 @@ import "./Partners.css";
 import options from './PartnerInfo'
 
 import { Footer } from '../footer/Footer';
-export const PartnerPage = ({match}) => {    
+export const PartnerPage = ({match}) => {  
+  React.useEffect(() => {
+    window.scrollTo(0,0)
+},[])  
   return (
     <>
       <div class="we-are-block">
