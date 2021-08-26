@@ -71,7 +71,6 @@ export const Partners = () => {
             </div>
             </div>
             <div style={{marginTop: 40}}></div>
-            <Footer/>
         </>
     )
 }

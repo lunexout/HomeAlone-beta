@@ -13,6 +13,8 @@ import {NavLink } from "react-router-dom";
 import SAFEHOME from './../../assets/safehome.png'
 import BANK from './../../assets/bank.png'
 
+import Pricing from './../pricing/Price'
+
 const ContentList = [
   {
     id: 1,
@@ -226,6 +228,7 @@ export const Home = () => {
           </p>
         </div>
       </div>
+      <Pricing/>
       <Footer/>
       </>
     )}
