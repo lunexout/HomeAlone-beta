@@ -1,5 +1,5 @@
-import INSIDE1 from './images/7th heaven1.jpg'
-import INSIDE2 from './images/7th heaven2.jpg'
+import INSIDE1 from './images/al mare batumi1.jpg'
+import INSIDE2 from './images/al mare batumi2.jpg'
 import INSIDE3 from './images/Alley palace1.jpg'
 import INSIDE4 from './images/Alley palace2.jpg'
 import INSIDE5 from './images/aquamarine1.jpg'
@@ -24,8 +24,8 @@ import INSIDE23 from './images/mjm group1.jpg'
 import INSIDE24 from './images/mjm group2.jpg'
 import INSIDE25 from './images/nbg1.jpg'
 import INSIDE26 from './images/nbg2.jpg'
-import INSIDE27 from './images/al mare batumi1.jpg'
-import INSIDE28 from './images/al mare batumi2.jpg'
+import INSIDE27 from './images/7th heaven1.jpg'
+import INSIDE28 from './images/7th heaven2.jpg'
 import INSIDE29 from './images/premium group1.jpg'
 import INSIDE30 from './images/premium group2.jpg'
 import INSIDE31 from './images/real palace1.jpg'
@@ -36,13 +36,13 @@ import INSIDE35 from './images/sunrise development1.jpg'
 import INSIDE36 from './images/sunrise development2.jpg'
 
 export const options = [
-        {
-            id: 1,
-            CompanyName:"7th Heaven",
-            img1:INSIDE1,
-            img2:INSIDE2,
-            describtion:"Good developer not only builds a buildings, also builds its reputation brick by brick.H Group builds on the territory of Georgia about 14 years, focusing in Batumi as a resort pearl of the country.We don`t just build houses. We specialize on the resort property, given the characteristics of climate, topography and other factors"
-        },
+    {
+        items: 1,
+        CompanyName:"AL MARE BATUMI",
+        img1:INSIDE27,
+        img2:INSIDE28,
+        describtion:"AL MARE is a new 15-storey residential complex in Batumi 50 steps away from the Black Sea Beach offering quality and affordable flats.Mob.: +995 592 04 00 24 (ru) (Viber/WhatsApp/Telegramm);Mob.: +995 592 04 00 25 (en/ge) (Viber/WhatsApp/Telegramm);E-mail: info@almare-batumi.com;Web: https://almare-batumi.com;Address: Gerogia, Batumi, 4 Zgvispiri street",
+    },
         {
             id: 2,
             CompanyName:"Alley Palace",
@@ -128,11 +128,11 @@ export const options = [
             describtion:"NBG Ltd established in 2012. The main activity of company is the construction. The company received an experience in Real Estate Management and in construction sphere. Which gives an opportunity to implement the construction of spaces of commercial destination apart from the construction of dwelling houses.NBG Ltd the construction company closely cooperates with the different companies, shares their skill in order to inculcate it successfully in their activities.NBG Ltd strictly defines company the main principles of action of the construction company:High quality of the construction, high architectural value;The research of market and detailed study of user's interests in order to satisfy them maximally;The consideration of highly qualified personnel's real conditions.This principle is determines the further development and success of the company. It is strictly oriented in the term of exploitation of construction and considers that the quality and experience are the main value in the process of development and success.",
         },
         {
-            items: 14,
-            CompanyName:"AL MARE BATUMI",
-            img1:INSIDE27,
-            img2:INSIDE28,
-            describtion:"AL MARE is a new 15-storey residential complex in Batumi 50 steps away from the Black Sea Beach offering quality and affordable flats.Mob.: +995 592 04 00 24 (ru) (Viber/WhatsApp/Telegramm);Mob.: +995 592 04 00 25 (en/ge) (Viber/WhatsApp/Telegramm);E-mail: info@almare-batumi.com;Web: https://almare-batumi.com;Address: Gerogia, Batumi, 4 Zgvispiri street",
+            id: 14,
+            CompanyName:"7th Heaven",
+            img1:INSIDE1,
+            img2:INSIDE2,
+            describtion:"Good developer not only builds a buildings, also builds its reputation brick by brick.H Group builds on the territory of Georgia about 14 years, focusing in Batumi as a resort pearl of the country.We don`t just build houses. We specialize on the resort property, given the characteristics of climate, topography and other factors"
         },
         {
             items: 15,

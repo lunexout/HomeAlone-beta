@@ -4,7 +4,7 @@ import './Partners.scss'
 
 
 
-import IMG1 from './images/7th heaven.jpg'
+import IMG14 from './images/7th heaven.jpg'
 import IMG2  from './images/Alley palace.jpg'
 import IMG3 from './images/aquamarine.jpg'
 import IMG4  from './images/arfi group.jpg'
@@ -17,7 +17,7 @@ import IMG10  from './images/like house.jpg'
 import IMG11 from './images/calligraphy tower.jpg'
 import IMG12  from './images/mjm group.jpg'
 import IMG13 from './images/nbg.jpg'
-import IMG14  from './images/al mare batumi.jpg'
+import IMG1  from './images/al mare batumi.jpg'
 import IMG15 from './images/premium group.jpg'
 import IMG16  from './images/real palace.jpg'
 import IMG17  from './images/star palace.jpg'
