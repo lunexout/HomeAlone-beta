@@ -11,7 +11,7 @@ import PARTNER3 from './../../assets/partners/guru.jpg'
 import {NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 export const Header = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const [ProductsBox, setProductsBox] = useState(false);
     const [ServicesBox, setServicesBox] = useState(false);
     const [AboutBox, setAboutBox] = useState(false);

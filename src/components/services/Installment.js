@@ -6,7 +6,6 @@ import img2 from './images/TBC.png';
 
 import './../news/News.css';
 import { Footer } from '../footer/Footer';
-import { NavLink } from 'react-router-dom';
 
 import { useTranslation } from 'react-i18next';
 

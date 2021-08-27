@@ -5,7 +5,6 @@ import {BannerCarousel} from './../carousels/BannerCarousel'
 import {ProductTypesCarousel} from './../carousels/ProductTypesCarousel'
 import { HeadingContent } from "../headings/HeadingContent";
 import {Footer} from './../footer/Footer'
-import { Partners } from "../partners/Partners";
 import { SmartBanner } from "../smartbanner/SmartBanner";
 import {Spinner} from './../spinner/Spinner'
 import {NavLink } from "react-router-dom";
