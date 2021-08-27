@@ -14,6 +14,9 @@ import { NavLink } from 'react-router-dom';
 
 
 export const SmartHome = () => {
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
     return (
         <>
        <div>

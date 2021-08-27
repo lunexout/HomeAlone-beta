@@ -1,13 +1,13 @@
 import React from 'react'
-import img1 from './images/c897f8bdec804c6ba862a27d479b73fe.jpg';
-import img2 from './images/da9004a31c039c127c5cc9ceed466333.jpg';
-import img3 from './images/543c1ca41ba5d54d30af221391ab45c3.jpg';
-import img4 from './images/ca86e55b8d68227620a8508a3ee468cd.jpg';
-import img5 from './images/49855146b7a994ccaa748904063a8c66.jpg';
-import img6 from './images/f5e409b121d7aed1ae63b1ed65b84dc8.jpg';
-import img7 from './images/2c0b7003c0c82dfe9ea10981e831bc54.jpg';
-import img8 from './images/ba062de88f3188a9979f16f673adc397.jpg';
-import img9 from './images/646395786aecf08bb6351703d65a74d9.jpg';
+import IMG1 from './images/c897f8bdec804c6ba862a27d479b73fe.jpg';
+import IMG2 from './images/da9004a31c039c127c5cc9ceed466333.jpg';
+import IMG3 from './images/543c1ca41ba5d54d30af221391ab45c3.jpg';
+import IMG4 from './images/ca86e55b8d68227620a8508a3ee468cd.jpg';
+import IMG5 from './images/49855146b7a994ccaa748904063a8c66.jpg';
+import IMG6 from './images/f5e409b121d7aed1ae63b1ed65b84dc8.jpg';
+import IMG7 from './images/2c0b7003c0c82dfe9ea10981e831bc54.jpg';
+import IMG8 from './images/ba062de88f3188a9979f16f673adc397.jpg';
+import IMG9 from './images/646395786aecf08bb6351703d65a74d9.jpg';
 
 
 import './News.css';
@@ -15,6 +15,9 @@ import { Footer } from '../footer/Footer';
 
 
 export const News = () => {
+   React.useEffect(()=>{
+        window.scrollTo(0,0)
+      },[])
     return (
         <>
        <div>
@@ -39,17 +42,17 @@ export const News = () => {
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-2">
                          <div className="u-container-layout">
-                           <img src={img1} alt="Myimage" className="u-image u-image-default u-image-1" />
+                           <img src={IMG1} alt="Myimage" className="u-image u-image-default u-image-1" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-3">
                          <div className="u-container-layout">
-                           <img src={img2} alt="Myimage" className="u-image u-image-default u-image-2" />
+                           <img src={IMG2} alt="Myimage" className="u-image u-image-default u-image-2" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-4">
                          <div className="u-container-layout">
-                           <img src={img3} alt="Myimage" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" />
+                           <img src={IMG3} alt="Myimage" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" />
                          </div>
                        </div>
                      </div>
@@ -61,10 +64,10 @@ export const News = () => {
          </section>
          <section className="u-clearfix u-section-2" id="carousel_43dc">
            <div className="u-clearfix u-sheet u-sheet-1">
-             <img src={img4} alt="Myimage" className="u-align-left u-image u-image-1" />
-             <img src={img5} alt="Myimage" className="u-align-left u-image u-image-2" />
+             <img src={IMG4} alt="Myimage" className="u-align-left u-image u-image-1" />
+             <img src={IMG5} alt="Myimage" className="u-align-left u-image u-image-2" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-white u-group-1">
-               <div className="u-container-layout u-valign-middle-sm u-container-layout-1">
+               <div className="u-container-layout u-valign-middle-sm u-container-layout-1"  style={{backgroundColor:'#fff'}}>
                  <h2 className="u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Let’s smarter our city together!</h2>
                  <p className="u-text u-text-2" style={{fontFamily: "Gowun Dodum"}}>
                  “Home Alone” offers you the highest quality Smart Technology. It detects movement and noise at a certain distance, which is regulated by the user’s wishes, and through the application he can see the current state of the house
@@ -79,7 +82,7 @@ export const News = () => {
            <div className="u-clearfix u-sheet u-sheet-1">
              <div className="u-opacity u-opacity-25 u-palette-2-light-1 u-shape u-shape-rectangle u-shape-1" />
              <div className="u-align-left u-left-0 u-palette-1-base u-shape u-shape-2" />
-             <img src={img6} alt="Myimage" className="u-align-left u-image u-image-1" />
+             <img src={IMG6} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
                  <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Build One of the Smartest home&nbsp;In The World</h2>
@@ -100,7 +103,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-36 u-layout-cell-1">
                          <div className="u-container-layout">
                            <div className="u-align-left u-expanded-width-md u-palette-1-light-2 u-shape u-shape-1" />
-                           <img src={img7} alt="Myimage" className="u-align-left u-image u-image-1" />
+                           <img src={IMG7} alt="Myimage" className="u-align-left u-image u-image-1" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
@@ -120,7 +123,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
                          <div className="u-container-layout">
                            <div className="u-align-left u-palette-1-light-2 u-shape u-shape-2" />
-                           <img src={img8} alt="Myimage"className="u-align-left u-image u-image-2" />
+                           <img src={IMG8} alt="Myimage"className="u-align-left u-image u-image-2" />
                          </div>
                        </div>
                      </div>
@@ -130,7 +133,7 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-36 u-layout-cell-5">
                          <div className="u-container-layout u-container-layout-5">
                            <div className="u-align-left u-palette-1-light-2 u-shape u-shape-3" />
-                           <img src={img9} alt="Myimage" className="u-align-left u-image u-image-3" />
+                           <img src={IMG9} alt="Myimage" className="u-align-left u-image u-image-3" />
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">

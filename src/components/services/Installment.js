@@ -14,6 +14,9 @@ import { NavLink } from 'react-router-dom';
 
 
 export const Installment = () => {
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
     return (
         <>
        <div>
