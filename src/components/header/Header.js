@@ -9,12 +9,16 @@ import PARTNER2 from './../../assets/partners/citron.jpg'
 import PARTNER3 from './../../assets/partners/guru.jpg'
 
 import {NavLink } from "react-router-dom";
-
+import { useTranslation } from 'react-i18next';
 export const Header = () => {
+    const { t, i18n } = useTranslation();
     const [ProductsBox, setProductsBox] = useState(false);
     const [ServicesBox, setServicesBox] = useState(false);
     const [AboutBox, setAboutBox] = useState(false);
-
+    const changeLanguageHandler = (lang) =>
+    {
+      i18n.changeLanguage(lang)
+    }
     const OpenBox = (arg) => {
         if(arg === 2) {
             setProductsBox(true);
@@ -42,12 +46,12 @@ export const Header = () => {
                 <div className='animate__animated animate__fadeInLeft' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <div onMouseEnter={() => OpenBox(0)}>
                     <NavLink className='nav-item'  activeClassName="nav-active" exact to='/' >
-                    <p>HOME</p>
+                    <p>{t('HOME')}</p>
                     </NavLink>
                 </div>
                 <div onMouseEnter={() => OpenBox(2)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/products' onClick={() => OpenBox(5)}>
-                    <p>PRODUCTS </p>
+                    <p>{t('PRODUCTS')}</p>
                     </NavLink>
                 </div>
                 <div onMouseEnter={() => OpenBox(3)}>
@@ -78,8 +82,9 @@ export const Header = () => {
                     <p >CONTACT</p>
                     </NavLink>
                 </div>
-                <div >
-                    <p style={{borderRight: 'none'}} className='nav-item-lang'>EN</p>
+                <div style={{display:'flex'}}>
+                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('en')}>EN</p>
+                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('ru')}>RU</p>
                 </div>
                 </div>
             </div>
