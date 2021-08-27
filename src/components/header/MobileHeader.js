@@ -5,8 +5,11 @@ import logo from './../../assets/logo.png';
 import menu from './../../assets/burger.png';
 import close from './../../assets/close.svg'
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export const MobileHeader = () => {
+    const { t } = useTranslation();
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isProductsOpen, setIsProductsOpen] = useState(false);
     const [isAudioOpen, setIsAudioOpen] = useState(false);
@@ -55,6 +58,11 @@ export const MobileHeader = () => {
             setIsAboutOpen(false);
         },600)
     }
+    const changeLanguageHandler = (lang) =>
+    {
+      localStorage.setItem('lang', lang)
+      window.location.reload()
+    }
     return(
         <>
             <div className='mobile-header'>
@@ -76,23 +84,28 @@ export const MobileHeader = () => {
                     <div id='mob-menu' className='product-box animate__animated animate__fadeInRight'>
                         <div style={{display:'flex', justifyContent:'center', alignItems: 'center', flexDirection:'column'}}>
                             <NavLink className='nav-item'  activeClassName="nav-active" exact to='/'>
-                                <p>HOME</p>
+                                <p>{t('HOME')}</p>
                             </NavLink>
                             <NavLink onClick={() => setIsProductsOpen(true)} className='nav-item'  activeClassName="nav-active" to='/products'>
-                                <p>PRODUCTS </p>
+                                <p>{t('PRODUCTS')}</p>
                             </NavLink>
                             <NavLink onClick={() => setIsServiceOpen(true)} className='nav-item'  activeClassName="nav-active" to='/services'>
-                                <p>SERVICES </p>
-                            </NavLink>
-                            <NavLink className='nav-item'  activeClassName="nav-active" to='/news'>
-                                <p>NEWS</p>
+                                <p>{t('SERVICES')}</p>
                             </NavLink>
                             <NavLink onClick={() => setIsAboutOpen(true)} className='nav-item'  activeClassName="nav-active" to='/about'>
-                                <p>ABOUT</p>
+                                <p>{t('ABOUT')}</p>
+                            </NavLink>
+                            <NavLink className='nav-item'  activeClassName="nav-active" to='/news'>
+                                <p>{t('NEWS')}</p>
                             </NavLink>
                             <NavLink className='nav-item'  activeClassName="nav-active" to='/contact'>
-                                <p>CONTACT</p>
+                                <p>{t('CONTACT')}</p>
                             </NavLink>
+                            <span style={{display:'flex'}}>
+                    <p style={{border: 'none', margin:'20px'}} className='nav-item-lang-mobile' onClick={() => changeLanguageHandler('en')}>EN</p>
+                    <p style={{border: 'none', margin:'20px'}} className='nav-item-lang-mobile' onClick={() => changeLanguageHandler('ge')}>GE</p>
+                    <p style={{border: 'none', margin:'20px'}} className='nav-item-lang-mobile' onClick={() => changeLanguageHandler('ru')}>RU</p>
+                </span>
                         </div>
                     </div>
                 </>
@@ -101,35 +114,35 @@ export const MobileHeader = () => {
                 isProductsOpen && (
                     <>
                         <div id='prodc-menu' className='product-box1 animate__animated animate__fadeInRight' >
-                        <h5 style={{color: '#fff'}} onClick={() => closeProdMenu()}>Back</h5>
+                        <h5 style={{color: '#fff'}} onClick={() => closeProdMenu()}>{t('Back')}</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
                                     <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                    <p onClick={() => setIsAudioOpen(true)}>Audio Products {`>`}</p>
+                                    <p onClick={() => setIsAudioOpen(true)}>{t('Audio Products')} {`>`}</p>
 
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{textDecoration: 'none'}}>
-                                    <p>Interaction Center</p>
+                                    <p>{t('Interaction Center')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Lighting' style={{textDecoration: 'none'}}>
-                                    <p>Smart Lighting</p>
+                                    <p>{t('Smart Lighting')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Security' style={{textDecoration: 'none'}}>
-                                    <p>Home Security</p>
+                                    <p>{t('Home Security')}</p>
                                     </NavLink>
                                     
                                     
                                 </div>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_R+T' style={{textDecoration: 'none'}}>
-                                    <p>Smart R+T</p>
+                                    <p>{t('Smart R+T')}</p>
                                     </NavLink>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_HVAC' style={{textDecoration: 'none'}}>
-                                    <p>Smart HVAC</p>
+                                    <p>{t('Smart HVAC')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Entertaiment' style={{textDecoration: 'none'}}>
-                                    <p>Home Entertaiment</p>
+                                    <p>{t('Home Entertaiment')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{textDecoration: 'none'}}>
-                                    <p>Domestic Appliances</p>
+                                    <p>{t('Domestic Appliances')}</p>
                                     </NavLink>
 
                                 </div>
@@ -142,44 +155,44 @@ export const MobileHeader = () => {
                 isAudioOpen && (
                     <>
                         <div id='aud-menu' className='product-box2 animate__animated animate__fadeInRight' >
-                        <h5 style={{color: '#fff'}} onClick={() => closeAudioMenu()}>Back</h5>
+                        <h5 style={{color: '#fff'}} onClick={() => closeAudioMenu()}>{t('Back')}</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
 
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Flush_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Flush Mount Ceiling Speaker</p>
+                                            <p>{t('Flush Mount Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Coaxial_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Coaxial Ceiling Speaker</p>
+                                            <p>{t('Coaxial Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Two-Way_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Two-Way Ceiling Speaker</p>
+                                            <p>{t('Two-Way Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Fireproof_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Fireproof Ceiling Speaker</p>
+                                            <p>{t('Fireproof Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/EN54_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>EN54 Ceiling Speaker</p>
+                                            <p>{t('EN54 Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Surface_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Surface Mount Ceiling Speaker</p>
+                                            <p>{t('Surface Mount Ceiling Speaker')}</p>
                                     </NavLink>
                                 </div>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Mini_Smart_Music_Host' style={{textDecoration: 'none'}}>
-                                            <p>Mini Smart Music Host</p>
+                                            <p>{t('Mini Smart Music Host')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Network_Smart_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Network Smart Music Sys</p>
+                                            <p>{t('Network Smart Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Central_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Smart Central Music Sys</p>
+                                            <p>{t('Smart Central Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Economic_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Economic Music Sys</p>
+                                            <p>{t('Economic Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Speaker</p>
+                                            <p>{t('Speaker')}</p>
                                     </NavLink>
 
                                 </div>
@@ -192,13 +205,24 @@ export const MobileHeader = () => {
                 isServiceOpen && (
                     <>
                     <div id='serv-menu' className='product-box1 animate__animated animate__fadeInRight' >
-                        <h5 style={{color: '#fff'}} onClick={() => closeServiceMenu()}>Back</h5>
+                        <h5 style={{color: '#fff'}} onClick={() => closeServiceMenu()}>{t('Back')}</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                    <p>Installment</p>
-                                    <p>Smart Home System</p>
-                                    <p>Smart Hotel System</p>
-                                    <p>Smart Office System</p>
+                                <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{textDecoration: 'none'}}>
+                                    <p>{t('Smart Home System')}</p>
+                                    </NavLink>
+
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{textDecoration: 'none'}}>
+                                        
+                                        <p>{t('Smart Hotel System')}</p>
+                                        </NavLink>
+
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{textDecoration: 'none'}}>
+                                        <p>{t('Smart Office System')}</p>
+                                        </NavLink>
+                                        <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{textDecoration: 'none'}}>
+                                    <p>{t('Installment')}</p>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -209,14 +233,22 @@ export const MobileHeader = () => {
                 isAboutOpen && (
                     <>
                     <div id='about-menu' className='product-box1 animate__animated animate__fadeInRight' >
-                        <h5 style={{color: '#fff'}} onClick={() => closeAboutMenu()}>Back</h5>
+                        <h5 style={{color: '#fff'}} onClick={() => closeAboutMenu()}>{t('Back')}</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
                                 <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                <p>
-                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
+                                
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>
+                                    <p>
+                                    {t('Partners')}
                                 </p>
-                                    <p>Showroom</p>
-                                    <p>Gallery</p>
+                                </NavLink>
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/showroom/showroom'>
+                                     <p>{t('Showroom')}</p>
+                                    </NavLink>
+                                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
+                                    
+                                    <p>{t('Gallery')}</p>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>

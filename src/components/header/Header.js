@@ -57,7 +57,7 @@ export const Header = () => {
                 </div>
                 <div onMouseEnter={() => OpenBox(3)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/services' onClick={() => OpenBox(5)}>
-                    <p style={{borderRight: 'none'}}>{t('SERVICES')} 	</p>
+                    <p style={{borderRight: 'none'}}>{t('SERVICES')}</p>
                     </NavLink>
                 </div>
                 </div>
@@ -70,7 +70,7 @@ export const Header = () => {
                 <div className='animate__animated animate__fadeInRight' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <div onMouseEnter={() => OpenBox(4)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
-                    <p>{t('ABOUT')}  </p>
+                    <p>{t('ABOUT')}</p>
                     </NavLink>
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>

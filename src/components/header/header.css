@@ -162,6 +162,28 @@
   padding-right: 0px!important;
 }
 
+.nav-item-lang-mobile{
+  color: #fff !important;
+  /* text-decoration: line-through; */
+  font-size: 5;
+}
+.nav-item-lang-mobile:hover{
+  color: #067B65 !important;
+  /* text-decoration: line-through; */
+  font-weight: 700 !important;
+}
+
+@media (max-width: 900px){
+  .nav-item-lang-mobile {
+    font-size: 2.7vmin!important;
+}
+
+
+.product-box div .nav-item-lang-mobile{
+  text-align: center;
+}
+}
+
 .nav-item-lang:hover {
   color: #067B65 !important;
   /* text-decoration: line-through; */

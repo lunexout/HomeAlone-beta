@@ -40,7 +40,7 @@ export const BannerCarousel = () => {
                     src={el.img}
                     alt={el.name}
                   /> */}
-                  <video style={{borderTop: '3px solid #30343C'}} id="mainvideo" className="video-container" autoPlay loop>
+                  <video style={{borderTop: '3px solid #30343C'}} id="mainvideo" className="video-container" autoPlay loop muted>
                     <source src={el.img} type="video/mp4" />
                   </video>
                 </SwiperSlide>

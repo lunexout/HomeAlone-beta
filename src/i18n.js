@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+      "Back":"Back",
       "Contact Us":"Contact Us",
       "Comfort Pack":"Comfort Pack",
       "Business Pack":"Business Pack",
@@ -71,6 +72,7 @@ const resources = {
   },
   ge: {
     translation: {
+      "Back":"უკან",
       "Contact Us":"დაგვიკავშირდით",
       "Comfort Pack":"კომფორტ პაკეტი",
       "Business Pack":"ბიზნეს პაკეტი",
@@ -138,6 +140,7 @@ const resources = {
   },
   ru: {
     translation: {
+      "Back":"назад",
       "Contact Us":"Связаться с нами",
       "Comfort Pack":"Комфорт-пакет",
       "Business Pack":"бизнес пакет",
