@@ -1,19 +1,20 @@
 import React from 'react'
 import './About.css'
 import {Footer} from './../footer/Footer'
+import { useTranslation } from 'react-i18next';
 
-export const about = () => {
+export const About = () => {
+  const { t } = useTranslation();
     return (
         <>
         <div className='about-container' style={{marginTop: 100}}>
         <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
-          About Us
+        {t('AboutName')}
         </h1>
         <div className="grid-container">
           <div style={{marginTop: 100}}>
             <p style={{fontFamily: "Gowun Dodum"}}>
-            We are in Batumi, founded in 2019 by the company “Home Alone”, we produce innovative technologies and systems based on smart home management, which aims to improve living conditions. With the help of these technologies it is possible to quickly and easily create ideal conditions for the home and change daily life for the better.
-The company keeps driving edge technology to develop and improve smart systems. The company focuses on the introduction of IoT systems, which include home automation, energy efficiency, ventilation and heating, curtain and sunlight management, smart audio systems and smart shutter systems.
+            {t('Abouttxt1')}
             </p>
           </div>
           <div style={{marginTop: 100}}>
@@ -112,7 +113,7 @@ The company keeps driving edge technology to develop and improve smart systems. 
               <div className="align-middle">
                 
                 <p style={{fontFamily: "Gowun Dodum"}}>
-                Our technologies are based on ZIGBEE technology. It is an innovative technology built on wireless networking that makes full use of the capabilities of the network to create a fast connection between products. If one product goes out of order, the other products will continue to work smoothly. Compared to other technologies ZEGBEE is fast, secure and reliable.
+                {t('Abouttxt2')}
                 </p>
               </div>
             </div>
@@ -124,4 +125,4 @@ The company keeps driving edge technology to develop and improve smart systems. 
     )
 }
 
-export default about
+export default About

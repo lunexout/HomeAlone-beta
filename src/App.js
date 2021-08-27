@@ -11,7 +11,7 @@ import {Contact} from './components/contact/Contact'
 import { Products } from './components/products/Products';
 import { TestYourHome } from './components/testing/TestYourHome';
 import { News } from './components/news/News';
-import { about } from './components/about/About';
+import { About } from './components/about/About';
 import { Services } from './components/services/Services';
 import Partners from './components/partners/Partners';
 import { RightTestSysytem } from './components/righttesting/RightTestSystem';
@@ -75,7 +75,7 @@ function App() {
           <Route exact path="/products/group/:group_id" component={Groups} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/about" component={about} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/news" component={News} />
           <Route exact path="/about/partners" component={Partners} />
           <Route exact path="/services/smarthome" component={SmartHome} />

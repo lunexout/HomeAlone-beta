@@ -17,7 +17,8 @@ export const Header = () => {
     const [AboutBox, setAboutBox] = useState(false);
     const changeLanguageHandler = (lang) =>
     {
-      i18n.changeLanguage(lang)
+      localStorage.setItem('lang', lang)
+      window.location.reload()
     }
     const OpenBox = (arg) => {
         if(arg === 2) {
@@ -56,7 +57,7 @@ export const Header = () => {
                 </div>
                 <div onMouseEnter={() => OpenBox(3)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/services' onClick={() => OpenBox(5)}>
-                    <p style={{borderRight: 'none'}}>SERVICES 	</p>
+                    <p style={{borderRight: 'none'}}>{t('SERVICES')} 	</p>
                     </NavLink>
                 </div>
                 </div>
@@ -69,21 +70,22 @@ export const Header = () => {
                 <div className='animate__animated animate__fadeInRight' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <div onMouseEnter={() => OpenBox(4)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
-                    <p>ABOUT </p>
+                    <p>{t('ABOUT')}  </p>
                     </NavLink>
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/news'>
-                    <p>NEWS</p>
+                    <p>{t('NEWS')}</p>
                     </NavLink>
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>
                     <NavLink className='nav-item' activeClassName="nav-active" to='/contact'>
-                    <p >CONTACT</p>
+                    <p >{t('CONTACT')}</p>
                     </NavLink>
                 </div>
                 <div style={{display:'flex'}}>
                     <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('en')}>EN</p>
+                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('ge')}>GE</p>
                     <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('ru')}>RU</p>
                 </div>
                 </div>
@@ -95,66 +97,66 @@ export const Header = () => {
                             <div className='full-box-div'>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{textDecoration: 'none'}}>
-                                    <p>Interaction Center</p>
+                                    <p>{t('Interaction Center')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Lighting' style={{textDecoration: 'none'}}>
-                                    <p>Smart Lighting</p>
+                                    <p>{t('Smart Lighting')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Security' style={{textDecoration: 'none'}}>
-                                    <p>Home Security</p>
+                                    <p>{t('Home Security')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_R+T' style={{textDecoration: 'none'}}>
-                                    <p>Smart R+T</p>
+                                    <p>{t('Smart R+T')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_HVAC' style={{textDecoration: 'none'}}>
-                                    <p>Smart HVAC</p>
+                                    <p>{t('Smart HVAC')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Entertaiment' style={{textDecoration: 'none'}}>
-                                    <p>Home Entertaiment</p>
+                                    <p>{t('Home Entertaiment')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{textDecoration: 'none'}}>
-                                    <p>Domestic Appliances</p>
+                                    <p>{t('Domestic Appliances')}</p>
                                     </NavLink>
                                 </div>
                                 <div style={{display: 'flex', justifyContent:'center', alignItems:'center',flexDirection: 'column'}}>
-                                    <h3>Audio Products</h3>
+                                    <h3>{t('Audio Products')}</h3>
                                     <div style={{display: 'flex', gap: 30}}>
                                         <div style={{display:'flex', flexDirection: 'column'}}>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Flush_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Flush Mount Ceiling Speaker</p>
+                                            <p>{t('Flush Mount Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Coaxial_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Coaxial Ceiling Speaker</p>
+                                            <p>{t('Coaxial Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Two-Way_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Two-Way Ceiling Speaker</p>
+                                            <p>{t('Two-Way Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Fireproof_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Fireproof Ceiling Speaker</p>
+                                            <p>{t('Fireproof Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/EN54_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>EN54 Ceiling Speaker</p>
+                                            <p>{t('EN54 Ceiling Speaker')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Surface_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Surface Mount Ceiling Speaker</p>
+                                            <p>{t('Surface Mount Ceiling Speaker')}</p>
                                     </NavLink>
 
                                         </div>
                                         <div style={{display:'flex', flexDirection: 'column'}}>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Mini_Smart_Music_Host' style={{textDecoration: 'none'}}>
-                                            <p>Mini Smart Music Host</p>
+                                            <p>{t('Mini Smart Music Host')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Network_Smart_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Network Smart Music Sys</p>
+                                            <p>{t('Network Smart Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Central_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Smart Central Music Sys</p>
+                                            <p>{t('Smart Central Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Economic_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>Economic Music Sys</p>
+                                            <p>{t('Economic Music Sys')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Speaker' style={{textDecoration: 'none'}}>
-                                            <p>Speaker</p>
+                                            <p>{t('Speaker')}</p>
                                     </NavLink>
                                         </div>
                                     </div>
@@ -172,18 +174,18 @@ export const Header = () => {
                             <div className='full-box-div'>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{textDecoration: 'none'}}>
-                                    <p>Installment</p>
+                                    <p>{t('Installment')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{textDecoration: 'none'}}>
-                                    <p>Smart Home System</p>
+                                    <p>{t('Smart Home System')}</p>
                                     </NavLink>
                                 </div>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
                                 <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{textDecoration: 'none'}}>
-                                    <p>Smart Hotel System</p>
+                                    <p>{t('Smart Hotel System')}</p>
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{textDecoration: 'none'}}>
-                                    <p>Smart Office System</p>
+                                    <p>{t('Smart Office System')}</p>
                                     </NavLink>
                                 </div>
                                 <div>
@@ -202,14 +204,14 @@ export const Header = () => {
                             <div className='full-box-div'>
                                 <div style={{display:'flex', flexDirection: 'column', }}>
                                 <p>
-                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>Partners</NavLink>
+                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('Partners')}</NavLink>
                                 </p>
                                 <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/showroom/showroom'>
-                                     <p>Showroom</p>
+                                     <p>{t('Showroom')}</p>
                                      </NavLink>
                                 <p>
                                     <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
-                                Gallery
+                                    {t('Gallery')}
                                 </NavLink>
                                 </p>
                                 </div>
@@ -219,7 +221,7 @@ export const Header = () => {
                                     <NavLink to="/about/partners/8"><img src={PARTNER3} style={{height: 130}}alt=''/></NavLink>
                                     <div style={{height: 130, padding: 10, display:'flex', justifyContent:'center', alignItems:'center'}}>
                                     <p>
-                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>See More</NavLink>
+                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('See More')}</NavLink>
                                     </p>
                                     </div>
                                 </div>

@@ -16,6 +16,7 @@ import Img10 from './img/img10.jpg';
 import Img11 from './img/img11.jpg';
 import Img12 from './img/img12.jpg';
 import Img13 from './img/img13.jpg';
+import { Footer } from "../footer/Footer";
 export const Gallery = () => {
     let data=[
         {
@@ -97,7 +98,7 @@ export const Gallery = () => {
                 )
             })}
         </div>
-
+        <Footer />
         </>
 
     )

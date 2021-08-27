@@ -2,7 +2,13 @@ import React from "react";
 import "./Footer.css";
 import logo from "./../../assets/logo.png";
 import { NavLink } from "react-router-dom";
+
+import { useTranslation } from 'react-i18next';
+
+
+
 export const Footer = () => {
+  const { t } = useTranslation();
   return (
     <>
       <footer>
@@ -53,21 +59,21 @@ export const Footer = () => {
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div className="block-2">
-                  <h6>Company</h6>
+                  <h6 style={{textTransform:'lowercase'}}>{t('Company')}</h6>
                   <ul>
                     <li>
-                    <NavLink className='insidemenu-nav-item'  activeClassName="nav-active" exact to='/' >
-                       <p >Home</p>
+                    <NavLink className='insidemenu-nav-item'  activeClassName="nav-active" exact to='/' style={{textTransform:'lowercase'}}>
+                       <p >{t('HOME')}</p>
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services'>
-                       <p >Services</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services' style={{textTransform:'lowercase'}}>
+                       <p >{t('SERVICES')}</p>
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/products'>
-                       <p >Products</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/products' style={{textTransform:'lowercase'}}>
+                       <p >{t('PRODUCTS')}</p>
                     </NavLink>
                     </li>
 
@@ -77,29 +83,34 @@ export const Footer = () => {
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
                 <div className="block-2">
-                  <h6>About</h6>
+                  <h6 style={{textTransform:'lowercase'}}>{t('ABOUT')}</h6>
                   <ul>
                     <li>
-                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>
-                       <p >Partners</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners' style={{textTransform:'lowercase'}}>
+                       <p >{t('Partners')}</p>
                        </NavLink>
                     </li>
-
                     <li>
-                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
-                       <p >Gallery</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/showroom' style={{textTransform:'lowercase'}}>
+                       <p >{t('Showroom')}</p>
                        </NavLink>
                     </li>
+                    <li>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery' style={{textTransform:'lowercase'}}>
+                       <p >{t('Gallery')}</p>
+                       </NavLink>
+                    </li>
+                    
                   </ul>
                 </div>
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div className="block-2">
-                  <h6>Services</h6>
+                  <h6 style={{textTransform:'lowercase'}}>{t('FeedBack')}</h6>
                   <ul>
                     <li>
-                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services'>
-                       <p >Everything Smart</p>
+                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/contact'>
+                       <p  style={{textTransform:'lowercase'}}>{t('CONTACT')}</p>
                        </NavLink>
                     </li>
                     {/* <li>
@@ -113,19 +124,16 @@ export const Footer = () => {
               </div>
               <div className="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
                 <div className="block-2">
-                  <h6>Inovations</h6>
+                  <h6 style={{textTransform:'lowercase'}}>{t('SERVICES')}</h6>
                   <ul>
                     <li>
-                       <p >Installment</p>
+                    <NavLink to='/services/smarthome'   className='insidemenu-nav-item' activeClassName="nav-active"  style={{textTransform:'lowercase'}}><p>{t('Smart Home System')}</p></NavLink>
                     </li>
                     <li>
-                       <p >Packs</p>
+                    <NavLink to='/services/smarthotel'  className='insidemenu-nav-item' activeClassName="nav-active"  style={{textTransform:'lowercase'}}><p>{t('Smart Hotel System')}</p></NavLink>
                     </li>
                     <li>
-                       <p >Team</p>
-                    </li>
-                    <li>
-                       <p >Solutions</p>
+                    <NavLink to='/services/smartoffice'   className='insidemenu-nav-item' activeClassName="nav-active"  style={{textTransform:'lowercase'}}><p>{t('Smart Office System')}</p></NavLink>
                     </li>
                   </ul>
                 </div>

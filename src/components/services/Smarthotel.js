@@ -12,8 +12,11 @@ import './../news/News.css';
 import { Footer } from '../footer/Footer';
 import { NavLink } from 'react-router-dom';
 
+import { useTranslation } from 'react-i18next';
 
 export const SmartHotel = () => {
+  const { t } = useTranslation();
+
   React.useEffect(()=>{
     window.scrollTo(0,0)
   },[])
@@ -30,12 +33,11 @@ export const SmartHotel = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
                          <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1" style={{backgroundColor: '#009073 !important'}}>
                            <div className="u-border-9 u-border-palette-1-base u-line u-line-vertical u-line-1" />
-                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Home Alone<br />intro
+                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('INTRODUCTION')}
                            </h1>
-                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>WeHotel is an innovative and smart management system for hotel, which is developed based on the latest IOT and mobile Internet technology.
-
-WeHotel system can monitor and control devices locally and remotely, optimize operation procedure and save energy, so that the total cost on both management and operation will be reduced.
-</p>
+                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>
+                           {t('hotelsoltxt1')}
+                           </p>
                          </div>
                        </div>
                      </div>
@@ -71,16 +73,8 @@ WeHotel system can monitor and control devices locally and remotely, optimize op
              <img src={img4} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
-                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Features</h2>
-                 <p className="u-align-left-md u-text u-text-2">Monitoring and controlling devices remotely.
-
-Easy and simple check-in via Wechat or User App.
-
-Comprehensive room’s status information.
-
-Various smart scenes: sleeping mode, welcome mode, all lights off mode, check-out mode etc.
-
-Wireless room control system, easy to install, modify and maintain.
+                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('Features')}</h2>
+                 <p className="u-align-left-md u-text u-text-2">{t('hotelsoltxt2')}
 </p>
                </div>
              </div>
@@ -101,7 +95,7 @@ Wireless room control system, easy to install, modify and maintain.
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
                          <div className="u-container-layout u-container-layout-2">
-                           <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">Smart Office System</h4></NavLink>
+                           <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">{t('Smart Office System')}</h4></NavLink>
                          </div>
                        </div>
                      </div>
@@ -110,7 +104,7 @@ Wireless room control system, easy to install, modify and maintain.
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-size-24 u-layout-cell-3">
                          <div className="u-container-layout u-container-layout-3">
-                         <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">Smart Home System</h4></NavLink>
+                         <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">{t('Smart Home System')}</h4></NavLink>
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
@@ -131,7 +125,7 @@ Wireless room control system, easy to install, modify and maintain.
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">
                          <div className="u-container-layout u-container-layout-6">
-                         <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">Installment</h4></NavLink>
+                         <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">{t('Installment')}</h4></NavLink>
                          </div>
                        </div>
                      </div>

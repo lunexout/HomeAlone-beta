@@ -3,6 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const options = {
   0: {
@@ -23,7 +24,7 @@ const options = {
 }
 
 export const ProductTypesCarousel = ({ProductList}) => {
-
+  const {t} = useTranslation()
   const RenderProductTypeCarousel = ProductList.map((el, index) => {
         return (
           <>
@@ -42,7 +43,7 @@ export const ProductTypesCarousel = ({ProductList}) => {
                 <img alt={el.name} className="slider-img" src={el.mainImage} />
               </div>
               <div>
-                <p style={{ textDecoration: 'none',fontWeight: 700 }}>{el.name}</p>
+                <p style={{ textDecoration: 'none',fontWeight: 700 }}>{t(`${el.name}`)}</p>
               </div>
             </div>
             </NavLink>

@@ -26,8 +26,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
 
 // import { Footer } from './../footer/Footer'
-import PartnerWith from './partnetwith'
-import { Footer } from '../footer/Footer'
+
 const imageJSON = [
     {src: IMG1},
     {src: IMG2},
@@ -49,13 +48,33 @@ const imageJSON = [
     {src: IMG18}
 ]
 
-export const Partners = () => {
+export const PartnerWith = () => {
+    const { t } = useTranslation();
+
+    React.useEffect(()=>{
+        window.scrollTo(0,0)
+      },[])
     return (
         <>
-        <PartnerWith/>
-        <Footer/>
+        <div className="partners-div" style={{marginTop: 100}}> 
+            <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
+            {t('Partners')}
+            </h1>
+            <div className="flex-row">
+                {imageJSON.map((img,index) => {
+                    return(
+                       <Link to={`/about/partners/${index}`}>
+                        <div className="cardn">
+                            <img src={img.src} alt='' style={{width: '100%', height: 'auto'}}/>
+                        </div>
+                       </Link>
+                    )
+                })}
+            </div>
+            </div>
+            <div style={{marginTop: 40}}></div>
         </>
     )
 }
 
-export default Partners
+export default PartnerWith

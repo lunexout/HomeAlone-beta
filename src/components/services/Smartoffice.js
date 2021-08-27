@@ -12,8 +12,12 @@ import './../news/News.css';
 import { Footer } from '../footer/Footer';
 import { NavLink } from 'react-router-dom';
 
+import { useTranslation } from 'react-i18next';
+
 
 export const SmartOffice = () => {
+  const { t } = useTranslation();
+
   React.useEffect(()=>{
     window.scrollTo(0,0)
   },[])
@@ -30,11 +34,11 @@ export const SmartOffice = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
                          <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1" style={{backgroundColor: '#009073 !important'}}>
                            <div className="u-border-9 u-border-palette-1-base u-line u-line-vertical u-line-1" />
-                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Home Alone<br />intro
+                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('INTRODUCTION')}
                            </h1>
-                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>Green Office solution is designed for joint office, small and medium enterprises. It is a smart lighting and energy management system.
+                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>
+                             {t('officesoltxt1')}
 
-With the current protection and electricity usage monitoring function, it provides users the more convenient, comfortable and secure smart life.
 </p>
                          </div>
                        </div>
@@ -71,16 +75,9 @@ With the current protection and electricity usage monitoring function, it provid
              <img src={img4} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
-                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Features</h2>
-                 <p className="u-align-left-md u-text u-text-2">24-hour remote control and management.
-
-Monitor the energy consumption by departments, districts and dates.
-
-Automatically adjust the lighting and central A/C as per the environment.
-
-Data recording and analysis by the cloud server, provide targeted energy-saving advice for companies.
-
-User-friendly management backstage, raise the efficiency.
+                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('Features')}</h2>
+                 <p className="u-align-left-md u-text u-text-2">
+                 {t('officesoltxt2')}
 </p>
                </div>
              </div>
@@ -101,7 +98,7 @@ User-friendly management backstage, raise the efficiency.
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
                          <div className="u-container-layout u-container-layout-2">
-                           <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">Smart Home System</h4></NavLink>
+                           <NavLink to="/services/smarthome" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-1">{t('Smart Home System')}</h4></NavLink>
                          </div>
                        </div>
                      </div>
@@ -110,7 +107,7 @@ User-friendly management backstage, raise the efficiency.
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-size-24 u-layout-cell-3">
                          <div className="u-container-layout u-container-layout-3">
-                         <NavLink to="/services/smarthotel" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">Smart Hotel System</h4></NavLink>
+                         <NavLink to="/services/smarthotel" style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">{t('Smart Hotel System')}</h4></NavLink>
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
@@ -131,7 +128,7 @@ User-friendly management backstage, raise the efficiency.
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">
                          <div className="u-container-layout u-container-layout-6">
-                         <NavLink to="/services/installment" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">Installment</h4></NavLink>
+                         <NavLink to="/services/installment" style={{textDecoration: 'none', color: 'black'}}> <h4 className="u-custom-font u-heading-font u-text u-text-3">{t('Installment')}</h4></NavLink>
                          </div>
                        </div>
                      </div>

@@ -13,8 +13,11 @@ import IMG9 from './images/646395786aecf08bb6351703d65a74d9.jpg';
 import './News.css';
 import { Footer } from '../footer/Footer';
 
+import { useTranslation } from 'react-i18next';
 
 export const News = () => {
+  const { t } = useTranslation();
+
    React.useEffect(()=>{
         window.scrollTo(0,0)
       },[])
@@ -31,9 +34,9 @@ export const News = () => {
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
                          <div className="u-container-layout u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1" style={{backgroundColor: '#009073 !important'}}>
                            <div className="u-border-9 u-border-palette-1-base u-line u-line-vertical u-line-1" />
-                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Home Alone<br />News
+                           <h1 className="u-align-left-md u-text u-title u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('NewsName1')}
                            </h1>
-                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>Company Main News About Our Products, Company, and Projects, Mainstream of our News</p>
+                           <p className="u-align-left-md u-large-text u-text u-text-variant u-text-2" style={{fontFamily: "Gowun Dodum"}}>{t('NewsText1')}</p>
                          </div>
                        </div>
                      </div>
@@ -68,9 +71,9 @@ export const News = () => {
              <img src={IMG5} alt="Myimage" className="u-align-left u-image u-image-2" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-white u-group-1">
                <div className="u-container-layout u-valign-middle-sm u-container-layout-1"  style={{backgroundColor:'#fff'}}>
-                 <h2 className="u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Let’s smarter our city together!</h2>
+                 <h2 className="u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('NewsName2')}</h2>
                  <p className="u-text u-text-2" style={{fontFamily: "Gowun Dodum"}}>
-                 “Home Alone” offers you the highest quality Smart Technology. It detects movement and noise at a certain distance, which is regulated by the user’s wishes, and through the application he can see the current state of the house
+                 {t('NewsText2')}
 
 
                  </p>
@@ -85,9 +88,9 @@ export const News = () => {
              <img src={IMG6} alt="Myimage" className="u-align-left u-image u-image-1" />
              <div className="u-align-left u-container-style u-expanded-width-sm u-group u-right-0 u-group-1">
                <div className="u-container-layout u-container-layout-1">
-                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>Build One of the Smartest home&nbsp;In The World</h2>
-                 <p className="u-align-left-md u-text u-text-2">With the help of a smart curtain hanger you will be able to manage the condition of the curtain at any time of the day, both through the application and the scripts.
-
+                 <h2 className="u-align-left-md u-text u-text-1" style={{fontFamily: "Gowun Dodum",fontWeight:'bold'}}>{t('NewsName3')}</h2>
+                 <p className="u-align-left-md u-text u-text-2">
+                 {t('NewsText3')}
 </p>
                </div>
              </div>
@@ -108,7 +111,7 @@ export const News = () => {
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-2">
                          <div className="u-container-layout u-container-layout-2">
-                           <h4 className="u-custom-font u-heading-font u-text u-text-1">RGB LIGHT system</h4>
+                           <h4 className="u-custom-font u-heading-font u-text u-text-1">{t('RGB LIGHT system')}</h4>
                          </div>
                        </div>
                      </div>
@@ -117,7 +120,7 @@ export const News = () => {
                      <div className="u-layout-col">
                        <div className="u-align-left u-container-style u-layout-cell u-size-24 u-layout-cell-3">
                          <div className="u-container-layout u-container-layout-3">
-                           <h4 className="u-custom-font u-heading-font u-text u-text-2">Modern House Analogy</h4>
+                           <h4 className="u-custom-font u-heading-font u-text u-text-2">{t('Modern House Analogy')}</h4>
                          </div>
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-size-36 u-layout-cell-4">
@@ -138,7 +141,7 @@ export const News = () => {
                        </div>
                        <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-6">
                          <div className="u-container-layout u-container-layout-6">
-                           <h4 className="u-custom-font u-heading-font u-text u-text-3">Journal &amp; OK About US</h4>
+                           <h4 className="u-custom-font u-heading-font u-text u-text-3">{t('Journal & OK About US')}</h4>
                          </div>
                        </div>
                      </div>

@@ -14,6 +14,8 @@ import SAFEHOME from './../../assets/safehome.png'
 import BANK from './../../assets/bank.png'
 
 import Pricing from './../pricing/Price'
+import { useTranslation } from 'react-i18next';
+import PartnerWith from "../partners/partnetwith";
 
 const ContentList = [
   {
@@ -37,6 +39,7 @@ const ContentList = [
 ]
 
 const RenderProductList = () => {
+  
     return(
       ContentList.map((el,i) => {
         return(
@@ -74,7 +77,7 @@ const RenderProductList = () => {
 
 export const Home = () => {
   const [spinner, setSpinner] = React.useState(false)
-
+  const { t } = useTranslation();
   React.useEffect(() => {
     setSpinner(true);
     setTimeout(() => {
@@ -97,8 +100,8 @@ export const Home = () => {
       <SmartBanner/>
 
       <div className="single-div" style={{marginTop:40}}>
-      <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
-                Products
+      <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{textTransform:'capitalize'}}>
+      {t('PRODUCTS')}
             </h1>
             </div>
       <ProductTypesCarousel ProductList={[
@@ -114,7 +117,7 @@ export const Home = () => {
       <div className="single-div" style={{marginTop:40}}>
 
 <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
-          Services
+      {t('SERVICES')}
       </h1>
       </div>
 <div className="single-div" style={{display: 'flex', gap: 30,padding:10,marginTop:50, flexWrap: 'wrap', justifyContent:'center', alignItems:'center'}}>
@@ -125,7 +128,7 @@ export const Home = () => {
   }}>
     <img src={SAFEHOME} alt="" style={{width: '40pt', height: '40pt'}}/>
     <div style={{fontSize: '4.5vmin', fontFamily: "Gowun Dodum",fontWeight:'bold'}}>
-      Home Solution
+    {t('Smart Home System')}
     </div>
   </div>
   </NavLink>
@@ -145,7 +148,7 @@ export const Home = () => {
       </g>
     </svg>
     <div style={{fontSize: '4.5vmin', fontFamily: "Gowun Dodum",fontWeight:'bold'}}>
-      Office Solution
+    {t('Smart Office System')}
     </div>
   </div>
   </NavLink>
@@ -166,7 +169,7 @@ export const Home = () => {
       </g>
     </svg> 
     <div style={{fontSize: '4.5vmin', fontFamily: "Gowun Dodum",fontWeight:'bold'}}>
-    Hotel Solution
+    {t('Smart Hotel System')}
     </div>
   </div>
   </NavLink>
@@ -176,7 +179,7 @@ export const Home = () => {
   }}>
     <img src={BANK} alt="" style={{width: '40pt', height: '40pt'}}/>
     <div style={{fontSize: '4.5vmin', fontFamily: "Gowun Dodum",fontWeight:'bold'}}>
-      Installment
+    {t('Installment')}
     </div>
   </div>
   </NavLink>
@@ -191,7 +194,7 @@ export const Home = () => {
       <div style={{width: '100%', marginTop: 30, position:'relative'}}>
         <img style={{maxWidth: '100%', width: '100%', height: 'auto',}} src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new2-5142243776.jpg" alt=""/>
       </div>
-      <Partners/>
+      <PartnerWith/>
       <div style={{width: '100%', marginTop: 30, position:'relative'}}>
         <img style={{maxWidth: '100%', width: '100%', height: 'auto',}} src="https://static.orvibo.com/guanwang_second/front/en/images/RF/rf_sec8_bg-44b226c53b.jpg" alt=""/>
       </div>

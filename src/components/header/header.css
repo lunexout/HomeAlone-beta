@@ -156,6 +156,13 @@
   font-weight: 700 !important;
 }
 .nav-item-lang {
+  color: #fff !important;
+  /* text-decoration: line-through; */
+  font-weight: 700 !important;
+  padding-right: 0px!important;
+}
+
+.nav-item-lang:hover {
   color: #067B65 !important;
   /* text-decoration: line-through; */
   font-weight: 700 !important;

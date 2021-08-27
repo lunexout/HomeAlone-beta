@@ -3,7 +3,11 @@ import React from 'react'
 import {Footer} from './../footer/Footer'
 import {NavLink } from "react-router-dom";
 
+import { useTranslation } from 'react-i18next';
+
 export const Services = () => {
+  const { t } = useTranslation();
+
   React.useEffect(()=>{
     window.scrollTo(0,0)
   },[])
@@ -40,10 +44,9 @@ export const Services = () => {
         </g>
       </svg>                                 
                             </span>
-                            <h4 className="u-custom-font u-heading-font u-text u-text-2">
-                              Hotel Solution
-                            </h4>
-                            <NavLink to='/services/smarthotel'  style={{textDecoration: 'none', color: 'black'}}>read more</NavLink>
+                            <NavLink to='/services/smarthotel'  style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-2">
+                            {t('Smart Hotel System')}
+                            </h4></NavLink>
                           </div>
                         </div>
                         <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-3">
@@ -61,8 +64,8 @@ export const Services = () => {
         </g>
       </svg>
                             </span>
-                            <h4 className="u-custom-font u-heading-font u-text u-text-3">Office Solution</h4>
-                            <NavLink to='/services/smartoffice'  style={{textDecoration: 'none', color: 'black'}}> read more</NavLink>
+                            <NavLink to='/services/smartoffice'  style={{textDecoration: 'none', color: 'black'}}>  <h4 className="u-custom-font u-heading-font u-text u-text-3">{t('Smart Office System')}</h4>
+                           </NavLink>
                           </div>
                         </div>
                       </div>
@@ -129,10 +132,9 @@ export const Services = () => {
                                 </g>
                               </svg>
                             </span>
-                            <h4 className="u-custom-font u-heading-font u-text u-text-4">
-                              Home Solution
-                            </h4>
-                            <NavLink to='/services/smarthome'  style={{textDecoration: 'none', color: 'black'}}>read more</NavLink>
+                            <NavLink to='/services/smarthome'  style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-4">
+                            {t('Smart Home System')}
+                            </h4></NavLink>
                           </div>
                         </div>
                         <div className="u-align-center u-container-style u-layout-cell u-right-cell u-size-29 u-white u-layout-cell-5">
@@ -199,10 +201,9 @@ export const Services = () => {
                                 </g>
                               </svg>
                             </span>
-                            <h4 className="u-custom-font u-heading-font u-text u-text-5">
-                              Installment
-                            </h4>
-                            <NavLink to='/services/installment'  style={{textDecoration: 'none', color: 'black'}}> read more</NavLink>
+                            <NavLink to='/services/installment'  style={{textDecoration: 'none', color: 'black'}}><h4 className="u-custom-font u-heading-font u-text u-text-5">
+                            {t('Installment')}
+                            </h4> </NavLink>
                           </div>
                         </div>
                       </div>
