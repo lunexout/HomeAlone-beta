@@ -27,7 +27,7 @@ export const SingleProduct = ({match}) => {
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
     const [isSpinner, setSpinner] = React.useState(false)
-    const [test, setTest] = React.useState()
+    // const setTest = {}
     useEffect(() => {
         window.scrollTo(0,0);
         setSpinner(true)
@@ -40,7 +40,7 @@ export const SingleProduct = ({match}) => {
             }else{
                 setSingleProd(result.data.product)
             }
-            setTest({name: result.data.product.name, description: result.data.product.description})
+            // setTest({name: result.data.product.name, description: result.data.product.description})
             axios.get(`${dataJSON.API_URL}api/getconcrettypeprod/${result.data.productType}`).then(r => {
                     r.data.map((item) => {
                         let newArr = item.products.map(item => {
