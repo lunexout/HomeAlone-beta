@@ -27,11 +27,20 @@ export const SingleProduct = ({match}) => {
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
     const [isSpinner, setSpinner] = React.useState(false)
+    const [test, setTest] = React.useState()
     useEffect(() => {
         window.scrollTo(0,0);
         setSpinner(true)
         axios.get(`${dataJSON.API_URL}api/getconcretprod/${match.params.id}`).then(result => {
-            setSingleProd(result.data.product);
+            // setSingleProd(result.data.product);
+            if(localStorage.getItem("lang") === "ru"){
+                setSingleProd({name: result.data.product.nameRU, description: result.data.product.descriptionRU, properties: result.data.product.propertiesRU, images:result.data.product.images, mainImage: result.data.product.mainImage})
+            }else if(localStorage.getItem("lang") === "ge"){
+                setSingleProd({name: result.data.product.nameGE, description: result.data.product.descriptionGE, properties: result.data.product.propertiesGE, images:result.data.product.images, mainImage: result.data.product.mainImage})
+            }else{
+                setSingleProd(result.data.product)
+            }
+            setTest({name: result.data.product.name, description: result.data.product.description})
             axios.get(`${dataJSON.API_URL}api/getconcrettypeprod/${result.data.productType}`).then(r => {
                     r.data.map((item) => {
                         let newArr = item.products.map(item => {
@@ -51,6 +60,7 @@ export const SingleProduct = ({match}) => {
     },[match.params.id])
     return (
         <>
+        {singleProd && console.log(singleProd)}
             {isSpinner ? (
                 <>
                     <div style={{height: '100vh',backgroundColor: '#20232A', display: 'flex', justifyContent: 'center', alignItems:'center', borderTop: '4px solid #32363E'}}>

@@ -16,7 +16,14 @@ export const Products = () => {
         setSpinner(true);
         axios.get(`${apiJSON.API_URL}api/getallprod`).then(r => {
             console.log(r.data)
-            setData(r.data)
+            // setData(r.data)
+            if(localStorage.getItem("lang") === "ru"){
+                setData(r.data.filter((item) => [item, item.name = item.nameRU, item.description = item.descriptionRU]))
+            }else if(localStorage.getItem("lang") === "en"){
+                setData(r.data)
+            }else(
+                setData(r.data.filter((item) => [item, item.name = item.nameGE, item.description = item.descriptionGE]))
+            )
             setSpinner(false);
         })
 
