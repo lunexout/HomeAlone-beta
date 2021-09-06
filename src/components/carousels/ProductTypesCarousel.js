@@ -7,19 +7,19 @@ import { useTranslation } from 'react-i18next';
 
 const options = {
   0: {
-      items: 2,
+      items: 2.5,
   },
   450: {
-      items: 2.95,
+      items: 2.5,
   },
   800: {
-      items: 4.85,
+      items: 4.5,
   },
   1200: {
-      items: 6,
+      items: 8,
   },
   1400: {
-      items: 7
+      items: 8
   }
 }
 

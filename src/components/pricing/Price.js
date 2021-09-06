@@ -38,6 +38,9 @@ export const Price = () => {
                         <li><span>1</span> Smart Door Lock</li>
                         <li><span>1</span> Water Leakage Sensor</li>
                         <li><span>1</span> Pipe Open/Close</li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
 
                       </ul>
                     </div>
@@ -65,7 +68,12 @@ export const Price = () => {
                         <li><span>1</span>Mixpad S Panel</li>
                         <li><span>1</span> Door/Window Sensor</li>
                         <li><span>1</span>temperaturi./Humadity Sensor</li>
-                        <li><span>1</span> Smart Door Lock T1</li>
+                        <li><span></span> Smart Door Lock T1</li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
+                        <li><span></span></li>
                       </ul>
                     </div>
                     <div className="generic_price_btn clearfix">

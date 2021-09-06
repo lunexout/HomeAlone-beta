@@ -16,74 +16,70 @@ import Pricing from './../pricing/Price'
 import { useTranslation } from 'react-i18next';
 import PartnerWith from "../partners/partnetwith";
 
-const ContentList = [
-  {
-    id: 1,
-    f1: `MIXPAD'S ALL-IN-ONE GATEWAY PANEL`,
-    f2: `ONE PANEL, ALL SMART`,
-    desc: `The powerful system hardware integrates the functions of different
-    devices. Convenient operation and excellent interaction make the home
-    life experience more natural and comfortable.`,
-    img: `http://homealone.ge/wp-content/uploads/2021/04/sec2_1-a63e90a5e2.jpg` 
-  },
-  {
-    id: 2,
-    f1: `HOME AI 3.0 FULL HOUSE`,
-    f2: `SMART HOME OPERATING SYSTEM`,
-    desc: `Brand-new UI design , efficient interactive and
-    AI voice assistant, creating a new humanized
-    smart home experience for users.`,
-    img: `http://homealone.ge/wp-content/uploads/2021/07/sec3-b79d0d06c8.png`
-  }
-]
 
-const RenderProductList = () => {
-  
-    return(
-      ContentList.map((el,i) => {
-        return(
-          <>
 
-            {i === 1 ? (
-              <>
-              <div style={{width: '100%', marginTop: 30, position:'relative', display:"flex",}}>
-              <p>
-                <span style={{position: 'absolute',top: "25%", left: '20%', transform: 'translate(-20%, -25%)',fontFamily: "Anton", color: '#fff'}} className='banner-font'>
-                Full house lighting
-                one-key control
-                </span>
-                <span style={{position: 'absolute', color: '#fff',top: "50%", left: '20%', transform: 'translate(-20%, -50%)', fontFamily: "Gowun Dodum",fontSize: 25}}>
-                One panel can control multiple lights, turn<br/>
-                off all lights with one button, and no need<br/>
-                to switch one by one.
-                </span>
-              </p>
-              <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 2}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png" alt=""/>
-              <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 1}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_active_1-b21b5a6d78.png" alt=""/>
-            </div>
-            <HeadingContent key={el.id} f1={el.f1} f2={el.f2} desc={el.desc} img={el.img}/>
-              </>
 
-            ) : (
-            <HeadingContent key={el.id} f1={el.f1} f2={el.f2} desc={el.desc} img={el.img}/>
-
-            )}
-          </>
-        )
-      })
-    )
-}
 
 export const Home = () => {
   const [spinner, setSpinner] = React.useState(false)
   const { t } = useTranslation();
+  const ContentList = [
+    {
+      id: 1,
+      f1: `${t('prodiskr2')}`,
+      f2: `${t('prodiskr3')}`,
+      desc: `${t('prodiskr4')}`,
+      img: `http://homealone.ge/wp-content/uploads/2021/04/sec2_1-a63e90a5e2.jpg` 
+    },
+    {
+      id: 2,
+      f1: `${t('prodiskr5')}`,
+      f2: `${t('prodiskr6')}`,
+      desc: `${t('prodiskr7')}`,
+      img: `http://homealone.ge/wp-content/uploads/2021/07/sec3-b79d0d06c8.png`
+    }
+  ]
   React.useEffect(() => {
     setSpinner(true);
     setTimeout(() => {
         setSpinner(false);
     }, 700)
 }, [])
+const RenderProductList = () => {
+  
+  return(
+    ContentList.map((el,i) => {
+      return(
+        <>
 
+          {i === 1 ? (
+            <>
+            <div style={{width: '100%', marginTop: 30, position:'relative', display:"flex",}}>
+            <p>
+              <span style={{position: 'absolute',top: "25%", left: '20%', transform: 'translate(-20%, -25%)',fontFamily: "Anton", color: '#fff'}} className='banner-font'>
+              {t('prodiskr8')}
+              </span>
+              <span style={{position: 'absolute', color: '#fff',top: "50%", left: '20%', transform: 'translate(-20%, -50%)', fontFamily: "Gowun Dodum",fontSize: 25}}>
+              {t('prodiskr9')}<br/>
+              {t('prodiskr10')}<br/>
+              {t('prodiskr11')}
+              </span>
+            </p>
+            <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 2}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png" alt=""/>
+            <img style={{maxWidth: '100%', width: '100%', height: 'auto', display:"flex",flex: 1}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_active_1-b21b5a6d78.png" alt=""/>
+          </div>
+          <HeadingContent key={el.id} f1={el.f1} f2={el.f2} desc={el.desc} img={el.img}/>
+            </>
+
+          ) : (
+          <HeadingContent key={el.id} f1={el.f1} f2={el.f2} desc={el.desc} img={el.img}/>
+
+          )}
+        </>
+      )
+    })
+  )
+}
   return (
     <>
     {spinner ? (
@@ -185,7 +181,7 @@ export const Home = () => {
   </div>
 </div>
       <div style={{width: '100%', marginTop: 30, position:'relative'}}>
-        <p style={{position: 'absolute', color: '#fff',top: 20, left: '50%', transform: 'translateX(-50%)',fontFamily: "Anton"}} className='banner-font'>One MixPad Mini is equal to many smart products</p>
+        <p style={{position: 'absolute', color: '#fff',top: 20, left: '50%', transform: 'translateX(-50%)',fontFamily: "Anton"}} className='banner-font'>{t('prodiskr1')}</p>
         <img style={{maxWidth: '100%', width: '100%', height: 'auto',}} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt=""/>
       </div>
       {/* <Gallery/> */}
@@ -202,11 +198,10 @@ export const Home = () => {
         <div style={{display: 'flex', justifyContent:'center', alignItems:'center',flexDirection:'column',
         width:'60%',backgroundColor:'lightgray'}}>
           <span style={{fontFamily: "Anton",fontSize:'5vmin'}}>
-          Before going out
-          One key operation
+          {t('prodiskr12')}
           </span>
           <p className='clean' style={{fontSize:'3vmin'}}>
-          Easy-to-operate interface.
+          {t('prodiskr13')}
           </p>
         </div>
         <div>
@@ -220,13 +215,10 @@ export const Home = () => {
         <div style={{display: 'flex', justifyContent:'center', alignItems:'center',flexDirection:'column',
         width:'60%',backgroundColor:'lightgray'}}>
           <span style={{fontFamily: "Anton",fontSize:'5vmin'}}>
-          Mobile APP remote
-          control outdoor
+          {t('prodiskr14')}
           </span>
           <p className='clean' style={{fontSize:'3vmin'}}>
-          In summer, turn on the air conditioner
-          remotely,Experience comfort
-          immediately when you arrive home.
+          {t('prodiskr15')}
           </p>
         </div>
       </div>
