@@ -14,9 +14,6 @@ export const HeadingContent = ({f1,f2,desc,img}) => {
             {desc}
             </p>
             <div className="boxx-1">
-            <div className="btn btn-one">
-                <span>READ MORE</span>
-            </div>
             </div>
         </div>
         <div style={{ marginTop: 10,marginBottom: 40 }}>
