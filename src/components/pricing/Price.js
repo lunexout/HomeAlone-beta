@@ -38,9 +38,9 @@ export const Price = () => {
                         <li><span>1</span> Smart Door Lock</li>
                         <li><span>1</span> Water Leakage Sensor</li>
                         <li><span>1</span> Pipe Open/Close</li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
+                        <li className="genericx"><span></span></li>
+                        <li className="genericx"><span></span></li>
+                        <li className="genericx"><span></span></li>
 
                       </ul>
                     </div>
@@ -65,15 +65,15 @@ export const Price = () => {
                     <div className="generic_feature_list">
                       <ul>
                         <li><span></span>Comfort Pack items</li>
-                        <li><span>1</span>Mixpad S Panel</li>
+                        <li><span>1</span> Mixpad S Panel</li>
                         <li><span>1</span> Door/Window Sensor</li>
-                        <li><span>1</span>temperaturi./Humadity Sensor</li>
+                        <li><span>1</span> temperaturi./Humadity Sensor</li>
                         <li><span></span> Smart Door Lock T1</li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
+                        <li><span className="genericx"></span></li>
+                        <li><span className="genericx"></span></li>
+                        <li><span className="genericx"></span></li>
+                        <li><span className="genericx"></span></li>
+                        <li><span className="genericx"></span></li>
                       </ul>
                     </div>
                     <div className="generic_price_btn clearfix">
@@ -97,13 +97,13 @@ export const Price = () => {
                     <div className="generic_feature_list">
                       <ul>
                       <li><span></span> Basic Pack Items</li>
-                        <li><span>1</span>Motion Sensor</li>
-                        <li><span>1</span>Zigbee Water Leakage Sensor</li>
-                        <li><span>1</span>Smart Curtain System</li>
-                        <li><span>1</span>Wi-Fi Router</li>
-                        <li><span>1</span>Speaker</li>
-                        <li><span>1</span>Intelligent Mini Music Player</li>
-                        <li><span>1</span>A/C controller</li>
+                        <li><span>1</span> Motion Sensor</li>
+                        <li><span>1</span> Zigbee Water Leakage Sensor</li>
+                        <li><span>1</span> Smart Curtain System</li>
+                        <li><span>1</span> Wi-Fi Router</li>
+                        <li><span>1</span> Speaker</li>
+                        <li><span>1</span> Intelligent Mini Music Player</li>
+                        <li><span>1</span> A/C controller</li>
                       </ul>
                     </div>
                     <div className="generic_price_btn clearfix">
