@@ -318,9 +318,9 @@
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
 
-#generic_price_table .generic_content .generic_feature_list ul .genericx {
+.genericx {
   background-color: #ffffff !important;
-  border-left: 0px solid #ffffff !important;
+  border-left: 0px solid hsl(0, 0%, 100%) !important;
 }
 
 #generic_price_table .generic_content .generic_feature_list ul li .fa {

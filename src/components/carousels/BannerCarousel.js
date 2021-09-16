@@ -6,16 +6,27 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
-import BACKVIDEO from '../../videos/backvideo.mp4'
-
+//import BACKVIDEO from '../../videos/backvideo.mp4';
+import engvideo from '../../videos/eng full.mp4';
+import geovideo from '../../videos/geo full.mp4';
+import ruvideo from '../../videos/ru full.mp4';
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 SwiperCore.use([Pagination, Navigation]);
 
 
 export const BannerCarousel = () => {
+  let bckVideo;
+  if(localStorage.getItem('lang') === 'ru'){
+    bckVideo = ruvideo
+  }else if(localStorage.getItem('lang') === 'ge'){
+    bckVideo = geovideo
+  }else {
+    bckVideo = engvideo
+  }
   const Banners = [
-    {id:1,img: BACKVIDEO, name: 'banner1'},
+    
+    {id:1,img: bckVideo, name: 'banner1'},
     // {id:2,img: 'https://homealone.ge/wp-content/uploads/2021/02/1.jpg', name: 'banner2'},
     // {id:3,img: 'http://www.homealone.ge/wp-content/uploads/2021/02/5.jpg', name: 'banner3'},
   ]
