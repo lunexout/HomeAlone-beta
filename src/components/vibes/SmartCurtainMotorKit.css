@@ -1,0 +1,185 @@
+.sec1 h1 {
+  font-size: 48px;
+  color: #2f2f2f;
+  line-height: 48px;
+  padding-top: 250px;
+  font-weight: 400;
+}
+
+.more, .sec1, .sec10, .sec11 .fix, .sec12, .sec13, .sec13 h2, .sec15 .container .pic, .sec15 .container h2, .sec15 .container > p, .sec15 .link, .sec15 .table table, .sec2 .block1, .sec2 .block1 .view_container .item .text, .sec2 .block1 .view_port, .sec2 .block2, .sec2 .block2 .pics .item, .sec3, .sec4 .block1, .sec5 h2, .sec8 .container, .sec9, .sec_add1, .sec_add2, .sec_add2 .container p {
+  text-align: center;
+}
+.sec1, .sec2 .block1 {
+  width: 100%;
+  text-align: center;
+}
+
+.ffandie, html {
+  font-family: "PingFang SC", Helvetica, "Microsoft YaHei";
+}
+.sec1 p {
+  font-size: 22px;
+  color: #2f2f2f;
+  margin-top: 16px;
+  line-height: 30px;
+}
+
+.sec1 {
+  height: 800px;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/bg1-c37e179b4b.jpg) center no-repeat;
+}
+
+.sec2 .block1 > h2 {
+  font-size: 36px;
+  color: #2f2f2f;
+  padding-top: 68px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.sec2 .block1 > p {
+  font-size: 16px;
+  color: #2f2f2f;
+}
+.sec2 .block1 .pic {
+  width: 490px;
+  height: 86px;
+  margin: 12px auto 0;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/add_icon1-810bfb3511.png) center no-repeat;
+}
+
+.sec2 .block1 .view_port {
+  height: 56px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.sec2 .block1 .view_port .content {
+  width: auto;
+  position: relative;
+  animation: mymove 6s infinite;
+  -webkit-animation: mymove 6s infinite;
+  -moz-animation: mymove 6s infinite;
+  -o-animation: mymove 6s infinite;
+}
+.sec2 .block1 .view_port .content h2 {
+  font-size: 36px;
+  color: #2f2f2f;
+  font-weight: 400;
+  line-height: 56px;
+}
+.sec2 .block1 .view_container {
+  padding-bottom: 14;
+}
+.clear:after {
+  display: block;
+  clear: both;
+  content: "\0020";
+  height: 0;
+}
+.apply_dialog .isnotNeed, .clear:after {
+  visibility: hidden;
+}
+.sec2 .block1 .view_container .item {
+  width: 32%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-left: 1%;
+}
+.sec_add1 {
+  height: 770px;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/bg16-dbbf26ed41.jpg) center no-repeat;
+}
+.sec_add1 h2 {
+  font-size: 36px;
+  color: #2f2f2f;
+  padding-top: 68px;
+  font-weight: 400;
+}
+.sec_add1 p {
+  font-size: 18px;
+  color: #2f2f2f;
+  margin-top: 22px;
+}
+.sec3 {
+  height: 933px;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/add_bg1-192403559e.jpg) center no-repeat;
+  width: 100%;
+}
+.sec3 h2 {
+  color: #2f2f2f;
+  font-weight: 400;
+}
+.sec3 h2, .sec4 .block1 h2 {
+  font-size: 36px;
+  padding-top: 70px;
+}
+.sec5 {
+  height: 889px;
+  width: 100%;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/bg6-e2aa851da4.jpg) center bottom no-repeat #fff;
+}
+.sec5 .container {
+  width: 1188px;
+  margin: 0 auto;
+}
+.sec5 h2 {
+  font-size: 42px;
+  color: #2f2f2f;
+  font-weight: 400;
+  padding-top: 62px;
+}
+.sec5 .container .right {
+  padding-top: 296px;
+  margin-left: 712px;
+}
+.sec5 .container .right .title {
+  font-size: 36px;
+  color: #fff;
+}
+.sec5 .container .right .txt {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+}
+.sec6 {
+  height: 701px;
+  width: 100%;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/bg7-ebf6417399.jpg) center no-repeat;
+}
+.sec6 .container {
+  width: 1188px;
+  margin: 0 auto;
+  padding-top: 330px;
+  position: relative;
+}
+.sec6 .container .icon1 {
+  margin-left: 540px;
+}
+.sec6 .container .icon {
+  width: 48px;
+  height: 14px;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/chuanglian/arrow-59c2288d12.png) center no-repeat;
+  animation: move 1.6s infinite linear;
+}
+.sec6 .container .icon2 {
+  margin-left: 450px;
+  margin-top: 54px;
+}
+.sec6 .container .text {
+  position: absolute;
+  width: 400px;
+  top: 330px;
+  left: 786px;
+}
+.sec6 .container .text .title {
+  font-size: 36px;
+  color: #2f2f2f;
+}
+.sec6 .container .text .txt {
+  font-size: 16px;
+  color: #2f2f2f;
+  margin-top: 26px;
+}

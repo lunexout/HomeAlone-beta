@@ -1,0 +1,284 @@
+.clear:after {
+	visibility: hidden
+}
+
+.clear:after {
+	display: block;
+	clear: both;
+	content: '\0020';
+	height: 0
+}
+
+
+.clear:after {
+	visibility: hidden
+}
+
+.clear:after {
+	display: block;
+	clear: both;
+	content: '\0020';
+	height: 0
+}
+
+
+.im_sec2 .bg .shadow,
+.im_sec2 .shadow_bg,
+.im_sec_1 p,
+.im_sec_4,
+.im_sec_4 .cont,
+.im_sec_4 .tit,
+.im_sec_5,
+.im_sec_5 .cont,
+.im_sec_5 .tit,
+.im_sec_6 .content ul li p,
+.im_sec_6>p {
+	text-align: center
+}
+
+.im_sec2,
+.im_sec_1 {
+	width: 100%
+}
+
+.im_sec2,
+.im_sec_4,
+.im_sec_5 {
+	overflow: hidden
+}
+
+.im_sec_1 {
+	background: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_01-2a90b1ca2a.jpg) center no-repeat;
+	height: 800px
+}
+
+.im_sec2,
+.im_sec2 .bg {
+	height: 960px;
+	position: relative
+}
+
+.im_sec_1 p {
+	font-size: 42px;
+	color: #333;
+	margin-bottom: 57px;
+	padding-top: 178px
+}
+
+.im_sec2 .bg {
+	width: 25%;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: grayscale(1);
+	cursor: pointer
+}
+
+.im_sec2 .bg .shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .3)
+}
+
+.im_sec2 .bg p {
+	padding-top: 450px;
+	color: #fff;
+	font-size: 24px
+}
+
+.im_sec2 .shadow_bg {
+	background: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/b_shadow_03-0d1575e969.png) no-repeat;
+	width: 1181px;
+	position: absolute;
+	left: 19.27%;
+	height: 74px;
+	top: 42px;
+	z-index: 10;
+	line-height: 74px;
+	font-size: 30px;
+	color: #fff
+}
+
+.im_sec2 .bg1 {
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_02-6c437be287.jpg)
+}
+
+.im_sec2 .bg2 {
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_03-2e9489d0f0.jpg)
+}
+
+.im_sec2 .bg3 {
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_05-d74a3d0dbe.jpg)
+}
+
+.im_sec2 .bg4 {
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_04-4a18dbd581.jpg)
+}
+
+.im_sec3 {
+	width: 100%;
+	height: 722px;
+	background-color: #fff;
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_06_03-0ea850aa3a.jpg);
+	background-position: right center;
+	background-repeat: no-repeat
+}
+
+.im_sec3 .content {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	text-align: left
+}
+
+.im_sec3 .content .f_p {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 60px;
+	padding-top: 226px
+}
+
+.im_sec3 .content .s_p {
+	font-size: 16px;
+	color: #494949
+}
+
+.im_sec3 .content .pop {
+	position: absolute;
+	color: #fff;
+	font-size: 18px;
+	opacity: 0
+}
+
+.im_sec3 .content .pop1 {
+	background: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/popg_03-f8900cf10c.png) no-repeat;
+	width: 323px;
+	height: 147px;
+	right: 400px;
+	top: 420px
+}
+
+.im_sec3 .content .pop1 p {
+	line-height: 127px;
+	padding-left: 56px
+}
+
+.im_sec3 .content .pop2 {
+	background: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/popb_07-70c197d001.png) no-repeat;
+	width: 441px;
+	height: 147px;
+	right: 380px;
+	top: 560px
+}
+
+.im_sec3 .content .pop2 p {
+	line-height: 127px;
+	padding-left: 64px
+}
+
+.im_sec_4 {
+	background: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_07-58b6170274.jpg) center no-repeat;
+	width: 100%;
+	height: 960px
+}
+
+.im_sec_4 .tit {
+	font-size: 36px;
+	color: #fff;
+	padding-top: 76px;
+	margin-bottom: 45px
+}
+
+.im_sec_4 .cont {
+	font-size: 16px;
+	color: #fff;
+	margin: 0 auto 161px;
+	width: 688px
+}
+
+.im_sec_4 img {
+	opacity: 0
+}
+
+.im_sec_5 {
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/bg_08-4f33127de9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 958px
+}
+
+.im_sec_5 .tit {
+	font-size: 36px;
+	color: #fff;
+	padding-top: 76px;
+	margin-bottom: 45px
+}
+
+.im_sec_5 .cont {
+	font-size: 16px;
+	color: #fff;
+	margin: 0 auto 215px;
+	width: 688px
+}
+
+.im_sec_5 img {
+	opacity: 0
+}
+
+.im_sec_6 {
+	width: 100%;
+	height: auto;
+	padding: 120px 0 100px
+}
+
+.im_sec_6>p {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 150px
+}
+
+.im_sec_6 .content {
+	width: 1180px;
+	height: auto;
+	margin: 0 auto
+}
+
+.im_sec_6 .content ul li {
+	float: left;
+	width: 250px;
+	margin-right: 60px
+}
+
+.im_sec_6 .content ul li .icon {
+	width: 146px;
+	height: 146px;
+	margin: 0 auto 15px;
+	border-radius: 50%;
+	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/icons_01-24f91b86d8.png)
+}
+
+.im_sec_6 .content ul li p {
+	font-size: 18px;
+	color: #333
+}
+
+.im_sec_6 .content ul li .icon1 {
+	background-position: 0 -292px
+}
+
+.im_sec_6 .content ul li .icon2 {
+	background-position: 0 -438px
+}
+
+.im_sec_6 .content ul li .icon3 {
+	background-position: 0 0
+}
+
+.im_sec_6 .content ul li .icon4 {
+	background-position: 0 -146px
+}

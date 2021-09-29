@@ -1,0 +1,23 @@
+@media screen and (min-width:1760px) {
+	.thismedia {
+		font-size: 100px
+	}
+}
+
+@media (min-width:1360px) and (max-width:1760px) {
+	.thismedia {
+		font-size: calc((100vw - 160px)/ 16)
+	}
+}
+
+@media screen and (max-width:1360px) {
+	.thismedia {
+		font-size: 75px
+	}
+}
+
+@media screen and (min-width:1920px) {
+	.thismedia {
+		font-size: calc(83.34vw / 16)
+	}
+}

@@ -1,0 +1,280 @@
+.downlight .sec__title{
+  font-size:.48rem;
+  line-height:.76rem
+}
+.downlight .sec__desc{
+  margin-top:.24rem;
+  font-size:.24rem;
+  line-height:.38rem
+}
+.downlight .led__banner{
+  position:relative;
+  height:8.02rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/downlight/banner-c162e1faa9.png);
+  padding-top:2.27rem;
+  padding-left:2.99rem
+}
+.downlight .led__banner .sec__subtitle{
+  text-align:left;
+  font-size:.3rem;
+  font-family:PingFang SC;
+  font-weight:400;
+  line-height:.42rem;
+  color:#111
+}
+.downlight .led__banner .sec__title{
+  text-align:left;
+  font-size:.62rem;
+  font-family:PingFang SC;
+  font-weight:800;
+  line-height:.86rem;
+  color:rgba(17,17,17,.9)
+}
+.downlight .led__banner .banner__info{
+  margin-top:.98rem;
+  width:5.69rem;
+  height:1.52rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/downlight/banner_content-f8339d8a44.png)
+}
+.downlight .led__sec1{
+  height:15.55rem;
+  padding-top:1.06rem
+}
+.downlight .led__sec1 .sec__desc{
+  margin-top:.24rem
+}
+.downlight .led__sec1 .sec1__content{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:.76rem;
+  width:16rem
+}
+.downlight .led__sec1 .sec1__item{
+  margin-right:.4rem;
+  margin-bottom:.4rem;
+  width:7.8rem;
+  height:4.7rem
+}
+.downlight .led__sec1 .sec1__item:nth-child(even){
+  margin-right:0
+}
+.downlight .led__sec2{
+  height:26.02rem;
+  padding-top:1.06rem;
+  background-color:#F8F8F8
+}
+.downlight .led__sec2 .sec2__content{
+  display:flex;
+  flex-direction:column;
+  margin-top:.96rem;
+  width:14rem
+}
+.downlight .led__sec2 .sec2__item{
+  margin-bottom:1.1rem
+}
+.downlight .led__sec2 .sec2__item:last-of-type{
+  margin-bottom:0
+}
+.downlight .led__sec2 .item__img{
+  width:100%;
+  height:8.38rem
+}
+.downlight .led__sec2 .item__title{
+  margin-top:.38rem;
+  font-size:.36rem;
+  font-family:PingFang SC;
+  font-weight:800;
+  line-height:.5rem;
+  color:#111
+}
+.downlight .led__sec2 .item__desc{
+  margin-top:.18rem;
+  font-size:.24rem;
+  font-family:PingFang SC;
+  font-weight:400;
+  line-height:.38rem;
+  color:#111
+}
+.downlight .led__sec3 .item__desc,.downlight .led__sec4 .item__desc,.downlight .led__sec8 .img__item{
+  text-align:center;
+  font-family:PingFang SC;
+  font-weight:800;
+  color:#111
+}
+.downlight .led__sec3{
+  height:14.99rem;
+  padding-top:1.06rem;
+  background-color:#eee
+}
+.downlight .led__sec3 .sec__desc{
+  margin-top:.24rem
+}
+.downlight .led__sec3 .sec3__content{
+  display:flex;
+  justify-content:center;
+  margin-top:.93rem;
+  width:100%
+}
+.downlight .led__sec3 .sec3__item{
+  margin-right:.09rem
+}
+.downlight .led__sec3 .sec3__item:last-of-type{
+  margin-right:0
+}
+.downlight .led__sec3 .item__img{
+  width:8.11rem;
+  height:7.32rem
+}
+.downlight .led__sec3 .item__desc{
+  margin-top:.78rem;
+  font-size:.24rem;
+  line-height:.38rem
+}
+.downlight .led__sec4{
+  height:11.32rem;
+  padding-top:.86rem
+}
+.downlight .led__sec4 .sec3__content{
+  display:flex;
+  justify-content:center;
+  margin-top:.76rem;
+  width:100%
+}
+.downlight .led__sec4 .sec3__item{
+  margin-right:.4rem
+}
+.downlight .led__sec4 .sec3__item:last-of-type{
+  margin-right:0
+}
+.downlight .led__sec4 .item__img{
+  width:7.8rem;
+  height:5.11rem
+}
+.downlight .led__sec4 .item__desc{
+  margin-top:.4rem;
+  font-size:.3rem;
+  line-height:.42rem
+}
+.downlight .led__sec5 .sec__desc,.downlight .led__sec7 .sec__desc{
+  margin-top:.2rem
+}
+.downlight .led__sec5{
+  height:11.92rem;
+  padding-top:1.23rem
+}
+.downlight .led__sec6{
+  height:18.27rem;
+  padding-top:1.2rem
+}
+.downlight .led__sec6 .sec6__bg{
+  position:absolute;
+  left:50%;
+  bottom:1.77rem;
+  transform:translate(-50%,0);
+  width:12.04rem;
+  height:3.83rem
+}
+.downlight .led__sec7{
+  height:15.1rem;
+  padding-top:.81rem;
+  background-color:#F3F3F3
+}
+.downlight .led__sec7 .sec__title{
+  font-size:.54rem
+}
+.downlight .led__sec7 .sec7__logo{
+  width:1.05rem;
+  height:1.49rem
+}
+.downlight .led__sec7 .sec7__content{
+  margin-top:.4rem
+}
+.downlight .led__sec7 .sec7__bg{
+  margin-top:.2rem;
+  width:11.47rem;
+  height:9.22rem
+}
+.downlight .led__sec8{
+  height:13.49rem;
+  padding-top:.91rem
+}
+.downlight .led__sec8 .sec__desc{
+  margin-top:.18rem
+}
+.downlight .led__sec8 .sec8__bg{
+  width:14.01rem;
+  height:8rem;
+  margin-top:.65rem
+}
+.downlight .led__sec8 .img__desc{
+  display:flex;
+  margin-top:.55rem
+}
+.downlight .led__sec8 .img__item{
+  flex:1;
+  height:.32rem;
+  font-size:.24rem;
+  line-height:.32rem
+}
+.downlight .led__sec9{
+  height:13.71rem;
+  padding-top:1.06rem
+}
+.downlight .led__sec9 .sec__title{
+  color:#fff
+}
+.downlight .led__sec9 .sec__desc{
+  margin-top:.3rem;
+  color:#fff
+}
+.downlight .led__sec10{
+  height:9.78rem;
+  padding-top:1.47rem
+}
+.downlight .led__sec10 .sec__title{
+  font-size:.54rem
+}
+.downlight .led__sec10 .sec__desc{
+  margin-top:.2rem
+}
+.downlight .led__sec10 .note__list{
+  display:flex;
+  justify-content:center;
+  margin-top:1.06rem;
+  width:100%
+}
+.downlight .led__sec10 .note__item{
+  margin-right:.22rem;
+  width:3.49rem;
+  height:3.8rem
+}
+.downlight .led__sec10 .note__item:last-of-type{
+  margin-right:0
+}
+.sec__desc,.sec__title{
+  font-family:PingFang SC;
+  text-align:center;
+  color:#2F2F2F
+}
+.d__sec{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  box-sizing:border-box
+}
+.s__bg{
+  background-repeat:no-repeat;
+  background-size:cover
+}
+.sec__title{
+  font-size:.36rem;
+  font-weight:800;
+  line-height:.48rem
+}
+.sec__desc{
+  font-size:.16rem;
+  font-weight:400;
+  line-height:.24rem
+}
+

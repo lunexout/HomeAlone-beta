@@ -1,0 +1,339 @@
+.clear:after {
+  visibility: hidden;
+}
+.clear:after {
+  display: block;
+  clear: both;
+  content: "\0020";
+  height: 0;
+}
+.getTop {
+  display: none;
+  cursor: pointer;
+  background: url(https://static.orvibo.com/guanwang_second/front/images/2020/footer/getTop-39af3f63e1.png)
+    center/contain no-repeat;
+  width: 68px;
+  height: 68px;
+  opacity: 0.6;
+  text-align: center;
+}
+.getTop img {
+  z-index: 9999;
+  width: 17px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 21px;
+}
+.getTop:hover {
+  opacity: 1;
+}
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  z-index: 900;
+}
+
+.temp_sec_1 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_01-dcee45720f.jpg)
+    center no-repeat;
+}
+.temp_sec_1 .fp_content {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  top: 330px;
+  left: 19.27%;
+  text-align: left;
+}
+.temp_sec_1 .fp_content p {
+  font-size: 18px;
+  color: #888;
+}
+.temp_sec_1 .fp_content p.tit {
+  font-size: 44px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.temp_sec2 {
+  width: 100%;
+  height: 960px;
+  overflow: hidden;
+  position: relative;
+}
+.temp_sec2 .bg_shadow {
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/b_shadow_03-8b2699d3a5.png)
+    no-repeat;
+  width: 1181px;
+  position: absolute;
+  left: 19.27%;
+  height: 74px;
+  top: 42px;
+  z-index: 10;
+  text-align: center;
+  line-height: 74px;
+  font-size: 30px;
+  color: #fff;
+}
+.temp_sec2 .bg {
+  width: 25%;
+  float: left;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  height: 960px;
+  position: relative;
+  filter: grayscale(1);
+  cursor: pointer;
+  background-position: center;
+}
+.temp_sec2 .bg .shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+.temp_sec2 .bg .shadow p {
+  padding-top: 450px;
+  color: #fff;
+  font-size: 24px;
+}
+.temp_sec2 .temp_sec2_bg1 {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_02-1a3eab1158.jpg);
+}
+.temp_sec2 .temp_sec2_bg2 {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_03-3440115ed4.jpg);
+}
+.temp_sec2 .temp_sec2_bg3 {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_04-b58e9543e6.jpg);
+}
+.temp_sec2 .temp_sec2_bg4 {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_05-a638717ed7.jpg);
+}
+.temp_sec3 {
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_07-4614c17434.jpg)
+    no-repeat;
+  height: 831px;
+  padding-top: 120px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.temp_sec3 > p {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 60px;
+}
+.temp_sec3 .logos {
+  margin: 0 auto;
+  width: 587px;
+}
+.temp_sec3 .logos ul li {
+  float: left;
+  margin-right: 100px;
+  width: 129px;
+  text-align: center;
+}
+.temp_sec3 .logos ul li .icon {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/icons-02da78392f.png);
+  margin: 0 auto 20px;
+}
+.temp_sec3 .logos ul li .icon1 {
+  background-position: 0 0;
+  width: 61px;
+  height: 82px;
+}
+.temp_sec3 .logos ul li .icon2 {
+  background-position: -84px -82px;
+  width: 77px;
+  height: 75px;
+  margin-bottom: 27px;
+}
+.temp_sec3 .logos ul li .icon3 {
+  background-position: -168px -157px;
+  width: 84px;
+  height: 82px;
+}
+.temp_sec4 {
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_03-9a58dabb92.jpg)
+    center no-repeat;
+  width: 100%;
+  height: 959px;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.temp_sec4 .tit,
+.temp_sec5 .tit,
+.temp_sec6 .tit {
+  font-size: 36px;
+  padding-top: 75px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.temp_sec4 .cont,
+.temp_sec5 .cont {
+  font-size: 16px;
+  text-align: center;
+}
+.temp_sec4 #iphone6_1 {
+  position: absolute;
+  left: 58.33333333%;
+  top: 250px;
+  opacity: 0;
+}
+.temp_sec5 {
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_04-f096072e1b.jpg)
+    center no-repeat;
+  width: 100%;
+  height: 959px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.temp_sec5 .tit {
+  font-size: 36px;
+  padding-top: 75px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.temp_sec5 .cont {
+  font-size: 16px;
+  text-align: center;
+}
+.temp_sec5 #iphone6_2 {
+  position: absolute;
+  left: 40.625%;
+  top: 369px;
+}
+.temp_sec6 {
+  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_06-aec4abf3b7.jpg)
+    center no-repeat;
+  width: 100%;
+  height: 960px;
+}
+.temp_sec6 .tit {
+  margin-bottom: 55px;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
+.temp_sec6 .temp_sec6_left {
+  float: left;
+  width: 50%;
+  position: relative;
+  text-align: left;
+}
+.temp_sec6 .temp_sec6_left p {
+  width: 556px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #c3a984;
+  padding-left: 14.21875%;
+}
+.temp_sec6 .temp_sec6_left .app_show {
+  position: absolute;
+  top: 108px;
+  right: -10px;
+  opacity: 0;
+}
+.temp_sec6 .temp_sec6_left .ani_img {
+  position: relative;
+  width: 182px;
+  height: 182px;
+  margin-left: 40%;
+  margin-top: 350px;
+}
+.temp_sec6 .temp_sec6_left .ani_img img {
+  position: absolute;
+}
+.temp_sec6 .temp_sec6_left .ani_img img.pro {
+  z-index: 10;
+}
+.temp_sec6 .temp_sec6_right {
+  float: left;
+  width: 50%;
+  position: relative;
+  text-align: right;
+}
+.temp_sec6 .temp_sec6_right p {
+  padding-right: 14.21875%;
+  width: 556px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #60bcee;
+}
+.temp_sec6 .temp_sec6_right .app_show {
+  position: absolute;
+  top: 108px;
+  left: -10px;
+  opacity: 0;
+}
+.temp_sec6 .temp_sec6_right .ani_img {
+  position: relative;
+  width: 182px;
+  height: 182px;
+  margin-right: 25%;
+  margin-top: 90px;
+  float: right;
+}
+.temp_sec6 .temp_sec6_right .ani_img img {
+  position: absolute;
+}
+.temp_sec6 .temp_sec6_right .ani_img img.pro {
+  z-index: 10;
+}
+.temp_sec7 {
+  background: #fdfdfd;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 240px;
+}
+.temp_sec7 > p {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 175px;
+}
+.temp_sec7 .content {
+  width: 1280px;
+  height: auto;
+  margin: 20px auto;
+}
+.temp_sec7 .content ul li {
+  float: left;
+  width: 270px;
+  margin-right: 67px;
+}
+.temp_sec7 .content ul li div {
+  width: 146px;
+  height: 146px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+}
+.temp_sec7 .content ul li div.icon {
+  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/icons_01-0d21e0242b.png);
+}
+.temp_sec7 .content ul li div.icon1 {
+  background-position: 0 -292px;
+}
+.temp_sec7 .content ul li div.icon2 {
+  background-position: 0 -438px;
+}
+.temp_sec7 .content ul li div.icon3 {
+  background-position: 0 0;
+}
+.temp_sec7 .content ul li div.icon4 {
+  background-position: 0 -146px;
+}
+.temp_sec7 .content ul li p {
+  font-size: 18px;
+  text-align: center;
+}

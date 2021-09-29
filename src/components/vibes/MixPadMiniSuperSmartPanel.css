@@ -1,0 +1,909 @@
+.mixpadMiniPage .banner,.mixpadMiniPage .bg,.mixpadMiniPage .sec,.mixpadMiniPage .sec2{
+  background-position:center;
+  background-size:cover
+}
+.mixpadMiniPage{
+  background-color:#000
+}
+.mixpadMiniPage .title{
+  font-size:.48rem;
+  line-height:.67rem;
+  font-weight:800;
+  color:#fff;
+  text-align:center
+}
+.mixpadMiniPage .desc{
+  font-size:.24rem;
+  font-weight:500;
+  color:#fff;
+  text-align:center;
+  line-height:.38rem
+}
+.mixpadMiniPage .f36{
+  font-size:.36rem;
+  font-weight:500;
+  line-height:.5rem;
+  color:#fff
+}
+.mixpadMiniPage .f59{
+  font-family:PingFang SC;
+  font-size:.59rem;
+  font-weight:800;
+  line-height:.87rem;
+  color:#fff
+}
+.mixpadMiniPage .f20{
+  font-family:PingFang SC;
+  font-size:.2rem;
+  font-weight:500;
+  line-height:.28rem;
+  color:#fff
+}
+.mixpadMiniPage .bg,.mixpadMiniPage .sec{
+  background-repeat:no-repeat
+}
+.mixpadMiniPage .banner{
+  position:relative;
+  height:10.8rem;
+  width:100%;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/banner-b2c3965395.jpg)
+}
+.mixpadMiniPage .banner .f36{
+  letter-spacing:.01rem
+}
+.mixpadMiniPage .banner .text{
+  position:absolute;
+  top:2.53rem;
+  left:2.66rem
+}
+.mixpadMiniPage .banner .text .bannerImg{
+  margin-top:2.63rem
+}
+.mixpadMiniPage .banner .text .f59{
+  margin-top:.09rem
+}
+.mixpadMiniPage .banner .text .logo{
+  margin-top:.54rem
+}
+.mixpadMiniPage .banner .text .logo .img1{
+  width:1rem;
+  height:.51rem;
+  vertical-align:bottom
+}
+.mixpadMiniPage .banner .text .logo .img2{
+  width:1.18rem;
+  height:.63rem;
+  margin-left:.36rem
+}
+.mixpadMiniPage .sec1{
+  position:relative;
+  height:8.64rem;
+  padding-top:1.13rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec1-fa9ae635db.png)
+}
+.mixpadMiniPage .sec1 .title{
+  color:#111
+}
+.mixpadMiniPage .sec1 .desc{
+  margin-top:.3rem;
+  color:#111
+}
+.mixpadMiniPage .sec1 .videoWrapper{
+  position:absolute;
+  top:4.11rem;
+  left:50%;
+  margin-left:-4.83rem;
+  width:2.09rem;
+  height:2.01rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec1_mask-a1797f89d3.png);
+  background-size:cover;
+  z-index:1;
+  opacity:.3
+}
+.mixpadMiniPage .sec1 .video{
+  position:absolute;
+  top:4.02rem;
+  left:50%;
+  margin-left:-4.93rem;
+  width:2.19rem;
+  height:2.17rem
+}
+.mixpadMiniPage .sec2{
+  height:11.52rem;
+  padding-top:1.13rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png)
+}
+.mixpadMiniPage .sec2 .desc{
+  margin-top:.3rem;
+  letter-spacing:.01rem
+}
+.mixpadMiniPage .sec3{
+  height:9.28rem;
+  position:relative;
+  overflow:hidden;
+  margin-left:auto;
+  margin-right:auto
+}
+.mixpadMiniPage .sec3 .mask{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1;
+  background-color:rgba(0,0,0,.2)
+}
+.mixpadMiniPage .sec3 video{
+  position:absolute;
+  height:9.28rem;
+  width:19.2rem;
+  top:0;
+  left:50%;
+  transform:translateX(-50%)
+}
+.mixpadMiniPage .sec3 .video img,.mixpadMiniPage .sec3 .video span{
+  cursor:pointer
+}
+.mixpadMiniPage .sec3 .content{
+  position:absolute;
+  top:3.5rem;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:1
+}
+.mixpadMiniPage .sec3 .video{
+  margin-top:.4rem;
+  text-align:center;
+  color:#fff
+}
+.mixpadMiniPage .sec3 .video img{
+  width:.27rem;
+  height:.26rem;
+  margin-left:.11rem
+}
+.mixpadMiniPage .sec4{
+  height:2.5rem;
+  background-color:#fff;
+  padding-top:.91rem
+}
+.mixpadMiniPage .sec4 .title{
+  color:#111;
+  font-size:.48rem;
+  font-weight:800
+}
+.mixpadMiniPage .sec4_1{
+  display:flex
+}
+.mixpadMiniPage .sec4_1 .left{
+  width:13.05rem;
+  height:9.6rem;
+  position:relative;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png);
+  background-size:cover
+}
+.mixpadMiniPage .sec4_1 .left img{
+  position:absolute;
+  height:100%;
+  top:0;
+  left:0;
+  opacity:0
+}
+.mixpadMiniPage .sec4_1 .left .img1{
+  transition:opacity 2s ease-in
+}
+.mixpadMiniPage .sec4_1 .left img.active{
+  opacity:1
+}
+.mixpadMiniPage .sec4_1 .left .content{
+  position:absolute;
+  z-index:1;
+  top:3.19rem;
+  left:5.28rem
+}
+.mixpadMiniPage .sec4_1 .left .title{
+  text-align:left;
+  font-size:.42rem
+}
+.mixpadMiniPage .sec4_1 .left .desc{
+  text-align:left;
+  margin-top:.3rem
+}
+.mixpadMiniPage .sec4_1 .right{
+  width:6.14rem;
+  height:9.6rem;
+  position:relative;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_active_1-b21b5a6d78.png);
+  background-size:cover
+}
+.mixpadMiniPage .sec4_1 .right .right_1{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_1-19f833d153.png);
+  background-size:cover;
+  z-index:2;
+  opacity:1
+}
+.mixpadMiniPage .sec4_1 .right .videoWrapper{
+  position:absolute;
+  top:2.6rem;
+  left:1.47rem;
+  width:2.62rem;
+  height:2.86rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/r_active_mask-ddda100613.png);
+  background-size:cover;
+  z-index:1;
+  opacity:.3
+}
+.mixpadMiniPage .sec4_1 .right .video{
+  position:absolute;
+  top:2.88rem;
+  left:1.63rem;
+  width:2.3rem;
+  height:2.3rem
+}
+.mixpadMiniPage .toast{
+  position:absolute;
+  left:50%;
+  height:.43rem;
+  background-color:#ffae00;
+  font-size:.18rem;
+  color:#fff;
+  text-align:center;
+  line-height:.43rem;
+  border-radius:.27rem
+}
+.mixpadMiniPage .sec4_2{
+  height:9.6rem;
+  overflow:hidden;
+  position:relative
+}
+.mixpadMiniPage .sec4_2 video{
+  position:absolute;
+  height:9.6rem;
+  width:19.2rem;
+  top:0;
+  left:50%;
+  transform:translateX(-50%)
+}
+.mixpadMiniPage .sec4_2 .mask{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1;
+  background-color:rgba(0,0,0,.15)
+}
+.mixpadMiniPage .sec4_2 .content{
+  padding-top:3.92rem;
+  padding-left:3.34rem
+}
+.mixpadMiniPage .sec4_2 .title{
+  text-align:left
+}
+.mixpadMiniPage .sec4_2 .desc{
+  margin-top:.34rem;
+  text-align:left
+}
+.mixpadMiniPage .sec4_2 .toast1{
+  top:3.18rem;
+  margin-left:.18rem;
+  width:1.61rem;
+  border-bottom-left-radius:0
+}
+.mixpadMiniPage .sec4_2 .toast2{
+  top:3.61rem;
+  left:11.89rem;
+  width:.92rem;
+  border-bottom-right-radius:0
+}
+.mixpadMiniPage .sec4_4{
+  height:9.6rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec4_4-e8ace2e1bd.png);
+  background-size:cover;
+  padding-top:1.25rem;
+  position:relative;
+  top:-3px
+}
+.mixpadMiniPage .sec4_4 .desc{
+  margin-top:.3rem
+}
+.mixpadMiniPage .sec4_4 .temperature{
+  opacity:0;
+  transition:opacity .3s ease-in-out;
+  position:absolute;
+  top:4.26rem;
+  left:50%;
+  width:1.74rem;
+  height:1.29rem;
+  margin-left:3.84rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/tembg-52e22a4881.png);
+  background-size:cover;
+  color:#fff
+}
+.mixpadMiniPage .sec4_4 .temperature .one{
+  font-size:.12rem;
+  text-align:center;
+  padding-top:.15rem
+}
+.mixpadMiniPage .sec4_4 .temperature .two{
+  text-align:center;
+  font-size:.48rem;
+  line-height:.5rem
+}
+.mixpadMiniPage .sec4_4 .temperature .unit{
+  font-size:.2rem
+}
+.mixpadMiniPage .sec4_4 .temperature .three{
+  margin:0 auto;
+  width:1.35rem;
+  height:.23rem;
+  display:flex;
+  justify-content:space-between;
+  padding-top:.05rem
+}
+.mixpadMiniPage .sec4_4 .cold{
+  opacity:0;
+  transition:opacity .3s ease-in-out;
+  position:absolute;
+  top:5.83rem;
+  right:50%;
+  margin-right:-8.6rem;
+  width:4.23rem;
+  height:2.36rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec4_4_cold-c433d9227e.png)
+}
+.mixpadMiniPage .sec4_4 .guide{
+  opacity:0;
+  transition:opacity .3s ease-in-out;
+  position:absolute;
+  top:5rem;
+  left:50%;
+  margin-left:5.59rem;
+  width:1.03rem;
+  height:.57rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/guide-495fe96c27.svg);
+  background-size:cover;
+  background-repeat:no-repeat
+}
+.mixpadMiniPage .sec5-1{
+  padding-top:.83rem;
+  padding-bottom:1.05rem;
+  background-color:#fff
+}
+.mixpadMiniPage .sec5-1 .title{
+  color:#111;
+  font-size:.52rem;
+  line-height:.73rem
+}
+.mixpadMiniPage .sec5{
+  position:relative;
+  padding-bottom:1.29rem;
+  background-color:#fff
+}
+.mixpadMiniPage .sec5 .title{
+  padding:.83rem 0 .8rem;
+  color:#111;
+  font-weight:500;
+  font-size:.48rem;
+  line-height:.64rem
+}
+.mixpadMiniPage .sec5 .desc{
+  color:#111
+}
+.mixpadMiniPage .sec5 .content{
+  width:16rem;
+  margin:0 auto
+}
+.mixpadMiniPage .sec5 .case1 .title{
+  margin:2.02rem auto 0;
+  padding:0;
+  text-align:center
+}
+.mixpadMiniPage .sec5 .case1 .desc{
+  margin-top:.34rem
+}
+.mixpadMiniPage .sec5 .case2 .title{
+  padding:0;
+  margin:1.54rem auto 0;
+  text-align:center
+}
+.mixpadMiniPage .sec5 .case2 .desc{
+  margin-top:.28rem
+}
+.mixpadMiniPage .sec5 .case{
+  display:flex
+}
+.mixpadMiniPage .sec5 .case>div{
+  width:8rem;
+  height:6rem
+}
+.mixpadMiniPage .sec5 .case .txtWrapper{
+  background-color:#f6f6f6
+}
+.mixpadMiniPage .sec5 .case img{
+  width:100%;
+  height:100%
+}
+.mixpadMiniPage .sec7{
+  height:12rem;
+  position:relative;
+  box-sizing:border-box
+}
+.mixpadMiniPage .sec7 .title{
+  line-height:.72rem;
+  color:#111
+}
+.mixpadMiniPage .sec7 .desc{
+  margin-top:.3rem;
+  color:#111
+}
+.mixpadMiniPage .sec7 .videoWrapper{
+  position:absolute;
+  top:5rem;
+  left:50%;
+  margin-left:-2.7rem;
+  width:4.53rem;
+  height:4.52rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_c/sec5_mask-fc7eaa6f28.png);
+  background-size:cover;
+  z-index:1;
+  opacity:.4
+}
+.mixpadMiniPage .sec7 .video{
+  position:absolute;
+  top:5.6rem;
+  left:50%;
+  width:3.93rem;
+  height:3.79rem;
+  margin-left:-2.3rem;
+  background-image:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_c/sec5_video-fc245a1abe.png);
+  background-size:cover
+}
+.mixpadMiniPage .animated{
+  animation-duration:.66s;
+  animation-fill-mode:both;
+  animation-timing-function:ease-in-out
+}
+.mixpadMiniPage .fadeInUp{
+  opacity:0;
+  transform:translate3d(0,24px,0)
+}
+.mixpadMiniPage .delay-1{
+  animation-delay:.3s
+}
+.mixpadMiniPage .circle{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  left:50%;
+  border-radius:50%;
+  text-align:center;
+  color:#fff;
+  line-height:.38rem;
+  animation-duration:.6s;
+  animation-timing-function:ease;
+  animation-fill-mode:both
+}
+.mixpadMiniPage .delay_1{
+  animation-delay:.6s
+}
+.mixpadMiniPage .delay_2{
+  animation-delay:1.2s
+}
+.mixpadMiniPage .delay_3{
+  animation-delay:1.8s
+}
+.mixpadMiniPage .delay_4{
+  animation-delay:2.4s
+}
+.mixpadMiniPage .yellow_1{
+  top:4.4rem;
+  left:50%;
+  margin-left:-5.46rem;
+  font-size:.31rem;
+  width:2.3rem;
+  height:2.3rem;
+  background:#f5b417
+}
+.mixpadMiniPage .yellow_2{
+  left:50%;
+  margin-left:3.63rem;
+  top:5.53rem;
+  font-size:.26rem;
+  width:2.16rem;
+  height:2.16rem;
+  background:#ffc65b
+}
+.mixpadMiniPage .yellow_3{
+  top:8.8rem;
+  left:50%;
+  margin-left:-5.5rem;
+  font-size:.32rem;
+  width:2.11rem;
+  height:2.11rem;
+  background:#fba718
+}
+.mixpadMiniPage .yellow_5{
+  left:50%;
+  margin-left:5.07rem;
+  top:7.7rem;
+  font-size:.32rem;
+  width:1.72rem;
+  height:1.72rem;
+  background:#ffe59e
+}
+.mixpadMiniPage .yellow_6{
+  left:50%;
+  margin-left:3.41rem;
+  top:9.58rem;
+  font-size:.32rem;
+  width:1.66rem;
+  height:1.66rem;
+  background:#ffe59e
+}
+.mixpadMiniPage .gray_1{
+  top:3.5rem;
+  margin-left:-1.29rem;
+  width:1.17rem;
+  height:1.17rem;
+  font-size:.24rem;
+  background:#e2e2e2
+}
+.mixpadMiniPage .gray_2{
+  top:6.3rem;
+  margin-left:-7.5rem;
+  width:2.62rem;
+  height:2.62rem;
+  line-height:2.62rem;
+  font-size:.4rem;
+  background:#ddd
+}
+.mixpadMiniPage .gray_3{
+  margin-left:2.41rem;
+  top:8.42rem;
+  font-size:.34rem;
+  width:1.29rem;
+  height:1.29rem;
+  background:#e2e2e2
+}
+.mixpadMiniPage .gray_4{
+  top:4.67rem;
+  margin-left:-8.04rem;
+  font-size:.26rem;
+  width:1.29rem;
+  height:1.29rem;
+  background:#f2f2f2
+}
+.mixpadMiniPage .gray_5{
+  top:6.21rem;
+  margin-left:6.26rem;
+  font-size:.21rem;
+  width:1.06rem;
+  height:1.06rem;
+  background:#e2e2e2
+}
+.mixpadMiniPage .gray_6{
+  top:8.79rem;
+  margin-left:-7.96rem;
+  font-size:.26rem;
+  width:1.29rem;
+  height:1.29rem;
+  background:#e2e2e2
+}
+.mixpadMiniPage .sec8-1{
+  height:.6rem;
+  background-color:#000
+}
+.mixpadMiniPage .sec8{
+  position:relative;
+  background-color:#000;
+  overflow:hidden;
+  margin-left:auto;
+  margin-right:auto
+}
+.mixpadMiniPage .sec8 .title{
+  padding:.78rem 0 .3rem;
+  font-size:.44rem
+}
+.mixpadMiniPage .sec8 .video{
+  margin-top:.3rem;
+  margin-bottom:.47rem;
+  text-align:center;
+  color:#fff
+}
+.mixpadMiniPage .sec8 .video img{
+  width:.27rem;
+  height:.26rem;
+  margin-left:.11rem;
+  cursor:pointer
+}
+.mixpadMiniPage .sec8 .video span{
+  cursor:pointer
+}
+.mixpadMiniPage .sec9{
+  height:10.66rem;
+  position:relative
+}
+.mixpadMiniPage .sec9 .title{
+  padding:.3rem 0;
+  font-size:.44rem
+}
+.mixpadMiniPage .sec10 .f24,.mixpadMiniPage .sec11 .f24,.mixpadMiniPage .sec9 .f24{
+  font-size:.24rem;
+  line-height:.32rem;
+  color:#fff
+}
+.mixpadMiniPage .sec9 .f24{
+  padding-top:.31rem;
+  padding-bottom:.23rem
+}
+.mixpadMiniPage .sec9 .line1,.mixpadMiniPage .sec9 .line2{
+  width:4.99rem;
+  height:.01rem;
+  background-color:rgba(98,98,100,.81);
+  position:relative;
+  left:50%;
+  margin-left:-7.04rem
+}
+.mixpadMiniPage .sec9 .line1::after,.mixpadMiniPage .sec9 .line2::after{
+  content:'';
+  position:absolute;
+  top:-.04rem;
+  right:0;
+  background-color:#626264;
+  width:.09rem;
+  height:.09rem;
+  border-radius:50%
+}
+.mixpadMiniPage .sec9 .line1{
+  top:2.96rem
+}
+.mixpadMiniPage .sec9 .line2{
+  top:5.77rem
+}
+.mixpadMiniPage .sec9 .line3{
+  width:6.54rem;
+  height:.01rem;
+  background-color:rgba(98,98,100,.81);
+  position:relative;
+  left:50%;
+  margin-left:.5rem;
+  top:2.9rem
+}
+.mixpadMiniPage .sec9 .line3 p{
+  text-align:right
+}
+.mixpadMiniPage .sec9 .line3::after{
+  content:'';
+  position:absolute;
+  top:-.04rem;
+  left:0;
+  background-color:#626264;
+  width:.09rem;
+  height:.09rem;
+  border-radius:50%
+}
+.mixpadMiniPage .sec9 .line4{
+  width:4.99rem;
+  height:.01rem;
+  background-color:rgba(98,98,100,.81);
+  position:relative;
+  left:50%;
+  margin-left:2.05rem;
+  top:5.62rem
+}
+.mixpadMiniPage .sec9 .line4 p{
+  text-align:right
+}
+.mixpadMiniPage .sec9 .line4::after{
+  content:'';
+  position:absolute;
+  top:-.04rem;
+  left:0;
+  background-color:#626264;
+  width:.09rem;
+  height:.09rem;
+  border-radius:50%
+}
+.mixpadMiniPage .sec10{
+  height:7.77rem;
+  position:relative
+}
+.mixpadMiniPage .sec10 .f24{
+  padding-top:.23rem;
+  padding-bottom:.23rem
+}
+.mixpadMiniPage .sec10 .line{
+  position:relative;
+  top:4.3rem;
+  left:50%;
+  margin-left:-3.4rem;
+  width:5.43rem;
+  height:.01rem;
+  background-color:rgba(162,162,162,.81)
+}
+.mixpadMiniPage .sec10 .line::after{
+  content:'';
+  position:absolute;
+  top:-.04rem;
+  left:0;
+  background-color:#a2a2a2;
+  width:.09rem;
+  height:.09rem;
+  border-radius:50%
+}
+.mixpadMiniPage .sec10 .content{
+  position:absolute;
+  top:3.9rem;
+  left:50%;
+  margin-left:2.2rem
+}
+.mixpadMiniPage .sec11{
+  height:11.25rem;
+  position:relative
+}
+.mixpadMiniPage .sec11 .line1,.mixpadMiniPage .sec11 .line2{
+  position:absolute;
+  width:.01rem;
+  background:rgba(162,162,162,.81);
+  left:50%
+}
+.mixpadMiniPage .sec11 .line1::after,.mixpadMiniPage .sec11 .line2::after{
+  content:'';
+  position:absolute;
+  bottom:-.04rem;
+  left:-.03rem;
+  background:#a2a2a2;
+  width:.07rem;
+  height:.07rem;
+  border-radius:50%
+}
+.mixpadMiniPage .sec11 .line1{
+  top:1.17rem;
+  height:5.06rem;
+  margin-left:.12rem
+}
+.mixpadMiniPage .sec11 .line2{
+  top:2.04rem;
+  height:3.55rem;
+  margin-left:2.78rem
+}
+.mixpadMiniPage .sec11 .content1{
+  position:absolute;
+  top:1.12rem;
+  left:50%;
+  margin-left:-3.07rem
+}
+.mixpadMiniPage .sec11 .content1 .f20,.mixpadMiniPage .sec11 .content1 .f24{
+  text-align:right
+}
+.mixpadMiniPage .sec11 .content2{
+  position:absolute;
+  top:2rem;
+  left:50%;
+  margin-left:3rem
+}
+.mixpadMiniPage .sec11 .content2 .f20,.mixpadMiniPage .sec11 .content2 .f24{
+  text-align:left
+}
+.mixpadMiniPage .sec11 .f24{
+  padding-bottom:.13rem
+}
+.mixpadMiniPage .sec12{
+  height:9rem
+}
+.mixpadMiniPage .sec12 .title{
+  padding:.91rem 0 .3rem
+}
+.mixpadMiniPage .sec13{
+  height:8.76rem
+}
+.mixpadMiniPage .sec13 .title{
+  color:#111;
+  padding-top:1.13rem
+}
+
+.animated{
+  animation-duration:.6s;
+  animation-fill-mode:both;
+  animation-timing-function:ease-in-out
+}
+.video_mask,.video_modal{
+  display:none;
+  position:fixed
+}
+.video_modal{
+  width:1190px;
+  height:600px;
+  left:50%;
+  top:50%;
+  margin-left:-595px;
+  margin-top:-300px;
+  z-index:99999
+}
+.video_mask{
+  background-color:#101010;
+  overflow:hidden;
+  top:0;
+  left:0;
+  z-index:99998;
+  -webkit-overflow-scrolling:touch
+}
+.video_mask::after{
+  content:'';
+  display:block;
+  position:absolute;
+  right:24px;
+  top:24px;
+  width:36px;
+  height:36px;
+  cursor:pointer;
+  background:url(https://static.orvibo.com/guanwang_second/front/images/new/vedio_t1_close-e909f77947.png) center no-repeat;
+  background-size:cover;
+  opacity:.5;
+  filter:alpha(opacity=50)
+}
+.banner,body{
+  min-width:1280px
+}
+
+.video_mask,.video_modal{
+  display:none
+}
+
+.banner{
+  margin:0 auto
+}
+
+.video_mask::after{
+  content:''
+}
+.banner{
+  position:relative;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  overflow:hidden
+}
+.video_modal{
+  position:fixed;
+  width:1190px;
+  height:600px;
+  left:50%;
+  top:50%;
+  margin-left:-595px;
+  margin-top:-300px;
+  z-index:99999
+}
+.video_mask{
+  position:fixed;
+  background-color:#101010;
+  overflow:hidden;
+  top:0;
+  left:0;
+  z-index:99998;
+  -webkit-overflow-scrolling:touch
+}
+.video_mask::after{
+  display:block;
+  position:absolute;
+  right:24px;
+  top:24px;
+  width:36px;
+  height:36px;
+  cursor:pointer;
+  background:url(https://static.orvibo.com/guanwang_second/front/images/new/vedio_t1_close-e909f77947.png) center no-repeat;
+  background-size:cover;
+  opacity:.5;
+  filter:alpha(opacity=50)
+}
+.animated{
+  animation-duration:.6s;
+  animation-fill-mode:both;
+  animation-timing-function:ease-in-out
+}
