@@ -21,7 +21,26 @@ import SwiperCore, {
 // import { Footer } from '../../footer/Footer';
 // import { AirMasterCentralACControlKit } from '../../vibes/AirMasterCentralACControlKit';
 import { DoorWindowSensor } from '../../vibes/DoorWindowSensor';
-
+import { AirMasterCentralACControlKit } from '../../vibes/AirMasterCentralACControlKit';
+import { AlloneProRFIRHub } from '../../vibes/AlloneProRFIRHub';
+import { IPCamera } from '../../vibes/IPCamera';
+import { MagicCubeWifiIRController } from '../../vibes/MagicCubeWifiIRController';
+import { MixPadGenie } from '../../vibes/MixPadGenie';
+import { MixPadMiniSuperSmartPanel } from '../../vibes/MixPadMiniSuperSmartPanel';
+import { MixPadSAllinoneGatewayPanel } from '../../vibes/MixPadSAllinoneGatewayPanel';
+import { SmartCurtainMotor } from '../../vibes/SmartCurtainMotor';
+import { SmartCurtainMotorKit } from '../../vibes/SmartCurtainMotorKit';
+import { SmartDoorLockC1 } from '../../vibes/SmartDoorLockC1';
+import { SmartDoorLockS2 } from '../../vibes/SmartDoorLockS2';
+import { SmartLEDLight } from '../../vibes/SmartLEDLight';
+import { SuperSmartSwitch } from '../../vibes/SuperSmartSwitch';
+import { TemperatureHumiditySensor } from '../../vibes/TemperatureHumiditySensor';
+import { TouchClassicZigbeeSwitchSeries } from '../../vibes/TouchClassicZigbeeSwitchSeries';
+import { ZigbeeCombustibleGasSensor } from '../../vibes/ZigbeeCombustibleGasSensor';
+import { ZigbeeCOSensor } from '../../vibes/ZigbeeCOSensor';
+import { ZigbeeEmergencyButton } from '../../vibes/ZigbeeEmergencyButton';
+import { ZigbeeSmokeSensor } from '../../vibes/ZigbeeSmokeSensor';
+import { ZigbeeWaterLeakageSensor } from '../../vibes/ZigbeeWaterLeakageSensor';
 
 import { Singlemain } from './Singlemain';
 import axios from 'axios';
