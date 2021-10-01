@@ -2,6 +2,7 @@ import React from 'react'
 import './ZigbeeCOSensor.css'
 import styles from './all.module.css'
 
+
 export const ZigbeeCOSensor = () => {
     return (
         <div className={styles.thismedia}>
@@ -51,10 +52,10 @@ export const ZigbeeCOSensor = () => {
             </section>
             <section className="sp20_sec3">
                 <div className="pro_sp20">
-                    <img
+                    <img alt="Home Alone"
                         id="product"
                         className="product"
-                        src="https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/sp20-b16ced416b.png"
+                        src="img/sp20-b16ced416b.png"
                     />
                     <div id="flash" className="flash" style={{ opacity: 0 }} />
                 </div>
@@ -83,9 +84,9 @@ export const ZigbeeCOSensor = () => {
                     <br />
                     remind you to take actions in time.
                 </p>
-                <img
+                <img alt="Home Alone"
                     id="iphone6_1"
-                    src="https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/iphone6_01-633a1b10a6.png"
+                    src="img/iphone6_01-633a1b10a6.png"
                 />
             </section>
             <section className="sp20_sec_5">
@@ -122,9 +123,9 @@ export const ZigbeeCOSensor = () => {
                     It will only alarm timely when the CO concentration is beyond the
                     normal range.
                 </p>
-                <img
+                <img alt="Home Alone"
                     id="iphone6_2"
-                    src="https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/iphone6_02-36dd365196.png"
+                    src="img/iphone6_02-36dd365196.png"
                 />
             </section>
             <section className="sp20_sec_7">

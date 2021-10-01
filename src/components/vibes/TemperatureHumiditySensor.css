@@ -10,7 +10,7 @@
 .getTop {
   display: none;
   cursor: pointer;
-  background: url(https://static.orvibo.com/guanwang_second/front/images/2020/footer/getTop-39af3f63e1.png)
+  background: url(img/getTop-39af3f63e1.png)
     center/contain no-repeat;
   width: 68px;
   height: 68px;
@@ -38,7 +38,7 @@
   width: 100%;
   height: 800px;
   position: relative;
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_01-dcee45720f.jpg)
+  background: url(img/bg_01-dcee45720f.jpg)
     center no-repeat;
 }
 .temp_sec_1 .fp_content {
@@ -65,7 +65,7 @@
   position: relative;
 }
 .temp_sec2 .bg_shadow {
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/b_shadow_03-8b2699d3a5.png)
+  background: url(img/b_shadow_03-8b2699d3a5.png)
     no-repeat;
   width: 1181px;
   position: absolute;
@@ -104,19 +104,19 @@
   font-size: 24px;
 }
 .temp_sec2 .temp_sec2_bg1 {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_02-1a3eab1158.jpg);
+  background-image: url(img/bg_02_02-1a3eab1158.jpg);
 }
 .temp_sec2 .temp_sec2_bg2 {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_03-3440115ed4.jpg);
+  background-image: url(img/bg_02_03-3440115ed4.jpg);
 }
 .temp_sec2 .temp_sec2_bg3 {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_04-b58e9543e6.jpg);
+  background-image: url(img/bg_02_04-b58e9543e6.jpg);
 }
 .temp_sec2 .temp_sec2_bg4 {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_02_05-a638717ed7.jpg);
+  background-image: url(img/bg_02_05-a638717ed7.jpg);
 }
 .temp_sec3 {
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_07-4614c17434.jpg)
+  background: url(img/bg_07-4614c17434.jpg)
     no-repeat;
   height: 831px;
   padding-top: 120px;
@@ -140,7 +140,7 @@
   text-align: center;
 }
 .temp_sec3 .logos ul li .icon {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/icons-02da78392f.png);
+  background-image: url(img/icons-02da78392f.png);
   margin: 0 auto 20px;
 }
 .temp_sec3 .logos ul li .icon1 {
@@ -160,7 +160,7 @@
   height: 82px;
 }
 .temp_sec4 {
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_03-9a58dabb92.jpg)
+  background: url(img/bg_03-9a58dabb92.jpg)
     center no-repeat;
   width: 100%;
   height: 959px;
@@ -189,7 +189,7 @@
   opacity: 0;
 }
 .temp_sec5 {
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_04-f096072e1b.jpg)
+  background: url(img/bg_04-f096072e1b.jpg)
     center no-repeat;
   width: 100%;
   height: 959px;
@@ -213,7 +213,7 @@
   top: 369px;
 }
 .temp_sec6 {
-  background: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/bg_06-aec4abf3b7.jpg)
+  background: url(img/bg_06-aec4abf3b7.jpg)
     center no-repeat;
   width: 100%;
   height: 960px;
@@ -319,7 +319,7 @@
   border-radius: 50%;
 }
 .temp_sec7 .content ul li div.icon {
-  background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/icons_01-0d21e0242b.png);
+  background-image: url(img/icons_01-0d21e0242b.png);
 }
 .temp_sec7 .content ul li div.icon1 {
   background-position: 0 -292px;

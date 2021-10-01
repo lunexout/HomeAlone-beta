@@ -8,7 +8,7 @@
 .sos_sec1 {
 	width: 100%;
 	height: 800px;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec1-2b33eb646c.jpg) center center no-repeat;
+	background: url(img/sec1-2b33eb646c.jpg) center center no-repeat;
 	background-size: cover
 }
 
@@ -34,19 +34,19 @@
 }
 
 .sos_sec2 .bg1 {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec2_1-b416c0d203.jpg)
+	background-image: url(img/sec2_1-b416c0d203.jpg)
 }
 
 .sos_sec2 .bg2 {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec2_2-934940a12c.jpg)
+	background-image: url(img/sec2_2-934940a12c.jpg)
 }
 
 .sos_sec2 .bg3 {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec2_3-713d2f20f8.jpg)
+	background-image: url(img/sec2_3-713d2f20f8.jpg)
 }
 
 .sos_sec2 .shadow_bg {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec2_txt-7cf48b730b.png) no-repeat;
+	background: url(img/sec2_txt-7cf48b730b.png) no-repeat;
 	width: 1181px;
 	position: absolute;
 	left: 19.27083333%;
@@ -118,7 +118,7 @@
 	height: 127px;
 	margin-right: 90px;
 	float: left;
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/icons-c2a5db95dd.png)
+	background-image: url(img/icons-c2a5db95dd.png)
 }
 
 .sos_sec_3 .row .circle p {
@@ -155,7 +155,7 @@
 }
 
 .sos_sec_4 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec4-b933e71e28.jpg) center no-repeat;
+	background: url(img/sec4-b933e71e28.jpg) center no-repeat;
 	width: 100%;
 	height: 959px;
 	color: #fff
@@ -193,7 +193,7 @@
 }
 
 .sos_sec_5 {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec5-49ef8e5b19.jpg);
+	background-image: url(img/sec5-49ef8e5b19.jpg);
 	background-position: center;
 	width: 100%;
 	height: 959px;
@@ -234,7 +234,7 @@
 }
 
 .sos_sec6 .bg1 {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/sec6_1-6263c52e9d.jpg)
+	background-image: url(img/sec6_1-6263c52e9d.jpg)
 }
 
 .sos_sec6_right {
@@ -259,7 +259,7 @@
 
 .sos_sec6_right .buts ul li .outer {
 	display: block;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/icon_grey-5a1d5348dc.png) no-repeat;
+	background: url(img/icon_grey-5a1d5348dc.png) no-repeat;
 	width: 70px;
 	height: 50px;
 	padding-top: 20px;
@@ -268,7 +268,7 @@
 }
 
 .sos_sec6_right .buts ul li .outer .but {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/icons_2-1cb89654b8.png) no-repeat;
+	background: url(img/icons_2-1cb89654b8.png) no-repeat;
 	display: block;
 	margin: 0 auto;
 	cursor: pointer
@@ -307,7 +307,7 @@
 }
 
 .sos_sec6_right .buts ul li .outer.active {
-	background-image: url(https://static.orvibo.com/guanwang_second/front/en/images/sos/icon_green-6e7f8c53a1.png)!important
+	background-image: url(img/icon_green-6e7f8c53a1.png)!important
 }
 
 .sos_sec6_right .buts ul li .outer.active #but_1 {

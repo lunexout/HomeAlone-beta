@@ -13,16 +13,16 @@ export const SuperSmartSwitch = () => {
                     </div>
                 </div>
                 <div className="sec1">
-                    <div><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_1-2b5c2c26ca.png" />
+                    <div><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_1-2b5c2c26ca.png" />
                         <p>Beautiful to Simple<br />High-end design</p>
                     </div>
-                    <div><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_2-4ec665530e.png" />
+                    <div><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_2-4ec665530e.png" />
                         <p>Three Colors Available<br />Artistic Life</p>
                     </div>
-                    <div><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_3-d2d79be704.png" />
+                    <div><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_3-d2d79be704.png" />
                         <p>Full House Lighting<br />Remote control</p>
                     </div>
-                    <div><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_4-5fb30626aa.png" />
+                    <div><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec1_4-5fb30626aa.png" />
                         <p>Original MixCtrl™<br />Free definition of key functions</p>
                     </div>
                 </div>
@@ -169,19 +169,19 @@ export const SuperSmartSwitch = () => {
                             disconnected, and meets the efficient<br />connection of multiple devices.</p>
                     </div>
                     <div className="logo sec">
-                        <div className="animated fadeInUp delay-1"><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_1-2d98852cf6.png" />
+                        <div className="animated fadeInUp delay-1"><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_1-2d98852cf6.png" />
                             <p>More stable<br />network</p>
                         </div>
-                        <div className="animated fadeInUp delay-2"><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_2-f7f3d08ace.png" />
+                        <div className="animated fadeInUp delay-2"><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_2-f7f3d08ace.png" />
                             <p>Faster<br />response</p>
                         </div>
-                        <div className="animated fadeInUp delay-3"><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_3-c9d4887656.png" />
+                        <div className="animated fadeInUp delay-3"><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_3-c9d4887656.png" />
                             <p>Lower power<br />consumption</p>
                         </div>
-                        <div className="animated fadeInUp delay-4"><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_4-71b2624ffe.png" />
+                        <div className="animated fadeInUp delay-4"><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_4-71b2624ffe.png" />
                             <p>Higher<br />security</p>
                         </div>
-                        <div className="animated fadeInUp delay-5"><img alt="" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_5-82a8115fd7.png" />
+                        <div className="animated fadeInUp delay-5"><img alt="Home Alone" src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11_5-82a8115fd7.png" />
                             <p>Higher openness<br />and compatibility</p>
                         </div>
                     </div>

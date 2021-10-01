@@ -33,13 +33,13 @@ export const AirMasterCentralACControlKit = () => {
         <section className="air_sec2">
           <h1>It`s Time to Improve the Control Way<br />of Traditional Central A/C</h1>
           <div className="as2_imgbox clear">
-            <div className="as2i_img"><img src="https://static.orvibo.com/guanwang_second/front/images/new/products/airmaster/sec2_bg1-9739666538.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src="img/sec2_bg1-9739666538.jpg" alt="sec2_bg" />
               <p>Forgot to turn off the a/c</p>
             </div>
-            <div className="as2i_img"><img src="https://static.orvibo.com/guanwang_second/front/images/new/products/airmaster/sec2_bg2-9609be2471.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src="img/sec2_bg2-9609be2471.jpg" alt="sec2_bg" />
               <p>Inconvenient operation</p>
             </div>
-            <div className="as2i_img"><img src="https://static.orvibo.com/guanwang_second/front/images/new/products/airmaster/sec2_bg3-cfcda3ebb8.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src="img/sec2_bg3-cfcda3ebb8.jpg" alt="sec2_bg" />
               <p>Unable to start a/c until getting home</p>
             </div>
           </div>

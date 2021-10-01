@@ -93,7 +93,7 @@
      position: relative;
      height: 10.8rem;
      width: 100%;
-     background-image: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/banner-1a2bffdaf0.jpg);
+     background-image: url(img/banner-1a2bffdaf0.jpg);
      background-size: cover;
      background-position: center;
      letter-spacing: .01rem;
@@ -176,7 +176,7 @@
  .switch__container .sec2 {
      height: 10.8rem;
      overflow: hidden;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec2-f6a6712fde.jpg) center no-repeat;
+     background: url(img/sec2-f6a6712fde.jpg) center no-repeat;
      background-size: cover;
      padding: 1.85rem 0 0 2.68rem 
 }
@@ -580,7 +580,7 @@
      top: 0;
      width: 13.4rem;
      height: 1.14rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_1-6f7a2de589.png) center no-repeat;
+     background: url(img/sec8_1-6f7a2de589.png) center no-repeat;
      background-size: cover;
      z-index: 1 
 }
@@ -588,7 +588,7 @@
      top: 2.33rem;
      width: 13.77rem;
      height: 1.33rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_2-7417f7efaf.png) center no-repeat;
+     background: url(img/sec8_2-7417f7efaf.png) center no-repeat;
      background-size: cover;
      opacity: 1 
 }
@@ -596,14 +596,14 @@
      top: 2.33rem;
      width: 13.77rem;
      height: 1.33rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_3-0f348a9813.png) center no-repeat;
+     background: url(img/sec8_3-0f348a9813.png) center no-repeat;
      background-size: cover;
      opacity: 0;
      z-index: 8 
 }
  .switch__container .sec9 {
      height: 10.8rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec9-d39ea2e430.png) center no-repeat #000;
+     background: url(img/sec9-d39ea2e430.png) center no-repeat #000;
      background-size: cover;
      padding-top: 5.07rem 
 }
@@ -662,7 +662,7 @@
      top: 0;
      width: 1.31rem;
      height: 5.2rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_4-27c9da4c05.png) center no-repeat;
+     background: url(img/sec10_4-27c9da4c05.png) center no-repeat;
      background-size: cover;
      left: 10.4rem;
      z-index: 7 
@@ -671,7 +671,7 @@
      top: 3.52rem;
      width: 1.05rem;
      height: 1.15rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_5-13642351d0.png) center no-repeat;
+     background: url(img/sec10_5-13642351d0.png) center no-repeat;
      background-size: cover;
      left: 10.4rem;
      z-index: 6 
@@ -681,7 +681,7 @@
      left: 10.4rem;
      width: 1.6rem;
      height: 5.2rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_6-9de7366f50.png) center no-repeat;
+     background: url(img/sec10_6-9de7366f50.png) center no-repeat;
      background-size: cover;
      z-index: 5 
 }
@@ -690,7 +690,7 @@
      left: 9.8rem;
      width: 1.55rem;
      height: 1.17rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_1-fa98ca26d6.png) center no-repeat;
+     background: url(img/sec10_1-fa98ca26d6.png) center no-repeat;
      background-size: cover;
      opacity: 0;
      z-index: 4 
@@ -700,7 +700,7 @@
      left: 9.96rem;
      width: 1.42rem;
      height: 3.82rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_2-24f5c15fe4.png) center no-repeat;
+     background: url(img/sec10_2-24f5c15fe4.png) center no-repeat;
      background-size: cover;
      opacity: 0;
      z-index: 3 
@@ -710,7 +710,7 @@
      left: 9.96rem;
      width: 1.93rem;
      height: 3.69rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_3-bbb3de2b31.png) center no-repeat;
+     background: url(img/sec10_3-bbb3de2b31.png) center no-repeat;
      background-size: cover;
      opacity: 0;
      z-index: 2 
@@ -720,7 +720,7 @@
      left: 10.4rem;
      width: 3.07rem;
      height: 4.82rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_7-9779bd818e.png) center no-repeat;
+     background: url(img/sec10_7-9779bd818e.png) center no-repeat;
      background-size: cover;
      z-index: 1 
 }
@@ -760,7 +760,7 @@
 }
  .switch__container .sec11 {
      height: 10.79rem;
-     background: url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11-74fd740a50.png) center no-repeat #000;
+     background: url(img/sec11-74fd740a50.png) center no-repeat #000;
      background-size: cover;
      position: relative 
 }
@@ -914,7 +914,7 @@
     position:relative;
     height:10.8rem;
     width:100%;
-    background-image:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/banner-1a2bffdaf0.jpg);
+    background-image:url(img/banner-1a2bffdaf0.jpg);
     background-size:cover;
     background-position:center;
     letter-spacing:.01rem;
@@ -997,7 +997,7 @@
 .switch__container .sec2{
     height:10.8rem;
     overflow:hidden;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec2-f6a6712fde.jpg) center no-repeat;
+    background:url(img/sec2-f6a6712fde.jpg) center no-repeat;
     background-size:cover;
     padding:1.85rem 0 0 2.68rem
 }
@@ -1300,7 +1300,7 @@
     top:0;
     width:13.4rem;
     height:1.14rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_1-6f7a2de589.png) center no-repeat;
+    background:url(img/sec8_1-6f7a2de589.png) center no-repeat;
     background-size:cover;
     z-index:1
 }
@@ -1308,7 +1308,7 @@
     top:2.33rem;
     width:13.77rem;
     height:1.33rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_2-7417f7efaf.png) center no-repeat;
+    background:url(img/sec8_2-7417f7efaf.png) center no-repeat;
     background-size:cover;
     opacity:1
 }
@@ -1316,14 +1316,14 @@
     top:2.33rem;
     width:13.77rem;
     height:1.33rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec8_3-0f348a9813.png) center no-repeat;
+    background:url(img/sec8_3-0f348a9813.png) center no-repeat;
     background-size:cover;
     opacity:0;
     z-index:8
 }
 .switch__container .sec9{
     height:10.8rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec9-d39ea2e430.png) center no-repeat #000;
+    background:url(img/sec9-d39ea2e430.png) center no-repeat #000;
     background-size:cover;
     padding-top:5.07rem
 }
@@ -1382,7 +1382,7 @@
     top:0;
     width:1.31rem;
     height:5.2rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_4-27c9da4c05.png) center no-repeat;
+    background:url(img/sec10_4-27c9da4c05.png) center no-repeat;
     background-size:cover;
     left:10.4rem;
     z-index:7
@@ -1391,7 +1391,7 @@
     top:3.52rem;
     width:1.05rem;
     height:1.15rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_5-13642351d0.png) center no-repeat;
+    background:url(img/sec10_5-13642351d0.png) center no-repeat;
     background-size:cover;
     left:10.4rem;
     z-index:6
@@ -1401,7 +1401,7 @@
     left:10.4rem;
     width:1.6rem;
     height:5.2rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_6-9de7366f50.png) center no-repeat;
+    background:url(img/sec10_6-9de7366f50.png) center no-repeat;
     background-size:cover;
     z-index:5
 }
@@ -1410,7 +1410,7 @@
     left:9.8rem;
     width:1.55rem;
     height:1.17rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_1-fa98ca26d6.png) center no-repeat;
+    background:url(img/sec10_1-fa98ca26d6.png) center no-repeat;
     background-size:cover;
     opacity:0;
     z-index:4
@@ -1420,7 +1420,7 @@
     left:9.96rem;
     width:1.42rem;
     height:3.82rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_2-24f5c15fe4.png) center no-repeat;
+    background:url(img/sec10_2-24f5c15fe4.png) center no-repeat;
     background-size:cover;
     opacity:0;
     z-index:3
@@ -1430,7 +1430,7 @@
     left:9.96rem;
     width:1.93rem;
     height:3.69rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_3-bbb3de2b31.png) center no-repeat;
+    background:url(img/sec10_3-bbb3de2b31.png) center no-repeat;
     background-size:cover;
     opacity:0;
     z-index:2
@@ -1440,7 +1440,7 @@
     left:10.4rem;
     width:3.07rem;
     height:4.82rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec10_7-9779bd818e.png) center no-repeat;
+    background:url(img/sec10_7-9779bd818e.png) center no-repeat;
     background-size:cover;
     z-index:1
 }
@@ -1480,7 +1480,7 @@
 }
 .switch__container .sec11{
     height:10.79rem;
-    background:url(https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec11-74fd740a50.png) center no-repeat #000;
+    background:url(img/sec11-74fd740a50.png) center no-repeat #000;
     background-size:cover;
     position:relative
 }

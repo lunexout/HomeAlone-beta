@@ -2,6 +2,7 @@ import React from 'react'
 import './SmartCurtainMotorKit.css'
 import styles from './all.module.css'
 
+
 export const SmartCurtainMotorKit = () => {
     return (
         <div className={styles.thismedia}>

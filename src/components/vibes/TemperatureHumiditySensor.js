@@ -64,9 +64,9 @@ export const TemperatureHumiditySensor = () => {
             </section>
             <section className="temp_sec3">
                 <p>TAKE CARE OF YOU AND YOUR FAMILY</p>
-                <img
+                <img alt="Home Alone"
                     id="product"
-                    src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/product_img-97705255ff.png"
+                    src="img/product_img-97705255ff.png"
                 />
                 <div className="logos">
                     <ul className="clear">
@@ -106,9 +106,9 @@ export const TemperatureHumiditySensor = () => {
                     example, enable the humidifier if it detects the humidity is lower
                     than the comfortable range.
                 </p>
-                <img
+                <img alt="Home Alone"
                     id="iphone6_1"
-                    src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/iphone_1-6c94c7034c.png"
+                    src="img/iphone_1-6c94c7034c.png"
                 />
             </section>
             <section className="temp_sec5">
@@ -124,9 +124,9 @@ export const TemperatureHumiditySensor = () => {
                     create more comfortable indoor environment, and take care of every
                     family member.
                 </p>
-                <img
+                <img alt="Home Alone"
                     id="iphone6_2"
-                    src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/iphone_2-fcc309c0d3.png"
+                    src="img/iphone_2-fcc309c0d3.png"
                 />
             </section>
             <section className="temp_sec6">
@@ -136,14 +136,14 @@ export const TemperatureHumiditySensor = () => {
                         Automatically open the air conditioner when it detects the
                         temperature is high in the living room.
                     </p>
-                    <img
+                    <img alt="Home Alone"
                         className="app_show"
-                        src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/temp_img-330bd74bfd.png"
+                        src="img/temp_img-330bd74bfd.png"
                     />
                     <div className="ani_img">
-                        <img
+                        <img alt="Home Alone"
                             className="pro"
-                            src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/product_small-a85dc41eac.png"
+                            src="img/product_small-a85dc41eac.png"
                             style={{ left: "49px", top: "52px" }}
                         />
                     </div>
@@ -153,14 +153,14 @@ export const TemperatureHumiditySensor = () => {
                         Remind you to replace the dehumidifier when it detects the humidity
                         is high in your wardrobe.
                     </p>
-                    <img
+                    <img alt="Home Alone"
                         className="app_show"
-                        src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/temp_img2-fb38feef7e.png"
+                        src="img/temp_img2-fb38feef7e.png"
                     />
                     <div className="ani_img">
-                        <img
+                        <img alt="Home Alone"
                             className="pro"
-                            src="https://static.orvibo.com/guanwang_second/front/en/images/temp_hum_sensor/product_small-a85dc41eac.png"
+                            src="img/product_small-a85dc41eac.png"
                             style={{ left: "49px", top: "52px" }}
                         />
                     </div>
@@ -195,9 +195,8 @@ export const TemperatureHumiditySensor = () => {
                     id="getTop"
                     style={{ right: "0px", display: "none" }}
                 >
-                    <img
-                        src="https://static.orvibo.com/guanwang_second/front/images/2020/footer/arrowUp-28992f3e82.svg"
-                        alt=""
+                    <img alt="Home Alone"
+                        src="img/arrowUp-28992f3e82.svg"
                     />
                 </div>
             </div>

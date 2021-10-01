@@ -18,7 +18,7 @@
     overflow:hidden
 }
 .sp20_sec_1{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_01-62cfceacad.jpg) center no-repeat
+    background:url(img/bg_01-62cfceacad.jpg) center no-repeat
 }
 .sp20_sec_1 p{
     font-size:42px;
@@ -31,7 +31,7 @@
     position:relative
 }
 .sp20_sec2 .shadow_bg{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/b_shadow_03-4c9018b644.png) no-repeat;
+    background:url(img/b_shadow_03-4c9018b644.png) no-repeat;
     width:1181px;
     position:absolute;
     left:19.27%;
@@ -69,16 +69,16 @@
     font-size:24px
 }
 .sp20_sec2 .bg1{
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_02-8f458f2837.jpg)
+    background-image:url(img/bg_02-8f458f2837.jpg)
 }
 .sp20_sec2 .bg2{
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_03-20d0a57489.jpg)
+    background-image:url(img/bg_03-20d0a57489.jpg)
 }
 .sp20_sec2 .bg3{
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_04-0f833a8500.jpg)
+    background-image:url(img/bg_04-0f833a8500.jpg)
 }
 .sp20_sec2 .bg4{
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_05-f5ff4677a4.jpg)
+    background-image:url(img/bg_05-f5ff4677a4.jpg)
 }
 .sp20_sec3{
     width:100%;
@@ -120,7 +120,7 @@
     height:127px;
     margin-right:90px;
     float:left;
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/icons-0b697ac426.png)
+    background-image:url(img/icons-0b697ac426.png)
 }
 .sp20_sec3 .row .cir_1{
     background-position:0 -127px
@@ -140,7 +140,7 @@
     background-position:0 0
 }
 .sp20_sec_4{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_08-47f2feccda.jpg) center no-repeat;
+    background:url(img/bg_08-47f2feccda.jpg) center no-repeat;
     width:100%;
     height:951px;
     text-align:center
@@ -163,7 +163,7 @@
     opacity:0
 }
 .sp20_sec_5{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_09-ba38ee1eac.jpg) center no-repeat;
+    background:url(img/bg_09-ba38ee1eac.jpg) center no-repeat;
     width:100%;
     height:959px
 }
@@ -189,25 +189,25 @@
     opacity:0
 }
 .sp20_sec_5 .content .pop1{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/pop1_03-4bfce380a8.png) no-repeat;
+    background:url(img/pop1_03-4bfce380a8.png) no-repeat;
     width:406px;
     height:46px;
     top:374px
 }
 .sp20_sec_5 .content .pop2{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/pop2-11914a4edf.png) no-repeat;
+    background:url(img/pop2-11914a4edf.png) no-repeat;
     width:314px;
     height:46px;
     top:496px
 }
 .sp20_sec_5 .content .pop3{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/pop3-d5b5e1f27e.png) no-repeat;
+    background:url(img/pop3-d5b5e1f27e.png) no-repeat;
     width:382px;
     height:46px;
     top:607px
 }
 .sp20_sec_6{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/bg_10-8d3ad79d2d.jpg) center no-repeat;
+    background:url(img/bg_10-8d3ad79d2d.jpg) center no-repeat;
     width:100%;
     height:960px;
     text-align:center
@@ -256,7 +256,7 @@
     height:146px;
     margin:0 auto 30px;
     border-radius:50%;
-    background-image:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/icons_2-784bba7c8a.png)
+    background-image:url(img/icons_2-784bba7c8a.png)
 }
 .sp20_sec_7 .content ul li .icon1{
     background-position:0 -292px
@@ -292,7 +292,7 @@
     width:1150px;
     height:9px;
     clear:both;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/line-5011e9853a.png) center no-repeat
+    background:url(img/line-5011e9853a.png) center no-repeat
 }
 .sp20_sec_8 .jq_container .jq_content_title{
     float:left;
@@ -310,7 +310,7 @@
     margin:0 auto
 }
 .sp20_sec_8 .jq_container .jq_content_title .icon div{
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/co_alarm/pro_sp20-c983368609.jpg) center no-repeat;
+    background:url(img/pro_sp20-c983368609.jpg) center no-repeat;
     width:170px;
     height:166px;
     margin:0 auto;

@@ -4,7 +4,7 @@
 }
 
 .xf_first_en {
-	background: url("https://static.orvibo.com/html/images/products/xiaofang/xf_en_bg1.jpg") no-repeat center center;
+	background: url("img/xf_en_bg1.jpg") no-repeat center center;
 }
 
 .xf_first_en {
@@ -31,11 +31,11 @@
 .xf_ninth div.xn_line,
 .xf_ten .xt_line,
 .xt_content_title .icon div {
-	background: url("https://static.orvibo.com/html/images/products/xiaofang/xf_icons.png") no-repeat center center;
+	background: url("img/xf_icons.png") no-repeat center center;
 }
 
 .xf_third {
-	background: url("https://static.orvibo.com/html/images/products/xiaofang/xf_bg3.jpg") no-repeat center center;
+	background: url("img/xf_bg3.jpg") no-repeat center center;
 }
 
 .xf_container {
@@ -211,7 +211,7 @@
 }
 
 .xf_ninth {
-	background: url("https://static.orvibo.com/html/images/products/xiaofang/xf_bg7.jpg");
+	background: url("img/xf_bg7.jpg");
 }
 
 .xf_ninth .xf_container {
@@ -547,7 +547,7 @@
 	bottom: -224px;
 	width: 268px;
 	height: 571px;
-	background: url("https://static.orvibo.com/html/images/products/xiaofang/xf_phone.png") no-repeat center center;
+	background: url("img/xf_phone.png") no-repeat center center;
 	background-size: 100% 100%;
 	z-index: 99;
 }
@@ -596,7 +596,7 @@
 .mouse_img {
 	width: 379px;
 	height: 42px;
-	background: url("https:https://static.orvibo.com/html/images/products/xiaofang/xf_click.png") no-repeat center center;
+	background: url("https:img/xf_click.png") no-repeat center center;
 	margin-top: 90px;
 	position: absolute;
 	left: 50%;
@@ -624,7 +624,7 @@
 .xf_fourth_en div.xf_pic {
 	width: 880px;
 	height: 540px;
-	background: url("https:https://static.orvibo.com/html/images/products/xiaofang/xf_en_pic.png") no-repeat center center;
+	background: url("https:img/xf_en_pic.png") no-repeat center center;
 	background-position: 0 0;
 }
 
@@ -636,7 +636,7 @@
 	width: 100%;
 	height: 950px;
 	text-align: center;
-	background: url("https:https://static.orvibo.com/html/images/products/xiaofang/life_with_bg.jpg") no-repeat center center;
+	background: url("https:img/life_with_bg.jpg") no-repeat center center;
 	text-align: center;
 }
 

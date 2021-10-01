@@ -139,15 +139,15 @@ export const SmartCurtainMotor = () => {
                     <p>Suitable for various home decoration style, also applied in hotel, villa and offices.</p>
                     <div className="container">
                         <ul style={{ backgroundImage: 'none' }}>
-                            <li style={{ zIndex: 3, width: 'auto', top: '0px', left: '119.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic4-fa9c53e795.jpg" alt="" /></li>
-                            <li style={{ zIndex: 2, width: 'auto', top: '0px', left: '1264.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic5-2f6f6cf008.jpg" alt="" width={1110} height={625} /></li>
-                            <li style={{ zIndex: 1, width: 'auto', top: '0px', left: '-1025.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic6-5504998f1b.jpg" alt="" width={1110} height={625} /></li>
+                            <li style={{ zIndex: 3, width: 'auto', top: '0px', left: '119.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic4-fa9c53e795.jpg" alt="Home Alone" /></li>
+                            <li style={{ zIndex: 2, width: 'auto', top: '0px', left: '1264.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic5-2f6f6cf008.jpg" alt="Home Alone" width={1110} height={625} /></li>
+                            <li style={{ zIndex: 1, width: 'auto', top: '0px', left: '-1025.5px', opacity: 1 }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic6-5504998f1b.jpg" alt="Home Alone" width={1110} height={625} /></li>
                         </ul>
-                        <div className="link"><a className="prevslide" /> <a className="nextslide" /></div>
+                        <div className="link"></div>
                     </div>
                 </section>
                 <section className="kaihe_sec17">
-                    <h2>More Product Details</h2><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg17-e16bdae035.jpg" alt="" /> <img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg18-045df066d1.jpg" alt="" />
+                    <h2>More Product Details</h2><img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg17-e16bdae035.jpg" alt="Home Alone" /> <img src="https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg18-045df066d1.jpg" alt="Home Alone" />
                 </section>
                 <section className="kaihe_sec18">
                     <div className="container">

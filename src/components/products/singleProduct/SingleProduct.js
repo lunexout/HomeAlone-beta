@@ -52,12 +52,51 @@ export const SingleProduct = ({ match }) => {
         if (product) {
             if (product.product.unicProduct === "DWS1") {
                 return < DoorWindowSensor match={match} />
+            } else if (product.product.unicProduct === "AMCACK ") {
+                return < AirMasterCentralACControlKit match={match} />
+            } else if (product.product.unicProduct === "APRIH") {
+                return < AlloneProRFIRHub match={match} />
+            } else if (product.product.unicProduct === "IC") {
+                return < IPCamera match={match} />
+            } else if (product.product.unicProduct === "MCWIC") {
+                return < MagicCubeWifiIRController match={match} />
+            } else if (product.product.unicProduct === "MG") {
+                return < MixPadGenie match={match} />
+            } else if (product.product.unicProduct === "MMSSP") {
+                return < MixPadMiniSuperSmartPanel match={match} />
+            } else if (product.product.unicProduct === "MSAGP") {
+                return < MixPadSAllinoneGatewayPanel match={match} />
+            } else if (product.product.unicProduct === "SCM") {
+                return < SmartCurtainMotor match={match} />
+            } else if (product.product.unicProduct === "SCMK") {
+                return < SmartCurtainMotorKit match={match} />
+            } else if (product.product.unicProduct === "SDLC1") {
+                return < SmartDoorLockC1 match={match} />
+            } else if (product.product.unicProduct === "SDLS2") {
+                return < SmartDoorLockS2 match={match} />
+            } else if (product.product.unicProduct === "SLL") {
+                return < SmartLEDLight match={match} />
+            } else if (product.product.unicProduct === "SSS") {
+                return < SuperSmartSwitch match={match} />
+            } else if (product.product.unicProduct === "THS") {
+                return < TemperatureHumiditySensor match={match} />
+            } else if (product.product.unicProduct === "TCZSS") {
+                return < TouchClassicZigbeeSwitchSeries match={match} />
+            } else if (product.product.unicProduct === "ZCGS") {
+                return < ZigbeeCombustibleGasSensor match={match} />
+            } else if (product.product.unicProduct === "ZCS") {
+                return < ZigbeeCOSensor match={match} />
+            } else if (product.product.unicProduct === "ZEB") {
+                return < ZigbeeEmergencyButton match={match} />
+            } else if (product.product.unicProduct === "ZSS") {
+                return < ZigbeeSmokeSensor match={match} />
+            } else if (product.product.unicProduct === "ZWLS") {
+                return < ZigbeeWaterLeakageSensor match={match} />
             } else {
                 return <Singlemain match={match} />
             }
         }
     }
-
 
     useEffect(() => {
         window.addEventListener("resize", handleResize);

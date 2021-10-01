@@ -47,12 +47,12 @@ export const ZigbeeWaterLeakageSensor = () => {
             <div className="im_sec_4">
                 <p className="tit">CLOSE THE WINDOW AUTOMATICALLY WHEN<br />DETECTING THE RAIN</p>
                 <p className="cont">Put the water leakage sensor beside the window to detect if it’s raining, and link with<br />the
-                    window pushing device to close the window automatically if it detects the heavy rain.</p><img id="iphone6_1" src="https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/iphone6_1-78eaba3749.png" />
+                    window pushing device to close the window automatically if it detects the heavy rain.</p><img alt="Home Alone" id="iphone6_1" src="img/iphone6_1-78eaba3749.png" />
             </div>
             <div className="im_sec_5">
                 <p className="tit">APPLIED AT HUMID PLACES</p>
                 <p className="cont">Put the water leakage sensor in the bathroom to detect the water level and efficiently<br />avoid
-                    family member falling down on the slippery ground.</p><img id="iphone6_2" src="https://static.orvibo.com/guanwang_second/front/en/images/water_sensor/iphone6_2-43bf246624.png" />
+                    family member falling down on the slippery ground.</p><img alt="Home Alone" id="iphone6_2" src="img/iphone6_2-43bf246624.png" />
             </div>
             <div className="im_sec_6">
                 <p>MORE FEATURES</p>

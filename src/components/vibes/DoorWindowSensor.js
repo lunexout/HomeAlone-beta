@@ -8,6 +8,7 @@ export const DoorWindowSensor = ({ match }) => {
             <html>
                 <section className="free_model clear">
                     <div className="dw_sec_1">
+
                         <div className="container">
                             <h1>Door &amp; Window Sensor</h1>BUY NOW
                         </div>

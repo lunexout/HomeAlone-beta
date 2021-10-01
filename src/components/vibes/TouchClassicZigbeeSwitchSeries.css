@@ -21,7 +21,7 @@
 .sec1{
     width:100%;
     height:971px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg1-deb18126e5.jpg) center no-repeat
+    background:url(img/bg1-deb18126e5.jpg) center no-repeat
 }
 .sec1 h1{
     padding-top:110px;
@@ -62,19 +62,19 @@
 .index_sec2 .slider_box .ib_slider li.ibs1{
     width:100%;
     height:100%;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/carousel1-50006c8807.jpg) center no-repeat;
+    background:url(img/carousel1-50006c8807.jpg) center no-repeat;
     background-size:100%
 }
 .index_sec2 .slider_box .ib_slider li.ibs2{
     width:100%;
     height:100%;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/carousel2-c84ce3ce14.jpg) center no-repeat;
+    background:url(img/carousel2-c84ce3ce14.jpg) center no-repeat;
     background-size:100%
 }
 .index_sec2 .slider_box .ib_slider li.ibs3{
     width:100%;
     height:100%;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/carousel3-83192944e0.jpg) center no-repeat;
+    background:url(img/carousel3-83192944e0.jpg) center no-repeat;
     background-size:100%
 }
 .index_sec2 .slider_box .ib_mark{
@@ -149,7 +149,7 @@
 }
 .sec3{
     height:928px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg2-28c0c7742b.jpg) center no-repeat
+    background:url(img/bg2-28c0c7742b.jpg) center no-repeat
 }
 .sec3 h1{
     padding-top:80px;
@@ -165,7 +165,7 @@
 }
 .sec4{
     height:1034px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg11-63b3eb37b2.jpg) center no-repeat
+    background:url(img/bg11-63b3eb37b2.jpg) center no-repeat
 }
 .sec4 .s4_mainbox .s4m_title{
     position:absolute;
@@ -217,7 +217,7 @@
 .sec5{
     width:100%;
     height:958px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg4-af83f4156b.jpg) center no-repeat;
+    background:url(img/bg4-af83f4156b.jpg) center no-repeat;
     text-align:center
 }
 .sec5 h1{
@@ -330,7 +330,7 @@
 }
 .sec8{
     height:956px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg7-06c9790320.jpg) center no-repeat;
+    background:url(img/bg7-06c9790320.jpg) center no-repeat;
     text-align:center
 }
 .sec10,.sec9{
@@ -417,7 +417,7 @@
     width:393px;
     height:115px;
     opacity:0;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/chat_1-552af6c1e9.png) center no-repeat
+    background:url(img/chat_1-552af6c1e9.png) center no-repeat
 }
 .sec10 .chat2{
     position:absolute;
@@ -426,7 +426,7 @@
     width:478px;
     height:55px;
     opacity:0;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/chat_2-676f1aa97b.png) center no-repeat
+    background:url(img/chat_2-676f1aa97b.png) center no-repeat
 }
 @media screen and (max-width:1440px){
     .sec10 .s10_txtbox{
@@ -447,7 +447,7 @@
 .sec11{
     width:100%;
     height:816px;
-    background:url(https://static.orvibo.com/guanwang_second/front/en/images/touchclassic/bg10-c5b4d70838.jpg) center no-repeat;
+    background:url(img/bg10-c5b4d70838.jpg) center no-repeat;
     text-align:center
 }
 .sec11 h1{

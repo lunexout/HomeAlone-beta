@@ -28,7 +28,7 @@ export const ZigbeeEmergencyButton = () => {
                 </div>
             </section>
             <section className="sos_sec_3">
-                <div className="ani_div"><img id="pro" src="https://static.orvibo.com/guanwang_second/front/en/images/sos/sec3-a70c9766cb.png" /></div>
+                <div className="ani_div"><img alt="Home Alone" id="pro" src="img/sec3-a70c9766cb.png" /></div>
                 <p>ALARM AT FIRST TIME WITH THE EMERGENCY BUTTON</p>
                 <div className="row">
                     <div className="circle cir_1">
@@ -47,14 +47,14 @@ export const ZigbeeEmergencyButton = () => {
                     <p className="tit">ONE-KEY TO ASK FOR HELP WHEN THE OLD PEOPLE<br />FALL DOWN AND GET INJURED</p>
                     <p className="cont">Some accidents may occur when old people are alone at home, and it maybe hard for<br />them to
                         find cellphone to call for help. Now just one press on the button, family member<br />will get alarm
-                        message and take action at once.</p><img src="https://static.orvibo.com/guanwang_second/front/en/images/sos/sec4_phone-2471198216.png" id="iphone6_1" />
+                        message and take action at once.</p><img alt="Home Alone" src="img/sec4_phone-2471198216.png" id="iphone6_1" />
                 </div>
             </section>
             <section className="sos_sec_5">
                 <p className="tit">ALARM IN TIME WHEN AN EMERGENCY<br />HAPPENED TO CHILDREN</p>
                 <p className="cont">There may be some emergencies when children are alone at home, and they may don’t<br />know how to
                     call parents. Now just one press on the button, parents will get alarm<br />message and take action at once.
-                </p><img src="https://static.orvibo.com/guanwang_second/front/en/images/sos/sec5_phone-c7d104ef99.png" id="iphone6_2" />
+                </p><img alt="Home Alone" src="img/sec5_phone-c7d104ef99.png" id="iphone6_2" />
             </section>
             <section className="sos_sec6 clear">
                 <div className="sos_sec6_left bg1 bg" id="sec6_left" />

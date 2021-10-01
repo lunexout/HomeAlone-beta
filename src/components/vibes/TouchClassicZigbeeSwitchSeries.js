@@ -15,24 +15,24 @@ export const TouchClassicZigbeeSwitchSeries = () => {
                         <div className="slidesjs-container" style={{ overflow: 'hidden', position: 'relative', width: '822px', height: '581.841px' }}>
                             <div className="slidesjs-control" style={{ position: 'relative', left: '0px', width: '822px', height: '581.841px' }}>
                                 <li className="ibs1 slidesjs-slide" slidesjs-index={0} style={{ height: '665.366px', position: 'absolute', top: '0px', left: '0px', width: '100%', zIndex: 0, backfaceVisibility: 'hidden', display: 'none' }}>
-                                    <a href="javascript:void(0)" /></li>
+                                    <a href="homealone.ge"> </a></li>
                                 <li className="ibs2 slidesjs-slide" slidesjs-index={1} style={{ height: '665.366px', position: 'absolute', top: '0px', left: '0px', width: '100%', zIndex: 0, backfaceVisibility: 'hidden', display: 'none' }}>
-                                    <a href="javascript:void(0)" /></li>
+                                    <a href="homealone.ge"> </a></li>
                                 <li className="ibs3 slidesjs-slide" slidesjs-index={2} style={{ height: '665.366px', position: 'absolute', top: '0px', left: '0px', width: '100%', zIndex: 0, backfaceVisibility: 'hidden' }}>
-                                    <a href="javascript:void(0)" /></li>
+                                    <a href="homealone.ge"> </a></li>
                             </div>
                         </div>
                     </ul>
                     <ul className="ib_mark slidesjs-pagination clear">
-                        <li className="slidesjs-pagination-item"><a href="javascript:void(0)" data-slidesjs-item={0} html={1}>
+                        <li className="slidesjs-pagination-item"><a href="homealone.ge" data-slidesjs-item={0} html={1}>
                             <div className="im_active" style={{ width: '50px' }} />
                             <div className="im_progress" style={{ width: '0px' }} />
                         </a></li>
-                        <li className="slidesjs-pagination-item"><a href="javascript:void(0)" data-slidesjs-item={1} html={2}>
+                        <li className="slidesjs-pagination-item"><a href="homealone.ge" data-slidesjs-item={1} html={2}>
                             <div className="im_active" style={{ width: '50px' }} />
                             <div className="im_progress" style={{ width: '0px' }} />
                         </a></li>
-                        <li className="slidesjs-pagination-item" style={{ marginRight: 0 }}><a href="javascript:void(0)" data-slidesjs-item={2} html={3}>
+                        <li className="slidesjs-pagination-item" style={{ marginRight: 0 }}><a href="homealone.ge" data-slidesjs-item={2} html={3}>
                             <div className="im_active" style={{ width: '0px' }} />
                             <div className="im_progress" style={{ width: '50px' }} />
                         </a></li>

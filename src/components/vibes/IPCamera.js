@@ -38,7 +38,7 @@ export const IPCamera = () => {
                         <div className="sec2__size"><span>720p</span> <span>1080P</span></div>
                     </div>
                 </div>
-                <div className="yt__sec3 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg3-8d876ab46b.png)' }}>
+                <div className="yt__sec3 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg3-8d876ab46b.png)' }}>
                     <div className="sec3__content">
                         <div className="sec__title">Double Rotating Platform, Without Monitoring Dead Angle</div>
                         <div className="sec__desc">
@@ -48,7 +48,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec4 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg4-a9ad58dac1.png)' }}>
+                <div className="yt__sec4 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg4-a9ad58dac1.png)' }}>
                     <div className="sec3__content">
                         <div className="sec__title">Night Vision With High Video Quality</div>
                         <div className="sec__desc">
@@ -58,7 +58,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec5 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg5-f6b42bb1de.png)' }}>
+                <div className="yt__sec5 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg5-f6b42bb1de.png)' }}>
                     <div className="sec5__content">
                         <div className="sec__title">Sensitive Motion Detection</div>
                         <div className="sec__desc">
@@ -73,7 +73,7 @@ export const IPCamera = () => {
                 <div className="yt__sec6">
                     <p className="sec6__title">Remote Monitoring in Real Time</p>
                 </div>
-                <div className="yt__sec7 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg7-42ea7ab39c.png)' }}>
+                <div className="yt__sec7 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg7-42ea7ab39c.png)' }}>
                     <div className="sec7__content">
                         <div className="sec__title">Always pay attention to the elderly and children</div>
                         <div className="sec__desc">
@@ -83,7 +83,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec8 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg8-b6638db0ec.png)' }}>
+                <div className="yt__sec8 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg8-b6638db0ec.png)' }}>
                     <div className="sec8__content">
                         <div className="sec__title">Remotely Care for Pets at Home</div>
                         <div className="sec__desc">
@@ -93,7 +93,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec8 s__bg d__sec small lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg9-fdd4699c6d.png)' }}>
+                <div className="yt__sec8 s__bg d__sec small lazy" style={{ backgroundImage: 'url(img/bg9-fdd4699c6d.png)' }}>
                     <div className="sec8__content">
                         <div className="sec__title">
                             <p>Real-Time Two-Way Intercom</p>
@@ -107,7 +107,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec9 s__bg d__sec lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg10-1f2864fa16.png)' }}>
+                <div className="yt__sec9 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg10-1f2864fa16.png)' }}>
                     <div className="sec8__content">
                         <div className="sec__title">
                             <p>7*24 Hours of Uninterrupted Storage</p>
@@ -123,7 +123,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec10 d__sec s__bg lazy" style={{ backgroundImage: 'url(https://static.orvibo.com/guanwang_second/front/en/images/yuntai2/bg11-0bf87b2f7a.jpg)' }}>
+                <div className="yt__sec10 d__sec s__bg lazy" style={{ backgroundImage: 'url(img/bg11-0bf87b2f7a.jpg)' }}>
                     <div className="sec10__info">
                         <div className="sec__title">Intelligent security linkage, 24-hour full-space protection</div>
                         <div className="sec__desc">
@@ -132,34 +132,34 @@ export const IPCamera = () => {
                         </div>
                     </div>
                     <div className="content">
-                        <div className="item1"><a href="javascript:void(0)">
+                        <div className="item1">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
-                        <div className="item2"><a href="javascript:void(0)">
+                        <div className="item2">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
-                        <div className="item3"><a href="javascript:void(0)">
+                        <div className="item3">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
-                        <div className="item4"><a href="javascript:void(0)">
+                        <div className="item4">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
-                        <div className="item5"><a href="javascript:void(0)">
+                        <div className="item5">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
-                        <div className="item6"><a href="javascript:void(0)">
+                        <div className="item6">
                             <div className="icon" /><em />
-                        </a>
+
                             <div className="pic" />
                         </div>
                     </div>

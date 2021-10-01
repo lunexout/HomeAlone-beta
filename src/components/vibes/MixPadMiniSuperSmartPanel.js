@@ -12,8 +12,8 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <h2 className="f59">MixPad Mini supper smart gateway</h2>
                         <div className="bannerImg"><span className="f20">Touch screen control | Smart lighting | Air conditioning control |
                             Curtain control | Security alarm | Scene control</span></div>
-                        <div className="logo"><img className="lazy img1" data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/banner_logo_1-6c48b347dc.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
-                            <img className="lazy img2" data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/banner_logo_2-83f5ac1a52.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
+                        <div className="logo"> <img alt="Home Alone" className="lazy img1" data-original="img/banner_logo_1-6c48b347dc.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
+                            <img alt="Home Alone" className="lazy img2" data-original="img/banner_logo_2-83f5ac1a52.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             the room, making the wall more concise and beautiful, replace the complexity of<br />traditional switches.</p>
                     </div>
                     <div className="videoWrapper" />
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec1.mp4" autoPlay preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/sec1.mp4" autoPlay preload="auto" muted /></div>
                 </div>
                 <div className="sec2 sec">
                     <div className="animated fadeInUp">
@@ -35,11 +35,11 @@ export const MixPadMiniSuperSmartPanel = () => {
                             intelligentization and automation of the<br />home are truly realized, bringing a new home life experience.</p>
                     </div>
                 </div>
-                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="http://1251222210.vod2.myqcloud.com/8f4239b1vodgzp1251222210/e19443915285890807307522984/7OgiAiuKATQA.mp4" autoPlay preload="auto" muted />
+                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="img/7OgiAiuKATQA.mp4" autoPlay preload="auto" muted />
                     <div className="mask">
                         <div className="content">
                             <h2 className="title">Life have another possibility...</h2>
-                            <div className="video f20"><span>Watch video</span><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec3_play-39c57c26d7.png" alt="" /></div>
+                            <div className="video f20"><span>Watch video</span> <img alt="Home Alone" src="img/sec3_play-39c57c26d7.png" /></div>
                         </div>
                     </div>
                 </div>
@@ -52,12 +52,12 @@ export const MixPadMiniSuperSmartPanel = () => {
                             <h2 className="title">Full house lighting<br />one-key control</h2>
                             <p className="desc">One panel can control multiple lights, turn<br />off all lights with one button, and no
                                 need<br />to switch one by one.</p>
-                        </div><img className="active" src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png" alt="" /> <img className="img1 whiteImg" src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_2-3a905854da.png" alt="" />
+                        </div> <img alt="Home Alone" className="active" src="img/left_1-e79f777a04.png" /> <img alt="Home Alone" className="img1 whiteImg" src="img/left_2-3a905854da.png" />
                     </div>
                     <div className="right">
                         <div className="right_1" />
                         <div className="videoWrapper" />
-                        <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec4_1.mp4" id="sec4_1_video" preload="auto" muted /></div>
+                        <div className="video"><video loop width="100%" src="img/sec4_1.mp4" id="sec4_1_video" preload="auto" muted /></div>
                     </div>
                 </div>
                 <div className="sec4_2">
@@ -73,7 +73,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             <div className="toast toast2 animated fadeInUp delay-1">OK</div>
                         </div>
                     </div>
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/curtain.mp4" id="curtain" preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/curtain.mp4" id="curtain" preload="auto" muted /></div>
                 </div>
                 <div className="sec4_4">
                     <div className="sec">
@@ -122,10 +122,10 @@ export const MixPadMiniSuperSmartPanel = () => {
                                 <p className="title animated fadeInUp">Before going out<br />One key operation</p>
                                 <p className="desc animated fadeInUp">Easy-to-operate interface.</p>
                             </div>
-                            <div><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec5_1-44ad8a51b5.png" alt="" /></div>
+                            <div> <img alt="Home Alone" src="img/sec5_1-44ad8a51b5.png" /></div>
                         </div>
                         <div className="case case2 caseText">
-                            <div><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec5_3-3f2cce9470.png" alt="" /></div>
+                            <div> <img alt="Home Alone" src="img/sec5_3-3f2cce9470.png" /></div>
                             <div className="txtWrapper">
                                 <p className="title animated fadeInUp">Mobile APP<br />remote control outdoor</p>
                                 <p className="desc animated fadeInUp">In summer, turn on the air conditioner<br />remotely,Experience
@@ -134,7 +134,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                         </div>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_c/sec5-0225d4103d.png" className="sec7 sec lazy">
+                <div data-original="img/sec5-0225d4103d.png" className="sec7 sec lazy">
                     <h2 className="title animated fadeInUp">Flash-dog,<br />Discover smart appliances at home automatically</h2>
                     <p className="desc animated fadeInUp">Built-in WiFi and Bluetooth，Realize the intelligent scene linkage of the full
                         house<br />through touch screen interaction.</p>
@@ -150,7 +150,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                     <p className="gray_5 circle delay_4">Refrigerator</p>
                     <p className="gray_6 circle delay_4">Water<br />heater</p>
                     <div className="videoWrapper" />
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec5.mp4" autoPlay preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/sec5.mp4" autoPlay preload="auto" muted /></div>
                 </div>
                 <div className="sec8 sec">
                     <div className="content animated fadeInUp">
@@ -158,12 +158,12 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <p className="desc">The brand-new HOME AI 2.0 , comprehensively upgraded colors, graphics, interactions and dynamic
                             effects ensure<br />that it is not only beautiful, but also greatly reduces the difficulty of use. Children and
                             elderly people can also<br />easily use it, satisfying the use of the whole family.</p>
-                        <div className="video f20"><span>Watch video</span><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec3_play-39c57c26d7.png" alt="" /></div>
+                        <div className="video f20"><span>Watch video</span> <img alt="Home Alone" src="img/sec3_play-39c57c26d7.png" /></div>
                     </div>
                 </div>
-                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="http://1251222210.vod2.myqcloud.com/8f4239b1vodgzp1251222210/507870f65285890807496230777/M7mxwABFyt4A.mp4" autoPlay preload="auto" muted /></div>
+                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="img/M7mxwABFyt4A.mp4" autoPlay preload="auto" muted /></div>
                 <div className="sec8-1" />
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec9-5f6cde20f5.png" className="sec9 bg lazy">
+                <div data-original="img/sec9-5f6cde20f5.png" className="sec9 bg lazy">
                     <div className="sec9-1">
                         <div className="animated fadeInUp">
                             <h2 className="title">Fully upgraded configuration, fully optimized performance</h2>
@@ -196,7 +196,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                         </div>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec10-b6fad2717f.png" className="sec10 bg lazy">
+                <div data-original="img/sec10-b6fad2717f.png" className="sec10 bg lazy">
                     <div className="line" />
                     <div className="content sec">
                         <p className="f24 animated fadeInUp">Temperature and humidity sensor</p>
@@ -205,7 +205,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             environmental<br />temperature and humidity.</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec11-86a05ce45f.png" className="sec11 bg lazy">
+                <div data-original="img/sec11-86a05ce45f.png" className="sec11 bg lazy">
                     <div className="line1" />
                     <div className="line2" />
                     <div className="content1 sec">
@@ -217,14 +217,14 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <p className="f20 animated fadeInUp">2GB RAM+8GB ROM</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec12-450f9b5d2e.png" className="sec12 bg lazy sec">
+                <div data-original="img/sec12-450f9b5d2e.png" className="sec12 bg lazy sec">
                     <div className="animated fadeInUp">
                         <h2 className="title">Simple &amp; Easy Installation</h2>
                         <p className="desc">MixPad mini adopts the Chinese national standard single 86 mm size switch bottom box design and
                             supports<br />two-way lighting system, which can directly replace the traditional switches by electrician.</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec13-f1b0bd455f.png" className="sec13 bg lazy sec">
+                <div data-original="img/sec13-f1b0bd455f.png" className="sec13 bg lazy sec">
                     <h2 className="title animated fadeInUp">Available in black and white, classic color</h2>
                 </div>
             </div>
@@ -236,8 +236,8 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <h2 className="f59">MixPad Mini supper smart gateway</h2>
                         <div className="bannerImg"><span className="f20">Touch screen control | Smart lighting | Air conditioning control |
                             Curtain control | Security alarm | Scene control</span></div>
-                        <div className="logo"><img className="lazy img1" data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/banner_logo_1-6c48b347dc.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
-                            <img className="lazy img2" data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/banner_logo_2-83f5ac1a52.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
+                        <div className="logo"> <img alt="Home Alone" className="lazy img1" data-original="img/banner_logo_1-6c48b347dc.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
+                            <img alt="Home Alone" className="lazy img2" data-original="img/banner_logo_2-83f5ac1a52.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" />
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             the room, making the wall more concise and beautiful, replace the complexity of<br />traditional switches.</p>
                     </div>
                     <div className="videoWrapper" />
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec1.mp4" autoPlay preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/sec1.mp4" autoPlay preload="auto" muted /></div>
                 </div>
                 <div className="sec2 sec">
                     <div className="animated fadeInUp">
@@ -259,11 +259,11 @@ export const MixPadMiniSuperSmartPanel = () => {
                             intelligentization and automation of the<br />home are truly realized, bringing a new home life experience.</p>
                     </div>
                 </div>
-                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="http://1251222210.vod2.myqcloud.com/8f4239b1vodgzp1251222210/e19443915285890807307522984/7OgiAiuKATQA.mp4" autoPlay preload="auto" muted />
+                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="img/7OgiAiuKATQA.mp4" autoPlay preload="auto" muted />
                     <div className="mask">
                         <div className="content">
                             <h2 className="title">Life have another possibility...</h2>
-                            <div className="video f20"><span>Watch video</span><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec3_play-39c57c26d7.png" alt="" /></div>
+                            <div className="video f20"><span>Watch video</span> <img alt="Home Alone" src="img/sec3_play-39c57c26d7.png" /></div>
                         </div>
                     </div>
                 </div>
@@ -276,12 +276,12 @@ export const MixPadMiniSuperSmartPanel = () => {
                             <h2 className="title">Full house lighting<br />one-key control</h2>
                             <p className="desc">One panel can control multiple lights, turn<br />off all lights with one button, and no
                                 need<br />to switch one by one.</p>
-                        </div><img className="active" src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_1-e79f777a04.png" alt="" /> <img className="img1 whiteImg" src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/left_2-3a905854da.png" alt="" />
+                        </div> <img alt="Home Alone" className="active" src="img/left_1-e79f777a04.png" /> <img alt="Home Alone" className="img1 whiteImg" src="img/left_2-3a905854da.png" />
                     </div>
                     <div className="right">
                         <div className="right_1" />
                         <div className="videoWrapper" />
-                        <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec4_1.mp4" id="sec4_1_video" preload="auto" muted /></div>
+                        <div className="video"><video loop width="100%" src="img/sec4_1.mp4" id="sec4_1_video" preload="auto" muted /></div>
                     </div>
                 </div>
                 <div className="sec4_2">
@@ -297,7 +297,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             <div className="toast toast2 animated fadeInUp delay-1">OK</div>
                         </div>
                     </div>
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/curtain.mp4" id="curtain" preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/curtain.mp4" id="curtain" preload="auto" muted /></div>
                 </div>
                 <div className="sec4_4">
                     <div className="sec">
@@ -346,10 +346,10 @@ export const MixPadMiniSuperSmartPanel = () => {
                                 <p className="title animated fadeInUp">Before going out<br />One key operation</p>
                                 <p className="desc animated fadeInUp">Easy-to-operate interface.</p>
                             </div>
-                            <div><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec5_1-44ad8a51b5.png" alt="" /></div>
+                            <div> <img alt="Home Alone" src="img/sec5_1-44ad8a51b5.png" /></div>
                         </div>
                         <div className="case case2 caseText">
-                            <div><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec5_3-3f2cce9470.png" alt="" /></div>
+                            <div> <img alt="Home Alone" src="img/sec5_3-3f2cce9470.png" /></div>
                             <div className="txtWrapper">
                                 <p className="title animated fadeInUp">Mobile APP<br />remote control outdoor</p>
                                 <p className="desc animated fadeInUp">In summer, turn on the air conditioner<br />remotely,Experience
@@ -358,7 +358,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                         </div>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_c/sec5-0225d4103d.png" className="sec7 sec lazy">
+                <div data-original="img/sec5-0225d4103d.png" className="sec7 sec lazy">
                     <h2 className="title animated fadeInUp">Flash-dog,<br />Discover smart appliances at home automatically</h2>
                     <p className="desc animated fadeInUp">Built-in WiFi and Bluetooth，Realize the intelligent scene linkage of the full
                         house<br />through touch screen interaction.</p>
@@ -374,7 +374,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                     <p className="gray_5 circle delay_4">Refrigerator</p>
                     <p className="gray_6 circle delay_4">Water<br />heater</p>
                     <div className="videoWrapper" />
-                    <div className="video"><video loop width="100%" src="/guanwang_second/front/video/sec5.mp4" autoPlay preload="auto" muted /></div>
+                    <div className="video"><video loop width="100%" src="img/sec5.mp4" autoPlay preload="auto" muted /></div>
                 </div>
                 <div className="sec8 sec">
                     <div className="content animated fadeInUp">
@@ -382,12 +382,12 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <p className="desc">The brand-new HOME AI 2.0 , comprehensively upgraded colors, graphics, interactions and dynamic
                             effects ensure<br />that it is not only beautiful, but also greatly reduces the difficulty of use. Children and
                             elderly people can also<br />easily use it, satisfying the use of the whole family.</p>
-                        <div className="video f20"><span>Watch video</span><img src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec3_play-39c57c26d7.png" alt="" /></div>
+                        <div className="video f20"><span>Watch video</span> <img alt="Home Alone" src="img/sec3_play-39c57c26d7.png" /></div>
                     </div>
                 </div>
-                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="http://1251222210.vod2.myqcloud.com/8f4239b1vodgzp1251222210/507870f65285890807496230777/M7mxwABFyt4A.mp4" autoPlay preload="auto" muted /></div>
+                <div className="sec3 bg lazy"><video loop width="100%" height="100%" src="img/M7mxwABFyt4A.mp4" autoPlay preload="auto" muted /></div>
                 <div className="sec8-1" />
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec9-5f6cde20f5.png" className="sec9 bg lazy">
+                <div data-original="img/sec9-5f6cde20f5.png" className="sec9 bg lazy">
                     <div className="sec9-1">
                         <div className="animated fadeInUp">
                             <h2 className="title">Fully upgraded configuration, fully optimized performance</h2>
@@ -420,7 +420,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                         </div>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec10-b6fad2717f.png" className="sec10 bg lazy">
+                <div data-original="img/sec10-b6fad2717f.png" className="sec10 bg lazy">
                     <div className="line" />
                     <div className="content sec">
                         <p className="f24 animated fadeInUp">Temperature and humidity sensor</p>
@@ -429,7 +429,7 @@ export const MixPadMiniSuperSmartPanel = () => {
                             environmental<br />temperature and humidity.</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec11-86a05ce45f.png" className="sec11 bg lazy">
+                <div data-original="img/sec11-86a05ce45f.png" className="sec11 bg lazy">
                     <div className="line1" />
                     <div className="line2" />
                     <div className="content1 sec">
@@ -441,14 +441,14 @@ export const MixPadMiniSuperSmartPanel = () => {
                         <p className="f20 animated fadeInUp">2GB RAM+8GB ROM</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec12-450f9b5d2e.png" className="sec12 bg lazy sec">
+                <div data-original="img/sec12-450f9b5d2e.png" className="sec12 bg lazy sec">
                     <div className="animated fadeInUp">
                         <h2 className="title">Simple &amp; Easy Installation</h2>
                         <p className="desc">MixPad mini adopts the Chinese national standard single 86 mm size switch bottom box design and
                             supports<br />two-way lighting system, which can directly replace the traditional switches by electrician.</p>
                     </div>
                 </div>
-                <div data-original="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec13-f1b0bd455f.png" className="sec13 bg lazy sec">
+                <div data-original="img/sec13-f1b0bd455f.png" className="sec13 bg lazy sec">
                     <h2 className="title animated fadeInUp">Available in black and white, classic color</h2>
                 </div>
             </div>

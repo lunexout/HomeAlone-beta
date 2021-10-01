@@ -21,7 +21,7 @@
 .kaihe_sec1 {
 	height: 8em;
 	width: 100%;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg1-8023289d8a.jpg) center no-repeat;
+	background: url(img/bg1-8023289d8a.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center
 }
@@ -82,17 +82,17 @@
 }
 
 .kaihe_sec2 .item1 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic1-36e54ceba8.jpg) center center no-repeat;
+	background: url(img/pic1-36e54ceba8.jpg) center center no-repeat;
 	background-size: cover
 }
 
 .kaihe_sec2 .item2 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic2-3e4c19e99b.jpg) center center no-repeat;
+	background: url(img/pic2-3e4c19e99b.jpg) center center no-repeat;
 	background-size: cover
 }
 
 .kaihe_sec2 .item3 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pic3-bee5506d95.jpg) center center no-repeat;
+	background: url(img/pic3-bee5506d95.jpg) center center no-repeat;
 	background-size: cover
 }
 
@@ -107,7 +107,7 @@
 
 .kaihe_sec3 {
 	height: 7.98em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg2-da081d00fb.jpg) center no-repeat;
+	background: url(img/bg2-da081d00fb.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center
 }
@@ -191,17 +191,17 @@
 }
 
 .kaihe_sec4 .ib_slider li.ibs1 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg3-2c9d3ddf61.jpg) center no-repeat;
+	background: url(img/bg3-2c9d3ddf61.jpg) center no-repeat;
 	background-size: cover
 }
 
 .kaihe_sec4 .ib_slider li.ibs2 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg4-77a3e6c27a.jpg) center no-repeat;
+	background: url(img/bg4-77a3e6c27a.jpg) center no-repeat;
 	background-size: cover
 }
 
 .kaihe_sec4 .ib_slider li.ibs3 {
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg5-2555ef5490.jpg) center no-repeat;
+	background: url(img/bg5-2555ef5490.jpg) center no-repeat;
 	background-size: cover
 }
 
@@ -223,17 +223,17 @@
 	display: block;
 	width: 100%;
 	height: 10px;
-	background: url(https://static.orvibo.com/guanwang_second/front/images/new/slider_icon1-502a5e4157.png) no-repeat
+	background: url(img/slider_icon1-502a5e4157.png) no-repeat
 }
 
 .kaihe_sec4 .ib_mark li a.active {
-	background: url(https://static.orvibo.com/guanwang_second/front/images/new/slider_icon2-a80fd083aa.png) no-repeat
+	background: url(img/slider_icon2-a80fd083aa.png) no-repeat
 }
 
 .kaihe_sec5 {
 	height: 9.26em;
 	width: 100%;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg6-5b42a4c4c8.jpg) bottom center no-repeat #fff;
+	background: url(img/bg6-5b42a4c4c8.jpg) bottom center no-repeat #fff;
 	background-size: contain
 }
 
@@ -271,7 +271,7 @@
 .kaihe_sec5 .container .left div {
 	width: 1.78em;
 	height: .62em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/icon1-fc288af239.png) center no-repeat;
+	background: url(img/icon1-fc288af239.png) center no-repeat;
 	background-size: contain;
 	margin-top: .15em
 }
@@ -279,7 +279,7 @@
 .kaihe_sec6 {
 	height: 6.7em;
 	width: 100%;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg7-3bc518dece.jpg) center no-repeat;
+	background: url(img/bg7-3bc518dece.jpg) center no-repeat;
 	background-size: cover
 }
 
@@ -309,7 +309,7 @@
 .kaihe_sec7 {
 	height: 7em;
 	width: 100%;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg8-202a2a296c.jpg) center no-repeat;
+	background: url(img/bg8-202a2a296c.jpg) center no-repeat;
 	background-size: cover
 }
 
@@ -323,7 +323,7 @@
 .kaihe_sec7 .container .icon {
 	width: .48em;
 	height: .14em;
-	background: url(https://static.orvibo.com/guanwang_second/front/images/new/products/chuanglian/arrow-59c2288d12.png) center no-repeat;
+	background: url(img/arrow-59c2288d12.png) center no-repeat;
 	background-size: cover;
 	animation: move 1.6s infinite linear
 }
@@ -360,7 +360,7 @@
 .kaihe_sec8 {
 	width: 100%;
 	height: 7em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg9-c3b30d534a.jpg) center no-repeat;
+	background: url(img/bg9-c3b30d534a.jpg) center no-repeat;
 	background-size: cover
 }
 
@@ -388,7 +388,7 @@
 .kaihe_sec9 {
 	position: relative;
 	height: 7em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg10-c4f7d1d984.jpg) center center no-repeat;
+	background: url(img/bg10-c4f7d1d984.jpg) center center no-repeat;
 	background-size: cover
 }
 
@@ -418,7 +418,7 @@
 .kaihe_sec10 {
 	width: 100%;
 	height: 9.08em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg11-8f710a9269.jpg) center no-repeat;
+	background: url(img/bg11-8f710a9269.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center;
 	margin-top: -.05em
@@ -440,7 +440,7 @@
 .kaihe_sec11 {
 	width: 100%;
 	height: 9.02em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg12-5e81e8639c.jpg) center no-repeat;
+	background: url(img/bg12-5e81e8639c.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center
 }
@@ -462,7 +462,7 @@
 	height: 11.24em;
 	width: 100%;
 	position: relative;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg13-fb00bd3f77.jpg) center no-repeat;
+	background: url(img/bg13-fb00bd3f77.jpg) center no-repeat;
 	background-size: cover
 }
 
@@ -519,7 +519,7 @@
 
 .kaihe_sec13 {
 	height: 7.86em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg14-4885bc87e7.jpg) center no-repeat;
+	background: url(img/bg14-4885bc87e7.jpg) center no-repeat;
 	background-size: cover;
 	position: relative
 }
@@ -547,7 +547,7 @@
 
 .kaihe_sec14 {
 	height: 9.06em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg15-a9266c3c5b.jpg) center no-repeat;
+	background: url(img/bg15-a9266c3c5b.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center;
 	position: relative
@@ -583,7 +583,7 @@
 
 .kaihe_sec15 {
 	height: 7.1em;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/bg16-6248b3b02e.jpg) center no-repeat;
+	background: url(img/bg16-6248b3b02e.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center
 }
@@ -662,7 +662,7 @@
 	top: 262px;
 	display: block;
 	z-index: 11;
-	background: url(https://static.orvibo.com/guanwang_second/front/images/new/products/chuanglian/icons-7a344f6a16.png) center no-repeat
+	background: url(img/icons-7a344f6a16.png) center no-repeat
 }
 
 .kaihe_sec16 .container .link a.prevslide {
@@ -731,7 +731,7 @@
 .kaihe_sec18 .container .pic em {
 	display: block;
 	height: 65px;
-	background: url(https://static.orvibo.com/guanwang_second/front/en/images/kaihe/pro-2bb549d6c0.png) center no-repeat;
+	background: url(img/pro-2bb549d6c0.png) center no-repeat;
 	width: 265px;
 	margin: 0 auto
 }

@@ -49,7 +49,7 @@
   transform:translate(0,-50%);
   width:.26rem;
   height:.26rem;
-  background:url(https://static.orvibo.com/guanwang_second/front/images/new/products/mixpad_elf/icon_player-7fc7fa8ef7.png) center/cover no-repeat
+  background:url(img/icon_player-7fc7fa8ef7.png) center/cover no-repeat
 }
 .elf .elf__banner{
   display:flex;
@@ -68,7 +68,7 @@
   width:7.8rem;
   height:7.8rem;
   opacity:0;
-  background:url(https://static.orvibo.com/guanwang_second/front/images/new/products/mixpad_elf/banner-367e6f175d.png) center/cover no-repeat;
+  background:url(img/banner-367e6f175d.png) center/cover no-repeat;
   animation:bannerRotate 20s ease-in-out infinite
 }
 .elf .sec4,.elf .sec6{

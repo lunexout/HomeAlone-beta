@@ -18,25 +18,23 @@ export const MagicCubeWifiIRController = () => {
             <p className="xc_title">ONE SMART PHONE CAN CONTROL MOST OF IR APPLIANCES</p>
             <p className="xc_txt">Support more than 8000 different brands of IR appliances<br />(TV, A/C, Fan, TV Box,
               Projector, DVD, Home Speaker, etc..) in the market.</p>
-            <div className="xc_content"><img src="https://static.orvibo.com/html/images/products/xiaofang/xiaofang_en.jpg" />
-              <div className="xc_air"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_wind.png" className="xa_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_light.png" className="xa_light" />
+            <div className="xc_content"><img alt="Home Alone" src="img/xiaofang_en.jpg" />
+              <div className="xc_air"><img alt="Home Alone" src="img/xf_wind.png" className="xa_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xa_light" />
               </div>
-              <div className="xc_tv"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_logo_default.png" className="xt_logo" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_logo_active.png" className="xt_logo_active" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_light.png" className="xt_light" />
+              <div className="xc_tv"><img alt="Home Alone" src="img/xf_logo_default.png" className="xt_logo" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_logo_active.png" className="xt_logo_active" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xt_light" />
               </div>
-              <div className="xc_stb"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_dot.png" className="xs_dot" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_circle.png" className="xs_circle" /></div>
-              <div className="xc_box"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_light.png" className="xb_light" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_circle.png" className="xb_circle" /></div>
+              <div className="xc_stb"><img alt="Home Alone" src="img/xf_dot.png" className="xs_dot" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_circle.png" className="xs_circle" /></div>
+              <div className="xc_box"><img alt="Home Alone" src="img/xf_light.png" className="xb_light" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_circle.png" className="xb_circle" /></div>
               <div className="xc_sound">
-                <div className="xs_left"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_light.png" className="xs_light" /></div>
-                <div className="xs_right"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_light.png" className="xs_light" /></div>
+                <div className="xs_left"><img alt="Home Alone" src="img/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xs_light" /></div>
+                <div className="xs_right"><img alt="Home Alone" src="img/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xs_light" /></div>
               </div>
-              <div className="xc_fan"><img src="https://static.orvibo.com/html/images/products/xiaofang/xf_wind.png" className="xf_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://static.orvibo.com/html/images/products/xiaofang/xf_dot.png" className="xf_dot" />
+              <div className="xc_fan"><img alt="Home Alone" src="img/xf_wind.png" className="xf_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_dot.png" className="xf_dot" />
               </div>
             </div>
             <div className="mouse_img" />
           </div>
-          <div className="xc_phone"><a href="javascript:void(0)" className="xp_tv" /> &nbsp; &nbsp; <a href="javascript:void(0)" className="xp_stb" /> &nbsp; &nbsp; <a href="javascript:void(0)" className="xp_box" /> &nbsp; &nbsp; <a href="javascript:void(0)" className="xp_sound" /> &nbsp; &nbsp;
-            <a href="javascript:void(0)" className="xp_fan" /> &nbsp; &nbsp; <a href="javascript:void(0)" className="xp_air" />
-          </div>
+
         </section>
         <br /><br /><br /><br />
         <section className="xf_page xf_third xf_third_en">
@@ -62,7 +60,7 @@ export const MagicCubeWifiIRController = () => {
               </div>
             </div>
           </div>
-        </section><img src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new1-73e9d8f842.jpg" alt="" style={{ width: '100%', height: 'auto' }} /> <img src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new2-5142243776.jpg" alt="" style={{ width: '100%', height: 'auto', marginTop: '-4px' }} />
+        </section><img alt="Home Alone" src="img/new1-73e9d8f842.jpg" style={{ width: '100%', height: 'auto' }} /> <img alt="Home Alone" src="img/new2-5142243776.jpg" style={{ width: '100%', height: 'auto', marginTop: '-4px' }} />
         <section className="xf_page xf_eighth" style={{ marginTop: '-4px' }}>
           <div className="xf_container">
             <p className="xe_title">CONCISED DESIGN AND POWERFUL FUNCTION</p>

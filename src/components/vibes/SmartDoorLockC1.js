@@ -2,6 +2,7 @@ import React from 'react'
 import './SmartDoorLockC1.css'
 import styles from './all.module.css'
 
+
 export const SmartDoorLockC1 = () => {
     return (
         <div className={styles.thismedia}>
