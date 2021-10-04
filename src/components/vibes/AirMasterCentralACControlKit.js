@@ -2,10 +2,6 @@ import React from 'react'
 import './AirMasterCentralACControlKit.css'
 import styles from './all.module.css'
 
-import photo1 from './img/sec2_bg1-9739666538.jpg'
-
-import photo2 from './img/sec2_bg2-9609be2471.jpg'
-
 import photo3 from './img/sec2_bg3-cfcda3ebb8.jpg'
 import dataJSON from "./../../API.json"
 

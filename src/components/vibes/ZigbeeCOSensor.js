@@ -59,16 +59,16 @@ export const ZigbeeCOSensor = () => {
                     />
                     <div id="flash" className="flash" style={{ opacity: 0 }} />
                 </div>
-                <p className="l_p">PROTECT YOUR HOME WITH SMART CO SENSOR</p>
+                <p className="l_p" >PROTECT YOUR HOME WITH SMART CO SENSOR</p>
                 <div className="row">
                     <div className="circle cir_1">
-                        <p>Electrochemical sensors from NEMOTO</p>
+                        <p style={{ fontSize: "12px " }}>Electrochemical sensors from NEMOTO</p>
                     </div>
                     <div className="circle cir_2">
-                        <p>High stability and sensitivity</p>
+                        <p style={{ fontSize: "12px " }}>High stability and sensitivity</p>
                     </div>
                     <div className="circle cir_3" style={{ margin: 0 }}>
-                        <p>Sound and indicator alarm</p>
+                        <p style={{ fontSize: "12px " }}>Sound and indicator alarm</p>
                     </div>
                 </div>
             </section>
@@ -132,25 +132,25 @@ export const ZigbeeCOSensor = () => {
                 <p>MORE FEATURES</p>
                 <div className="content clear">
                     <ul id="icons" className="clear">
-                        <li style={{ width: "270px" }}>
+                        <li style={{ width: "270px", listStyleType: "none" }}>
                             <div className="icon icon1" />
-                            <p>Low power consumption</p>
+                            <p style={{ fontSize: "12px " }}>Low power consumption</p>
                         </li>
-                        <li>
+                        <li style={{ width: "270px", listStyleType: "none" }}>
                             <div className="icon icon2" />
-                            <p>Low battery warning</p>
+                            <p style={{ fontSize: "12px " }}>Low battery warning</p>
                         </li>
-                        <li>
+                        <li style={{ width: "270px", listStyleType: "none" }}>
                             <div className="icon icon3" />
-                            <p>Tool-free installation</p>
+                            <p style={{ fontSize: "12px " }}>Tool-free installation</p>
                         </li>
-                        <li style={{ marginRight: 0 }}>
+                        <li style={{ width: "270px", listStyleType: "none" }}>
                             <div className="icon icon4" />
-                            <p>Delicate design</p>
+                            <p style={{ fontSize: "12px " }}>Delicate design</p>
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section >
             <section className="sp20_sec_8">
                 <div className="jq_container">
                     <p className="jq_title">PRODUCT PARAMETERS</p>
@@ -241,6 +241,6 @@ export const ZigbeeCOSensor = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     )
 }
