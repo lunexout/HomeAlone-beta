@@ -12,7 +12,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
-
+import logoprod1 from './../../../assets/audio.png';
+import logoprod2 from './../../../assets/interact.png';
+import logoprod3 from './../../../assets/light.png';
+import logoprod4 from './../../../assets/security.png';
+import logoprod5 from './../../../assets/Curtain_4ae1b6b39b529.png';
+import logoprod6 from './../../../assets/hvac.png';
+import logoprod7 from './../../../assets/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png';
+import logoprod8 from './../../../assets/home.png';
 import SwiperCore, {
     Pagination, Navigation
 } from 'swiper/core';
@@ -154,14 +161,14 @@ export const Singlemain = ({ match }) => {
                             <h1 style={{ textAlign: 'left', alignItems: 'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073', paddingLeft: 15 }}>Other type of products</h1>
                         </div>
                         <ProductTypesCarousel ProductList={[
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/audio.png', name: 'Audio Products', type: 'Audio_Products' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/interact.png', name: 'Interaction Center', type: 'Interaction_Center' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/light.png', name: 'Smart Lighting', type: 'Smart_Lighting' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/security.png', name: 'Home Security', type: 'Home_Security' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/curtain.png', name: 'Smart R+T', type: 'Smart_R+T' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/hvac.png', name: 'Home Entertaiment', type: 'Home_Entertaiment' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png', name: 'Smart HVAC', type: 'Smart_HVAC' },
-                            { mainImage: 'http://homealone.ge/wp-content/uploads/2021/07/home.png', name: 'Domestic Appliances', type: 'Domestic_Appliances' },
+                            { mainImage: logoprod1, name: 'Audio Products', type: 'Audio_Products' },
+                            { mainImage: logoprod2, name: 'Interaction Center', type: 'Interaction_Center' },
+                            { mainImage: logoprod3, name: 'Smart Lighting', type: 'Smart_Lighting' },
+                            { mainImage: logoprod4, name: 'Home Security', type: 'Home_Security' },
+                            { mainImage: logoprod5, name: 'Smart R+T', type: 'Smart_R+T' },
+                            { mainImage: logoprod6, name: 'Home Entertaiment', type: 'Home_Entertaiment' },
+                            { mainImage: logoprod7, name: 'Smart HVAC', type: 'Smart_HVAC' },
+                            { mainImage: logoprod8, name: 'Domestic Appliances', type: 'Domestic_Appliances' },
                         ]} />
                         <div style={{ marginBottom: 20 }}></div>
                     </div>
