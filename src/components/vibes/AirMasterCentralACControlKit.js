@@ -1,13 +1,13 @@
 import React from 'react'
 import './AirMasterCentralACControlKit.css'
-import styles from './all.module.css'
 
 import photo3 from './img/sec2_bg3-cfcda3ebb8.jpg'
 import dataJSON from "./../../API.json"
 
+
 export const AirMasterCentralACControlKit = ({ match, item }) => {
   return (
-    <div className={styles.thismedia}>
+    <div>
       {console.log(item.images[0].url)}
       <div className="body_content" style={{ fontSize: '42.8125px' }}>
         <section className="air_sec1">

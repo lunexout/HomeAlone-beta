@@ -1,11 +1,38 @@
 import React from 'react'
 import './SmartDoorLockC1.css'
-import styles from './all.module.css'
 
 
 export const SmartDoorLockC1 = () => {
     return (
-        <div className={styles.thismedia}>
+        <div>
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="c1Page">
                 <div className="sec1">
                     <div className="content">

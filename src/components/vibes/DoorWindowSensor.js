@@ -1,7 +1,6 @@
 import React from 'react'
 import './DoorWindowSensor.css'
 
-
 export const DoorWindowSensor = ({ match }) => {
     return (
         <div >

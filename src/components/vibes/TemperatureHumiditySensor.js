@@ -1,10 +1,37 @@
 import React from "react";
 import './TemperatureHumiditySensor.css'
-import styles from './all.module.css'
 
 export const TemperatureHumiditySensor = () => {
     return (
-        <div className={styles.thismedia}>
+        <div>
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <section className="temp_sec_1 first_page">
                 <div className="fp_content">
                     <p className="tit">

@@ -1,10 +1,37 @@
 import React from 'react'
 import './MixPadGenie.css'
-import styles from './all.module.css'
 
 export const MixPadGenie = () => {
     return (
-        <div className={styles.thismedia}>
+        <div>
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="elf">
                 <div className="elf__banner s__bg"><video id="banner-video" className="banner__video" src="img/mixpad_elf_banner.mp4" autoPlay preload muted />
                     <div id="banner-info" className="banner__info">
