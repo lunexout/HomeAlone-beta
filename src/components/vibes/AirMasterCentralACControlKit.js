@@ -1,9 +1,18 @@
 import React from 'react'
 import './AirMasterCentralACControlKit.css'
 import styles from './all.module.css'
-export const AirMasterCentralACControlKit = () => {
+
+import photo1 from './img/sec2_bg1-9739666538.jpg'
+
+import photo2 from './img/sec2_bg2-9609be2471.jpg'
+
+import photo3 from './img/sec2_bg3-cfcda3ebb8.jpg'
+import dataJSON from "./../../API.json"
+
+export const AirMasterCentralACControlKit = ({ match, item }) => {
   return (
     <div className={styles.thismedia}>
+      {console.log(item.images[0].url)}
       <div className="body_content" style={{ fontSize: '42.8125px' }}>
         <section className="air_sec1">
           <div className="as1_bg">
@@ -33,13 +42,13 @@ export const AirMasterCentralACControlKit = () => {
         <section className="air_sec2">
           <h1>It`s Time to Improve the Control Way<br />of Traditional Central A/C</h1>
           <div className="as2_imgbox clear">
-            <div className="as2i_img"><img src="img/sec2_bg1-9739666538.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src={`${dataJSON.API_URL}public/images/` + item.images[2].url} alt="sec2_bg" />
               <p>Forgot to turn off the a/c</p>
             </div>
-            <div className="as2i_img"><img src="img/sec2_bg2-9609be2471.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src={`${dataJSON.API_URL}public/images/` + item.images[0].url} alt="sec2_bg" />
               <p>Inconvenient operation</p>
             </div>
-            <div className="as2i_img"><img src="img/sec2_bg3-cfcda3ebb8.jpg" alt="sec2_bg" />
+            <div className="as2i_img"><img src={photo3} alt="sec2_bg" />
               <p>Unable to start a/c until getting home</p>
             </div>
           </div>
