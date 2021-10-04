@@ -71,7 +71,7 @@ export const SingleProduct = ({ match }) => {
         if (product) {
             if (product.product.unicProduct === "DWS1") {
                 return < DoorWindowSensor match={match} />
-            } else if (product.product.unicProduct === "AMCACK ") {
+            } else if (product.product.unicProduct === "AMCACK") {
                 return < AirMasterCentralACControlKit match={match} />
             } else if (product.product.unicProduct === "APRIH") {
                 return < AlloneProRFIRHub match={match} />
