@@ -41,6 +41,10 @@ import { ZigbeeCOSensor } from '../../vibes/ZigbeeCOSensor';
 import { ZigbeeEmergencyButton } from '../../vibes/ZigbeeEmergencyButton';
 import { ZigbeeSmokeSensor } from '../../vibes/ZigbeeSmokeSensor';
 import { ZigbeeWaterLeakageSensor } from '../../vibes/ZigbeeWaterLeakageSensor';
+import { AuroraSeries } from '../../vibes/AuroraSeries';
+import { GEEKRAVZigBeeSmartSwitch } from '../../vibes/GEEKRAVZigBeeSmartSwitch';
+import { ORVIBOWIFICAMERA } from '../../vibes/ORVIBOWIFICAMERA';
+
 
 import { Singlemain } from './Singlemain';
 import axios from 'axios';
@@ -111,6 +115,12 @@ export const SingleProduct = ({ match }) => {
                 return < ZigbeeSmokeSensor match={match} />
             } else if (product.product.unicProduct === "ZWLS") {
                 return < ZigbeeWaterLeakageSensor match={match} />
+            } else if (product.product.unicProduct === "SSAS") {
+                return < AuroraSeries match={match} />
+            } else if (product.product.unicProduct === "GZSS") {
+                return < GEEKRAVZigBeeSmartSwitch match={match} />
+            } else if (product.product.unicProduct === "OWFC") {
+                return < ORVIBOWIFICAMERA match={match} />
             } else {
                 return <Singlemain match={match} />
             }

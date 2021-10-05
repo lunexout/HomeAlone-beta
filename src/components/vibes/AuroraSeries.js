@@ -1,7 +1,7 @@
 import React from 'react'
 import './AuroraSeries.css'
 
-export const ZigbeeWaterLeakageSensor = () => {
+export const AuroraSeries = () => {
     return (
         <div>
             <style

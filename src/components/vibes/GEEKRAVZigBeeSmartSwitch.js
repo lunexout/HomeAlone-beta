@@ -1,7 +1,7 @@
 import React from 'react'
 import './GEEKRAVZigBeeSmartSwitch.css'
 
-export const ZigbeeWaterLeakageSensor = () => {
+export const GEEKRAVZigBeeSmartSwitch = () => {
     return (
         <div>
             <style
@@ -60,19 +60,19 @@ export const ZigbeeWaterLeakageSensor = () => {
                             </div>
                             <ul className="ib_mark slidesjs-pagination clear">
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={0} html={1}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={0} html={1}>
                                         <div className="im_active" />
                                         <div className="im_progress" style={{ width: '0px' }} />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={1} html={2}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={1} html={2}>
                                         <div className="im_active" />
                                         <div className="im_progress" style={{ width: '47.3695px', overflow: 'hidden' }} />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item" style={{ marginRight: 0 }}>
-                                    <a href="javascript:void(0)" data-slidesjs-item={2} html={3}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={2} html={3}>
                                         <div className="im_active" />
                                         <div className="im_progress" style={{ width: '0px' }} />
                                     </a>
@@ -107,19 +107,19 @@ export const ZigbeeWaterLeakageSensor = () => {
                             </div>
                             <ul className="ib_mark slidesjs-pagination clear">
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={0} html={1}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={0} html={1}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={1} html={2}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={1} html={2}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item" style={{ marginRight: 0 }}>
-                                    <a href="javascript:void(0)" data-slidesjs-item={2} html={3}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={2} html={3}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>
@@ -146,7 +146,7 @@ export const ZigbeeWaterLeakageSensor = () => {
                                     </li>
                                 </ul>
                             </div>
-                            {/* <a href="javascript:void(0)" class="jp4_btn">隐藏式状态灯 ></a> */}</div>
+                            {/* <a href="http://homealone.ge/" class="jp4_btn">隐藏式状态灯 ></a> */}</div>
                     </div>
                     <div className="section jirui_page5 table" data-anchor="page5" style={{ height: '608px' }}>
                         <div className="tableCell" style={{ height: '608px' }}>
@@ -267,19 +267,19 @@ export const ZigbeeWaterLeakageSensor = () => {
                             </ul>
                             <ul className="ib_mark slidesjs-pagination clear">
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={0} html={1}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={0} html={1}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item">
-                                    <a href="javascript:void(0)" data-slidesjs-item={1} html={2}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={1} html={2}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>
                                 </li>
                                 <li className="slidesjs-pagination-item" style={{ marginRight: 0 }}>
-                                    <a href="javascript:void(0)" data-slidesjs-item={2} html={3}>
+                                    <a href="http://homealone.ge/" data-slidesjs-item={2} html={3}>
                                         <div className="im_active" />
                                         <div className="im_progress" />
                                     </a>

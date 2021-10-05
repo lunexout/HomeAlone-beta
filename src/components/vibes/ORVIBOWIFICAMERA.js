@@ -1,7 +1,7 @@
 import React from 'react'
 import './ORVIBOWIFICAMERA.css'
 
-export const ZigbeeWaterLeakageSensor = () => {
+export const ORVIBOWIFICAMERA = () => {
     return (
         <div>
             <style
@@ -52,16 +52,16 @@ export const ZigbeeWaterLeakageSensor = () => {
             />
 
             <section className="free_model clear">
-                <div className="xo_sec_1"><img className="bg_left" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/bg_01-51b38d595a.jpg" />
+                <div className="xo_sec_1"><img alt="Home Alone" classclassName="bg_left" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/bg_01-51b38d595a.jpg" />
                     <div className="bg_right" />
                     <div className="f_content">
                         <h1 className="font_sans" style={{ color: '#000000' }}>ORVIBO &nbsp;Wi-Fi CAMERA</h1>
                         <p className="f_p" style={{ color: '#000000' }}>( Black / White )</p>
                         <p className="cont" style={{ color: '#000000' }}>This is an indoor security camera which can not only make your home more secure,but also closer to the family</p>
-                        {/* <a href="#">BUY NOW</a> */}</div>
+                    </div>
                 </div>
                 <div className="xo_sec_2">
-                    <div className="content"><img id="p1" className="phone animateUp" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone_01-ac8ab80fa7.png" />
+                    <div className="content"><img alt="Home Alone" classid="p1" className="phone animateUp" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone_01-ac8ab80fa7.png" />
                         <div className="cont">
                             <p className="font_sans descrip">Captures an expansive area
                                 <br />of your property for high-level security</p>
@@ -72,10 +72,10 @@ export const ZigbeeWaterLeakageSensor = () => {
                     <div className="content">
                         <div className="cont">
                             <p className="font_sans descrip">Always pay close attention to baby</p>
-                        </div><img id="p2" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone2-b1680b2e66.png" /></div>
+                        </div><img alt="Home Alone" classid="p2" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone2-b1680b2e66.png" /></div>
                 </div>
                 <div className="xo_sec_4">
-                    <div className="content"><img id="p3" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone3-9dc2d3477b.png" />
+                    <div className="content"><img alt="Home Alone" classid="p3" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone3-9dc2d3477b.png" />
                         <div className="cont">
                             <p className="font_sans descrip">Never miss precious time with my family</p>
                         </div>
@@ -85,7 +85,7 @@ export const ZigbeeWaterLeakageSensor = () => {
                     <div className="content">
                         <h1 style={{ color: '#000000' }}>Put your home in your phone</h1>
                         <p className="font_sans" style={{ color: '#000000' }}>Communicate and focus on your family
-                            <br />Do not always leave her alone</p><img id="p4" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone4-3d04649908.png" /></div>
+                            <br />Do not always leave her alone</p><img alt="Home Alone" classid="p4" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone4-3d04649908.png" /></div>
                 </div>
                 <div className="xo_sec_6">
                     <h1>Super night vision，No light pollution，<br />Shooting at night is as perfect as the day</h1>
@@ -122,7 +122,6 @@ export const ZigbeeWaterLeakageSensor = () => {
                             <p className="upper">Cloud &nbsp;recording</p>
                         </div>
                     </div>
-                    <a href="#xo_sec_8" className="tp_arrow" />
                 </div>
                 <div className="xo_sec_8" id="xo_sec_8">
                     <div className="dt_container clearfix">
@@ -130,10 +129,10 @@ export const ZigbeeWaterLeakageSensor = () => {
                         <div className="dt_content_title">
                             <p>Appearance：</p>
                             <div className="product clearfix">
-                                <div style={{ marginRight: '158px' }}><img src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_w-4808566ebf.png" />
+                                <div style={{ marginRight: '158px' }}><img alt="Home Alone" classsrc="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_w-4808566ebf.png" />
                                     <p>[WHITE SC10W]</p>
                                 </div>
-                                <div><img src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_b-8789132710.png" />
+                                <div><img alt="Home Alone" classsrc="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_b-8789132710.png" />
                                     <p>[BLACK SC10B]</p>
                                 </div>
                             </div>
