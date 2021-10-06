@@ -2,11 +2,11 @@
 .elf{
   background-color:#F5F9FB
 }
-.elf .sec__title{
+.elf .secginie__title{
   font-size:.54rem;
   color:#000
 }
-.elf .sec__desc{
+.elf .secginie__desc{
   line-height:.36rem;
   font-size:.22rem;
   color:#000;
@@ -71,7 +71,7 @@
   background:url(img/banner-367e6f175d.png) center/cover no-repeat;
   animation:bannerRotate 20s ease-in-out infinite
 }
-.elf .sec4,.elf .sec6{
+.elf .secginie4,.elf .secginie6{
   background-color:#fff
 }
 .elf .elf__banner .banner__video{
@@ -111,55 +111,55 @@
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent
 }
-.elf .sec1{
+.elf .secginie1{
   display:flex;
   justify-content:center;
   padding-top:1.38rem;
   padding-bottom:1.79rem
 }
-.elf .sec1 .sec1__img{
+.elf .secginie1 .secginie1__img{
   width:14.33rem;
   height:4.73rem
 }
-.elf .sec3{
+.elf .secginie3{
   height:12.43rem;
   padding-top:1.2rem;
   box-sizing:border-box
 }
-.elf .sec3 .sec3__list{
+.elf .secginie3 .secginie3__list{
   display:flex;
   justify-content:center;
   margin-top:1.23rem;
   width:100%
 }
-.elf .sec3 .sec3__item{
+.elf .secginie3 .secginie3__item{
   position:relative;
   width:5.11rem;
   height:6.71rem;
   margin-right:.3rem
 }
-.elf .sec3 .sec3__item:last-of-type{
+.elf .secginie3 .secginie3__item:last-of-type{
   margin-right:0
 }
-.elf .sec3 .item__content{
+.elf .secginie3 .item__content{
   position:absolute;
   left:.56rem;
   top:.5rem
 }
-.elf .sec3 .item__title{
+.elf .secginie3 .item__title{
   font-size:.42rem;
   font-family:PingFang SC;
   font-weight:800;
   line-height:.56rem
 }
-.elf .sec3 .item__desc{
+.elf .secginie3 .item__desc{
   margin-top:.2rem;
   font-size:.17rem;
   font-family:PingFang SC;
   font-weight:400;
   line-height:.26rem
 }
-.elf .sec4{
+.elf .secginie4{
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -167,61 +167,61 @@
   padding-top:1.07rem;
   box-sizing:border-box
 }
-.elf .sec4 .sec4__img{
+.elf .secginie4 .secginie4__img{
   margin-top:1.1rem;
   width:16rem;
   height:8.01rem
 }
-.elf .sec5{
+.elf .secginie5{
   display:flex;
   flex-direction:column;
   align-items:center;
   padding-top:1.19rem;
   padding-bottom:2.1rem
 }
-.elf .sec5 .sec5__prd{
+.elf .secginie5 .secginie5__prd{
   position:relative;
   width:15.12rem;
   margin-top:1.6rem
 }
-.elf .sec5 .prd__item1{
+.elf .secginie5 .prd__item1{
   width:5.95rem;
   height:8.78rem
 }
-.elf .sec5 .prd__item3{
+.elf .secginie5 .prd__item3{
   margin-top:2.94rem;
   width:8.62rem;
   height:5.4rem
 }
-.elf .sec5 .prd__item2{
+.elf .secginie5 .prd__item2{
   position:absolute;
   top:1.26rem;
   right:0;
   width:8.62rem;
   height:5.6rem
 }
-.elf .sec5 .prd__item4{
+.elf .secginie5 .prd__item4{
   position:absolute;
   bottom:1.16rem;
   right:0;
   width:5.95rem;
   height:8.08rem
 }
-.elf .sec5 .sec5__img{
+.elf .secginie5 .secginie5__img{
   display:block;
   margin-top:1.22rem;
   width:15.12rem;
   border-radius:.2rem;
   transition:all .6s ease-in 1s
 }
-.elf .sec6{
+.elf .secginie6{
   padding-top:1.2rem;
   padding-bottom:1.05rem
 }
-.elf .sec6 .bg__video{
+.elf .secginie6 .bg__video{
   margin-top:.8rem
 }
-.elf .sec6 .sec6__remind{
+.elf .secginie6 .secginie6__remind{
   margin-top:.8rem;
   width:100%;
   text-align:center;
@@ -231,31 +231,31 @@
   line-height:.36rem;
   color:#000
 }
-.elf .sec7 .video__mask{
+.elf .secginie7 .video__mask{
   flex-direction:column
 }
-.elf .sec7 .sec__title{
+.elf .secginie7 .secginie__title{
   color:#FFF
 }
-.elf .sec8{
+.elf .secginie8{
   padding-top:1.27rem
 }
-.elf .sec8 .sec8__bg{
+.elf .secginie8 .secginie8__bg{
   margin-top:.72rem;
   width:100%;
   height:7.37rem
 }
-.elf .sec9{
+.elf .secginie9{
   position:relative;
   width:100%;
   height:9.4rem
 }
-.elf .sec9 .sec9__content{
+.elf .secginie9 .secginie9__content{
   position:absolute;
   top:2.74rem;
   left:1.61rem
 }
-.elf .sec9 .sec__desc,.elf .sec9 .sec__title{
+.elf .secginie9 .secginie__desc,.elf .secginie9 .secginie__title{
   color:#fff;
   text-align:left
 }

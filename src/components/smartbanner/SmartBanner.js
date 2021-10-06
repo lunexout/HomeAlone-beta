@@ -4,14 +4,13 @@ import { NavLink } from 'react-router-dom'
 import NEXT from './../../assets/next.png'
 
 export const SmartBanner = () => {
-    return(
+    return (
         <>
-        <div className='smart-home-banner'>
-            {/* <p >Test your smart system</p> */}
+            <div className='smart-home-banner'>
                 <NavLink className='test-btn' to='/test-system'>
-                    <img src={NEXT} alt='testing'/>
+                    <img src={NEXT} alt='testing' />
                 </NavLink>
-        </div>
+            </div>
         </>
     )
 }

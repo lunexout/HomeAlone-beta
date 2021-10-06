@@ -94,7 +94,6 @@ export const TouchClassicZigbeeSwitchSeries = () => {
             <section className="sectczcs3" style={{ position: 'relative' }}>
                 <h1>SOLID SWITCH PANEL WITH 3D TOUGHENED GLASS MATERIAL</h1>
                 <p>Adopt the toughened glass of 6.5 mohs hardness, which is 3~5 times stronger than ordinary glass.<br />It efficiently prevents scratches and looks more exquisite and smooth.</p>
-                {/* <div style="font-size: 14px;text-align: center;color: #b0b0b0;position: absolute;width: 100%;bottom:80px;">*以上数据经由ORVIBO内部实验测试所得。</div> */}
             </section>
             <section className="sectczcs4">
                 <div className="s4_mainbox main_content1">
@@ -112,7 +111,6 @@ export const TouchClassicZigbeeSwitchSeries = () => {
                             <p className="stbi_txt">3<span>&nbsp; ms</span></p>
                         </div>
                     </div>
-                    {/* <div style="font-size: 14px;text-align: center;color: #b0b0b0;position: absolute;width: 100%;bottom:80px;">*以上数据经由ORVIBO内部实验测试所得。</div> */}
                 </div>
             </section>
             <section className="sectczcs5">
@@ -137,12 +135,11 @@ export const TouchClassicZigbeeSwitchSeries = () => {
                     <h1>RELIABLE DESIGN ON SAFETY AND PROTECTION</h1>
                     <p>Adopt superior V-0 fire-proof material, and passed the tests of anti-thunder,<br />anti-surge and high temperature protection.</p>
                 </div>
-                <img src={photo1} alt="bg5_1.png" />{/* <div style="font-size: 14px;text-align: center;color: #b0b0b0;position: absolute;width: 100%;bottom:40px;">*以上数据经由ORVIBO内部实验测试所得。</div> */}
+                <img src={photo1} alt="bg5_1.png" />
             </section>
             <section className="sectczcs7">
                 <div className="s7_txtbox">
                     <h1>3 STEPS TO MAKE THE LIGHTING SMART</h1>
-                    {/* <p>Touch Classic可兼容86型底盒，直接替换原有开关；绑定智能网关，即可通过智家365 APP 智能控制照明，创建各种生活场景。</p> */}
                 </div>
                 <img src={photo2} alt="bg6.jpg" />
             </section>

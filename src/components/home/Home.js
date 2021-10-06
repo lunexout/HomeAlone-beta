@@ -194,7 +194,6 @@ export const Home = () => {
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
           </div>
-          {/* <Gallery/> */}
 
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new2-5142243776.jpg" alt="" />

@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import axios from "axios";
 import React from "react";
 import { NavLink } from "react-router-dom";

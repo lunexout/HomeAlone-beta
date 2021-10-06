@@ -6,7 +6,6 @@
     border-top: 3px solid #2d343e;
 }
 .test-home {
-    /* max-width: 1566px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 20px; */
     flex-wrap: wrap;
 }
 .video-container {

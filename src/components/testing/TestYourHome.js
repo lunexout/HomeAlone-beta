@@ -13,7 +13,7 @@ import enACcontroll from "./../../videos/for site parts/AC controller/en.mp4";
 import enCurtSys from "./../../videos/for site parts/Curtain System/en.mp4";
 import enDoorlock from "./../../videos/for site parts/Door lock sensor/en.mp4";
 import enGasleak from "./../../videos/for site parts/Gas leakage sensor/en.mp4";
-import enDoorWindow  from "./../../videos/for site parts/Door Window sensor/en.mp4";
+import enDoorWindow from "./../../videos/for site parts/Door Window sensor/en.mp4";
 import enLightCont from "./../../videos/for site parts/Light Control/en.mp4";
 import enMixpados from "./../../videos/for site parts/Mixpad/en.mp4";
 import enSmartAudio from "./../../videos/for site parts/Smart Audio system/en.mp4";
@@ -27,7 +27,7 @@ import ruACcontroll from "./../../videos/for site parts/AC controller/ru.mp4";
 import ruCurtSys from "./../../videos/for site parts/Curtain System/ru.mp4";
 import ruDoorlock from "./../../videos/for site parts/Door lock sensor/ru.mp4";
 import ruGasleak from "./../../videos/for site parts/Gas leakage sensor/ru.mp4";
-import ruDoorWindow  from "./../../videos/for site parts/Door Window sensor/ru.mp4";
+import ruDoorWindow from "./../../videos/for site parts/Door Window sensor/ru.mp4";
 import ruLightCont from "./../../videos/for site parts/Light Control/ru.mp4";
 import ruMixpados from "./../../videos/for site parts/Mixpad/ru.mp4";
 import ruSmartAudio from "./../../videos/for site parts/Smart Audio system/ru.mp4";
@@ -41,7 +41,7 @@ import geACcontroll from "./../../videos/for site parts/AC controller/ge.mp4";
 import geCurtSys from "./../../videos/for site parts/Curtain System/ge.mp4";
 import geDoorlock from "./../../videos/for site parts/Door lock sensor/ge.mp4";
 import geGasleak from "./../../videos/for site parts/Gas leakage sensor/ge.mp4";
-import geDoorWindow  from "./../../videos/for site parts/Door Window sensor/ge.mp4";
+import geDoorWindow from "./../../videos/for site parts/Door Window sensor/ge.mp4";
 import geLightCont from "./../../videos/for site parts/Light Control/ge.mp4";
 import geMixpados from "./../../videos/for site parts/Mixpad/ge.mp4";
 import geSmartAudio from "./../../videos/for site parts/Smart Audio system/ge.mp4";
@@ -63,114 +63,114 @@ import STATUS from "./../mobile/status.png";
 export const TestYourHome = () => {
 
   //  ACcontroll
-let ACcontroll;
-if(localStorage.getItem('lang') === 'ru'){
-  ACcontroll = ruACcontroll
-}else if(localStorage.getItem('lang') === 'ge'){
-  ACcontroll = geACcontroll
-}else {
-  ACcontroll = enACcontroll
-}
-// CurtSys
-let CurtSys;
-if(localStorage.getItem('lang') === 'ru'){
-  CurtSys = ruCurtSys
-}else if(localStorage.getItem('lang') === 'ge'){
-  CurtSys = geCurtSys
-}else {
-  CurtSys = enCurtSys
-}
-//Doorlock
-let Doorlock;
-if(localStorage.getItem('lang') === 'ru'){
-  Doorlock = ruDoorlock
-}else if(localStorage.getItem('lang') === 'ge'){
-  Doorlock = geDoorlock
-}else {
-  Doorlock = enDoorlock
-}
-//Gasleak
-let Gasleak;
-if(localStorage.getItem('lang') === 'ru'){
-  Gasleak = ruGasleak
-}else if(localStorage.getItem('lang') === 'ge'){
-  Gasleak = geGasleak
-}else {
-  Gasleak = enGasleak
-}
-// DoorWindow
-let DoorWindow;
-if(localStorage.getItem('lang') === 'ru'){
-  DoorWindow = ruDoorWindow
-}else if(localStorage.getItem('lang') === 'ge'){
-  DoorWindow = geDoorWindow
-}else {
-  DoorWindow = enDoorWindow
-}
-//LightCont
-let LightCont;
-if(localStorage.getItem('lang') === 'ru'){
-  LightCont = ruLightCont
-}else if(localStorage.getItem('lang') === 'ge'){
-  LightCont = geLightCont
-}else {
-  LightCont = enLightCont
-}
-//Mixpados
-let Mixpados;
-if(localStorage.getItem('lang') === 'ru'){
-  Mixpados = ruMixpados
-}else if(localStorage.getItem('lang') === 'ge'){
-  Mixpados = geMixpados
-}else {
-  Mixpados = enMixpados
-}
-//SmartAudio
-let SmartAudio;
-if(localStorage.getItem('lang') === 'ru'){
-  SmartAudio = ruSmartAudio
-}else if(localStorage.getItem('lang') === 'ge'){
-  SmartAudio = geSmartAudio
-}else {
-  SmartAudio = enSmartAudio
-}
-//SmartGarage
-let SmartGarage;
-if(localStorage.getItem('lang') === 'ru'){
-  SmartGarage = ruSmartGarage
-}else if(localStorage.getItem('lang') === 'ge'){
-  SmartGarage = geSmartGarage
-}else {
-  SmartGarage = enSmartGarage
-}
-//VideoCamera
-let VideoCamera;
-if(localStorage.getItem('lang') === 'ru'){
-  VideoCamera = ruVideoCamera
-}else if(localStorage.getItem('lang') === 'ge'){
-  VideoCamera = geVideoCamera
-}else {
+  let ACcontroll;
+  if (localStorage.getItem('lang') === 'ru') {
+    ACcontroll = ruACcontroll
+  } else if (localStorage.getItem('lang') === 'ge') {
+    ACcontroll = geACcontroll
+  } else {
+    ACcontroll = enACcontroll
+  }
+  // CurtSys
+  let CurtSys;
+  if (localStorage.getItem('lang') === 'ru') {
+    CurtSys = ruCurtSys
+  } else if (localStorage.getItem('lang') === 'ge') {
+    CurtSys = geCurtSys
+  } else {
+    CurtSys = enCurtSys
+  }
+  //Doorlock
+  let Doorlock;
+  if (localStorage.getItem('lang') === 'ru') {
+    Doorlock = ruDoorlock
+  } else if (localStorage.getItem('lang') === 'ge') {
+    Doorlock = geDoorlock
+  } else {
+    Doorlock = enDoorlock
+  }
+  //Gasleak
+  let Gasleak;
+  if (localStorage.getItem('lang') === 'ru') {
+    Gasleak = ruGasleak
+  } else if (localStorage.getItem('lang') === 'ge') {
+    Gasleak = geGasleak
+  } else {
+    Gasleak = enGasleak
+  }
+  // DoorWindow
+  let DoorWindow;
+  if (localStorage.getItem('lang') === 'ru') {
+    DoorWindow = ruDoorWindow
+  } else if (localStorage.getItem('lang') === 'ge') {
+    DoorWindow = geDoorWindow
+  } else {
+    DoorWindow = enDoorWindow
+  }
+  //LightCont
+  let LightCont;
+  if (localStorage.getItem('lang') === 'ru') {
+    LightCont = ruLightCont
+  } else if (localStorage.getItem('lang') === 'ge') {
+    LightCont = geLightCont
+  } else {
+    LightCont = enLightCont
+  }
+  //Mixpados
+  let Mixpados;
+  if (localStorage.getItem('lang') === 'ru') {
+    Mixpados = ruMixpados
+  } else if (localStorage.getItem('lang') === 'ge') {
+    Mixpados = geMixpados
+  } else {
+    Mixpados = enMixpados
+  }
+  //SmartAudio
+  let SmartAudio;
+  if (localStorage.getItem('lang') === 'ru') {
+    SmartAudio = ruSmartAudio
+  } else if (localStorage.getItem('lang') === 'ge') {
+    SmartAudio = geSmartAudio
+  } else {
+    SmartAudio = enSmartAudio
+  }
+  //SmartGarage
+  let SmartGarage;
+  if (localStorage.getItem('lang') === 'ru') {
+    SmartGarage = ruSmartGarage
+  } else if (localStorage.getItem('lang') === 'ge') {
+    SmartGarage = geSmartGarage
+  } else {
+    SmartGarage = enSmartGarage
+  }
+  //VideoCamera
+  let VideoCamera;
+  if (localStorage.getItem('lang') === 'ru') {
+    VideoCamera = ruVideoCamera
+  } else if (localStorage.getItem('lang') === 'ge') {
+    VideoCamera = geVideoCamera
+  } else {
 
-  VideoCamera = enVideoCamera
-}
-//THsensor
-let THsensor;
-if(localStorage.getItem('lang') === 'ru'){
-  THsensor = ruTHsensor
-}else if(localStorage.getItem('lang') === 'ge'){
-  THsensor = geTHsensor
-}else {
-  THsensor = enTHsensor
-}
-//TVcontroll
-let TVcontroll;
-if(localStorage.getItem('lang') === 'ru'){
-  TVcontroll = ruTVcontroll
-}else if(localStorage.getItem('lang') === 'ge'){
-  TVcontroll = geTVcontroll
-}else {
-  TVcontroll = enTVcontroll
-}
+    VideoCamera = enVideoCamera
+  }
+  //THsensor
+  let THsensor;
+  if (localStorage.getItem('lang') === 'ru') {
+    THsensor = ruTHsensor
+  } else if (localStorage.getItem('lang') === 'ge') {
+    THsensor = geTHsensor
+  } else {
+    THsensor = enTHsensor
+  }
+  //TVcontroll
+  let TVcontroll;
+  if (localStorage.getItem('lang') === 'ru') {
+    TVcontroll = ruTVcontroll
+  } else if (localStorage.getItem('lang') === 'ge') {
+    TVcontroll = geTVcontroll
+  } else {
+    TVcontroll = enTVcontroll
+  }
 
 
   const [activeVideo, setActiveVideo] = React.useState(ACcontroll);
@@ -180,12 +180,12 @@ if(localStorage.getItem('lang') === 'ru'){
       name: "AC controller",
       src: ACcontroll,
     },
-    
+
     {
       name: "Curtain System",
       src: CurtSys,
     },
-    
+
     {
       name: "Door lock sensor",
       src: Doorlock,
@@ -214,7 +214,7 @@ if(localStorage.getItem('lang') === 'ru'){
       name: "Smart Garage",
       src: SmartGarage,
     },
-    
+
     {
       name: "Video Camera",
       src: VideoCamera,
@@ -227,7 +227,7 @@ if(localStorage.getItem('lang') === 'ru'){
       name: "TV controller",
       src: TVcontroll,
     },
-    
+
   ];
 
   // const PlayVideo = () => {
@@ -262,11 +262,7 @@ if(localStorage.getItem('lang') === 'ru'){
   };
   return (
     <>
-      {/* <div className="test-box">
-        <div className="test-home animate__animated  animate__fadeInRight">
-          <PlayVideo />
-        </div>
-      </div> */}
+
       <div className={`calculator animate__animated ${phone ? 'animate__fadeInUp' : 'animate__fadeOutDown'}`}>
         <div className="top-container" >
           <div className="clock">
@@ -276,21 +272,16 @@ if(localStorage.getItem('lang') === 'ru'){
             <img src={STATUS} alt="Status" />
           </div>
         </div>
-        {/* <video id="mainvideo" className="video-container2" muted autoPlay loop>
-          <source src={BACKVIDEO} type="video/mp4" /> 
-          
-        </video>*/}
+
         <PlayVideo />
-          {/* <img src={BANNER} alt='banner' style={{width: '100%', height: 90}} /> */}
         <div className="controllers-container">
           {videoSources.map((video, index) => {
             return (
               <>
                 <button
                   key={index}
-                  className={`controller-btn ${
-                    index === 0 ? "active-video" : ""
-                  }`}
+                  className={`controller-btn ${index === 0 ? "active-video" : ""
+                    }`}
                   onClick={(e) => changeActiveVideo(video.src, e, video)}
                 >
                   {video.name}
@@ -300,45 +291,41 @@ if(localStorage.getItem('lang') === 'ru'){
           })}
         </div>
         <div>
-          {/* <img src={CLOSE} onClick={() => {setPhone(false)}} style={{width: 50, marginTop: 13}} alt='close'/> */}
         </div>
         <div className="bottom"></div>
       </div>
-      {!phone && 
-      <div className={`calculator animate__animated animate__fadeInUp`} style={{bottom: -550}} onClick={() => setPhone(true)}>
-      <div className="top-container" >
-        <div className="clock">
-          <span className="hour"></span>:<span className="minute"></span>
+      {!phone &&
+        <div className={`calculator animate__animated animate__fadeInUp`} style={{ bottom: -550 }} onClick={() => setPhone(true)}>
+          <div className="top-container" >
+            <div className="clock">
+              <span className="hour"></span>:<span className="minute"></span>
+            </div>
+            <div className="status">
+              <img src={STATUS} alt="Status" />
+            </div>
+          </div>
+          <video id="mainvideo" className="video-container2" muted autoPlay loop>
+            <PlayVideo />
+          </video>
+          <div className="controllers-container">
+            {videoSources.map((video, index) => {
+              return (
+                <>
+                  <button
+                    key={index}
+                    className={`controller-btn ${index === 0 ? "active-video" : ""
+                      }`}
+                    onClick={(e) => changeActiveVideo(video.src, e, video)}
+                  >
+                    {video.name}
+                  </button>
+                </>
+              );
+            })}
+          </div>
+          <div className="bottom"></div>
         </div>
-        <div className="status">
-          <img src={STATUS} alt="Status" />
-        </div>
-      </div>
-      <video id="mainvideo" className="video-container2" muted autoPlay loop>
-        {/* <source src={BACKVIDEO} type="video/mp4" /> */}
-        <PlayVideo />
-      </video>
-        {/* <img src={BANNER} alt='banner' style={{width: '100%', height: 90}} /> */}
-      <div className="controllers-container">
-        {videoSources.map((video, index) => {
-          return (
-            <>
-              <button
-                key={index}
-                className={`controller-btn ${
-                  index === 0 ? "active-video" : ""
-                }`}
-                onClick={(e) => changeActiveVideo(video.src, e, video)}
-              >
-                {video.name}
-              </button>
-            </>
-          );
-        })}
-      </div>
-      <div className="bottom"></div>
-    </div>
-    }
+      }
     </>
   );
 };

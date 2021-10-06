@@ -42,36 +42,37 @@
   margin-top:1.2rem;
   line-height:1.6em
 }
-.page_mixpads .sec3{
+.page_mixpads .sec3mixp{
   height:12.8rem
 }
-.page_mixpads .sec3 .title{
+
+.page_mixpads .sec3mixp .title{
   margin-top:1.4rem
 }
-.page_mixpads .sec3 .container{
+.page_mixpads .sec3mixp .container{
   height:1.8rem;
   width:16.17rem;
   display:flex;
   margin:6rem auto 0
 }
-.page_mixpads .sec3 .container .content{
+.page_mixpads .sec3mixp .container .content{
   flex:1
 }
-.page_mixpads .sec3 .container .content .c_subtitle{
+.page_mixpads .sec3mixp .container .content .c_subtitle{
   font-weight:600;
   font-size:.22rem;
   line-height:1em;
   text-align:center;
   margin-top:.5rem
 }
-.page_mixpads .sec3 .container .content .c_title{
+.page_mixpads .sec3mixp .container .content .c_title{
   font-weight:600;
   font-size:.3rem;
   line-height:1.2em;
   text-align:center;
   margin-top:.16rem
 }
-.page_mixpads .sec3 .container .content .c_desc{
+.page_mixpads .sec3mixp .container .content .c_desc{
   text-align:center;
   font-size:.16rem;
   margin-top:.22rem
@@ -82,23 +83,23 @@
 .page_mixpads .sec4 .title{
   margin-top:1.1rem
 }
-.page_mixpads .sec5{
+.page_mixpads .sec5mixp{
   height:11.89rem
 }
-.page_mixpads .sec5 .title{
+.page_mixpads .sec5mixp .title{
   margin-top:1.2rem
 }
-.page_mixpads .sec5 .video{
+.page_mixpads .sec5mixp .video{
   margin-top:.9rem
 }
-.page_mixpads .sec5 .video .bg{
+.page_mixpads .sec5mixp .video .bg{
   width:16rem;
   height:7.2rem;
   overflow:hidden;
   position:relative;
   cursor:pointer
 }
-.page_mixpads .sec5 .video .bg img{
+.page_mixpads .sec5mixp .video .bg img{
   position:absolute;
   top:50%;
   left:50%;
@@ -108,7 +109,7 @@
   transition:all .3s;
   z-index:1
 }
-.page_mixpads .sec5 .video .bg:after{
+.page_mixpads .sec5mixp .video .bg:after{
   opacity:0;
   content:'';
   position:absolute;
@@ -117,12 +118,12 @@
   width:.8rem;
   height:.8rem;
   transform:translate(-50%,-50%);
-  background:url(img/icon_play-525abb68fd.png) center no-repeat;
+  background:url(//static.orvibo.com/guanwang_second/front/images/2019/index/video/icon_play-525abb68fd.png) center no-repeat;
   background-size:cover;
   transition:.5s all ease;
   z-index:3
 }
-.page_mixpads .sec5 .video .bg:before{
+.page_mixpads .sec5mixp .video .bg:before{
   opacity:0;
   content:'';
   position:absolute;
@@ -134,11 +135,11 @@
   transition:.5s all ease;
   z-index:2
 }
-.page_mixpads .sec5 .video .bg:hover img{
+.page_mixpads .sec5mixp .video .bg:hover img{
   width:110%;
   height:110%
 }
-.page_mixpads .sec5 .video .bg:hover:after,.page_mixpads .sec5 .video .bg:hover:before{
+.page_mixpads .sec5mixp .video .bg:hover:after,.page_mixpads .sec5mixp .video .bg:hover:before{
   opacity:1
 }
 .page_mixpads .sec7{
@@ -212,11 +213,15 @@
   margin-top:1.1rem;
   opacity:.6
 }
-.banner,body{
+.banner1,body{
   min-width:1280px
 }
 
-.banner,.w{
+.video_mask,.video_modal{
+  display:none
+}
+
+.banner1,.w{
   margin:0 auto
 }
 
@@ -227,13 +232,48 @@
   background-size:cover
 }
 
+.video_mask::after{
+  content:''
+}
 
-.banner{
+.banner1{
   position:relative;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
   overflow:hidden
+}
+.video_modal{
+  position:fixed;
+  width:1190px;
+  height:600px;
+  left:50%;
+  top:50%;
+  margin-left:-595px;
+  margin-top:-300px;
+  z-index:99999
+}
+.video_mask{
+  position:fixed;
+  background-color:#101010;
+  overflow:hidden;
+  top:0;
+  left:0;
+  z-index:99998;
+  -webkit-overflow-scrolling:touch
+}
+.video_mask::after{
+  display:block;
+  position:absolute;
+  right:24px;
+  top:24px;
+  width:36px;
+  height:36px;
+  cursor:pointer;
+  background:url(//static.orvibo.com/guanwang_second/front/images/new/vedio_t1_close-e909f77947.png) center no-repeat;
+  background-size:cover;
+  opacity:.5;
+  filter:alpha(opacity=50)
 }
 .install{
   width:1200px;

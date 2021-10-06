@@ -146,7 +146,7 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
                                     </li>
                                 </ul>
                             </div>
-                            {/* <a href="http://homealone.ge/" class="jp4_btn">隐藏式状态灯 ></a> */}</div>
+                        </div>
                     </div>
                     <div className="section jirui_page5 table" data-anchor="page5" style={{ height: '608px' }}>
                         <div className="tableCell" style={{ height: '608px' }}>
@@ -165,11 +165,7 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
                                     <p>Service Life</p>
                                 </div>
                             </div>
-                            {/*      <div class="jp5_tips">
-
-            *该数据是在常温常湿环境中，按照每天开关10次综合计算得出，实际使用效果可能会因温度、湿度等环境因素略有差异。  
-
-      </div> */}</div>
+                        </div>
                     </div>
                     <div className="section jirui_page6 table" data-anchor="page6" style={{ height: '608px' }}>
                         <div className="tableCell" style={{ height: '608px' }}>

@@ -53,13 +53,7 @@
 @-ms-viewport {
   width: device-width;
 }
-/*# sourceMappingURL=bootstrap.css.map */
 
-/* ======================== */
-/*   Syed Sahar Ali Raza    */
-/* ======================== */
-
-/*PRICE COLOR CODE START*/
 #generic_price_table .generic_content {
   background-color: #fff;
 }
@@ -179,7 +173,6 @@
   padding: 28px 0;
 }
 
-/*PRICE BODY CODE START*/
 
 #generic_price_table .generic_content {
   overflow: hidden;
