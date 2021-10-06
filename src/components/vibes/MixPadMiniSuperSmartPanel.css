@@ -1,4 +1,4 @@
-.mixpadMiniPage .banner,.mixpadMiniPage .bg,.mixpadMiniPage .sec,.mixpadMiniPage .sec2{
+.mixpadMiniPage .banner,.mixpadMiniPage .bg,.mixpadMiniPage .secmini,.mixpadMiniPage .secmini2{
   background-position:center;
   background-size:cover
 }
@@ -39,7 +39,7 @@
   line-height:.28rem;
   color:#fff
 }
-.mixpadMiniPage .bg,.mixpadMiniPage .sec{
+.mixpadMiniPage .bg,.mixpadMiniPage .secmini{
   background-repeat:no-repeat
 }
 .mixpadMiniPage .banner{
@@ -75,20 +75,20 @@
   height:.63rem;
   margin-left:.36rem
 }
-.mixpadMiniPage .sec1{
+.mixpadMiniPage .secmini1{
   position:relative;
   height:8.64rem;
   padding-top:1.13rem;
   background-image:url(img/sec1-fa9ae635db.png)
 }
-.mixpadMiniPage .sec1 .title{
+.mixpadMiniPage .secmini1 .title{
   color:#111
 }
-.mixpadMiniPage .sec1 .desc{
+.mixpadMiniPage .secmini1 .desc{
   margin-top:.3rem;
   color:#111
 }
-.mixpadMiniPage .sec1 .videoWrapper{
+.mixpadMiniPage .secmini1 .videoWrapper{
   position:absolute;
   top:4.11rem;
   left:50%;
@@ -100,7 +100,7 @@
   z-index:1;
   opacity:.3
 }
-.mixpadMiniPage .sec1 .video{
+.mixpadMiniPage .secmini1 .video{
   position:absolute;
   top:4.02rem;
   left:50%;
@@ -108,23 +108,23 @@
   width:2.19rem;
   height:2.17rem
 }
-.mixpadMiniPage .sec2{
+.mixpadMiniPage .secmini2{
   height:11.52rem;
   padding-top:1.13rem;
   background-image:url(img/sec2-dde2fd6ca7.png)
 }
-.mixpadMiniPage .sec2 .desc{
+.mixpadMiniPage .secmini2 .desc{
   margin-top:.3rem;
   letter-spacing:.01rem
 }
-.mixpadMiniPage .sec3{
+.mixpadMiniPage .secmini3{
   height:9.28rem;
   position:relative;
   overflow:hidden;
   margin-left:auto;
   margin-right:auto
 }
-.mixpadMiniPage .sec3 .mask{
+.mixpadMiniPage .secmini3 .mask{
   position:absolute;
   top:0;
   left:0;
@@ -133,7 +133,7 @@
   z-index:1;
   background-color:rgba(0,0,0,.2)
 }
-.mixpadMiniPage .sec3 video{
+.mixpadMiniPage .secmini3 video{
   position:absolute;
   height:9.28rem;
   width:19.2rem;
@@ -141,81 +141,81 @@
   left:50%;
   transform:translateX(-50%)
 }
-.mixpadMiniPage .sec3 .video img,.mixpadMiniPage .sec3 .video span{
+.mixpadMiniPage .secmini3 .video img,.mixpadMiniPage .secmini3 .video span{
   cursor:pointer
 }
-.mixpadMiniPage .sec3 .content{
+.mixpadMiniPage .secmini3 .content{
   position:absolute;
   top:3.5rem;
   left:50%;
   transform:translateX(-50%);
   z-index:1
 }
-.mixpadMiniPage .sec3 .video{
+.mixpadMiniPage .secmini3 .video{
   margin-top:.4rem;
   text-align:center;
   color:#fff
 }
-.mixpadMiniPage .sec3 .video img{
+.mixpadMiniPage .secmini3 .video img{
   width:.27rem;
   height:.26rem;
   margin-left:.11rem
 }
-.mixpadMiniPage .sec4{
+.mixpadMiniPage .secmini4{
   height:2.5rem;
   background-color:#fff;
   padding-top:.91rem
 }
-.mixpadMiniPage .sec4 .title{
+.mixpadMiniPage .secmini4 .title{
   color:#111;
   font-size:.48rem;
   font-weight:800
 }
-.mixpadMiniPage .sec4_1{
+.mixpadMiniPage .secmini4_1{
   display:flex
 }
-.mixpadMiniPage .sec4_1 .left{
+.mixpadMiniPage .secmini4_1 .left{
   width:13.05rem;
   height:9.6rem;
   position:relative;
   background-image:url(img/left_1-e79f777a04.png);
   background-size:cover
 }
-.mixpadMiniPage .sec4_1 .left img{
+.mixpadMiniPage .secmini4_1 .left img{
   position:absolute;
   height:100%;
   top:0;
   left:0;
   opacity:0
 }
-.mixpadMiniPage .sec4_1 .left .img1{
+.mixpadMiniPage .secmini4_1 .left .img1{
   transition:opacity 2s ease-in
 }
-.mixpadMiniPage .sec4_1 .left img.active{
+.mixpadMiniPage .secmini4_1 .left img.active{
   opacity:1
 }
-.mixpadMiniPage .sec4_1 .left .content{
+.mixpadMiniPage .secmini4_1 .left .content{
   position:absolute;
   z-index:1;
   top:3.19rem;
   left:5.28rem
 }
-.mixpadMiniPage .sec4_1 .left .title{
+.mixpadMiniPage .secmini4_1 .left .title{
   text-align:left;
   font-size:.42rem
 }
-.mixpadMiniPage .sec4_1 .left .desc{
+.mixpadMiniPage .secmini4_1 .left .desc{
   text-align:left;
   margin-top:.3rem
 }
-.mixpadMiniPage .sec4_1 .right{
+.mixpadMiniPage .secmini4_1 .right{
   width:6.14rem;
   height:9.6rem;
   position:relative;
   background-image:url(img/r_active_1-b21b5a6d78.png);
   background-size:cover
 }
-.mixpadMiniPage .sec4_1 .right .right_1{
+.mixpadMiniPage .secmini4_1 .right .right_1{
   position:absolute;
   top:0;
   left:0;
@@ -226,7 +226,7 @@
   z-index:2;
   opacity:1
 }
-.mixpadMiniPage .sec4_1 .right .videoWrapper{
+.mixpadMiniPage .secmini4_1 .right .videoWrapper{
   position:absolute;
   top:2.6rem;
   left:1.47rem;
@@ -237,7 +237,7 @@
   z-index:1;
   opacity:.3
 }
-.mixpadMiniPage .sec4_1 .right .video{
+.mixpadMiniPage .secmini4_1 .right .video{
   position:absolute;
   top:2.88rem;
   left:1.63rem;
@@ -255,12 +255,12 @@
   line-height:.43rem;
   border-radius:.27rem
 }
-.mixpadMiniPage .sec4_2{
+.mixpadMiniPage .secmini4_2{
   height:9.6rem;
   overflow:hidden;
   position:relative
 }
-.mixpadMiniPage .sec4_2 video{
+.mixpadMiniPage .secmini4_2 video{
   position:absolute;
   height:9.6rem;
   width:19.2rem;
@@ -268,7 +268,7 @@
   left:50%;
   transform:translateX(-50%)
 }
-.mixpadMiniPage .sec4_2 .mask{
+.mixpadMiniPage .secmini4_2 .mask{
   position:absolute;
   top:0;
   left:0;
@@ -277,30 +277,30 @@
   z-index:1;
   background-color:rgba(0,0,0,.15)
 }
-.mixpadMiniPage .sec4_2 .content{
+.mixpadMiniPage .secmini4_2 .content{
   padding-top:3.92rem;
   padding-left:3.34rem
 }
-.mixpadMiniPage .sec4_2 .title{
+.mixpadMiniPage .secmini4_2 .title{
   text-align:left
 }
-.mixpadMiniPage .sec4_2 .desc{
+.mixpadMiniPage .secmini4_2 .desc{
   margin-top:.34rem;
   text-align:left
 }
-.mixpadMiniPage .sec4_2 .toast1{
+.mixpadMiniPage .secmini4_2 .toast1{
   top:3.18rem;
   margin-left:.18rem;
   width:1.61rem;
   border-bottom-left-radius:0
 }
-.mixpadMiniPage .sec4_2 .toast2{
+.mixpadMiniPage .secmini4_2 .toast2{
   top:3.61rem;
   left:11.89rem;
   width:.92rem;
   border-bottom-right-radius:0
 }
-.mixpadMiniPage .sec4_4{
+.mixpadMiniPage .secmini4_4{
   height:9.6rem;
   background-image:url(img/sec4_4-e8ace2e1bd.png);
   background-size:cover;
@@ -308,10 +308,10 @@
   position:relative;
   top:-3px
 }
-.mixpadMiniPage .sec4_4 .desc{
+.mixpadMiniPage .secmini4_4 .desc{
   margin-top:.3rem
 }
-.mixpadMiniPage .sec4_4 .temperature{
+.mixpadMiniPage .secmini4_4 .temperature{
   opacity:0;
   transition:opacity .3s ease-in-out;
   position:absolute;
@@ -324,20 +324,20 @@
   background-size:cover;
   color:#fff
 }
-.mixpadMiniPage .sec4_4 .temperature .one{
+.mixpadMiniPage .secmini4_4 .temperature .one{
   font-size:.12rem;
   text-align:center;
   padding-top:.15rem
 }
-.mixpadMiniPage .sec4_4 .temperature .two{
+.mixpadMiniPage .secmini4_4 .temperature .two{
   text-align:center;
   font-size:.48rem;
   line-height:.5rem
 }
-.mixpadMiniPage .sec4_4 .temperature .unit{
+.mixpadMiniPage .secmini4_4 .temperature .unit{
   font-size:.2rem
 }
-.mixpadMiniPage .sec4_4 .temperature .three{
+.mixpadMiniPage .secmini4_4 .temperature .three{
   margin:0 auto;
   width:1.35rem;
   height:.23rem;
@@ -345,7 +345,7 @@
   justify-content:space-between;
   padding-top:.05rem
 }
-.mixpadMiniPage .sec4_4 .cold{
+.mixpadMiniPage .secmini4_4 .cold{
   opacity:0;
   transition:opacity .3s ease-in-out;
   position:absolute;
@@ -356,7 +356,7 @@
   height:2.36rem;
   background-image:url(img/sec4_4_cold-c433d9227e.png)
 }
-.mixpadMiniPage .sec4_4 .guide{
+.mixpadMiniPage .secmini4_4 .guide{
   opacity:0;
   transition:opacity .3s ease-in-out;
   position:absolute;
@@ -369,79 +369,79 @@
   background-size:cover;
   background-repeat:no-repeat
 }
-.mixpadMiniPage .sec5-1{
+.mixpadMiniPage .secmini5-1{
   padding-top:.83rem;
   padding-bottom:1.05rem;
   background-color:#fff
 }
-.mixpadMiniPage .sec5-1 .title{
+.mixpadMiniPage .secmini5-1 .title{
   color:#111;
   font-size:.52rem;
   line-height:.73rem
 }
-.mixpadMiniPage .sec5{
+.mixpadMiniPage .secmini5{
   position:relative;
   padding-bottom:1.29rem;
   background-color:#fff
 }
-.mixpadMiniPage .sec5 .title{
+.mixpadMiniPage .secmini5 .title{
   padding:.83rem 0 .8rem;
   color:#111;
   font-weight:500;
   font-size:.48rem;
   line-height:.64rem
 }
-.mixpadMiniPage .sec5 .desc{
+.mixpadMiniPage .secmini5 .desc{
   color:#111
 }
-.mixpadMiniPage .sec5 .content{
+.mixpadMiniPage .secmini5 .content{
   width:16rem;
   margin:0 auto
 }
-.mixpadMiniPage .sec5 .case1 .title{
+.mixpadMiniPage .secmini5 .case1 .title{
   margin:2.02rem auto 0;
   padding:0;
   text-align:center
 }
-.mixpadMiniPage .sec5 .case1 .desc{
+.mixpadMiniPage .secmini5 .case1 .desc{
   margin-top:.34rem
 }
-.mixpadMiniPage .sec5 .case2 .title{
+.mixpadMiniPage .secmini5 .case2 .title{
   padding:0;
   margin:1.54rem auto 0;
   text-align:center
 }
-.mixpadMiniPage .sec5 .case2 .desc{
+.mixpadMiniPage .secmini5 .case2 .desc{
   margin-top:.28rem
 }
-.mixpadMiniPage .sec5 .case{
+.mixpadMiniPage .secmini5 .case{
   display:flex
 }
-.mixpadMiniPage .sec5 .case>div{
+.mixpadMiniPage .secmini5 .case>div{
   width:8rem;
   height:6rem
 }
-.mixpadMiniPage .sec5 .case .txtWrapper{
+.mixpadMiniPage .secmini5 .case .txtWrapper{
   background-color:#f6f6f6
 }
-.mixpadMiniPage .sec5 .case img{
+.mixpadMiniPage .secmini5 .case img{
   width:100%;
   height:100%
 }
-.mixpadMiniPage .sec7{
+.mixpadMiniPage .secmini7{
   height:12rem;
   position:relative;
   box-sizing:border-box
 }
-.mixpadMiniPage .sec7 .title{
+.mixpadMiniPage .secmini7 .title{
   line-height:.72rem;
   color:#111
 }
-.mixpadMiniPage .sec7 .desc{
+.mixpadMiniPage .secmini7 .desc{
   margin-top:.3rem;
   color:#111
 }
-.mixpadMiniPage .sec7 .videoWrapper{
+.mixpadMiniPage .secmini7 .videoWrapper{
   position:absolute;
   top:5rem;
   left:50%;
@@ -453,7 +453,7 @@
   z-index:1;
   opacity:.4
 }
-.mixpadMiniPage .sec7 .video{
+.mixpadMiniPage .secmini7 .video{
   position:absolute;
   top:5.6rem;
   left:50%;
@@ -595,54 +595,54 @@
   height:1.29rem;
   background:#e2e2e2
 }
-.mixpadMiniPage .sec8-1{
+.mixpadMiniPage .secmini8-1{
   height:.6rem;
   background-color:#000
 }
-.mixpadMiniPage .sec8{
+.mixpadMiniPage .secmini8{
   position:relative;
   background-color:#000;
   overflow:hidden;
   margin-left:auto;
   margin-right:auto
 }
-.mixpadMiniPage .sec8 .title{
+.mixpadMiniPage .secmini8 .title{
   padding:.78rem 0 .3rem;
   font-size:.44rem
 }
-.mixpadMiniPage .sec8 .video{
+.mixpadMiniPage .secmini8 .video{
   margin-top:.3rem;
   margin-bottom:.47rem;
   text-align:center;
   color:#fff
 }
-.mixpadMiniPage .sec8 .video img{
+.mixpadMiniPage .secmini8 .video img{
   width:.27rem;
   height:.26rem;
   margin-left:.11rem;
   cursor:pointer
 }
-.mixpadMiniPage .sec8 .video span{
+.mixpadMiniPage .secmini8 .video span{
   cursor:pointer
 }
-.mixpadMiniPage .sec9{
+.mixpadMiniPage .secmini9{
   height:10.66rem;
   position:relative
 }
-.mixpadMiniPage .sec9 .title{
+.mixpadMiniPage .secmini9 .title{
   padding:.3rem 0;
   font-size:.44rem
 }
-.mixpadMiniPage .sec10 .f24,.mixpadMiniPage .sec11 .f24,.mixpadMiniPage .sec9 .f24{
+.mixpadMiniPage .secmini10 .f24,.mixpadMiniPage .secmini11 .f24,.mixpadMiniPage .secmini9 .f24{
   font-size:.24rem;
   line-height:.32rem;
   color:#fff
 }
-.mixpadMiniPage .sec9 .f24{
+.mixpadMiniPage .secmini9 .f24{
   padding-top:.31rem;
   padding-bottom:.23rem
 }
-.mixpadMiniPage .sec9 .line1,.mixpadMiniPage .sec9 .line2{
+.mixpadMiniPage .secmini9 .line1,.mixpadMiniPage .secmini9 .line2{
   width:4.99rem;
   height:.01rem;
   background-color:rgba(98,98,100,.81);
@@ -650,7 +650,7 @@
   left:50%;
   margin-left:-7.04rem
 }
-.mixpadMiniPage .sec9 .line1::after,.mixpadMiniPage .sec9 .line2::after{
+.mixpadMiniPage .secmini9 .line1::after,.mixpadMiniPage .secmini9 .line2::after{
   content:'';
   position:absolute;
   top:-.04rem;
@@ -660,13 +660,13 @@
   height:.09rem;
   border-radius:50%
 }
-.mixpadMiniPage .sec9 .line1{
+.mixpadMiniPage .secmini9 .line1{
   top:2.96rem
 }
-.mixpadMiniPage .sec9 .line2{
+.mixpadMiniPage .secmini9 .line2{
   top:5.77rem
 }
-.mixpadMiniPage .sec9 .line3{
+.mixpadMiniPage .secmini9 .line3{
   width:6.54rem;
   height:.01rem;
   background-color:rgba(98,98,100,.81);
@@ -675,10 +675,10 @@
   margin-left:.5rem;
   top:2.9rem
 }
-.mixpadMiniPage .sec9 .line3 p{
+.mixpadMiniPage .secmini9 .line3 p{
   text-align:right
 }
-.mixpadMiniPage .sec9 .line3::after{
+.mixpadMiniPage .secmini9 .line3::after{
   content:'';
   position:absolute;
   top:-.04rem;
@@ -688,7 +688,7 @@
   height:.09rem;
   border-radius:50%
 }
-.mixpadMiniPage .sec9 .line4{
+.mixpadMiniPage .secmini9 .line4{
   width:4.99rem;
   height:.01rem;
   background-color:rgba(98,98,100,.81);
@@ -697,10 +697,10 @@
   margin-left:2.05rem;
   top:5.62rem
 }
-.mixpadMiniPage .sec9 .line4 p{
+.mixpadMiniPage .secmini9 .line4 p{
   text-align:right
 }
-.mixpadMiniPage .sec9 .line4::after{
+.mixpadMiniPage .secmini9 .line4::after{
   content:'';
   position:absolute;
   top:-.04rem;
@@ -710,15 +710,15 @@
   height:.09rem;
   border-radius:50%
 }
-.mixpadMiniPage .sec10{
+.mixpadMiniPage .secmini10{
   height:7.77rem;
   position:relative
 }
-.mixpadMiniPage .sec10 .f24{
+.mixpadMiniPage .secmini10 .f24{
   padding-top:.23rem;
   padding-bottom:.23rem
 }
-.mixpadMiniPage .sec10 .line{
+.mixpadMiniPage .secmini10 .line{
   position:relative;
   top:4.3rem;
   left:50%;
@@ -727,7 +727,7 @@
   height:.01rem;
   background-color:rgba(162,162,162,.81)
 }
-.mixpadMiniPage .sec10 .line::after{
+.mixpadMiniPage .secmini10 .line::after{
   content:'';
   position:absolute;
   top:-.04rem;
@@ -737,23 +737,23 @@
   height:.09rem;
   border-radius:50%
 }
-.mixpadMiniPage .sec10 .content{
+.mixpadMiniPage .secmini10 .content{
   position:absolute;
   top:3.9rem;
   left:50%;
   margin-left:2.2rem
 }
-.mixpadMiniPage .sec11{
+.mixpadMiniPage .secmini11{
   height:11.25rem;
   position:relative
 }
-.mixpadMiniPage .sec11 .line1,.mixpadMiniPage .sec11 .line2{
+.mixpadMiniPage .secmini11 .line1,.mixpadMiniPage .secmini11 .line2{
   position:absolute;
   width:.01rem;
   background:rgba(162,162,162,.81);
   left:50%
 }
-.mixpadMiniPage .sec11 .line1::after,.mixpadMiniPage .sec11 .line2::after{
+.mixpadMiniPage .secmini11 .line1::after,.mixpadMiniPage .secmini11 .line2::after{
   content:'';
   position:absolute;
   bottom:-.04rem;
@@ -763,47 +763,47 @@
   height:.07rem;
   border-radius:50%
 }
-.mixpadMiniPage .sec11 .line1{
+.mixpadMiniPage .secmini11 .line1{
   top:1.17rem;
   height:5.06rem;
   margin-left:.12rem
 }
-.mixpadMiniPage .sec11 .line2{
+.mixpadMiniPage .secmini11 .line2{
   top:2.04rem;
   height:3.55rem;
   margin-left:2.78rem
 }
-.mixpadMiniPage .sec11 .content1{
+.mixpadMiniPage .secmini11 .content1{
   position:absolute;
   top:1.12rem;
   left:50%;
   margin-left:-3.07rem
 }
-.mixpadMiniPage .sec11 .content1 .f20,.mixpadMiniPage .sec11 .content1 .f24{
+.mixpadMiniPage .secmini11 .content1 .f20,.mixpadMiniPage .secmini11 .content1 .f24{
   text-align:right
 }
-.mixpadMiniPage .sec11 .content2{
+.mixpadMiniPage .secmini11 .content2{
   position:absolute;
   top:2rem;
   left:50%;
   margin-left:3rem
 }
-.mixpadMiniPage .sec11 .content2 .f20,.mixpadMiniPage .sec11 .content2 .f24{
+.mixpadMiniPage .secmini11 .content2 .f20,.mixpadMiniPage .secmini11 .content2 .f24{
   text-align:left
 }
-.mixpadMiniPage .sec11 .f24{
+.mixpadMiniPage .secmini11 .f24{
   padding-bottom:.13rem
 }
-.mixpadMiniPage .sec12{
+.mixpadMiniPage .secmini12{
   height:9rem
 }
-.mixpadMiniPage .sec12 .title{
+.mixpadMiniPage .secmini12 .title{
   padding:.91rem 0 .3rem
 }
-.mixpadMiniPage .sec13{
+.mixpadMiniPage .secmini13{
   height:8.76rem
 }
-.mixpadMiniPage .sec13 .title{
+.mixpadMiniPage .secmini13 .title{
   color:#111;
   padding-top:1.13rem
 }
