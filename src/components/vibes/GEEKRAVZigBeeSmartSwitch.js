@@ -29,6 +29,8 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
+                    } ul{
+                        list-style-type: none;
                     }        `
                 }}
             />

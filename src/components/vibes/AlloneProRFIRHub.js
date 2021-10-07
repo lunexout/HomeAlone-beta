@@ -1,5 +1,12 @@
 import React from 'react'
 import './AlloneProRFIRHub.css'
+import photo1 from './img/en_bg2_01-6c3424cdf2.jpg'
+import photo2 from './img/bg2_02-240f11ec25.jpg'
+import PHOTO3 from './img/bg2_03-c21368682d.jpg'
+
+
+
+
 
 export const AlloneProRFIRHub = () => {
     return (
@@ -29,7 +36,10 @@ export const AlloneProRFIRHub = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    } 
+                    ul{
+                        list-style-type: none;
+                    }       `
                 }}
             />
             <section className="free_model clear">
@@ -82,7 +92,7 @@ export const AlloneProRFIRHub = () => {
                 </div>
                 <div className="rf_sec3">
                     <ul className="clear">
-                        <li><img src="img/en_bg2_01-6c3424cdf2.jpg" alt="智能家居控制器" />
+                        <li><img src={photo1} alt="智能家居控制器" />
                             <div>
                                 <div className="num num1" />
                                 <p className="title">CONTROL MULTIPLE RF DEVICES OF DIFFERENT BRANDS</p>
@@ -90,7 +100,7 @@ export const AlloneProRFIRHub = () => {
                                     smart home solution to users.</p>
                             </div>
                         </li>
-                        <li><img src="img/bg2_02-240f11ec25.jpg" alt="Allone Pro多功能智能主机" />
+                        <li><img src={photo2} alt="Allone Pro多功能智能主机" />
                             <div>
                                 <div className="num num2" />
                                 <p className="title">REAL-TIME UPDATION OF RF PROTOCOLS ON CLOUD</p>
@@ -98,7 +108,7 @@ export const AlloneProRFIRHub = () => {
                                     clothes hanger, etc., and improved the security by RF encryption.</p>
                             </div>
                         </li>
-                        <li style={{ marginRight: 0 }}><img src="img/bg2_03-c21368682d.jpg" alt="RF智能主机" />
+                        <li style={{ marginRight: 0 }}><img src={PHOTO3} alt="RF智能主机" />
                             <div>
                                 <div className="num num3" />
                                 <p className="title">SUPPORT 95% IR HOME APPLIANCES IN THE MARKET</p>

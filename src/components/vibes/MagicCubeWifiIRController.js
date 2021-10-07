@@ -1,6 +1,19 @@
 import React from 'react'
 import './MagicCubeWifiIRController.css'
 
+import photo1 from './img/xiaofang_en.jpg'
+import photo2 from './img/xf_wind.png'
+import photo3 from './img/xf_light.png'
+import photo4 from './img/xf_logo_default.png'
+import photo5 from './img/xf_logo_active.png'
+import photo6 from './img/xf_dot.png'
+import photo7 from './img/xf_circle.png'
+import photo8 from './img/xf_music.png'
+import photo9 from './img/new1-73e9d8f842.jpg'
+import photo10 from './img/new2-5142243776.jpg'
+
+
+
 export const MagicCubeWifiIRController = () => {
   return (
     <div>
@@ -29,7 +42,10 @@ export const MagicCubeWifiIRController = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    } 
+                    ul{
+                      list-style-type: none;
+                  }        `
         }}
       />
       <section className="free_model clear">
@@ -45,18 +61,18 @@ export const MagicCubeWifiIRController = () => {
             <p className="xc_title">ONE SMART PHONE CAN CONTROL MOST OF IR APPLIANCES</p>
             <p className="xc_txt">Support more than 8000 different brands of IR appliances<br />(TV, A/C, Fan, TV Box,
               Projector, DVD, Home Speaker, etc..) in the market.</p>
-            <div className="xc_content"><img alt="Home Alone" src="img/xiaofang_en.jpg" />
-              <div className="xc_air"><img alt="Home Alone" src="img/xf_wind.png" className="xa_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xa_light" />
+            <div className="xc_content"><img alt="Home Alone" src={photo1} />
+              <div className="xc_air"><img alt="Home Alone" src={photo2} className="xa_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo3} className="xa_light" />
               </div>
-              <div className="xc_tv"><img alt="Home Alone" src="img/xf_logo_default.png" className="xt_logo" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_logo_active.png" className="xt_logo_active" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xt_light" />
+              <div className="xc_tv"><img alt="Home Alone" src={photo4} className="xt_logo" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo5} className="xt_logo_active" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo3} className="xt_light" />
               </div>
-              <div className="xc_stb"><img alt="Home Alone" src="img/xf_dot.png" className="xs_dot" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_circle.png" className="xs_circle" /></div>
-              <div className="xc_box"><img alt="Home Alone" src="img/xf_light.png" className="xb_light" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_circle.png" className="xb_circle" /></div>
+              <div className="xc_stb"><img alt="Home Alone" src={photo6} className="xs_dot" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo7} className="xs_circle" /></div>
+              <div className="xc_box"><img alt="Home Alone" src={photo3} className="xb_light" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo7} className="xb_circle" /></div>
               <div className="xc_sound">
-                <div className="xs_left"><img alt="Home Alone" src="img/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xs_light" /></div>
-                <div className="xs_right"><img alt="Home Alone" src="img/xf_music.png" className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_light.png" className="xs_light" /></div>
+                <div className="xs_left"><img alt="Home Alone" src={photo8} className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo3} className="xs_light" /></div>
+                <div className="xs_right"><img alt="Home Alone" src={photo8} className="xs_music" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo3} className="xs_light" /></div>
               </div>
-              <div className="xc_fan"><img alt="Home Alone" src="img/xf_wind.png" className="xf_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src="img/xf_dot.png" className="xf_dot" />
+              <div className="xc_fan"><img alt="Home Alone" src={photo2} className="xf_wind" /> &nbsp; &nbsp; &nbsp; &nbsp; <img alt="Home Alone" src={photo6} className="xf_dot" />
               </div>
             </div>
             <div className="mouse_img" />
@@ -87,7 +103,7 @@ export const MagicCubeWifiIRController = () => {
               </div>
             </div>
           </div>
-        </section><img alt="Home Alone" src="img/new1-73e9d8f842.jpg" style={{ width: '100%', height: 'auto' }} /> <img alt="Home Alone" src="img/new2-5142243776.jpg" style={{ width: '100%', height: 'auto', marginTop: '-4px' }} />
+        </section><img alt="Home Alone" src={photo9} style={{ width: '100%', height: 'auto' }} /> <img alt="Home Alone" src={photo10} style={{ width: '100%', height: 'auto', marginTop: '-4px' }} />
         <section className="xf_page xf_eighth" style={{ marginTop: '-4px' }}>
           <div className="xf_container">
             <p className="xe_title">CONCISED DESIGN AND POWERFUL FUNCTION</p>
