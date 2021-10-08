@@ -29,7 +29,9 @@ export const ZigbeeWaterLeakageSensor = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    }  ul{
+                        list-style-type: none;
+                    }      `
                 }}
             />
             <div className="im_sec_1">

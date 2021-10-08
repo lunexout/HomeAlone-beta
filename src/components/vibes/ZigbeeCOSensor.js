@@ -1,6 +1,6 @@
 import React from 'react'
 import './ZigbeeCOSensor.css'
-
+import photo1 from './img/sp20-b16ced416b.png'
 
 export const ZigbeeCOSensor = () => {
     return (
@@ -82,7 +82,7 @@ export const ZigbeeCOSensor = () => {
                     <img alt="Home Alone"
                         id="product"
                         className="product"
-                        src="img/sp20-b16ced416b.png"
+                        src={photo1}
                     />
                     <div id="flash" className="flash" style={{ opacity: 0 }} />
                 </div>

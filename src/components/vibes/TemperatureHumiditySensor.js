@@ -1,6 +1,15 @@
 import React from "react";
 import './TemperatureHumiditySensor.css'
+import photo1 from './img/iphone_1-6c94c7034c.png'
 
+import photo2 from './img/iphone_2-fcc309c0d3.png'
+
+import photo3 from './img/temp_img-330bd74bfd.png'
+import photo4 from './img/product_small-a85dc41eac.png'
+import photo5 from './img/temp_img2-fb38feef7e.png'
+import photo6 from './img/product_small-a85dc41eac.png'
+
+import photo7 from './img/arrowUp-28992f3e82.svg'
 export const TemperatureHumiditySensor = () => {
     return (
         <div>
@@ -29,7 +38,9 @@ export const TemperatureHumiditySensor = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    }     ul{
+                        list-style-type: none;
+                    }     `
                 }}
             />
             <section className="temp_sec_1 first_page">
@@ -89,37 +100,7 @@ export const TemperatureHumiditySensor = () => {
                     </div>
                 </div>
             </section>
-            <section className="temp_sec3">
-                <p>TAKE CARE OF YOU AND YOUR FAMILY</p>
-                <img alt="Home Alone"
-                    id="product"
-                    src="img/product_img-97705255ff.png"
-                />
-                <div className="logos">
-                    <ul className="clear">
-                        <li>
-                            <div className="icon icon1" />
-                            <p>Real-time detection</p>
-                        </li>
-                        <li>
-                            <div className="icon icon2" />
-                            <p>
-                                Link with home
-                                <br />
-                                appliances
-                            </p>
-                        </li>
-                        <li style={{ marginRight: 0 }}>
-                            <div className="icon icon3" />
-                            <p>
-                                Sensor with high
-                                <br />
-                                precision
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+
             <section className="temp_sec4">
                 <p className="tit">
                     DETECT THE INDOOR TEMPERATURE AND
@@ -135,7 +116,7 @@ export const TemperatureHumiditySensor = () => {
                 </p>
                 <img alt="Home Alone"
                     id="iphone6_1"
-                    src="img/iphone_1-6c94c7034c.png"
+                    src={photo1}
                 />
             </section>
             <section className="temp_sec5">
@@ -153,7 +134,7 @@ export const TemperatureHumiditySensor = () => {
                 </p>
                 <img alt="Home Alone"
                     id="iphone6_2"
-                    src="img/iphone_2-fcc309c0d3.png"
+                    src={photo2}
                 />
             </section>
             <section className="temp_sec6">
@@ -165,12 +146,12 @@ export const TemperatureHumiditySensor = () => {
                     </p>
                     <img alt="Home Alone"
                         className="app_show"
-                        src="img/temp_img-330bd74bfd.png"
+                        src={photo3}
                     />
                     <div className="ani_img">
                         <img alt="Home Alone"
                             className="pro"
-                            src="img/product_small-a85dc41eac.png"
+                            src={photo4}
                             style={{ left: "49px", top: "52px" }}
                         />
                     </div>
@@ -182,12 +163,12 @@ export const TemperatureHumiditySensor = () => {
                     </p>
                     <img alt="Home Alone"
                         className="app_show"
-                        src="img/temp_img2-fb38feef7e.png"
+                        src={photo5}
                     />
                     <div className="ani_img">
                         <img alt="Home Alone"
                             className="pro"
-                            src="img/product_small-a85dc41eac.png"
+                            src={photo6}
                             style={{ left: "49px", top: "52px" }}
                         />
                     </div>
@@ -223,7 +204,7 @@ export const TemperatureHumiditySensor = () => {
                     style={{ right: "0px", display: "none" }}
                 >
                     <img alt="Home Alone"
-                        src="img/arrowUp-28992f3e82.svg"
+                        src={photo7}
                     />
                 </div>
             </div>

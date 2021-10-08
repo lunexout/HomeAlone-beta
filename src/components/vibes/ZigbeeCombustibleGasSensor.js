@@ -29,7 +29,9 @@ export const ZigbeeCombustibleGasSensor = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    }   ul{
+                        list-style-type: none;
+                    }       `
                 }}
             />
             <section className="gas_sensor_sec1">

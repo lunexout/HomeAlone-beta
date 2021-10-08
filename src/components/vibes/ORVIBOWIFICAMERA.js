@@ -1,5 +1,22 @@
 import React from 'react'
 import './ORVIBOWIFICAMERA.css'
+import photo1 from './img/bg_01-51b38d595a.jpg'
+
+import photo2 from './img/phone_01-ac8ab80fa7.png'
+
+
+
+
+
+
+import photo3 from './img/phone2-b1680b2e66.png'
+import photo4 from './img/phone3-9dc2d3477b.png'
+import photo5 from './img/phone4-3d04649908.png'
+import photo6 from './img/sc_w-4808566ebf.png'
+
+import photo7 from './img/sc_b-8789132710.png'
+
+
 
 export const ORVIBOWIFICAMERA = () => {
     return (
@@ -47,12 +64,14 @@ export const ORVIBOWIFICAMERA = () => {
                         html {
                             font-size: 12px
                         }
-                    }        `
+                    } ul{
+                        list-style-type: none;
+                    }         `
                 }}
             />
 
             <section className="free_model clear">
-                <div className="xo_sec_1"><img alt="Home Alone" classclassName="bg_left" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/bg_01-51b38d595a.jpg" />
+                <div className="xo_sec_1"><img alt="Home Alone" classclassName="bg_left" src={photo1} />
                     <div className="bg_right" />
                     <div className="f_content">
                         <h1 className="font_sans" style={{ color: '#000000' }}>ORVIBO &nbsp;Wi-Fi CAMERA</h1>
@@ -61,7 +80,7 @@ export const ORVIBOWIFICAMERA = () => {
                     </div>
                 </div>
                 <div className="xo_sec_2">
-                    <div className="content"><img alt="Home Alone" classid="p1" className="phone animateUp" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone_01-ac8ab80fa7.png" />
+                    <div className="content"><img alt="Home Alone" classid="p1" className="phone animateUp" src={photo2} />
                         <div className="cont">
                             <p className="font_sans descrip">Captures an expansive area
                                 <br />of your property for high-level security</p>
@@ -72,10 +91,10 @@ export const ORVIBOWIFICAMERA = () => {
                     <div className="content">
                         <div className="cont">
                             <p className="font_sans descrip">Always pay close attention to baby</p>
-                        </div><img alt="Home Alone" classid="p2" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone2-b1680b2e66.png" /></div>
+                        </div><img alt="Home Alone" classid="p2" className="phone" src={photo3} /></div>
                 </div>
                 <div className="xo_sec_4">
-                    <div className="content"><img alt="Home Alone" classid="p3" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone3-9dc2d3477b.png" />
+                    <div className="content"><img alt="Home Alone" classid="p3" className="phone" src={photo4} />
                         <div className="cont">
                             <p className="font_sans descrip">Never miss precious time with my family</p>
                         </div>
@@ -85,7 +104,7 @@ export const ORVIBOWIFICAMERA = () => {
                     <div className="content">
                         <h1 style={{ color: '#000000' }}>Put your home in your phone</h1>
                         <p className="font_sans" style={{ color: '#000000' }}>Communicate and focus on your family
-                            <br />Do not always leave her alone</p><img alt="Home Alone" classid="p4" className="phone" src="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/phone4-3d04649908.png" /></div>
+                            <br />Do not always leave her alone</p><img alt="Home Alone" classid="p4" className="phone" src={photo5} /></div>
                 </div>
                 <div className="xo_sec_6">
                     <h1>Super night vision，No light pollution，<br />Shooting at night is as perfect as the day</h1>
@@ -129,10 +148,10 @@ export const ORVIBOWIFICAMERA = () => {
                         <div className="dt_content_title">
                             <p>Appearance：</p>
                             <div className="product clearfix">
-                                <div style={{ marginRight: '158px' }}><img alt="Home Alone" classsrc="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_w-4808566ebf.png" />
+                                <div style={{ marginRight: '158px' }}><img alt="Home Alone" src={photo6} />
                                     <p>[WHITE SC10W]</p>
                                 </div>
-                                <div><img alt="Home Alone" classsrc="https://static.orvibo.com/guanwang_second/front/en/images/xiaoou/sc_b-8789132710.png" />
+                                <div><img alt="Home Alone" src={photo7} />
                                     <p>[BLACK SC10B]</p>
                                 </div>
                             </div>

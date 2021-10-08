@@ -29,7 +29,9 @@ export const ZigbeeSmokeSensor = () => {
                         html{
                             font-size: calc(83.34vw / 16)
                         }
-                    }        `
+                    }   ul{
+                        list-style-type: none;
+                    }     `
                 }}
             />
             <section className="smoke_sensor_sec1">
@@ -54,15 +56,7 @@ export const ZigbeeSmokeSensor = () => {
                 <p>Once it detects the smoke and fire hazard, the flashing red LED indicator and the loud<br />buzzing alarm with
                     85dB will immediately remind you to take actions to protect your<br />home and family.</p>
             </section>
-            <section className="smoke_sensor_sec6">
-                <div className="smoke_sensor_container">
-                    <div className="txtbox">
-                        <h1>REMOTE CHECK THE STATUS IN<br />YOUR HOME VIA SMART PHONE</h1>
-                        <p>With the HomeMate APP, you can check the real-time status<br />in your home from anywhere, and take
-                            actions in advance to<br />avoid the accident.</p>
-                    </div>
-                </div>
-            </section>
+
             <section className="smoke_sensor_sec7">
                 <div className="smoke_sensor_container">
                     <h1>MORE FEATURES</h1>

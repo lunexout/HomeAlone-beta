@@ -1,6 +1,15 @@
 import React from 'react'
 import './IPCamera.css'
+import photo1 from './img/bg3-8d876ab46b.png'
 
+import photo2 from './img/bg4-a9ad58dac1.png'
+
+import photo3 from './img/bg5-f6b42bb1de.png'
+import photo4 from './img/bg7-42ea7ab39c.png'
+import photo5 from './img/bg8-b6638db0ec.png'
+import photo6 from './img/bg9-fdd4699c6d.png'
+import photo7 from './img/bg10-1f2864fa16.png'
+import photo8 from './img/bg11-0bf87b2f7a.jpg'
 export const IPCamera = () => {
     return (
         <div>
@@ -65,7 +74,7 @@ export const IPCamera = () => {
                         <div className="sec2__size"><span>720p</span> <span>1080P</span></div>
                     </div>
                 </div>
-                <div className="yt__sec3 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg3-8d876ab46b.png)' }}>
+                <div className="yt__sec3 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo1})` }}>
                     <div className="sec3__content">
                         <div className="sec__title">Double Rotating Platform, Without Monitoring Dead Angle</div>
                         <div className="sec__desc">
@@ -75,7 +84,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec4 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg4-a9ad58dac1.png)' }}>
+                <div className="yt__sec4 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo2})` }}>
                     <div className="sec3__content">
                         <div className="sec__title">Night Vision With High Video Quality</div>
                         <div className="sec__desc">
@@ -85,7 +94,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec5 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg5-f6b42bb1de.png)' }}>
+                <div className="yt__sec5 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo3})` }}>
                     <div className="sec5__content">
                         <div className="sec__title">Sensitive Motion Detection</div>
                         <div className="sec__desc">
@@ -100,7 +109,7 @@ export const IPCamera = () => {
                 <div className="yt__sec6">
                     <p className="sec6__title">Remote Monitoring in Real Time</p>
                 </div>
-                <div className="yt__sec7 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg7-42ea7ab39c.png)' }}>
+                <div className="yt__sec7 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo4})` }}>
                     <div className="sec7__content">
                         <div className="sec__title">Always pay attention to the elderly and children</div>
                         <div className="sec__desc">
@@ -110,7 +119,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec8 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg8-b6638db0ec.png)' }}>
+                <div className="yt__sec8 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo5})` }}>
                     <div className="sec8__content">
                         <div className="sec__title">Remotely Care for Pets at Home</div>
                         <div className="sec__desc">
@@ -120,7 +129,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec8 s__bg d__sec small lazy" style={{ backgroundImage: 'url(img/bg9-fdd4699c6d.png)' }}>
+                <div className="yt__sec8 s__bg d__sec small lazy" style={{ backgroundImage: `url(${photo6})` }}>
                     <div className="sec8__content">
                         <div className="sec__title">
                             <p>Real-Time Two-Way Intercom</p>
@@ -134,7 +143,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec9 s__bg d__sec lazy" style={{ backgroundImage: 'url(img/bg10-1f2864fa16.png)' }}>
+                <div className="yt__sec9 s__bg d__sec lazy" style={{ backgroundImage: `url(${photo7})` }}>
                     <div className="sec8__content">
                         <div className="sec__title">
                             <p>7*24 Hours of Uninterrupted Storage</p>
@@ -150,7 +159,7 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-                <div className="yt__sec10 d__sec s__bg lazy" style={{ backgroundImage: 'url(img/bg11-0bf87b2f7a.jpg)' }}>
+                <div className="yt__sec10 d__sec s__bg lazy" style={{ backgroundImage: `url(${photo8})` }}>
                     <div className="sec10__info">
                         <div className="sec__title">Intelligent security linkage, 24-hour full-space protection</div>
                         <div className="sec__desc">
