@@ -110,9 +110,9 @@ export const Home = () => {
             { mainImage: logoprod2, name: 'Interaction Center', type: 'Interaction_Center' },
             { mainImage: logoprod3, name: 'Smart Lighting', type: 'Smart_Lighting' },
             { mainImage: logoprod4, name: 'Home Security', type: 'Home_Security' },
-            { mainImage: logoprod5, name: 'Smart R+T', type: 'Smart_R+T' },
-            { mainImage: logoprod6, name: 'Home Entertaiment', type: 'Home_Entertaiment' },
-            { mainImage: logoprod7, name: 'Smart HVAC', type: 'Smart_HVAC' },
+            { mainImage: logoprod5, name: 'Smart Curtain', type: 'Smart_R+T' },
+            { mainImage: logoprod6, name: 'Temperature Control', type: 'Smart_HVAC' },
+            { mainImage: logoprod7, name: 'Home Entertaiment', type: 'Home_Entertaiment' },
             { mainImage: logoprod8, name: 'Domestic Appliances', type: 'Domestic_Appliances' },
           ]} />
           <div className="single-div" style={{ marginTop: 40 }}>
