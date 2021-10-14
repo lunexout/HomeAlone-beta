@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 import SAFEHOME from './../../assets/safehome.png'
 import BANK from './../../assets/bank.png'
 
-import Pricing from './../pricing/Price'
+// import Pricing from './../pricing/Price'
 import { useTranslation } from 'react-i18next';
 import PartnerWith from "../partners/partnetwith";
 
@@ -235,7 +235,7 @@ export const Home = () => {
               </p>
             </div>
           </div>
-          <Pricing />
+          {/* <Pricing /> */}
           <Footer />
         </>
       )}
