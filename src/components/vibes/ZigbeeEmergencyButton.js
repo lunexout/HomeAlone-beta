@@ -2,6 +2,7 @@ import React from 'react'
 import './ZigbeeEmergencyButton.css'
 
 
+import { Footer } from './../footer/Footer'
 
 
 import photo1 from './img/sec3-a70c9766cb.png'
@@ -96,6 +97,8 @@ export const ZigbeeEmergencyButton = () => {
                     call parents. Now just one press on the button, parents will get alarm<br />message and take action at once.
                 </p><img alt="Home Alone" src={photo3} id="iphone6_2" />
             </section>
+            <Footer />
+
         </div>
     )
 }

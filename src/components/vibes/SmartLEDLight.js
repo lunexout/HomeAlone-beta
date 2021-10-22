@@ -15,6 +15,7 @@ import photo4 from './img/bg_15-a135483b7f.png'
 
 import photo7 from './img/bg_16-a7dd153171.png'
 
+import { Footer } from './../footer/Footer'
 
 
 export const SmartLEDLight = () => {
@@ -159,7 +160,8 @@ export const SmartLEDLight = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

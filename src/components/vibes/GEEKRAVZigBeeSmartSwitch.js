@@ -1,5 +1,6 @@
 import React from 'react'
 import './GEEKRAVZigBeeSmartSwitch.css'
+import { Footer } from './../footer/Footer'
 
 export const GEEKRAVZigBeeSmartSwitch = () => {
     return (
@@ -300,7 +301,8 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

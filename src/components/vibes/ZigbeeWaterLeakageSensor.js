@@ -1,5 +1,6 @@
 import React from 'react'
 import './ZigbeeWaterLeakageSensor.css'
+import { Footer } from './../footer/Footer'
 
 export const ZigbeeWaterLeakageSensor = () => {
     return (
@@ -106,6 +107,8 @@ export const ZigbeeWaterLeakageSensor = () => {
                     </ul>
                 </div>
             </div>
+            <Footer />
+
         </div>
     )
 }

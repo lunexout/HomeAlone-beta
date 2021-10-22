@@ -11,6 +11,10 @@ import vid8 from './img/sec5_1-44ad8a51b5.png'
 import vid9 from './img/sec5_3-3f2cce9470.png'
 import vid10 from './img/sec5.mp4'
 import vid13 from './img/M7mxwABFyt4A.mp4'
+
+import { Footer } from './../footer/Footer'
+
+
 export const MixPadMiniSuperSmartPanel = () => {
     return (
         <div>
@@ -205,6 +209,8 @@ export const MixPadMiniSuperSmartPanel = () => {
 
 
             </div>
+            <Footer />
+
         </div>
     )
 }

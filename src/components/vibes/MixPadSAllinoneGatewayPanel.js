@@ -1,5 +1,8 @@
 import React from 'react'
 import './MixPadSAllinoneGatewayPanel.css'
+import { Footer } from './../footer/Footer'
+
+
 export const MixPadSAllinoneGatewayPanel = () => {
     return (
         <div>
@@ -120,7 +123,8 @@ export const MixPadSAllinoneGatewayPanel = () => {
                         <li>Password Disarm</li>
                     </ul>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

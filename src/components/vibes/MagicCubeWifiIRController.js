@@ -11,6 +11,7 @@ import photo7 from './img/xf_circle.png'
 import photo8 from './img/xf_music.png'
 import photo9 from './img/new1-73e9d8f842.jpg'
 import photo10 from './img/new2-5142243776.jpg'
+import { Footer } from './../footer/Footer'
 
 
 
@@ -217,7 +218,8 @@ export const MagicCubeWifiIRController = () => {
             </div>
           </div>
         </section>
-      </section>
+      </section>          <Footer />
+
     </div>
   )
 }

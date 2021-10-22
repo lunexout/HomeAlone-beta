@@ -16,6 +16,7 @@ import photo6 from './img/sc_w-4808566ebf.png'
 
 import photo7 from './img/sc_b-8789132710.png'
 
+import { Footer } from './../footer/Footer'
 
 
 export const ORVIBOWIFICAMERA = () => {
@@ -245,6 +246,7 @@ export const ORVIBOWIFICAMERA = () => {
                     <div className="pdbc_buyRight" />
                 </div>
             </section>
+            <Footer />
 
         </div>
     )

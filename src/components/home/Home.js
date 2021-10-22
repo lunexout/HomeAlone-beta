@@ -16,7 +16,7 @@ import { Spinner } from './../spinner/Spinner'
 import { useTranslation } from 'react-i18next';
 import PartnerWith from "../partners/partnetwith";
 
-import Serv from './../services/servi'
+// import Serv from './../services/servi'
 import logoprod1 from './../../assets/audio.png';
 import logoprod2 from './../../assets/interact.png';
 import logoprod3 from './../../assets/light.png';
@@ -196,7 +196,7 @@ export const Home = () => {
 
 
           <PartnerWith />
-          <Serv />
+          {/* <Serv /> */}
 
 
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>

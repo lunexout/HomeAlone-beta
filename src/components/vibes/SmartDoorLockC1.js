@@ -1,6 +1,7 @@
 import React from 'react'
 import './SmartDoorLockC1.css'
 
+import { Footer } from './../footer/Footer'
 
 export const SmartDoorLockC1 = () => {
     return (
@@ -143,7 +144,8 @@ export const SmartDoorLockC1 = () => {
                             in different scene.</div>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

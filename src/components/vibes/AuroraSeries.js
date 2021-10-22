@@ -1,5 +1,6 @@
 import React from 'react'
 import './AuroraSeries.css'
+import { Footer } from './../footer/Footer'
 
 export const AuroraSeries = () => {
     return (
@@ -38,6 +39,7 @@ export const AuroraSeries = () => {
             <section className="jg_sec5"><h2>MORE FEATURED DETAILS</h2><div className="s5_con"><p className="s5_title">Sensitive Touch Without Any Delay</p><div className="s5_container"><div className="left"><p><span>C-Touch（TM）</span><br />Capacitive touch sensing technology</p></div><div className="right"><p><span>100</span>ms<br />Shortened response time</p></div></div></div></section>
             <section className="jg_sec6"><h2>Extraordinary Protection Mechanism</h2><div className="s6_con"><p className="s6_t1">PCBA Board<br /><span>Anti-thunder protection</span></p><p className="s6_t2">Waterproof Panel<br /><span>Humid operation is available</span></p></div></section>
             <section className="jg_sec7"><div className="s7_con"><h2>Backlight Indicator</h2><p>Soft blue light to indicate the location in darkness</p></div></section>
+            <Footer />
         </div>
     )
 }

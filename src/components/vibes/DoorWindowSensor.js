@@ -1,5 +1,6 @@
 import React from 'react'
 import './DoorWindowSensor.css'
+import { Footer } from './../footer/Footer'
 
 export const DoorWindowSensor = ({ match }) => {
     return (
@@ -133,7 +134,8 @@ export const DoorWindowSensor = ({ match }) => {
                         <p className="normal_p">Your private customized.</p>
                     </div>
                 </section>
-            </html>
+            </html>          <Footer />
+
         </div >
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './SmartDoorLockS2.css'
 
+import { Footer } from './../footer/Footer'
 
 import photo1 from './img/sec1-295ad1a8b1.png'
 import photo2 from './img/sec2-74daa2d6eb.png'
@@ -140,7 +141,8 @@ export const SmartDoorLockS2 = () => {
                     <div className="sec14__bg s__bg lazy" style={{ backgroundImage: `url(${photo13})` }}>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

@@ -19,6 +19,7 @@ import cid11 from './img/mixpad_elf_top.mp4'
 import cid12 from './img/mixpad_elf_color.mp4'
 import cid13 from './img/mixpad_elf_footer.mp4'
 
+import { Footer } from './../footer/Footer'
 
 
 export const MixPadGenie = () => {
@@ -114,6 +115,8 @@ export const MixPadGenie = () => {
                 </div>
 
             </div>
+            <Footer />
+
         </div >
     )
 }

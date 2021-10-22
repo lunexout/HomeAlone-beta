@@ -1,5 +1,6 @@
 import React from 'react'
 import './ZigbeeCombustibleGasSensor.css'
+import { Footer } from './../footer/Footer'
 
 export const ZigbeeCombustibleGasSensor = () => {
     return (
@@ -83,6 +84,8 @@ export const ZigbeeCombustibleGasSensor = () => {
                     </ul>
                 </div>
             </section>
+            <Footer />
+
         </div>
     )
 }

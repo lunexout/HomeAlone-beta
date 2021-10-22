@@ -4,6 +4,8 @@ import photo1 from './img/iphone_1-6c94c7034c.png'
 
 import photo2 from './img/iphone_2-fcc309c0d3.png'
 
+import { Footer } from './../footer/Footer'
+
 import photo3 from './img/temp_img-330bd74bfd.png'
 import photo4 from './img/product_small-a85dc41eac.png'
 import photo5 from './img/temp_img2-fb38feef7e.png'
@@ -207,7 +209,8 @@ export const TemperatureHumiditySensor = () => {
                         src={photo7}
                     />
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react'
 import './SmartCurtainMotor.css'
+import { Footer } from './../footer/Footer'
 
 export const SmartCurtainMotor = () => {
     return (
@@ -228,7 +229,8 @@ export const SmartCurtainMotor = () => {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

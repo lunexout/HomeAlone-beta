@@ -1,6 +1,7 @@
 import React from 'react'
 import './ZigbeeCOSensor.css'
 import photo1 from './img/sp20-b16ced416b.png'
+import { Footer } from './../footer/Footer'
 
 export const ZigbeeCOSensor = () => {
     return (
@@ -268,6 +269,8 @@ export const ZigbeeCOSensor = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
+
         </div >
     )
 }

@@ -3,6 +3,7 @@ import './IPCamera.css'
 import photo1 from './img/bg3-8d876ab46b.png'
 
 import photo2 from './img/bg4-a9ad58dac1.png'
+import { Footer } from './../footer/Footer'
 
 import photo3 from './img/bg5-f6b42bb1de.png'
 import photo4 from './img/bg7-42ea7ab39c.png'
@@ -200,7 +201,8 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }

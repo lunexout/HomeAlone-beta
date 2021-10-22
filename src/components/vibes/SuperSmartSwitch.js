@@ -19,6 +19,7 @@ import photo15 from './img/sec7_3-1471fdabc8.png'
 import photo16 from './img/sec7_4-09edd34032.png'
 
 
+import { Footer } from './../footer/Footer'
 
 export const SuperSmartSwitch = () => {
     return (
@@ -223,7 +224,8 @@ export const SuperSmartSwitch = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>          <Footer />
+
         </div>
     )
 }
