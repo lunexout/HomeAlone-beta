@@ -30,6 +30,7 @@ const resources = {
       "PRODUCTS": "PRODUCTS",
       "SERVICES": "SERVICES",
       "ABOUT": "ABOUT",
+      "TOP PRODUCT": "TOP PRODUCT",
       "NEWS": "NEWS",
       "CONTACT": "CONTACT",
       "Interaction Center": "Interaction Center",
@@ -87,6 +88,7 @@ const resources = {
   },
   ge: {
     translation: {
+      "TOP PRODUCT": "რჩეული პროდუქტები",
       "prodiskr1": "ერთი MixPad Mini უდრის ბევრ ჭკვიან პროდუქტს",
       "prodiskr2": "MIXPAD- ის ყოვლისმომცველი GATEWAY PANEL",
       "prodiskr3": "ერთი პანელი, ყველა ჭკვიანი",
@@ -170,6 +172,7 @@ const resources = {
   },
   ru: {
     translation: {
+      "TOP PRODUCT": "ТОП ПРОДУКТЫ",
       "prodiskr1": "Один MixPad Mini равен многим умным продуктам",
       "prodiskr2": "УНИВЕРСАЛЬНАЯ ПАНЕЛЬ ШЛЮЗА MIXPAD",
       "prodiskr3": "ОДНА ПАНЕЛЬ, ВСЕ УМНЫЕ",

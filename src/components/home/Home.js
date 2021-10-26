@@ -111,7 +111,7 @@ export const Home = () => {
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-              Top Products
+              {t('TOP PRODUCT')}
             </h1>
           </div>
           < Will />
