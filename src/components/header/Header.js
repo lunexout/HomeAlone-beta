@@ -8,28 +8,27 @@ import PARTNER1 from './../partners/images/al mare batumi.jpg'
 import PARTNER2 from './../../assets/partners/citron.jpg'
 import PARTNER3 from './../../assets/partners/guru.jpg'
 
-import {NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 export const Header = () => {
     const { t } = useTranslation();
     const [ProductsBox, setProductsBox] = useState(false);
     const [ServicesBox, setServicesBox] = useState(false);
     const [AboutBox, setAboutBox] = useState(false);
-    const changeLanguageHandler = (lang) =>
-    {
-      localStorage.setItem('lang', lang)
-      window.location.reload()
+    const changeLanguageHandler = (lang) => {
+        localStorage.setItem('lang', lang)
+        window.location.reload()
     }
     const OpenBox = (arg) => {
-        if(arg === 2) {
+        if (arg === 2) {
             setProductsBox(true);
             setServicesBox(false);
             setAboutBox(false)
-        }else if(arg === 3) {
+        } else if (arg === 3) {
             setProductsBox(false);
             setServicesBox(true);
             setAboutBox(false)
-        }else if(arg === 4) {
+        } else if (arg === 4) {
             setProductsBox(false);
             setServicesBox(false);
             setAboutBox(true)
@@ -41,53 +40,53 @@ export const Header = () => {
         }
     }
 
-    return(
+    return (
         <>
             <div className='header' >
-                <div className='animate__animated animate__fadeInLeft' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                <div onMouseEnter={() => OpenBox(0)}>
-                    <NavLink className='nav-item'  activeClassName="nav-active" exact to='/' >
-                    <p>{t('HOME')}</p>
-                    </NavLink>
+                <div className='animate__animated animate__fadeInLeft' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div onMouseEnter={() => OpenBox(0)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" exact to='/' >
+                            <p>{t('HOME')}</p>
+                        </NavLink>
+                    </div>
+                    <div onMouseEnter={() => OpenBox(2)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/products' onClick={() => OpenBox(5)}>
+                            <p>{t('PRODUCTS')}</p>
+                        </NavLink>
+                    </div>
+                    <div onMouseEnter={() => OpenBox(3)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/services' onClick={() => OpenBox(5)}>
+                            <p style={{ borderRight: 'none' }}>{t('SERVICES')}</p>
+                        </NavLink>
+                    </div>
                 </div>
-                <div onMouseEnter={() => OpenBox(2)}>
-                    <NavLink className='nav-item' activeClassName="nav-active" to='/products' onClick={() => OpenBox(5)}>
-                    <p>{t('PRODUCTS')}</p>
-                    </NavLink>
-                </div>
-                <div onMouseEnter={() => OpenBox(3)}>
-                    <NavLink className='nav-item' activeClassName="nav-active" to='/services' onClick={() => OpenBox(5)}>
-                    <p style={{borderRight: 'none'}}>{t('SERVICES')}</p>
-                    </NavLink>
-                </div>
-                </div>
-                <NavLink className='nav-item'  activeClassName="nav-active" exact to='/' >
-                <div onMouseEnter={() => OpenBox(0)} className='animate__animated animate__zoomIn'>
-                    <img src={logo} className="App-logo" alt="logo" />
-                </div>
+                <NavLink className='nav-item' activeClassName="nav-active" exact to='/' >
+                    <div onMouseEnter={() => OpenBox(0)} className='animate__animated animate__zoomIn'>
+                        <img src={logo} className="App-logo" alt="logo" />
+                    </div>
                 </NavLink>
 
-                <div className='animate__animated animate__fadeInRight' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                <div onMouseEnter={() => OpenBox(4)}>
-                    <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
-                    <p>{t('ABOUT')}</p>
-                    </NavLink>
-                </div>
-                <div onMouseEnter={() => OpenBox(0)}>
-                    <NavLink className='nav-item' activeClassName="nav-active" to='/news'>
-                    <p>{t('NEWS')}</p>
-                    </NavLink>
-                </div>
-                <div onMouseEnter={() => OpenBox(0)}>
-                    <NavLink className='nav-item' activeClassName="nav-active" to='/contact'>
-                    <p >{t('CONTACT')}</p>
-                    </NavLink>
-                </div>
-                <div style={{display:'flex'}}>
-                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('en')}>EN</p>
-                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('ge')}>GE</p>
-                    <p style={{borderRight: 'none'}} className='nav-item-lang' onClick={() => changeLanguageHandler('ru')}>RU</p>
-                </div>
+                <div className='animate__animated animate__fadeInRight' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div onMouseEnter={() => OpenBox(4)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
+                            <p>{t('ABOUT')}</p>
+                        </NavLink>
+                    </div>
+                    <div onMouseEnter={() => OpenBox(0)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/news'>
+                            <p>{t('NEWS')}</p>
+                        </NavLink>
+                    </div>
+                    <div onMouseEnter={() => OpenBox(0)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/contact'>
+                            <p >{t('CONTACT')}</p>
+                        </NavLink>
+                    </div>
+                    <div style={{ display: 'flex' }}>
+                        <p style={{ borderRight: 'none' }} className='nav-item-lang' onClick={() => changeLanguageHandler('en')}>EN</p>
+                        <p style={{ borderRight: 'none' }} className='nav-item-lang' onClick={() => changeLanguageHandler('ge')}>GE</p>
+                        <p style={{ borderRight: 'none' }} className='nav-item-lang' onClick={() => changeLanguageHandler('ru')}>RU</p>
+                    </div>
                 </div>
             </div>
             <div>
@@ -95,74 +94,74 @@ export const Header = () => {
                     <>
                         <div onMouseLeave={() => setProductsBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
-                                <div style={{display:'flex', flexDirection: 'column', }}>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{textDecoration: 'none'}}>
-                                    <p>{t('Interaction Center')}</p>
+                                <div style={{ display: 'flex', flexDirection: 'column', }}>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Interaction Center')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Lighting' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart Lighting')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Lighting' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart Lighting')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Security' style={{textDecoration: 'none'}}>
-                                    <p>{t('Home Security')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Security' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Home Security')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_R+T' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart R+T')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_R+T' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart R+T')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_HVAC' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart HVAC')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_HVAC' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart HVAC')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Entertaiment' style={{textDecoration: 'none'}}>
-                                    <p>{t('Home Entertaiment')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Home_Entertaiment' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Home Entertaiment')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{textDecoration: 'none'}}>
-                                    <p>{t('Domestic Appliances')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Domestic Appliances')}</p>
                                     </NavLink>
                                 </div>
-                                <div style={{display: 'flex', justifyContent:'center', alignItems:'center',flexDirection: 'column'}}>
+                                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                                     <h3>{t('Audio Products')}</h3>
-                                    <div style={{display: 'flex', gap: 30}}>
-                                        <div style={{display:'flex', flexDirection: 'column'}}>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Flush_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Flush Mount Ceiling Speaker')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Coaxial_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Coaxial Ceiling Speaker')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Two-Way_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Two-Way Ceiling Speaker')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Fireproof_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Fireproof Ceiling Speaker')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/EN54_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('EN54 Ceiling Speaker')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Surface_Mount_Ceiling_Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Surface Mount Ceiling Speaker')}</p>
-                                    </NavLink>
+                                    <div style={{ display: 'flex', gap: 30 }}>
+                                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Flush_Mount_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Flush Mount Ceiling Speaker')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Coaxial_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Coaxial Ceiling Speaker')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Two-Way_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Two-Way Ceiling Speaker')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Fireproof_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Fireproof Ceiling Speaker')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/EN54_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('EN54 Ceiling Speaker')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Surface_Mount_Ceiling_Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Surface Mount Ceiling Speaker')}</p>
+                                            </NavLink>
 
                                         </div>
-                                        <div style={{display:'flex', flexDirection: 'column'}}>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Mini_Smart_Music_Host' style={{textDecoration: 'none'}}>
-                                            <p>{t('Mini Smart Music Host')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Network_Smart_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>{t('Network Smart Music Sys')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Central_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>{t('Smart Central Music Sys')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Economic_Music_Sys' style={{textDecoration: 'none'}}>
-                                            <p>{t('Economic Music Sys')}</p>
-                                    </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Speaker' style={{textDecoration: 'none'}}>
-                                            <p>{t('Speaker')}</p>
-                                    </NavLink>
+                                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Mini_Smart_Music_Host' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Mini Smart Music Host')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Network_Smart_Music_Sys' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Network Smart Music Sys')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Smart_Central_Music_Sys' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Smart Central Music Sys')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Economic_Music_Sys' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Economic Music Sys')}</p>
+                                            </NavLink>
+                                            <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Speaker' style={{ textDecoration: 'none' }}>
+                                                <p>{t('Speaker')}</p>
+                                            </NavLink>
                                         </div>
                                     </div>
                                 </div>
-                                <div  className='products-right' style={{display:'flex', flexDirection: 'column', padding: 0,borderRadius: 25}}>
-                                    <img src={Right}  alt=""/>
+                                <div className='products-right' style={{ display: 'flex', flexDirection: 'column', padding: 0, borderRadius: 25 }}>
+                                    <img src={Right} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -172,24 +171,24 @@ export const Header = () => {
                     <>
                         <div onMouseLeave={() => setServicesBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
-                                <div style={{display:'flex', flexDirection: 'column', }}>
-                                <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{textDecoration: 'none'}}>
-                                    <p>{t('Installment')}</p>
+                                <div style={{ display: 'flex', flexDirection: 'column', }}>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Installment')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart Home System')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart Home System')}</p>
                                     </NavLink>
                                 </div>
-                                <div style={{display:'flex', flexDirection: 'column', }}>
-                                <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart Hotel System')}</p>
+                                <div style={{ display: 'flex', flexDirection: 'column', }}>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart Hotel System')}</p>
                                     </NavLink>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{textDecoration: 'none'}}>
-                                    <p>{t('Smart Office System')}</p>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Smart Office System')}</p>
                                     </NavLink>
                                 </div>
                                 <div>
-                                    <img src={TBC_LOGO} alt ='' style={{height: 120}}/>
+                                    <img src={TBC_LOGO} alt='' style={{ height: 120 }} />
                                 </div>
                                 {/* <div style={{marginTop: 30}}>
                                     <img src={Right2} alt =''/>
@@ -202,27 +201,34 @@ export const Header = () => {
                     <>
                         <div onMouseLeave={() => setAboutBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
-                                <div style={{display:'flex', flexDirection: 'column', }}>
-                                <p>
-                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('Partners')}</NavLink>
-                                </p>
-                                <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/showroom/showroom'>
-                                     <p>{t('Showroom')}</p>
-                                     </NavLink>
-                                <p>
-                                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
-                                    {t('Gallery')}
-                                </NavLink>
-                                </p>
-                                </div>
-                                <div className='partners' style={{ display: 'flex', justifyContent:'center', gap: 10, alignItems:'center'}}>
-                                    <NavLink to="/about/partners/0"><img src={PARTNER1} style={{height: 130, width: 'auto'}} alt=''/></NavLink>
-                                    <NavLink to="/about/partners/6"><img src={PARTNER2} style={{height: 130}}alt=''/></NavLink>
-                                    <NavLink to="/about/partners/8"><img src={PARTNER3} style={{height: 130}}alt=''/></NavLink>
-                                    <div style={{height: 130, padding: 10, display:'flex', justifyContent:'center', alignItems:'center'}}>
+                                <div style={{ display: 'flex', flexDirection: 'column', }}>
                                     <p>
-                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('See More')}</NavLink>
+                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('Partners')}</NavLink>
                                     </p>
+                                    <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/showroom/showroom'>
+                                        <p>{t('Showroom')}</p>
+                                    </NavLink>
+                                    <p>
+                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery'>
+                                            {t('Gallery')}
+                                        </NavLink>
+                                    </p>
+
+                                    <p>
+                                        <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/faq'>
+                                            FAQ
+                                        </NavLink>
+                                    </p>
+
+                                </div>
+                                <div className='partners' style={{ display: 'flex', justifyContent: 'center', gap: 10, alignItems: 'center' }}>
+                                    <NavLink to="/about/partners/0"><img src={PARTNER1} style={{ height: 130, width: 'auto' }} alt='' /></NavLink>
+                                    <NavLink to="/about/partners/6"><img src={PARTNER2} style={{ height: 130 }} alt='' /></NavLink>
+                                    <NavLink to="/about/partners/8"><img src={PARTNER3} style={{ height: 130 }} alt='' /></NavLink>
+                                    <div style={{ height: 130, padding: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                        <p>
+                                            <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('See More')}</NavLink>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

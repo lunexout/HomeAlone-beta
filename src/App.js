@@ -1,13 +1,13 @@
 import './App.css';
 // import './App.scss'
-import {Header} from './components/header/Header'
-import {Home} from './components/home/Home'
+import { Header } from './components/header/Header'
+import { Home } from './components/home/Home'
 import { Route, Switch } from "react-router-dom";
 import { useEffect } from 'react';
-import {useState} from 'react'
+import { useState } from 'react'
 
-import {MobileHeader} from './components/header/MobileHeader'
-import {Contact} from './components/contact/Contact'
+import { MobileHeader } from './components/header/MobileHeader'
+import { Contact } from './components/contact/Contact'
 import { Products } from './components/products/Products';
 import { TestYourHome } from './components/testing/TestYourHome';
 import { News } from './components/news/News';
@@ -24,19 +24,20 @@ import { SmartHotel } from './components/services/Smarthotel';
 import { Installment } from './components/services/Installment';
 import { ShowRoom } from './components/showroom/Showroom';
 import { PartnerPage } from './components/partners/singlepartner';
+import { Faq } from './components/FAQ/Faq';
 
 function App() {
   const [isMobile, setMobile] = useState(false);
   let width = 0;
 
   const handleResize = () => {
-      width = window.innerWidth;
-      if (width < 900) {
-        setMobile(true);
-      } else {
-        setMobile(false);
-      }
+    width = window.innerWidth;
+    if (width < 900) {
+      setMobile(true);
+    } else {
+      setMobile(false);
     }
+  }
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
@@ -44,15 +45,15 @@ function App() {
     const cursor = document.querySelector('.cursor');
 
     document.addEventListener('mousemove', e => {
-        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+      cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
     })
-    
+
     document.addEventListener('click', () => {
-        cursor.classList.add("expand");
-    
-        setTimeout(() => {
-            cursor.classList.remove("expand");
-        }, 500)
+      cursor.classList.add("expand");
+
+      setTimeout(() => {
+        cursor.classList.remove("expand");
+      }, 500)
     })
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -60,17 +61,17 @@ function App() {
   })
   return (
     <>
-    <div className="App">
-      {!isMobile ? (
-      <>
-      <Header/>
-      <RightTestSysytem/> 
-      </>
-      ): <MobileHeader/>}
-      
-      <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/products" component={Products}/>
+      <div className="App">
+        {!isMobile ? (
+          <>
+            <Header />
+            <RightTestSysytem />
+          </>
+        ) : <MobileHeader />}
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/products" component={Products} />
           <Route exact path="/products/:id" component={SingleProduct} />
           <Route exact path="/products/group/:group_id" component={Groups} />
           <Route exact path="/contact" component={Contact} />
@@ -85,11 +86,11 @@ function App() {
           <Route exact path="/about/gallery" component={Gallery} />
           <Route exact path="/showroom/showroom" component={ShowRoom} />
           <Route exact path="/test-system" component={TestYourHome} />
-
+          <Route exact path="/about/faq" component={Faq} />
           <Route path="/about/partners/:id" component={PartnerPage} />
 
-      </Switch>
-    </div>
+        </Switch>
+      </div>
     </>
   );
 }

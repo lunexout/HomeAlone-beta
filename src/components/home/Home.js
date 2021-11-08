@@ -12,7 +12,7 @@ import { Mainservices } from "../services/Mainservices";
 
 
 import { useTranslation } from 'react-i18next';
-import PartnerWith from "../partners/partnetwith";
+import { Partnersfor } from "../partners/Partnersfor";
 
 
 
@@ -96,7 +96,6 @@ export const Home = () => {
           </div>
           <ProductBann />
 
-          <PartnerWith />
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -159,6 +158,7 @@ export const Home = () => {
           </div>
 
           {RenderProductList()}
+          <Partnersfor />
 
           <Footer />
         </>
