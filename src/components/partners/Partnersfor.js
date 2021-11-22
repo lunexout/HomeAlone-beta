@@ -14,16 +14,16 @@ import { useTranslation } from 'react-i18next';
 
 
 export const Partnersfor = () => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-    React.useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-    return (
-        <>
-            <style
-                dangerouslySetInnerHTML={{
-                    __html: `
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  return (
+    <>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
                     button {
                         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z'/%3E%3C/svg%3E");
                         background-repeat: no-repeat;
@@ -97,31 +97,31 @@ text-align:center;}
   color:#231f20;
 }
 `
-                }}
-            />
-            <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
-                {t('Partners')}
-            </h1>
-            <div class="cards1">
-                <div class="card1"><img alt="home alone" src={IMG2} /></div>
-                <div class="card1"><img alt="home alone" src={IMG1} /></div>
-                <div class="card1"><img alt="home alone" src={IMG14} /></div>
-                <div class="card1">
+        }}
+      />
+      <h1 className="abouttitlewidth2 marginizer font-bold leading-tight text-center colorizer">
+        {t('Partners')}
+      </h1>
+      <div class="cards1">
+        <div class="card1"><img alt="home alone" src={IMG2} /></div>
+        <div class="card1"><img alt="home alone" src={IMG1} /></div>
+        <div class="card1"><img alt="home alone" src={IMG14} /></div>
+        <div class="card1">
 
-                    <NavLink to='/about/partners'>
+          <NavLink to='/about/partners'>
 
-                        <div class="stage">
-                            <span class="newsp">{t('See More')}</span>
-                        </div>
-                    </NavLink>
-
-                </div>
+            <div class="stage">
+              <span class="newsp">{t('See More')}</span>
             </div>
+          </NavLink>
+
+        </div>
+      </div>
 
 
 
-            <div style={{ marginTop: 40 }}></div>
-        </>
-    )
+      <div style={{ marginTop: 40 }}></div>
+    </>
+  )
 }
 

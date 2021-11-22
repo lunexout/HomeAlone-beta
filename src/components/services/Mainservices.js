@@ -30,7 +30,6 @@ export const Mainservices = () => {
                         font-weight: 800;
                         color: #fff;
                         vertical-align: bottom;
-                        font-size: 1.8rem;
                     }
             
                   

@@ -14,7 +14,7 @@ import { Mainservices } from "../services/Mainservices";
 import { useTranslation } from 'react-i18next';
 import { Partnersfor } from "../partners/Partnersfor";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
-
+import { Shower } from "./Shower";
 
 
 export const Home = () => {
@@ -93,26 +93,23 @@ export const Home = () => {
           <BannerCarousel />
           <SmartBanner />
           <div className="single-div" style={{ marginTop: 40 }}>
-            <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
               {t('PRODUCTS')}
             </h1>
           </div>
           <ProductBann />
-
-
           <div className="single-div" style={{ marginTop: 40 }}>
-            <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
               {t('SERVICES')}
             </h1>
           </div>
-
 
 
           <Mainservices />
 
 
           <div className="single-div" style={{ marginTop: 40 }}>
-            <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
               {t('TOP PRODUCT')}
             </h1>
           </div>
@@ -124,8 +121,13 @@ export const Home = () => {
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/RF/rf_sec8_bg-44b226c53b.jpg" alt="" />
           </div> */}
-          <p class="hd1 p1 p2">HOME Remote Controller<br />For Your Comfort</p>
-          <p class="hd1 p1 p2">Be Smart With Our Products and <br />just with One Click, Change your Mood</p>
+
+          <div className="single-div" style={{ marginTop: 40 }}>
+            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+              HOME Remote Controller
+            </h1>
+          </div>
+
           <SwiperCarousel />
           <div className="single-div" style={{ display: 'flex' }}>
             <div style={{
@@ -168,6 +170,8 @@ export const Home = () => {
 
           {RenderProductList()}
           <Partnersfor />
+
+          <Shower />
           <Footer />
         </>
       )

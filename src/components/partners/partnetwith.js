@@ -57,7 +57,7 @@ export const PartnerWith = () => {
     return (
         <>
             <div className="partners-div" style={{ marginTop: 100 }}>
-                <h1 className="abouttitlewidth2 marginizer fontsizer font-bold leading-tight text-center colorizer">
+                <h1 className="abouttitlewidth2 marginizer font-bold leading-tight text-center colorizer">
                     {t('Partners')}
                 </h1>
                 <div className="flex-row">
