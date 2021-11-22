@@ -13,6 +13,7 @@ import { Mainservices } from "../services/Mainservices";
 
 import { useTranslation } from 'react-i18next';
 import { Partnersfor } from "../partners/Partnersfor";
+import { SwiperCarousel } from "../carousels/SwiperCarousel";
 
 
 
@@ -76,6 +77,8 @@ export const Home = () => {
       })
     )
   }
+
+
   return (
     <>
       {spinner ? (
@@ -115,12 +118,15 @@ export const Home = () => {
           </div>
           < Will />
 
-          <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
+          {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new2-5142243776.jpg" alt="" />
           </div>
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/RF/rf_sec8_bg-44b226c53b.jpg" alt="" />
-          </div>
+          </div> */}
+          <p class="hd1 p1 p2">HOME Remote Controller<br />For Your Comfort</p>
+          <p class="hd1 p1 p2">Be Smart With Our Products and <br />just with One Click, Change your Mood</p>
+          <SwiperCarousel />
           <div className="single-div" style={{ display: 'flex' }}>
             <div style={{
               display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',
@@ -136,7 +142,10 @@ export const Home = () => {
             <div>
               <img style={{ width: '100%', height: 'auto' }} src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_1-9453ebf6fd.png" alt="" />
             </div>
-          </div> <div className="single-div" style={{ display: 'flex' }}>
+          </div>
+
+
+          <div className="single-div" style={{ display: 'flex' }}>
             <div>
               <img style={{ width: '100%', height: 'auto' }} src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_3_en-3f2cce9470.png" alt="" />
             </div>
@@ -152,14 +161,13 @@ export const Home = () => {
               </p>
             </div>
           </div>
-          <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
+          {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
-          </div>
+          </div> */}
 
           {RenderProductList()}
           <Partnersfor />
-
           <Footer />
         </>
       )
