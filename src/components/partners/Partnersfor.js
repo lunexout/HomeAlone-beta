@@ -53,49 +53,87 @@ export const Partnersfor = () => {
                         grid-gap: 1rem;
                         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
                       }
-}      
-@import url(@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-.stage {
-padding:40px;
-text-align:center;}
-
-@import url(@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-.stage {
-padding:40px;
-text-align:center;}
-.newsp {
-  line-height:1em;
-  letter-spacing:0.06em;
-  font-family: 'Lato', sans-serif;
-  font-weight:normal;
-  font-size:16px;
-  text-decoration:none;
-  color:#fff;
-  background:#55a955;
-  display:inline-block;
-  padding:15px 12px 15px 15px;
-  transition:background 200ms;
-  border-radius:4px;
-}
-.newsp:hover {
-  background:#26992b;
-}
-.newsp:after {
-  font-family: 'FontAwesome', sans-serif;
-  font-weight:300;
-  content: "\f105";
-  margin-left:20px;
-  color:#cea052;
-  font-size:18px;
-  vertical-align:middle;
-  transition:color 200ms;
-}
-
-.newsp:hover:after {
-  color:#231f20;
-}
+                    }      
+                    .buttons-coll {
+                      width: 90%;
+                      margin: 50px auto;
+                      text-align: center;
+                    }
+                    
+                    .custom-btn {
+                      padding: 10px 25px;
+                      font-family: "Roboto", sans-serif;
+                      font-weight: 500;
+                      background: transparent;
+                      outline: none !important;
+                      cursor: pointer;
+                      transition: all 0.3s ease;
+                      position: relative;
+                      display: inline-block;
+                      color:#04846a;
+                    }
+                    
+                    
+                    /**** BTN No. 4 ****/
+                    .btn-4 {
+                      width: 130px;
+                      height: 40px;
+                      line-height: 42px;
+                      padding: 0;
+                      border: none;
+                    }
+                    .btn-4 span {
+                      position: relative;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    }
+                    .btn-4:before,
+                    .btn-4:after {
+                      position: absolute;
+                      content: "";
+                      right: 0;
+                      top: 0;
+                      background: #04846a;
+                      transition: all 0.3s ease;
+                    }
+                    .btn-4:before {
+                      height: 50%;
+                      width: 2px;
+                    }
+                    .btn-4:after {
+                      width: 20%;
+                      height: 2px;
+                    }
+                    .btn-4:hover:before {
+                      height: 100%;
+                    }
+                    .btn-4:hover:after {
+                      width: 100%;
+                    }
+                    .btn-4 span:before,
+                    .btn-4 span:after {
+                      position: absolute;
+                      content: "";
+                      left: 0;
+                      bottom: 0;
+                      background: #04846a;
+                      transition: all 0.3s ease;
+                    }
+                    .btn-4 span:before {
+                      width: 2px;
+                      height: 50%;
+                    }
+                    .btn-4 span:after {
+                      width: 20%;
+                      height: 2px;
+                    }
+                    .btn-4 span:hover:before {
+                      height: 100%;
+                    }
+                    .btn-4 span:hover:after {
+                      width: 100%;
+                    }
 `
         }}
       />
@@ -110,9 +148,10 @@ text-align:center;}
 
           <NavLink to='/about/partners'>
 
-            <div class="stage">
-              <span class="newsp">{t('See More')}</span>
+            <div class="buttons-coll">
+              <button class="custom-btn btn-4"><span>Read More</span></button>
             </div>
+
           </NavLink>
 
         </div>

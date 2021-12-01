@@ -1,16 +1,78 @@
 import React from 'react'
-import {Footer} from './../footer/Footer'
+import { Footer } from './../footer/Footer'
 import './contact.css'
+import { MdLocationPin } from "react-icons/md";
+import { MdMarkunreadMailbox } from "react-icons/md";
+import { MdPermPhoneMsg } from "react-icons/md";
+
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+import './constacts.scss'
 export const Contact = () => {
-    return(
+    return (
         <>
-            <section className='contact'>
-            <div className='map' style={{margin: '0 auto', maxWidth: '1566px'}}>
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10784.188505644011!2d19.053119335158936!3d47.48899529453826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1543907528304" allowfullscreen title='mapp'></iframe> */}
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.7177902427156!2d41.63571950105126!3d41.647843441387096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406786156492435b%3A0xcaba587799c5e969!2zNjYg4YOk4YOQ4YOg4YOc4YOQ4YOV4YOQ4YOWIOGDm-GDlOGDpOGDmOGDoSDhg6Xhg6Phg6nhg5AsIOGDkeGDkOGDl-GDo-GDm-GDmA!5e0!3m2!1ska!2sge!4v1631260872897!5m2!1ska!2sge" allowfullscreen title='mapp'></iframe>
-             </div>
-            </section>
-            <Footer/>
+            <div>
+                <header>
+                    <div className="container mt-5">
+                        <div className="page-banner">
+                            <div className="row justify-content-center align-items-center h-100">
+                                <div className="col-md-6">
+                                    <h1 className="text-center">Contact Us</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div className="page-section">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6 py-3">
+                                    <h2 className="title-section">Get in Touch</h2>
+                                    <div className="divider" />
+                                    <br /><br />
+                                    <div className="social-icons">
+                                        <a className="social-icon social-icon--instagram" href="https://www.instagram.com/ltdhome.alone/">
+                                            <FaInstagram fontSize="20px" />
+                                            <div className="tooltip">Instagram</div>
+                                        </a>
+                                        <a className="social-icon social-icon--facebook" href="https://www.facebook.com/homealoneltd">
+                                            <FaFacebookF fontSize="20px" />
+                                            <div className="tooltip">Facebook</div>
+                                        </a>
+                                    </div><br /><br />
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Laborum ratione autem quidem veritatis!</p>
+                                    <ul className="contact-list">
+                                        <li>
+                                            <MdLocationPin fontSize="30px" />
+                                            <div className="content">7 Zhiuli Shartava Street, Batumi, Adjara, Georgia</div>
+                                        </li>
+                                        <li>
+                                            <MdMarkunreadMailbox fontSize="30px" />
+                                            <div className="content">info@homealone.ge</div>
+                                        </li>
+                                        <li>
+                                            <MdPermPhoneMsg fontSize="30px" />
+                                            <div className="content">+995 577 410 510</div>
+                                        </li>
+                                    </ul>
+
+
+
+                                </div>
+                                <div className="col-lg-6 py-3">
+                                    <div className="subhead">Contact Us</div>
+                                    <h2 className="title-section">Drop Us a Line</h2>
+                                    <div className="divider" />
+                                    <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.779890917539!2d41.614655820316976!3d41.64027186772413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067860ad78297a3%3A0x34459cc7869cc754!2zNDHCsDM4JzE4LjEiTiA0McKwMzcnMDAuMSJF!5e0!3m2!1ska!2sge!4v1637671754634!5m2!1ska!2sge" width={570} height={525} style={{ border: 0 }} allowFullScreen loading="lazy" />
+                                </div>
+                            </div>
+                        </div> {/* .container */}
+                    </div> {/* .page-section */}
+                </main>
+            </div>
+            <Footer />
         </>
     )
 }

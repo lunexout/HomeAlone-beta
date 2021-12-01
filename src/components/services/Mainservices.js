@@ -75,25 +75,26 @@ export const Mainservices = () => {
 
 
             <div className="grid-container">
+                <div>
+                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})` }}>
+                        <div>
+                            <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>Smart Home Solution</NavLink></div>
+                        </div>
+                    </div>
+                </div>
                 <div className="column imageContainer1 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image1})` }}>
                     <div>
-                        <div className="anim"> <NavLink to='/services/smarthotel' style={{ textDecoration: 'none', color: 'white' }}>Smart Hotel solution</NavLink></div>
+                        <div className="anim"> <NavLink to='/services/smarthotel' style={{ textDecoration: 'none', color: 'white' }}>Smart Hotel Solution</NavLink></div>
                     </div>
                 </div>
                 <div>
                     <div className="column imageContainer2 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image2})` }}>
                         <div>
-                            <div className="anim"> <NavLink to='/services/smartoffice' style={{ textDecoration: 'none', color: 'white' }}>Smart Office solution</NavLink></div>
+                            <div className="anim"> <NavLink to='/services/smartoffice' style={{ textDecoration: 'none', color: 'white' }}>Smart Office Solution</NavLink></div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})` }}>
-                        <div>
-                            <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>Smart Home solution</NavLink></div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
         </div>

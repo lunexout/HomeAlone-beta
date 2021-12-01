@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     height: 400px;
-    margin-bottom: 600px;
+    margin-bottom: 300px;
 }
 .img-slider .slider-container {
     position: absolute;
@@ -25,9 +25,9 @@
   height: 100%
 }
 @keyframes slider {
-    0%, 25%, 100%{left: 0}
+    0%, 20%, 100%{left: 0}
     
-    30%, 55%{left: -100%}
+    20%, 25%{left: -100%}
     
-    60%, 85%{left: -200%}
+    50%, 85%{left: -200%}
 }

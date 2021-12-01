@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import './header.css'
 import logo from './../../assets/logo.png';
 import Right from './../../assets/right1.png'
-import TBC_LOGO from './../../assets/TBC_Bank_logo.svg'
+import TBC_LOGO from './../../assets/TBC_Bank_logo.png'
 
 import PARTNER1 from './../partners/images/al mare batumi.jpg'
 import PARTNER2 from './../../assets/partners/citron.jpg'
-import PARTNER3 from './../../assets/partners/guru.jpg'
+import PARTNER3 from './../../assets/partners/likehouse.jpg'
 
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
@@ -95,6 +95,8 @@ export const Header = () => {
                         <div onMouseLeave={() => setProductsBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
                                 <div style={{ display: 'flex', flexDirection: 'column', }}>
+                                    <h3>Main Products</h3>
+
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{ textDecoration: 'none' }}>
                                         <p>{t('Interaction Center')}</p>
                                     </NavLink>
@@ -161,7 +163,9 @@ export const Header = () => {
                                     </div>
                                 </div>
                                 <div className='products-right' style={{ display: 'flex', flexDirection: 'column', padding: 0, borderRadius: 25 }}>
-                                    <img src={Right} alt="" />
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='http://localhost:3000/products/615b569714b1962f14b41ee8' style={{ textDecoration: 'none' }}>
+
+                                        <img src={Right} alt="" /></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -172,23 +176,25 @@ export const Header = () => {
                         <div onMouseLeave={() => setServicesBox(false)} className='product-box animate__animated animate__fadeInRight'>
                             <div className='full-box-div'>
                                 <div style={{ display: 'flex', flexDirection: 'column', }}>
-                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{ textDecoration: 'none' }}>
-                                        <p>{t('Installment')}</p>
-                                    </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthome' style={{ textDecoration: 'none' }}>
                                         <p>{t('Smart Home System')}</p>
                                     </NavLink>
-                                </div>
-                                <div style={{ display: 'flex', flexDirection: 'column', }}>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/services/smarthotel' style={{ textDecoration: 'none' }}>
                                         <p>{t('Smart Hotel System')}</p>
                                     </NavLink>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'column', }}>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/services/smartoffice' style={{ textDecoration: 'none' }}>
                                         <p>{t('Smart Office System')}</p>
                                     </NavLink>
+
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Installment')}</p>
+                                    </NavLink>
                                 </div>
                                 <div>
-                                    <img src={TBC_LOGO} alt='' style={{ height: 120 }} />
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/services/installment' style={{ textDecoration: 'none' }}>
+                                        <img src={TBC_LOGO} alt='' style={{ height: 120 }} /> </NavLink>
                                 </div>
                                 {/* <div style={{marginTop: 30}}>
                                     <img src={Right2} alt =''/>
@@ -224,7 +230,7 @@ export const Header = () => {
                                 <div className='partners' style={{ display: 'flex', justifyContent: 'center', gap: 10, alignItems: 'center' }}>
                                     <NavLink to="/about/partners/0"><img src={PARTNER1} style={{ height: 130, width: 'auto' }} alt='' /></NavLink>
                                     <NavLink to="/about/partners/6"><img src={PARTNER2} style={{ height: 130 }} alt='' /></NavLink>
-                                    <NavLink to="/about/partners/8"><img src={PARTNER3} style={{ height: 130 }} alt='' /></NavLink>
+                                    <NavLink to="/about/partners/9"><img src={PARTNER3} style={{ height: 130 }} alt='' /></NavLink>
                                     <div style={{ height: 130, padding: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                         <p>
                                             <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners'>{t('See More')}</NavLink>

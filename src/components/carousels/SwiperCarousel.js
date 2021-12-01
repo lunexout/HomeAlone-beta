@@ -9,7 +9,7 @@ import './newcss.css'
 // //import BACKVIDEO from '../../videos/backvideo.mp4';
 import photo0 from './0.jpg';
 import photo1 from './1.jpg';
-import photo2 from './2.png';
+import photo2 from './2.jpg';
 
 // import SwiperCore, { Pagination, Navigation } from "swiper/core";
 // SwiperCore.use([Pagination, Navigation]);

@@ -1,5 +1,10 @@
+
+@media  only screen and (max-width: 1366px) {
+
 .yt1__container{
-    background-image: url(./img/1.jpg);
+    background-image: url(./img/1.jpg) ;
+    background-repeat: no-repeat;
+
 }
 
 .yt1__container .s__bg {
@@ -14,7 +19,6 @@
 
 .yt1__container .yt1__sec10 {
     width: 100%;
-    height: 1094px;
     overflow: hidden
 }
 
@@ -22,7 +26,7 @@
     position: relative;
     margin-top: .8rem;
     width: 1200px;
-    height: 875px
+    height: 750px;
 }
 
 .yt1__container .yt1__sec10 .content div>a {
@@ -51,14 +55,14 @@
 }
 
 .yt1__container .yt1__sec10 .content .item1 a {
-    left: 83px;
-    bottom: 354px
+    left: 250px;
+    bottom: 324px
 }
 
 .yt1__container .yt1__sec10 .content .item1 .pic {
     position: absolute;
-    bottom: 438px;
-    left: 14px;
+    bottom: 538px;
+    left: 34px;
     width: 367px;
     height: 423px;
     background: url(./img/item1-4776484c55.png) center no-repeat
@@ -71,8 +75,8 @@
 }
 
 .yt1__container .yt1__sec10 .content .item2 a {
-    left: 183px;
-    bottom: 298px
+    left: 383px;
+    bottom: 178px
 }
 
 .yt1__container .yt1__sec10 .content .item2 .pic {
@@ -90,7 +94,7 @@
     background: url(./img/icon_2-8ba6d4fd8f.png) center center no-repeat
 }
 
-.yt1__container .yt1__sec10 .content .item3 a {
+/* .yt1__container .yt1__sec10 .content .item3 a {
     left: 403px;
     bottom: 470px
 }
@@ -108,11 +112,11 @@
     left: 23px;
     top: 23px;
     background: url(./img/icon_3-df61aca51a.png) center center no-repeat
-}
+} */
 
 .yt1__container .yt1__sec10 .content .item4 a {
-    left: 498px;
-    bottom: 290px
+    left: 500px;
+    bottom: 200px
 }
 
 .yt1__container .yt1__sec10 .content .item4 .pic {
@@ -131,8 +135,8 @@
 }
 
 .yt1__container .yt1__sec10 .content .item5 a {
-    left: 643px;
-    bottom: 564px
+    left: 600px;
+    bottom: 400px
 }
 
 .yt1__container .yt1__sec10 .content .item5 .pic {
@@ -151,8 +155,8 @@
 }
 
 .yt1__container .yt1__sec10 .content .item6 a {
-    left: 950px;
-    bottom: 262px
+    left: 800px;
+    bottom: 162px
 }
 
 .yt1__container .yt1__sec10 .content .item6 .pic {
@@ -198,4 +202,6 @@
 .s__bg {
     background-repeat: no-repeat;
     background-size: cover
+    }
+
 }
