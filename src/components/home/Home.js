@@ -77,7 +77,8 @@ export const Home = () => {
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-              HOME Remote Controller
+
+              {t('HomeController')}
             </h1>
           </div>
 

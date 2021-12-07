@@ -4,10 +4,12 @@ import { NavLink } from "react-router-dom";
 import image1 from './hotel.png';
 import image2 from './office.png';
 import image3 from './house.png';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Mainservices = () => {
+    const { t } = useTranslation();
     return (
         <div>
             <style
@@ -78,19 +80,19 @@ export const Mainservices = () => {
                 <div>
                     <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})` }}>
                         <div>
-                            <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>Smart Home Solution</NavLink></div>
+                            <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Home System')}</NavLink></div>
                         </div>
                     </div>
                 </div>
                 <div className="column imageContainer1 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image1})` }}>
                     <div>
-                        <div className="anim"> <NavLink to='/services/smarthotel' style={{ textDecoration: 'none', color: 'white' }}>Smart Hotel Solution</NavLink></div>
+                        <div className="anim"> <NavLink to='/services/smarthotel' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Hotel System')}</NavLink></div>
                     </div>
                 </div>
                 <div>
                     <div className="column imageContainer2 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image2})` }}>
                         <div>
-                            <div className="anim"> <NavLink to='/services/smartoffice' style={{ textDecoration: 'none', color: 'white' }}>Smart Office Solution</NavLink></div>
+                            <div className="anim"> <NavLink to='/services/smartoffice' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Office System')}</NavLink></div>
                         </div>
                     </div>
                 </div>
@@ -100,4 +102,8 @@ export const Mainservices = () => {
         </div>
     )
 }
+
+
+
+
 

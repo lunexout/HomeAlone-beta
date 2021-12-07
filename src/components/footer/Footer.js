@@ -241,7 +241,7 @@ export const Footer = () => {
             </div>
             <div className="link_list">
               <ul>
-                <li className="first_li">Products</li>
+                <li className="first_li">{t('PRODUCTS')}</li>
                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" exact to='/' style={{ textTransform: 'lowercase' }}>
                   <p >{t('HOME')}</p>
                 </NavLink></li>
@@ -255,7 +255,7 @@ export const Footer = () => {
             </div>
             <div className="link_list">
               <ul>
-                <li className="first_li">Cooperation</li>
+                <li className="first_li">{t('coop')}</li>
                 <li>
                   <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners' style={{ textTransform: 'lowercase' }}>
                     <p >{t('Partners')}</p>
@@ -264,7 +264,7 @@ export const Footer = () => {
             </div>
             <div className="link_list">
               <ul className="followus">
-                <li className="first_li">Solutions</li>
+                <li className="first_li">{t('Solutions')}</li>
                 <li>
                   <NavLink to='/services/smarthome' className='insidemenu-nav-item' activeClassName="nav-active" ><p>{t('Smart Home System')}</p></NavLink>
                 </li>
@@ -287,8 +287,7 @@ export const Footer = () => {
           </div>
           <div className="foot_middle">
             <div>
-              <p className="contactus">Become Our Partner</p><span className="img" /> <span>Send
-                Inquiry</span>
+              <p className="contactus">{t('becpart')}</p><span className="img" />
             </div>
           </div>
           <div className="copyright">

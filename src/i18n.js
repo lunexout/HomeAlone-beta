@@ -76,14 +76,25 @@ const resources = {
       "bankname2": "TBC Bank",
       "banktext2": "If you want to buy goods or services when still in the store, without visiting the bank.",
       "NewsName1": "News",
-      "NewsText1": "Company Main News About Our Products, Company, and Projects, Mainstream of our News",
+      "NewsText1": "Top news about the company, what projects and innovations are planned for the future, and how far will smart home development go in the future?",
       "NewsName2": "Let’s smarter our city together!",
       "NewsText2": "“Home Alone” offers you the highest quality Smart Technology. It detects movement and noise at a certain distance, which is regulated by the user’s wishes, and through the application he can see the current state of the house",
       "NewsName3": "Build One of the Smartest home In The World",
       "NewsText3": "With the help of a smart curtain hanger you will be able to manage the condition of the curtain at any time of the day, both through the application and the scripts.",
       "Modern House Analogy": "Modern House Analogy",
       "Journal & OK About US": "Journal OK About US",
-      "RGB LIGHT system": "RGB LIGHT system"
+      "RGB LIGHT system": "RGB LIGHT system",
+      "HomeController": "Home Remote Controller",
+      "ContactUs": "Contact Us",
+      "GetinTouch": "Get in Touch",
+      "Instagram": "Instagram",
+      "Facebook": "Facebook",
+      "addressline": "7 Zhiuli Shartava Street, Batumi, Adjara, Georgia",
+      "mapsline": "Find Us on the Map",
+      "coop": "Cooperation",
+      "Solutions": "Solutions",
+      "becpart": "Become Our Partner"
+
     }
   },
   ge: {
@@ -160,14 +171,26 @@ const resources = {
       "bankname2": "TBC Bank",
       "banktext2": "სწრაფი, მარტივი და ხელსაყრელი გზა შეიძინო სასურველი ნივთი მაღაზიიდან ან სასურველი ობიექტიდან ბანკში ვიზიტის გარეშე",
       "NewsName1": "ახალი ამბები",
-      "NewsText1": "კომპანია მთავარი სიახლე ჩვენი პროდუქციის, კომპანიის და პროექტების შესახებ, ჩვენი სიახლეების ძირითადი ნაწილი",
+      "NewsText1": "მთავარი სიახლეები კომპანიის შესახებ, რა პროექტები და ინოვაციები იგეგმება სამომავლოდ და სადამდე მივა ჭკვიანი სახლის განვითარება მომავალში",
       "NewsName2": "ერთად დავაჭკვიანოთ ჩვენი ქალაქი!",
       "NewsText2": "'მარტო სახლში' გთავაზობთ უმაღლესი ხარისხის სმარტ ტექნოლოგიას. ის ამოიცნობს მოძრაობას და ხმაურს გარკვეულ მანძილზე, რაც რეგულირდება მომხმარებლის სურვილებით და აპლიკაციის საშუალებით მას შეუძლია დაინახოს სახლის ამჟამინდელი მდგომარეობა",
       "NewsName3": "ააშენეთ მსოფლიოში ერთ -ერთი ყველაზე ჭკვიანი სახლი",
       "NewsText3": "ჭკვიანი ფარდის საკიდის დახმარებით თქვენ შეძლებთ მართოთ ფარდის მდგომარეობა დღის ნებისმიერ დროს, როგორც აპლიკაციის, ისე სკრიპტების საშუალებით.",
       "Modern House Analogy": "თანამედროვე სახლის ანალოგია",
       "Journal & OK About US": "ჟურნალი OK ჩვენს შესახებ",
-      "RGB LIGHT system": "RGB LIGHT სისტემა"
+      "RGB LIGHT system": "RGB LIGHT სისტემა",
+      "HomeController": "სახლის კონტროლი დისტანციურად",
+      "ContactUs": "დაგვიკავშირდით",
+      "GetinTouch": "კონტაქტები",
+      "Instagram": "Instagram",
+      "Facebook": "Facebook",
+      "addressline": "საქართველო, აჭარა, ბათუმი, ჟიული შარტავას ქ. 7",
+      "mapsline": "რუკა",
+      "coop": "კოოპერაცია",
+      "Solutions": "სისტემები",
+      "becpart": "გახდი ჩვენი პარტნიორი"
+
+
     }
   },
   ru: {
@@ -244,14 +267,25 @@ const resources = {
       "bankname2": "TBC Bank",
       "banktext2": "Если вы хотите купить товары или услуги еще в магазине, не посещая банк.",
       "NewsName1": "Новости",
-      "NewsText1": "Компания Основные новости о наших продуктах, компании и проектах, основная часть наших новостей",
+      "NewsText1": "Главные новости о компании, какие проекты и нововведения запланированы в будущем и как далеко зайдет разработка умного дома в будущем?",
       "NewsName2": "Давайте вместе умнее наш город!",
       "NewsText2": "«Один дома» предлагает вам интеллектуальные технологии высочайшего качества. Он обнаруживает движение и шум на определенном расстоянии, которое регулируется по желанию пользователя, и через приложение он может видеть текущее состояние дома.",
       "NewsName3": "Постройте один из самых умных домов в мире",
       "NewsText3": "С помощью умной вешалки для штор вы сможете управлять состоянием штор в любое время суток, как через приложение, так и через скрипты.",
       "Modern House Analogy": "Аналогия с современным домом",
       "Journal & OK About US": "Журнал и ОК О нас",
-      "RGB LIGHT system": "Система RGB LIGHT"
+      "RGB LIGHT system": "Система RGB освещение",
+      "HomeController": "Домашний удаленный контроллер",
+      "ContactUs": "Связаться с нами",
+      "GetinTouch": "контакты",
+      "Instagram": "Instagram",
+      "Facebook": "Facebook",
+      "addressline": "Улица Жиули Шартава, 7, Батуми, Аджария, Грузия",
+      "mapsline": "Найдите нас на карте",
+      "coop": "Сотрудничество",
+      "Solutions": "Решения",
+      "becpart": "Станьте нашим партнером"
+
     }
   }
 };
