@@ -1,12 +1,21 @@
-import React  from "react";
+import React from "react";
 import "./Partners.css";
 import options from './PartnerInfo'
 
 import { Footer } from '../footer/Footer';
-export const PartnerPage = ({match}) => {  
+export const PartnerPage = ({ match }) => {
   React.useEffect(() => {
-    window.scrollTo(0,0)
-},[])  
+    window.scrollTo(0, 0)
+  }, [])
+
+  let describtion;
+  if (localStorage.getItem('lang') === 'ru') {
+    describtion = options[match.params.id].describtionru
+  } else if (localStorage.getItem('lang') === 'ge') {
+    describtion = options[match.params.id].describtiongeo
+  } else {
+    describtion = options[match.params.id].describtioneng
+  }
   return (
     <>
       <div class="we-are-block">
@@ -20,11 +29,11 @@ export const PartnerPage = ({match}) => {
             />
           </div>
 
-          <div class="about-us-info">      
-             <h2>{options[match.params.id].CompanyName}</h2>
+          <div class="about-us-info">
+            <h2>{options[match.params.id].CompanyName}</h2>
 
             <p>
-            {options[match.params.id].describtion}
+              {describtion}
             </p>
           </div>
         </div>
@@ -32,7 +41,7 @@ export const PartnerPage = ({match}) => {
         <div id="history-section">
           <div class="history-image">
             <img
-              src= {options[match.params.id].img2}
+              src={options[match.params.id].img2}
               width="951"
               height="471"
               alt="Building Pic"
@@ -43,15 +52,15 @@ export const PartnerPage = ({match}) => {
             <h2>Cooperation</h2>
 
             <p>
-            Ltd “Home alone” and building company “{options[match.params.id].CompanyName}” have signed a cooperation, 
-            which allows the residents of {options[match.params.id].CompanyName} to use the services of a smart home, 
-            remotely manage and smarten up any home appliances in the house. We offer a fast,
-             easy and ideal solution for the comfort of your home.
+              Ltd “Home alone” and building company “{options[match.params.id].CompanyName}” have signed a cooperation,
+              which allows the residents of {options[match.params.id].CompanyName} to use the services of a smart home,
+              remotely manage and smarten up any home appliances in the house. We offer a fast,
+              easy and ideal solution for the comfort of your home.
             </p>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
