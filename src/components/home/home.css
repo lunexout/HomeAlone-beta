@@ -82,7 +82,7 @@
 }
 .smart-home-banner {
   max-width: 1586px;
-  margin: 20px auto;
+  margin: 5px auto;
   width: 100%;
   height: auto;
   /* border-radius: 5px; */
@@ -93,7 +93,7 @@
   font-family: "Gowun Dodum", sans-serif;
   font-weight: bolder;
   font-size: 30px;
-  background-image: url("./../../assets/358800.jpg");
+  background-image: url("./../../assets/3588001.jpg");
   /*background-image: url('https://interfree.com.au/files/frontend/images/big-banner-6.jpg');*/
   object-fit: cover;
   background-repeat: no-repeat;

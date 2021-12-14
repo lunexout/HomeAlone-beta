@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import photo1 from './sec2_2-3d2d369dc4.jpg'
 import photo2 from './sec2_1-a63e90a5e2.jpg'
+import photo3 from './752287_middle.jpg'
 import { useState } from 'react/cjs/react.development'
 export const Will = () => {
     const [currentImage, setCurrentImage] = useState({ img: photo1, animateTxt: 'top', txt: 'img1' })
@@ -10,11 +11,14 @@ export const Will = () => {
     }
     useEffect(() => {
         setTimeout(() => {
-            currentImage.txt === 'img1' ? setCurrentImage(() => { return { img: photo2, animateTxt: "bottom", txt: 'img2' } }) :
+            currentImage.txt === 'img1' ? setCurrentImage(() => {
+                return { img: photo2, animateTxt: "bottom", txt: 'img2' }
+            }) :
                 setCurrentImage(() => {
-                    return { img: photo1, animateTxt: 'top', txt: 'img1' }
+                    return { img: photo3, animateTxt: 'top', txt: 'img1' }
                 })
-        }, 5000)
+
+        }, 3000)
     }, [currentImage]);
 
 

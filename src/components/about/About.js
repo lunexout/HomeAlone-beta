@@ -2,7 +2,8 @@ import React from 'react'
 import './About.css'
 import { Footer } from './../footer/Footer'
 import { useTranslation } from 'react-i18next';
-
+import Departments from './Departments';
+import { Statist } from './Statist';
 export const About = () => {
   const { t } = useTranslation();
   return (
@@ -120,6 +121,8 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <Departments />
+      <Statist />
       <Footer />
     </>
   )

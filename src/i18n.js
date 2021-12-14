@@ -30,7 +30,7 @@ const resources = {
       "PRODUCTS": "PRODUCTS",
       "SERVICES": "SERVICES",
       "ABOUT": "ABOUT",
-      "TOP PRODUCT": "TOP PRODUCT",
+      "TOP PRODUCT": "TOP PRODUCTS",
       "NEWS": "NEWS",
       "CONTACT": "CONTACT",
       "Interaction Center": "Interaction Center",

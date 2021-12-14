@@ -709,7 +709,7 @@ p:not(.u-text-variant) {
 
 .u-section-1 .u-image-1 {
 	width: 434px;
-	height: 363px;
+	/* height: 363px; */
 	object-position: 50% 0%;
 	background-position: 50% 0%;
 	margin: 0 0 -136px auto;
@@ -721,7 +721,7 @@ p:not(.u-text-variant) {
 
 .u-section-1 .u-image-2 {
 	width: 523px;
-	height: 397px;
+	/* height: 397px; */
 	object-position: 50% 22.76%;
 	background-position: 50% 22.76%;
 	margin: 0 auto -144px 0;
@@ -732,7 +732,7 @@ p:not(.u-text-variant) {
 }
 
 .u-section-1 .u-image-3 {
-	width: 300px;
+	/* width: 300px; */
 	left: auto;
 	right: 0;
 }
@@ -811,7 +811,7 @@ p:not(.u-text-variant) {
 	}
 	.u-section-1 .u-image-1 {
 		width: 353px;
-		height: 353px;
+		/* height: 353px; */
 		margin-top: -81px;
 		margin-bottom: -44px;
 	}
@@ -820,7 +820,7 @@ p:not(.u-text-variant) {
 	}
 	.u-section-1 .u-image-2 {
 		width: 382px;
-		height: 388px;
+		/* height: 388px; */
 		margin-top: -96px;
 		margin-bottom: -26px;
 	}
@@ -829,7 +829,7 @@ p:not(.u-text-variant) {
 	}
 	.u-section-1 .u-image-3 {
 		width: 264px;
-		height: 200px;
+		/* height: 200px; */
 		left: auto;
 		bottom: auto;
 		right: auto;
@@ -884,13 +884,13 @@ p:not(.u-text-variant) {
 
 .u-section-2 .u-image-1 {
 	width: 689px;
-	height: 572px;
+	/* height: 572px; */
 	margin: -79px 451px 0 auto;
 }
 
 .u-section-2 .u-image-2 {
 	width: 411px;
-	height: 355px;
+	height: 400px;
 	margin: -218px 288px 0 auto;
 }
 
@@ -1062,7 +1062,7 @@ p:not(.u-text-variant) {
 
 .u-section-4 .u-image-1 {
 	width: 507px;
-	height: 369px;
+	/* height: 369px; */
 	margin: -452px 77px 0 auto;
 }
 

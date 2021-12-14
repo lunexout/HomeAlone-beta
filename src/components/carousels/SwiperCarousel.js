@@ -52,7 +52,7 @@ export const SwiperCarousel = () => {
   //   </>)
   // }
   return (
-    <>
+    <div className='slideblocker'>
       {/* <RenderBanners /> */}
       <section className="img-slider">
         <div className="slider-container">
@@ -67,6 +67,6 @@ export const SwiperCarousel = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }

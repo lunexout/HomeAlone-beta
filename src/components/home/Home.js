@@ -6,7 +6,7 @@ import { BannerCarousel } from './../carousels/BannerCarousel'
 import { Footer } from './../footer/Footer'
 import { SmartBanner } from "../smartbanner/SmartBanner";
 import { Spinner } from './../spinner/Spinner'
-import { Will } from "../services/Will";
+// import { Will } from "../services/Will";
 import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
@@ -16,6 +16,7 @@ import { useTranslation } from 'react-i18next';
 import { Partnersfor } from "../partners/Partnersfor";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
+import Autoslider from "../carousels/Autoslider";
 
 
 export const Home = () => {
@@ -58,7 +59,11 @@ export const Home = () => {
 
 
           <Mainservices />
-
+          <div className="single-div" style={{ marginTop: 40 }}>
+            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+              Click and Explore
+            </h1>
+          </div>
           <Shower />
 
           <div className="single-div" style={{ marginTop: 40 }}>
@@ -66,7 +71,7 @@ export const Home = () => {
               {t('TOP PRODUCT')}
             </h1>
           </div>
-          < Will />
+          <Autoslider />
 
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/xiaofang/new2-5142243776.jpg" alt="" />
@@ -83,22 +88,23 @@ export const Home = () => {
           </div>
 
           <SwiperCarousel />
-          <div className="single-div" style={{ display: 'flex' }}>
-            <div style={{
-              display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',
-              width: '60%', backgroundColor: 'lightgray'
-            }}>
-              <span style={{ fontFamily: "Anton", fontSize: '5vmin' }}>
-                {t('prodiskr12')}
-              </span>
-              <p className='clean' style={{ fontSize: '3vmin' }}>
-                {t('prodiskr13')}
-              </p>
-            </div>
-            <div>
-              <img style={{ width: '100%', height: 'auto' }} src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_1-9453ebf6fd.png" alt="" />
-            </div>
-          </div>
+          <div style={{ display: 'block' }}>
+            <div className="single-div slideblocker" style={{ display: 'flex', }}>
+              <div style={{
+                display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',
+                width: '60%', backgroundColor: 'lightgray'
+              }}>
+                <span style={{ fontFamily: "Anton", fontSize: '5vmin' }}>
+                  {t('prodiskr12')}
+                </span>
+                <p className='clean' style={{ fontSize: '3vmin' }}>
+                  {t('prodiskr13')}
+                </p>
+              </div>
+              <div>
+                <img style={{ width: '100%', height: 'auto' }} src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_1-9453ebf6fd.png" alt="" />
+              </div>
+            </div></div>
 
 
           <div className="single-div" style={{ display: 'flex' }}>
