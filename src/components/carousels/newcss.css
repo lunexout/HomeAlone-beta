@@ -1,8 +1,9 @@
 .img-slider {
     position: relative;
     width: 100vw;
-    height: 400px;
-    margin-bottom: 300px;
+    height: 768px;
+    /* margin-bottom: 300px; */
+    margin-top: 0;
 }
 .img-slider .slider-container {
     position: absolute;

@@ -1,13 +1,9 @@
 .slideblocker{
     display: block;
 }
-  .img-slider {
-      position: relative;
-      width: 100vw;
-      height: 400px;
-  }
+  
   .img-slider .slider-container {
-      position: absolute;
+      /* position: absolute; */
       width: 300%;
       top: 0;
       left: 0;

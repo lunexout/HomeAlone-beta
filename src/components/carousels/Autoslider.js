@@ -6,7 +6,7 @@ import photo2 from '../services/sec2_1-a63e90a5e2.jpg'
 import photo3 from '../services/752287_middle.jpg'
 const Autoslider = () => {
     return (
-        <div className='slideblocker'>
+        <div className='slideblocker' style={{display: 'inline-block'}}>
             <section className="img-slider">
                 <div className="slider-container">
                     <div className="slide">

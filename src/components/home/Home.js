@@ -71,6 +71,9 @@ export const Home = () => {
               {t('TOP PRODUCT')}
             </h1>
           </div>
+
+
+          
           <Autoslider />
 
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
