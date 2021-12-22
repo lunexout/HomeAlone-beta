@@ -16,9 +16,9 @@ import { useTranslation } from 'react-i18next';
 export const Partnersfor = () => {
   const { t } = useTranslation();
 
-  React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
   return (
     <>
       <style

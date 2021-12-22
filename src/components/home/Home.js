@@ -17,6 +17,7 @@ import { Partnersfor } from "../partners/Partnersfor";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
 import Autoslider from "../carousels/Autoslider";
+import { Statist } from "../about/Statist";
 
 
 export const Home = () => {
@@ -30,7 +31,7 @@ export const Home = () => {
     }, 700)
   }, [])
 
-
+   window.scrollTo(0, 100);
 
   return (
     <>
@@ -133,6 +134,7 @@ export const Home = () => {
 
           <Partnersfor />
 
+          <Statist />
 
           <MessengerCustomerChat
             pageId="112617230247518"

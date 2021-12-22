@@ -30,7 +30,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Jovani Ghoghoberidze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>CEO And Co-founder</h3>
                                 </div>
 
                             </div>
@@ -46,7 +46,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Zurab Meskhidze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>CEO And Co-founder</h3>
                                 </div>
 
                             </div>
@@ -70,7 +70,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Giorgi Kalandadze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Marketing Manager</h3>
                                 </div>
 
                             </div>
@@ -86,7 +86,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Kakhi Kakhidze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Social Media Manager</h3>
                                 </div>
 
                             </div>
@@ -102,7 +102,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Khvicha Tebidze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Video Editor</h3>
                                 </div>
 
                             </div>
@@ -129,7 +129,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Naniko Mazanishvili</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Sales Manager</h3>
                                 </div>
 
                             </div>
@@ -142,7 +142,7 @@ const Departments = () => {
 
             <div className="single-div" style={{ marginTop: 40 }}>
                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-                    Technical
+                    Technical And Supply Manager
                 </h1>
             </div>
 
@@ -156,24 +156,13 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Mikheil donadze</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Technical Manager</h3>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </div>
-
-            <div className="single-div" style={{ marginTop: 40 }}>
-                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-                    Supply manager
-                </h1>
-            </div>
-
-            <div className="cardsdep">
                 <div className="carddep">
                     <div className="container">
                         <div className="carddep">
@@ -183,7 +172,7 @@ const Departments = () => {
                             <div className="contentBx">
                                 <h2>Ianis Ambelidi</h2>
                                 <div className="quote">
-                                    <h3>The only way to learn a new programming language is by writing programs in it.</h3>
+                                    <h3>Supply manager</h3>
                                 </div>
 
                             </div>
@@ -191,8 +180,8 @@ const Departments = () => {
                     </div>
                 </div>
 
-
             </div>
+
         </div>
     )
 }

@@ -15,7 +15,7 @@ export const Products = () => {
     const [spinner, setSpinner] = React.useState(false)
     const [data, setData] = React.useState([])
     useEffect(() => {
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
         setSpinner(true);
         axios.get(`${apiJSON.API_URL}api/getallprod`).then(r => {
             console.log(r.data)

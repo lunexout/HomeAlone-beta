@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from './hotel/1.jpg';
-import img2 from './hotel/2.jpg';
-import img3 from './hotel/3.jpg';
-import img4 from './hotel/4.jpg';
+import img4 from './hotel/1.jpg';
+import img1 from './hotel/2.jpg';
+// import img3 from './hotel/3.jpg';
+import img2 from './hotel/4.jpg';
 
 
 
@@ -53,7 +53,7 @@ export const SmartHotel = () => {
                       </div>
                       <div className="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-4">
                         <div className="u-container-layout">
-                          <img src={img3} alt="Myimage" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" />
+                          {/* <img src={img3} alt="Myimage" className="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-height-xs u-image u-image-default u-image-3" /> */}
                         </div>
                       </div>
                     </div>
