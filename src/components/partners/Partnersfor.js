@@ -3,7 +3,7 @@ import React from 'react'
 import './Partners.css'
 import './Partners.scss'
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 import IMG14 from './images/7th heaven.jpg'
@@ -134,16 +134,16 @@ export const Partnersfor = () => {
                     .btn-4 span:hover:after {
                       width: 100%;
                     }
-`
+` 
         }}
       />
       <h1 className="abouttitlewidth2 marginizer font-bold leading-tight text-center colorizer">
         {t('Partners')}
       </h1>
       <div class="cards1">
-        <div class="card1"><img alt="home alone" src={IMG2} /></div>
-        <div class="card1"><img alt="home alone" src={IMG1} /></div>
-        <div class="card1"><img alt="home alone" src={IMG14} /></div>
+        <div class="card1"><Link to={`/about/partners/0`}><img alt="home alone" src={IMG2} /></Link></div>
+        <div class="card1"><Link to={`/about/partners/1`}><img alt="home alone" src={IMG1} /></Link></div>
+        <div class="card1"><Link to={`/about/partners/13`}><img alt="home alone" src={IMG14} /></Link></div>
         <div class="card1">
 
           <NavLink to='/about/partners'>

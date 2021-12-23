@@ -7,7 +7,8 @@ import TBC_LOGO from './../../assets/TBC_Bank_logo.png'
 import PARTNER1 from './../partners/images/al mare batumi.jpg'
 import PARTNER2 from './../../assets/partners/citron.jpg'
 import PARTNER3 from './../../assets/partners/likehouse.jpg'
-
+ import imagefb from './Facebook-logo.png'
+ import imageins from './Symbol-Instagram.png'
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 export const Header = () => {
@@ -44,6 +45,7 @@ export const Header = () => {
         <>
             <div className='header' >
                 <div className='animate__animated animate__fadeInLeft' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                
                     <div onMouseEnter={() => OpenBox(0)}>
                         <NavLink className='nav-item' activeClassName="nav-active" exact to='/' >
                             <p>{t('HOME')}</p>
@@ -56,7 +58,12 @@ export const Header = () => {
                     </div>
                     <div onMouseEnter={() => OpenBox(3)}>
                         <NavLink className='nav-item' activeClassName="nav-active" to='/services' onClick={() => OpenBox(5)}>
-                            <p style={{ borderRight: 'none' }}>{t('SERVICES')}</p>
+                            <p >{t('SERVICES')}</p>
+                        </NavLink>
+                    </div>
+                    <div onMouseEnter={() => OpenBox(4)}>
+                        <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
+                            <p  style={{ borderRight: 'none' }}>{t('ABOUT')}</p>
                         </NavLink>
                     </div>
                 </div>
@@ -67,11 +74,11 @@ export const Header = () => {
                 </NavLink>
 
                 <div className='animate__animated animate__fadeInRight' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <div onMouseEnter={() => OpenBox(4)}>
+                    {/* <div onMouseEnter={() => OpenBox(4)}>
                         <NavLink className='nav-item' activeClassName="nav-active" to='/about' onClick={() => OpenBox(5)}>
                             <p>{t('ABOUT')}</p>
                         </NavLink>
-                    </div>
+                    </div> */}
                     <div onMouseEnter={() => OpenBox(0)}>
                         <NavLink className='nav-item' activeClassName="nav-active" to='/news'>
                             <p>{t('NEWS')}</p>
@@ -87,7 +94,13 @@ export const Header = () => {
                         <p style={{ borderRight: 'none' }} className='nav-item-lang' onClick={() => changeLanguageHandler('ge')}>GE</p>
                         <p style={{ borderRight: 'none' }} className='nav-item-lang' onClick={() => changeLanguageHandler('ru')}>RU</p>
                     </div>
+                    
                 </div>
+                <div onMouseEnter={() => OpenBox(0)}>
+                        <a className='socialphoto' href="https://www.facebook.com/homealoneltd"><img src={imagefb} style={{ height: 30, width: 'auto', marginLeft: '1rem'}} alt='' /></a>
+                       
+                <a className='socialphoto'  href="https://www.instagram.com/ltdhome.alone/"> <img src={imageins} style={{ height: 30, width: 'auto', marginLeft: '1rem' }} alt='' /></a>
+                    </div>
             </div>
             <div>
                 {ProductsBox && (
