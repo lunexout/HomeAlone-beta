@@ -58,7 +58,7 @@ export const Statist = () => {
                         <div class="counter-icon">
                             <FaGlobe />
                         </div>
-                        <h3>Web Designing</h3>
+                        <h3>Current Projects</h3>
                         <span class="counter-value"><CountUp duration={20} end={100} /></span>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export const Statist = () => {
                         <div class="counter-icon">
                             <FaRocket />
                         </div>
-                        <h3>Web Development</h3>
+                        <h3>Finished Projects</h3>
                         <span class="counter-value"><CountUp duration={20} end={100} /></span>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ export const Statist = () => {
                         <div class="counter-icon">
                             <FaSuitcaseRolling />
                         </div>
-                        <h3>Brand Building</h3>
+                        <h3>Costumers</h3>
                         <span class="counter-value"><CountUp duration={20} end={100} /></span>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ export const Statist = () => {
                         <div class="counter-icon">
                             <FaHeadSideVirus />
                         </div>
-                        <h3>Responsive Design</h3>
+                        <h3>Products</h3>
                         <span class="counter-value"><CountUp duration={20} end={100} /></span>
                     </div>
                 </div>
