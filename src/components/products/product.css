@@ -47,6 +47,7 @@
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     margin-bottom: 70px;
+    
   }
   @media all and (max-width: 768px) {
     .main_content .card {
@@ -58,7 +59,8 @@
   }
   
   .main_content .card .card_img img {
-    width: 200px;
+    width: 300px;
+    /* background-image: url('./LPT.jpg'); */
   }
   
   .main_content .card .card_header {

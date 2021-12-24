@@ -82,7 +82,7 @@
 }
 .smart-home-banner {
   max-width: 1586px;
-  margin: 5px auto;
+  /* margin: 5px auto; */
   width: 100%;
   height: auto;
   /* border-radius: 5px; */

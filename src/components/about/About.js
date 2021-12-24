@@ -7,6 +7,8 @@ export const About = () => {
   const { t } = useTranslation();
   return (
     <>
+          <Departments />
+
       <div className='about-container' style={{ marginTop: 100 }}>
         <h1 className="abouttitlewidth2 marginizer font-bold leading-tight text-center colorizer">
           {t('AboutName')}
@@ -120,7 +122,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <Departments />
       <Footer />
     </>
   )

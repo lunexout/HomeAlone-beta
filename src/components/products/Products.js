@@ -40,7 +40,7 @@ export const Products = () => {
                 </div>
                 <div className="card_header">
                     <h2>{item.name}</h2>
-                    <p>{item.description}</p>
+                    {/* <p>{item.description}</p> */}
                 </div>
             </div>
         </NavLink>

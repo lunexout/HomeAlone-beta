@@ -44,7 +44,7 @@ const Departments = () => {
                                 <img src={IMG2} alt="dennis-ritchie" border={0} />
                             </div>
                             <div className="contentBx">
-                                <h2>Zurab Meskhidze</h2>
+                                <h2>Zurab<br /> Meskhidze</h2>
                                 <div className="quote">
                                     <h3>CEO And Co-founder</h3>
                                 </div>
