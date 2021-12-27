@@ -72,18 +72,19 @@
 }
 
 .owl-prod-cont {
-  max-width: 1586px;
+  /* max-width: 1586px; */
   margin: 0 auto;
   margin-top: 40px;
 }
 .gallery {
-  max-width: 1586px;
+  /* max-width: 1586px; */
   margin: 60px auto;
 }
 .smart-home-banner {
-  max-width: 1586px;
-  /* margin: 5px auto; */
-  width: 100%;
+  max-width: 1920px;
+  height: 245px;
+  margin: 5px auto;
+  /* width: 100%; */
   height: auto;
   /* border-radius: 5px; */
   display: flex;
@@ -119,15 +120,15 @@
  background-color: #15171c;
 } */
 .partners-div {
-  max-width: 1586px;
+  /* max-width: 1586px; */
   margin: 20px auto;
 }
 .about-container {
-  max-width: 1586px;
+  /* max-width: 1586px; */
   margin: 20px auto;
 }
 .single-div {
-  max-width: 1586px;
+  /* max-width: 1586px; */
   margin: 20px auto;
 }
 @media all and (min-width: 2400px) {

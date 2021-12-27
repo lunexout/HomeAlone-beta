@@ -86,11 +86,9 @@ export const Home = () => {
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-
-              {t('HomeController')}
+            {t('HomeController')}
             </h1>
           </div>
-
           <SwiperCarousel />
           <div style={{ display: 'block' }}>
             <div className="single-div slideblocker" style={{ display: 'flex', }}>

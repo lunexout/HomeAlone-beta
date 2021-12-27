@@ -43,6 +43,9 @@ export const Mainservices = () => {
                         display: flex;
                         align-items: center;
                         height: 300px;
+                        justify-content: center;
+                        background-position: center; 
+
                     }
             
                     .anim {
@@ -78,19 +81,19 @@ export const Mainservices = () => {
 
             <div className="grid-container">
                 <div>
-                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})` }}>
+                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})`, backgroundRepeat: 'no-repeat', margin: 'auto' }}>
                         <div>
                             <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Home System')}</NavLink></div>
                         </div>
                     </div>
                 </div>
-                <div className="column imageContainer1 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image1})` }}>
+                <div className="column imageContainer1 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image1})`, backgroundRepeat: 'no-repeat'  }}>
                     <div>
                         <div className="anim"> <NavLink to='/services/smarthotel' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Hotel System')}</NavLink></div>
                     </div>
                 </div>
                 <div>
-                    <div className="column imageContainer2 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image2})` }}>
+                    <div className="column imageContainer2 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image2})`, backgroundRepeat: 'no-repeat'  }}>
                         <div>
                             <div className="anim"> <NavLink to='/services/smartoffice' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Office System')}</NavLink></div>
                         </div>

@@ -97,9 +97,9 @@ export const Header = () => {
                     
                 </div>
                 <div onMouseEnter={() => OpenBox(0)}>
-                        <a className='socialphoto' href="https://www.facebook.com/homealoneltd"><img src={imagefb} style={{ height: 30, width: 'auto', marginLeft: '1rem'}} alt='' /></a>
+                        <a className='socialphoto' href="https://www.facebook.com/homealoneltd"><img src={imagefb} style={{ height: 30, width: 'auto', marginLeft: '10px', lineHeight:'30', verticalAlign:'middle'}} alt='' /></a>
                        
-                <a className='socialphoto'  href="https://www.instagram.com/ltdhome.alone/"> <img src={imageins} style={{ height: 30, width: 'auto', marginLeft: '1rem' }} alt='' /></a>
+                <a className='socialphoto'  href="https://www.instagram.com/ltdhome.alone/"> <img src={imageins} style={{ height: 30, width: 'auto', marginLeft: '10px', lineHeight:'30', verticalAlign:'middle' }} alt='' /></a>
                     </div>
             </div>
             <div>

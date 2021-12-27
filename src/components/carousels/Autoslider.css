@@ -1,7 +1,9 @@
 .slideblocker{
     display: block;
 }
-  
+#slidy-container { 
+    width: 100%; overflow: hidden; margin: 0 auto;
+  }
   .img-slider .slider-container {
       /* position: absolute; */
       width: 300%;

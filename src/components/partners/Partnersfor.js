@@ -135,11 +135,54 @@ export const Partnersfor = () => {
                       width: 100%;
                     }
 ` 
-        }}
+        }} 
       />
       <h1 className="abouttitlewidth2 marginizer font-bold leading-tight text-center colorizer">
         {t('Partners')}
       </h1>
+
+        <div class="grid-container23">
+  <div>
+
+  <div class="container">
+            </div>
+            <div class="card1"><Link to={`/about/partners/0`}><img alt="home alone" src={IMG2} /></Link></div>
+
+  </div>
+  <div>
+
+
+
+  <div class="container">
+           </div>
+           <div class="card1"><Link to={`/about/partners/1`}><img alt="home alone" src={IMG1} /></Link></div>
+
+  </div>
+  <div>
+      
+      
+  <div class="container">
+  <div class="card1"><Link to={`/about/partners/13`}><img alt="home alone" src={IMG14} /></Link></div>
+
+           </div>
+      </div>  
+  <div>
+  <div class="container">
+  <div class="card1">
+
+<NavLink to='/about/partners'>
+
+  <div class="buttons-coll">
+    <button class="custom-btn btn-4"><span>Read More</span></button>
+  </div>
+
+</NavLink>
+
+</div>
+        </div>
+  </div>
+</div>
+{/* 
       <div class="cards1">
         <div class="card1"><Link to={`/about/partners/0`}><img alt="home alone" src={IMG2} /></Link></div>
         <div class="card1"><Link to={`/about/partners/1`}><img alt="home alone" src={IMG1} /></Link></div>
@@ -155,7 +198,7 @@ export const Partnersfor = () => {
           </NavLink>
 
         </div>
-      </div>
+      </div> */}
 
 
 
