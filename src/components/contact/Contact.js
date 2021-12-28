@@ -22,7 +22,7 @@ export const Contact = () => {
         <>
             <div>
                 <header>
-                    <div className="container mt-5">
+                    <div style={{marginTop:"10px"}}>
                         <div className="page-banner">
                             <div className="row justify-content-center align-items-center h-100">
                                 <div className="col-md-6">

@@ -64,11 +64,30 @@ line-height: 1;
   -o-transition: .7s ease;
   transition: .7s ease;
 }
+.fontsizermania{
+  font-size: 30px;
+}
+
+
+@media  only screen and (max-width: 3000px) {
+  .question{
+    font-size: 25px;
+  }
+  .questions:checked ~ .answers{
+
+    font-size: 20px;
+  }
+  .plus{
+    font-size: 50px!important;
+  }
+  
+}
 
 .questions:checked ~ .answers{
   height: auto;
   opacity: 1;
   padding: 15px;
+
 }
 
 .plus {
@@ -99,4 +118,5 @@ line-height: 1;
 
 .questions {
   display: none;
+  font-size: 39px;
 }

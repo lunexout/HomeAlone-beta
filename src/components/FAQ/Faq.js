@@ -9,19 +9,13 @@ export const Faq = () => {
         <div>
             <div className="content">
 
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>FAQ</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <div>
+                
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                FAQ
+                </h1>
+            </div>
+                <div className='fontsizermania'>
                     <input type="checkbox" id="question1" name="q" className="questions" />
                     <div className="plus">+</div>
                     <label htmlFor="question1" className="question">
@@ -132,17 +126,14 @@ export const Faq = () => {
                 </div>
                 {/* __________________________ SECTIONS ___________________________ */}
 
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>PURCHASE, ORDERING, &amp; RETURNS</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
+
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                PURCHASE, ORDERING, &amp; RETURNS
+                </h1>
+            </div>
+
                 <div>
                     <input type="checkbox" id="question11" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -237,18 +228,12 @@ export const Faq = () => {
                 </div>
                 {/* _____________________________________________________ */}
                 {/* __________________________ SECTIONS ___________________________ */}
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>TAX &amp; SHIPPING</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                TAX &amp; SHIPPING
+                </h1>
+            </div>
                 <div>
                     <input type="checkbox" id="question17" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -274,19 +259,13 @@ export const Faq = () => {
                 </div>
                 {/* _____________________________________________________ */}
                 {/* __________________________ SECTIONS ___________________________ */}
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                RIGHTS &amp; USAGE
+                </h1>
+            </div>
 
-
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>RIGHTS &amp; USAGE</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+               
 
 
                 <div>
@@ -311,18 +290,12 @@ export const Faq = () => {
                     </div>
                 </div>
                 {/* __________________________ SECTIONS ___________________________ */}
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>DOMESTIC &amp; INTERNATIONAL SALES</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                DOMESTIC &amp; INTERNATIONAL SALES
+                </h1>
+            </div>
                 <div>
                     <input type="checkbox" id="question20" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -369,18 +342,12 @@ export const Faq = () => {
                 {/* __________________________ SECTIONS ___________________________ */}
 
 
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>CUSTOMER SERVICE</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+               
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                CUSTOMER SERVICE
+                </h1>
+            </div>
                 <div>
                     <input type="checkbox" id="question24" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -414,18 +381,12 @@ export const Faq = () => {
                 {/* _____________________________________________________ */}
                 {/* __________________________ SECTIONS ___________________________ */}
 
-
-                <section className="faq-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-6 offset-md-3">
-                                <div className="faq-title text-center pb-3">
-                                    <h2>USING THIS WEBSITE</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <div className="single-div" style={{ marginTop: 40 }}>
+                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                USING THIS WEBSITE
+                </h1>
+            </div>
+                
 
                 <div>
                     <input type="checkbox" id="question26" name="q" className="questions" />

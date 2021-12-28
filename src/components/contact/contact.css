@@ -1,5 +1,5 @@
 
-  .container {
+  .container { 
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -326,7 +326,7 @@
   }
 
   .mt-5 {
-	margin-top: 3rem !important;
+	/* margin-top: 3rem !important; */
   }
 
   .py-3 {
@@ -651,10 +651,11 @@
 
   .page-section {
 	position: relative;
-	padding-top: 80px;
+	/* padding-top: 80px; */
 	padding-bottom: 80px;
 	background-color: #fff;
 	overflow: hidden;
+  font-size: medium;
   }
 
   .page-section p {
@@ -664,7 +665,7 @@
 
   .page-banner {
 	position: relative;
-	margin-top: 16px;
+	/* margin-top: 16px; */
 	margin-bottom: 16px;
 	height: 120px;
   line-height: 120px;
@@ -686,11 +687,12 @@
 	max-width: 450px;
 	color: #2D2B3A;
 	font-weight: 600;
+  font-size: 40px;
   }
 
   .divider {
 	display: block;
-	margin-top: 16px;
+	/* margin-top: 16px; */
 	margin-bottom: 32px;
 	width: 32px;
 	height: 3px;
