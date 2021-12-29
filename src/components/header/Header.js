@@ -7,8 +7,8 @@ import TBC_LOGO from './../../assets/TBC_Bank_logo.png'
 import PARTNER1 from './../partners/images/al mare batumi.jpg'
 import PARTNER2 from './../../assets/partners/citron.jpg'
 import PARTNER3 from './../../assets/partners/likehouse.jpg'
- import imagefb from './Facebook-logo.png'
- import imageins from './Symbol-Instagram.png'
+//  import imagefb from './Facebook-logo.png'
+//  import imageins from './Symbol-Instagram.png'
 import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 export const Header = () => {
