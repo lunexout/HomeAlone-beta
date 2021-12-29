@@ -104,8 +104,8 @@
 }
 
 .counter{
-  color: #FE8105;
-  background: linear-gradient(to right, #FE8105, #FE9F1E);
+  color: #018a70;
+  background: linear-gradient(to right, #018a70, #018a70);
   font-family: 'Poppins', sans-serif;
   text-align: center;
   width: 200px;
@@ -138,7 +138,7 @@
   margin: 0 0 20px;
 }
 .counter .counter-value{
-  background: linear-gradient(to right, #FE8105, #FE9F1E);
+  background: linear-gradient(to right, #018a70, #018a70);
   font-size: 28px;
   font-weight: 400;
   line-height: 91px;
@@ -164,18 +164,18 @@
 }
 .counter.green,
 .counter.green .counter-value{
-  color: #209A1E;
-  background: linear-gradient(to right, #209A1E, #12AE00);
+  color: #018a70;
+  background: linear-gradient(to right, #018a70, #018a70);
 }
 .counter.red,
 .counter.red .counter-value{
   color: #D73123;
-  background: linear-gradient(to right, #D73123, #FF540E);
+  background: linear-gradient(to right, #018a70, #018a70);
 }
 .counter.blue,
 .counter.blue .counter-value{
-  color: #118FCF;
-  background: linear-gradient(to right, #118FCF, #009FFD);
+  color: #018a70;
+  background: linear-gradient(to right, #018a70, #018a70);
 }
 @media screen and (max-width:990px){
   .counter{ margin-bottom: 40px; }

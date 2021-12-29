@@ -675,7 +675,7 @@ p:not(.u-text-variant) {
 }
 
 .u-section-1 .u-layout-wrap-1 {
-	margin: 60px 0;
+	margin: 60px 0 0 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -1051,13 +1051,13 @@ p:not(.u-text-variant) {
 .u-section-4 .u-shape-1 {
 	width: 665px;
 	height: 299px;
-	margin: 398px auto 0 212px;
+	margin: 268px auto 0 212px;
 }
 
 .u-section-4 .u-shape-2 {
 	height: 363px;
 	width: 485px;
-	margin: -443px 0 0 auto;
+	margin: -243px 0 0 auto;
 }
 
 .u-section-4 .u-image-1 {
