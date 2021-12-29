@@ -44,7 +44,7 @@ export const Home = () => {
         </>
       ) : (
         <>
-          <BannerCarousel />
+          {/*<BannerCarousel />
           <SmartBanner />
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -82,7 +82,7 @@ export const Home = () => {
           </div>
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/RF/rf_sec8_bg-44b226c53b.jpg" alt="" />
-          </div> */}
+          </div> =
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -128,7 +128,7 @@ export const Home = () => {
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
-          </div> */}
+          </div>==
 
           <Partnersfor />
 
@@ -137,7 +137,7 @@ export const Home = () => {
           <MessengerCustomerChat
             pageId="112617230247518"
             appId="436362961214275"
-          />
+          />*/}
           <Footer />
         </>
       )

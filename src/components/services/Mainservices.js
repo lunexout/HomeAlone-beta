@@ -73,7 +73,26 @@ export const Mainservices = () => {
                     .anim:hover:after {
                         width: 100%;
                         left: 0;
-                    }       `
+                    }      
+                    
+                    @media  only screen and (max-width: 500px) {
+                        .grid-container{
+                            grid-template-columns: auto auto;
+                        }
+                        
+                        .imageContainer1,
+                    .imageContainer2,
+                    .imageContainer3 {
+                        width:100%;
+                        font-weight: 800;
+                        color: #fff;
+                        vertical-align: bottom;
+
+                    }
+                      }
+                    
+                    
+                    `
                 }}
             />
 
@@ -81,7 +100,7 @@ export const Mainservices = () => {
 
             <div className="grid-container">
                 <div>
-                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundImage: `url(${image3})`, backgroundRepeat: 'no-repeat', margin: 'auto' }}>
+                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundSize:"500px",backgroundImage: `url(${image3})`, backgroundRepeat: 'no-repeat', margin: 'auto' , width:'500px'}}>
                         <div>
                             <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Home System')}</NavLink></div>
                         </div>

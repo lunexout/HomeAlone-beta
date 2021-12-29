@@ -96,11 +96,11 @@ export const Header = () => {
                     </div>
                     
                 </div>
-                <div>
+                {/* <div>
                         <a className='socialphoto' href="https://www.facebook.com/homealoneltd"><img src={imagefb} style={{ height: 30, width: 'auto', marginLeft: '20px', lineHeight:'30', verticalAlign:'middle'}} alt='' /></a>
                        
                 <a className='socialphoto'  href="https://www.instagram.com/ltdhome.alone/"> <img src={imageins} style={{ height: 30, width: 'auto', marginLeft:0, lineHeight:'30', verticalAlign:'middle' }} alt='' /></a>
-                    </div>
+                    </div> */}
             </div>
             <div>
                 {ProductsBox && (
