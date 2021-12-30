@@ -88,11 +88,6 @@
 		grid-template-columns: auto;
 	}
 }
-@media screen and (min-device-width: 0px) and (max-device-width: 900px) {
-	.grid-container23 {
-		grid-template-columns: auto auto;
-	}
-}
 .grid-container23 {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -102,7 +97,6 @@
 
 
 .grid-container23 > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-size: 30px;
   float: left;
@@ -1880,6 +1874,29 @@
   margin-top: 0.25rem;
   font-size: 0.875em;
   color: #6c757d;
+}
+
+.grid-containerstatist {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containerstatist > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .grid-containerstatist {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+
 }
 
 .form-control {

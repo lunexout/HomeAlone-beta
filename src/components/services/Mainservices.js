@@ -100,7 +100,7 @@ export const Mainservices = () => {
 
             <div className="grid-container">
                 <div>
-                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundSize:"500px",backgroundImage: `url(${image3})`, backgroundRepeat: 'no-repeat', margin: 'auto' , width:'500px'}}>
+                    <div className="column imageContainer3 vcenter" style={{ backgroundColor: '#fff', backgroundSize:"500px",backgroundImage: `url(${image3})`, backgroundRepeat: 'no-repeat', margin: 'auto'}}>
                         <div>
                             <div className="anim"> <NavLink to='/services/smarthome' style={{ textDecoration: 'none', color: 'white' }}>{t('Smart Home System')}</NavLink></div>
                         </div>

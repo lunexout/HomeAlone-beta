@@ -3,7 +3,8 @@ import './Shower.css'
 export const Shower = () => {
     return (
         <div>
-            <div className="yt1__container">
+            
+            <div className="yt1__container  stepper">
                 <div className="yt1__sec10 d__sec s__bg lazy">
                     <div className="content">
                         <div className="item1">

@@ -141,7 +141,7 @@ export const Partnersfor = () => {
         {t('Partners')}
       </h1>
 
-        <div class="grid-container23">
+        <div class="grid-containerstatist">
   <div>
 
   <div class="container">

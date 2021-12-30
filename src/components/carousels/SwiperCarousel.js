@@ -56,7 +56,7 @@ export const SwiperCarousel = () => {
   useEffect(() => {
 
     /* user defined variables */
-  var timeOnSlide = 3, 		
+  var timeOnSlide = 2, 		
   // the time each image will remain static on the screen, measured in seconds
   timeBetweenSlides = 1, 	
   // the time taken to transition between images, measured in seconds

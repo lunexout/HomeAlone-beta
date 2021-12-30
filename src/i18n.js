@@ -4,6 +4,8 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+
+      "GetStarted":"GetStarted",
       "prodiskr1": "One MixPad Mini is equal to many smart products",
       "prodiskr2": "MIXPAD'S ALL-IN-ONE GATEWAY PANEL",
       "prodiskr3": "ONE PANEL, ALL SMART",
@@ -99,6 +101,7 @@ const resources = {
   },
   ge: {
     translation: {
+      "GetStarted":"ჩვენს შესახებ",
       "TOP PRODUCT": "რჩეული პროდუქტები",
       "prodiskr1": "ერთი MixPad Mini უდრის ბევრ ჭკვიან პროდუქტს",
       "prodiskr2": "MIXPAD- ის ყოვლისმომცველი GATEWAY PANEL",
@@ -195,6 +198,7 @@ const resources = {
   },
   ru: {
     translation: {
+      "GetStarted":"О НАС",
       "TOP PRODUCT": "ТОП ПРОДУКТЫ",
       "prodiskr1": "Один MixPad Mini равен многим умным продуктам",
       "prodiskr2": "УНИВЕРСАЛЬНАЯ ПАНЕЛЬ ШЛЮЗА MIXPAD",

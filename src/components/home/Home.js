@@ -60,11 +60,7 @@ export const Home = () => {
 
 
           <Mainservices />
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-              Click and Explore
-            </h1>
-          </div>
+          
           <Shower />
 
           <div className="single-div" style={{ marginTop: 40 }}>

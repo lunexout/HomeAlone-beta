@@ -14,9 +14,9 @@ import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
-import { ProductTypesCarousel } from "../../carousels/ProductTypesCarousel";
-import { SmartBanner } from "../../smartbanner/SmartBanner";
-import { Footer } from "../../footer/Footer";
+// import { ProductTypesCarousel } from "../../carousels/ProductTypesCarousel";
+// import { SmartBanner } from "../../smartbanner/SmartBanner";
+// import { Footer } from "../../footer/Footer";
 import { DoorWindowSensor } from "../../vibes/DoorWindowSensor";
 import { AirMasterCentralACControlKit } from "../../vibes/AirMasterCentralACControlKit";
 import { AlloneProRFIRHub } from "../../vibes/AlloneProRFIRHub";
