@@ -30,7 +30,7 @@ export const Testnews = () => {
 
           <div className="conteudo">
             
-            <img alt="home alone"  src={photo2} />
+            <img alt="home alone"  src={photo3} />
             <h1>ჭკვიანი სახლი - მომავლის ტექნოლოგია </h1>
             <hr />
             <p>
