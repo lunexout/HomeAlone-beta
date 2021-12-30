@@ -20,11 +20,7 @@ export const Footer = () => {
             box-sizing: border-box
         }
 
-        .foot,
-        .foot .content,
-        body {
-            min-width: 1280px
-        }
+        
 
         
 

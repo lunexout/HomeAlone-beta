@@ -91,7 +91,8 @@ document.body.appendChild(css); // add the new stylesheet to the end of the docu
     <img src={photo3} alt="lucie-2" />
     <img src={photo2} alt="lucie" />
   </figure>
-</div></>
+</div>
+</>
 
     )
 }

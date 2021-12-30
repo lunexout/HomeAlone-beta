@@ -20,169 +20,169 @@ const Departments = () => {
                 </h1>
             </div>
 
-            <div className="cardsdep">
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG1} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Jovani Ghoghoberidze</h2>
-                                <div className="quote">
-                                    <h3>CEO And Co-founder</h3>
-                                </div>
+             <div className="cardsdep">
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG1} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Jovani Ghoghoberidze</h2>
+                                 <div className="quote">
+                                     <h3>CEO And Co-founder</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG2} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Zurab<br /> Meskhidze</h2>
-                                <div className="quote">
-                                    <h3>CEO And Co-founder</h3>
-                                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG2} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Zurab<br /> Meskhidze</h2>
+                                 <div className="quote">
+                                     <h3>CEO And Co-founder</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="single-div" style={{ marginTop: 40 }}>
-                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-                    Marketing
-                </h1>
-            </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div className="single-div" style={{ marginTop: 40 }}>
+                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                     Marketing
+                 </h1>
+             </div>
 
-            <div className="cardsdep">
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG3} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Giorgi Kalandadze</h2>
-                                <div className="quote">
-                                    <h3>Marketing Manager</h3>
-                                </div>
+             <div className="cardsdep">
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG3} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Giorgi Kalandadze</h2>
+                                 <div className="quote">
+                                     <h3>Marketing Manager</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG4} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Kakhi Kakhidze</h2>
-                                <div className="quote">
-                                    <h3>Social Media Manager</h3>
-                                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG4} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Kakhi Kakhidze</h2>
+                                 <div className="quote">
+                                     <h3>Social Media Manager</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG5} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Khvicha Tebidze</h2>
-                                <div className="quote">
-                                    <h3>Video Editor</h3>
-                                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG5} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Khvicha Tebidze</h2>
+                                 <div className="quote">
+                                     <h3>Video Editor</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div className="single-div" style={{ marginTop: 40 }}>
-                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-                    Sales
-                </h1>
-            </div>
-
-            <div className="cardsdep">
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG6} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Naniko Mazanishvili</h2>
-                                <div className="quote">
-                                    <h3>Sales Manager</h3>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
 
 
-            </div>
+             </div>
 
-            <div className="single-div" style={{ marginTop: 40 }}>
-                <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
-                    Technical And Supply Manager
-                </h1>
-            </div>
+             <div className="single-div" style={{ marginTop: 40 }}>
+                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                     Sales
+                 </h1>
+             </div>
 
-            <div className="cardsdep">
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG7} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Mikheil donadze</h2>
-                                <div className="quote">
-                                    <h3>Technical Manager</h3>
-                                </div>
+             <div className="cardsdep">
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG6} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Naniko Mazanishvili</h2>
+                                 <div className="quote">
+                                     <h3>Sales Manager</h3>
+                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="carddep">
-                    <div className="container">
-                        <div className="carddep">
-                            <div className="imgBx">
-                                <img src={IMG8} alt="dennis-ritchie" border={0} />
-                            </div>
-                            <div className="contentBx">
-                                <h2>Ianis Ambelidi</h2>
-                                <div className="quote">
-                                    <h3>Supply manager</h3>
-                                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
+             </div>
 
-        </div>
+             <div className="single-div" style={{ marginTop: 40 }}>
+                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
+                     Technical And Supply Manager
+                 </h1>
+             </div>
+
+             <div className="cardsdep">
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG7} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Mikheil donadze</h2>
+                                 <div className="quote">
+                                     <h3>Technical Manager</h3>
+                                 </div>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div className="carddep">
+                     <div className="container">
+                         <div className="carddep">
+                             <div className="imgBx">
+                                 <img src={IMG8} alt="dennis-ritchie" border={0} />
+                             </div>
+                             <div className="contentBx">
+                                 <h2>Ianis Ambelidi</h2>
+                                 <div className="quote">
+                                     <h3>Supply manager</h3>
+                                 </div>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+
+         </div>
     )
 }
 

@@ -1,28 +1,28 @@
 import React from "react";
 import "./home.css";
 
-// import { BannerCarousel } from './../carousels/BannerCarousel'
-// //import { HeadingContent } from "../headings/HeadingContent";
+import { BannerCarousel } from './../carousels/BannerCarousel'
+//import { HeadingContent } from "../headings/HeadingContent";
 import { Footer } from './../footer/Footer'
-// import { SmartBanner } from "../smartbanner/SmartBanner";
+import { SmartBanner } from "../smartbanner/SmartBanner";
 import { Spinner } from './../spinner/Spinner'
-// // import { Will } from "../services/Will";
-// import { ProductBann } from "../products/ProductBann";
-// import { Mainservices } from "../services/Mainservices";
-// import MessengerCustomerChat from 'react-messenger-customer-chat';
+// import { Will } from "../services/Will";
+import { ProductBann } from "../products/ProductBann";
+import { Mainservices } from "../services/Mainservices";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
-// import { useTranslation } from 'react-i18next';
-// import { Partnersfor } from "../partners/Partnersfor";
-// import { SwiperCarousel } from "../carousels/SwiperCarousel";
-// import { Shower } from "./Shower";
-// import Autoslider from "../carousels/Autoslider";
-// import { Statist } from "../about/Statist";
+import { useTranslation } from 'react-i18next';
+import { Partnersfor } from "../partners/Partnersfor";
+import { SwiperCarousel } from "../carousels/SwiperCarousel";
+import { Shower } from "./Shower";
+import Autoslider from "../carousels/Autoslider";
+import { Statist } from "../about/Statist";
 
 
 export const Home = () => {
   const [spinner, setSpinner] = React.useState(false)
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   React.useEffect(() => {
     setSpinner(true);
@@ -44,7 +44,7 @@ export const Home = () => {
         </>
       ) : (
         <>
-          {/*<BannerCarousel />
+          <BannerCarousel />
           <SmartBanner />
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -82,7 +82,7 @@ export const Home = () => {
           </div>
           <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/RF/rf_sec8_bg-44b226c53b.jpg" alt="" />
-          </div> =
+          </div> */}
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -128,7 +128,7 @@ export const Home = () => {
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
-          </div>==
+          </div>*/}
 
           <Partnersfor />
 
@@ -137,7 +137,7 @@ export const Home = () => {
           <MessengerCustomerChat
             pageId="112617230247518"
             appId="436362961214275"
-          />*/}
+          />
           <Footer />
         </>
       )

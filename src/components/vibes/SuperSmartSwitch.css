@@ -3,7 +3,7 @@
      animation-fill-mode: both;
      animation-timing-function: ease-in-out 
 }
- .banner, body {
+ .banner {
      min-width: 1280px 
 }
 

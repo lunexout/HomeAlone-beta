@@ -140,6 +140,7 @@ export const SwiperCarousel = () => {
     <img src={photo2} alt="lucie" />
 
   </figure>
-</div></>
+</div>
+</>
   )
 }

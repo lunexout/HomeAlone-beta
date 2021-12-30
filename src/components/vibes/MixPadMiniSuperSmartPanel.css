@@ -848,7 +848,7 @@
   opacity:.5;
   filter:alpha(opacity=50)
 }
-.banner,body{
+.banner {
   min-width:1280px
 }
 

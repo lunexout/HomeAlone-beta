@@ -20,8 +20,8 @@ export const Contact = () => {
 
     return (
         <>
-            <div>
-                <header>
+           <div>
+                 <header>
                     <div style={{marginTop:"10px"}}>
                         <div className="page-banner">
                             <div className="row justify-content-center align-items-center h-100">
@@ -75,8 +75,8 @@ export const Contact = () => {
                                     <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.779890917539!2d41.614655820316976!3d41.64027186772413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067860ad78297a3%3A0x34459cc7869cc754!2zNDHCsDM4JzE4LjEiTiA0McKwMzcnMDAuMSJF!5e0!3m2!1ska!2sge!4v1637671754634!5m2!1ska!2sge" width={570} height={525} style={{ border: 0 }} allowFullScreen loading="lazy" />
                                 </div>
                             </div>
-                        </div> {/* .container */}
-                    </div> {/* .page-section */}
+                        </div>
+                    </div>
                 </main>
             </div>
             <Footer />

@@ -25,7 +25,6 @@ export const Faq = () => {
                         <p>Our hardcover books are library bound with exposed reinforced endsheets, which means extra lasting power, use after use. They are side sewn or section sewn, and all covers are laminated with glossy film. The books are vibrant, durable, and unconditionally guaranteed. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question2" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -36,7 +35,6 @@ export const Faq = () => {
                         <p>Many of Cavendish Square’s products are produced with recycled pulp content, allowing our company to pursue its green goals while adding additional value for your eco-conscious purchases. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question3" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -47,7 +45,6 @@ export const Faq = () => {
                         <p>Cavendish Square gladly provides library processing services. Please call 1-877-980-4450 or email Customer Service to learn more about processing and available and customizable options for your bookshelf needs. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question4" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -58,7 +55,6 @@ export const Faq = () => {
                         <p>Yes, Cavendish Square keeps all customer processing specifications on file. You won't need to fill out library processing forms each time you order, we’ll do it for you. You can download a processing form here. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question5" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -69,7 +65,6 @@ export const Faq = () => {
                         <p>We offer free processing on all orders over $350.  On orders less than $350 the cost of barcodes and marc records is $25.00 per order. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question6" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -80,7 +75,6 @@ export const Faq = () => {
                         <p>Accelerated Reader quizzes are available for many of our books.  The AR Logo will appear where quizzes are available.  For more about AR, please click here. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question7" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -91,7 +85,6 @@ export const Faq = () => {
                         <p>Yes, all of our books are correlated to state and national standards. This web site’s correlation page will help you easily match our products with your state standards, and choose excellent selections for national standards. Otherwise, feel free to call us at 1-877-980-4450 and we’ll assist you in meeting your needs. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question8" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -102,7 +95,6 @@ export const Faq = () => {
                         <p>Cavendish Square commissions authors who are subject-matter experts and professional writers. If you’d like to learn more about an author’s background or if you wish to contact one of our authors, please click here to submit your contact information along with the author’s name. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question9" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -113,7 +105,6 @@ export const Faq = () => {
                         <p>Cavendish Square would like to hear from you—we’re dedicated to offering an ever-expanding array of solutions that will meet your needs. Any ideas, suggestions, or creative input that Cavendish Square can follow to help you achieve academic success, please feel free to share with our representatives. Artists and writers may also contact our Customer Service team for information about contributing to Cavendish. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question10" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -124,7 +115,6 @@ export const Faq = () => {
                         <p>Cavendish Square titles are also available as eBooks.  Also available are over 50 database titles.  Click here for more information on our eBooks and digital databases.  For a complete list of available digital resources, please call Customer Service at 1-877-980-4450 between 9AM and 5 PM EST, Monday through Friday. </p>
                     </div>
                 </div>
-                {/* __________________________ SECTIONS ___________________________ */}
 
                 
 
@@ -145,7 +135,6 @@ export const Faq = () => {
                         </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question12" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -170,7 +159,6 @@ export const Faq = () => {
                         </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question13" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -186,7 +174,6 @@ export const Faq = () => {
                         </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question14" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -197,7 +184,6 @@ export const Faq = () => {
                         <p>Our standard shipping time is 7 to 10 business days from the receipt of your purchase order for in-stock items. If your order requires expedited delivery, please call Customer Service at 1-877-980-4450. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question15" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -214,7 +200,6 @@ export const Faq = () => {
                         </ul><p />
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question16" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -226,8 +211,6 @@ export const Faq = () => {
                             We will accept returns on any material that is found to be unsatisfactory including improperly processed books, however, properly process books cannot be returned. Products must be returned within 60 days of purchase and must be accompanied by a copy of the invoice. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
-                {/* __________________________ SECTIONS ___________________________ */}
                 
                 <div className="single-div" style={{ marginTop: 40 }}>
                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -244,7 +227,6 @@ export const Faq = () => {
                         <p>We only apply taxes for states where applicable. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question18" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -257,8 +239,6 @@ export const Faq = () => {
                         <p>Additional shipping charges will be applied to all orders that are outside of the United States. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
-                {/* __________________________ SECTIONS ___________________________ */}
                 <div className="single-div" style={{ marginTop: 40 }}>
                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
                 RIGHTS &amp; USAGE
@@ -289,7 +269,6 @@ export const Faq = () => {
                         </p>
                     </div>
                 </div>
-                {/* __________________________ SECTIONS ___________________________ */}
                 
                 <div className="single-div" style={{ marginTop: 40 }}>
                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -306,7 +285,6 @@ export const Faq = () => {
                         <p>Our Representatives—who are experts in making sure that your acquisition needs are met—can be located by calling Customer Service at 1-877-980-4450. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question21" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -317,7 +295,6 @@ export const Faq = () => {
                         <p>Customer Service can help you directly with international purchases. Additional shipping charges will be added for international delivery. Please call Customer Service at 1-877-980-4450. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question22" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -327,7 +304,6 @@ export const Faq = () => {
                     <div className="answers">
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question23" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -338,8 +314,6 @@ export const Faq = () => {
                         <p>We produce several catalogs and brochures, covering our full line across all divisions. To download any brochures and catalogs in PDF form, or to request delivery of any of our current materials, please click here. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
-                {/* __________________________ SECTIONS ___________________________ */}
 
 
                
@@ -367,7 +341,6 @@ export const Faq = () => {
                             Customer Service Form  </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question25" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -378,8 +351,6 @@ export const Faq = () => {
                         We would like your Cavendish Square experience to be as user-friendly as possible, please feel free to submit a FAQ for inclusion in this section.
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
-                {/* __________________________ SECTIONS ___________________________ */}
 
                 <div className="single-div" style={{ marginTop: 40 }}>
                 <h1 className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer" style={{ textTransform: 'capitalize' }}>
@@ -403,7 +374,6 @@ export const Faq = () => {
                         </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question27" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -414,7 +384,6 @@ export const Faq = () => {
                         <p>If you have entered the correct username/password and you’re still unable to log in, please call Customer Service at 1-877-980-4450. We will also remind you of your username and password in case you forget. Otherwise, you can reset your password through our reset portal. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
                 <div>
                     <input type="checkbox" id="question28" name="q" className="questions" />
                     <div className="plus">+</div>
@@ -425,7 +394,6 @@ export const Faq = () => {
                         <p>All comments are welcome. Please submit your feedback, suggestions, or comments here.&nbsp; To read our privacy policy, please click here. </p>
                     </div>
                 </div>
-                {/* _____________________________________________________ */}
             </div>
             <br /><br /><br />
             <Footer />
