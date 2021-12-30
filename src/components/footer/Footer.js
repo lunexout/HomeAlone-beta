@@ -505,6 +505,7 @@ export const Footer = () => {
                 </p>
               </div>
             </div>
+            <br /><br /><br />
             <div className="footer-social-links">
               {" "}
               <svg
@@ -616,6 +617,7 @@ export const Footer = () => {
               </a>
             </div>
           </div>
+          
           <div className="footer-copyright">
             <div className="footer-copyright-wrapper">
               <p className="footer-copyright-text">
