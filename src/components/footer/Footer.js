@@ -100,7 +100,7 @@
 //             position: relative
 //         }
 
-//         .foot .foot_middle .service:hover .img {
+//         .foot .foot_middle .service:hover .img alt="home alone"alt="home alone"{
 //             background: url(online_service_active-4780add6bf.png) center no-repeat
 //         }
 
@@ -113,7 +113,7 @@
 //             width: 100%
 //         }
 
-//         .foot .foot_middle .service .img {
+//         .foot .foot_middle .service .img alt="home alone"{
 //             position: relative;
 //             z-index: 1;
 //             vertical-align: middle;
@@ -308,7 +308,7 @@ export const Footer = () => {
             <div className="footer-content-column">
               <div className="footer-logo">
                 <span className="hidden-link-text">LOGO</span>
-                < img src={photo1} width={200}/>
+                < img alt="home alone"src={photo1} width={200}/>
               </div>
               <div className="footer-menu">
                 <h2 className="footer-menu-name">{t("GetStarted")}</h2>
@@ -520,7 +520,7 @@ export const Footer = () => {
               <a
                 className="footer-social-link linkedin"
                 href="https://www.facebook.com/homealoneltd"
-                target="_blank"
+                 target="_blank"  rel="noreferrer"
               >
                 <span className="hidden-link-text">Facebook</span>
                 {/* <svg
@@ -544,7 +544,7 @@ export const Footer = () => {
               <a
                 className="footer-social-link twitter"
                 href="https://www.instagram.com/ltdhome.alone/"
-                target="_blank"
+                 target="_blank"  rel="noreferrer"
               >
                 <span className="hidden-link-text">Instagram</span>
 
@@ -559,7 +559,7 @@ export const Footer = () => {
               <a
                 className="footer-social-link youtube"
                 href="https://wa.me/+995577410510"
-                target="_blank"
+                 target="_blank"  rel="noreferrer"
               >
                 <span className="hidden-link-text">whatsapp</span>
                 <svg
@@ -574,7 +574,7 @@ export const Footer = () => {
               <a
                 className="footer-social-link github"
                 href="https://www.tiktok.com/@ltd.home.alone"
-                target="_blank"
+                 target="_blank"  rel="noreferrer"
               >
                 <span className="hidden-link-text">Tik Tok</span>
 
@@ -619,7 +619,7 @@ export const Footer = () => {
           <div className="footer-copyright">
             <div className="footer-copyright-wrapper">
               <p className="footer-copyright-text">
-                <a className="footer-copyright-link" href="#" target="_self">
+                <a className="footer-copyright-link" href="cyso.ge" target="_self">
                   {" "}
                   © Copyright - All Rights Reserved | Powered by Cyber Solution
                   LTD{" "}
