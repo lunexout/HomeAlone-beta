@@ -498,14 +498,11 @@ export const Footer = () => {
                 </h2>
                 <p className="footer-call-to-action-description">
                   {" "}
-                  Have a support question? Want to add SMS to your app? Need to
-                  talk to legal? Have a great minestrone soup recipe? Whatever
-                  the reason you need to chat, let us know and we'll give you a
-                  call.
+                  
                 </p>
               </div>
             </div>
-            <br /><br /><br />
+            <br />
             <div className="footer-social-links">
               {" "}
               <svg

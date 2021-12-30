@@ -4,10 +4,11 @@ import img2 from './home/2.jpg';
 import img3 from './home/3.jpg';
 import img4 from './home/4.jpg';
 
+import { BrowserView, MobileView } from "react-device-detect";
 
 
 import './../news/News.css';
-import { Footer } from '../footer/Footer';
+// import { Footer } from '../footer/Footer';
 import { useTranslation } from 'react-i18next';
 
 export const SmartHome = () => {
@@ -18,6 +19,38 @@ export const SmartHome = () => {
   }, [])
   return (
     <>
+
+<MobileView>
+      <div className="wrap">
+        <div className="blog">
+        <div className="wrap">
+        <div className="blog">
+          <div className="conteudo">
+            
+            <img alt="home alone"  src={img2} />
+            <hr />
+            <p>
+            {t('homesoltxt1')}         </p>
+            
+          </div>
+
+          <div className="conteudo">
+            
+            <img alt="home alone"  src={img1} />
+            <hr />
+            <p>
+            {t('homesoltxt2')}
+            </p>
+            
+          </div>
+
+        </div>
+      </div>
+         
+        </div>
+      </div>
+      </MobileView>
+      <BrowserView>
       <div>
         <section className="u-clearfix u-section-1" id="carousel_cceb">
           <div className="u-clearfix u-sheet u-sheet-1">
@@ -79,8 +112,10 @@ export const SmartHome = () => {
         </section>
 
       </div>
-      <Footer />
-    </>
+      </BrowserView>
+
+
+          </>
   )
 }
 

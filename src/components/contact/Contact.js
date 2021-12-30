@@ -7,6 +7,10 @@ import { MdPermPhoneMsg } from "react-icons/md";
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+
+import { FaTiktok } from "react-icons/fa";
+
+    import { FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 
 import './constacts.scss'
@@ -36,7 +40,12 @@ export const Contact = () => {
                     <div className="page-section">
                         <div className="container">
                             <div className="row align-items-center">
-                                <div className="col-lg-6 py-3">
+                                
+
+                                <div class="grid-containercont">
+  <div>
+      
+  <div className="col-lg-6 py-3">
                                     <h2 className="title-section"> {t('GetinTouch')}</h2>
                                     <div className="divider" />
                                     <br /><br />
@@ -49,6 +58,15 @@ export const Contact = () => {
                                             <FaFacebookF fontSize="20px" />
                                             <div className="tooltip">{t('Facebook')}</div>
                                         </a>
+                                        <a className="social-icon social-icon--facebook" href="https://www.tiktok.com/@ltd.home.alone">
+                                            <FaTiktok fontSize="20px" />
+                                            <div className="tooltip">{t('TikTok')}</div>
+                                        </a>
+                                        <a className="social-icon social-icon--facebook" href="https://wa.me/+995577410510">
+                                            <FaWhatsapp fontSize="20px" />
+                                            <div className="tooltip">{t('Whatsapp')}</div>
+                                        </a>
+
                                     </div><br /><br />
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Laborum ratione autem quidem veritatis!</p>
                                     <ul className="contact-list">
@@ -69,11 +87,15 @@ export const Contact = () => {
 
 
                                 </div>
-                                <div className="col-lg-6 py-3">
+
+  </div>
+  <div> <div className="col-lg-6 py-3">
                                     <h2 className="title-section">{t('mapsline')}</h2>
                                     <div className="divider" />
                                     <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.779890917539!2d41.614655820316976!3d41.64027186772413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067860ad78297a3%3A0x34459cc7869cc754!2zNDHCsDM4JzE4LjEiTiA0McKwMzcnMDAuMSJF!5e0!3m2!1ska!2sge!4v1637671754634!5m2!1ska!2sge" width={570} height={525} style={{ border: 0 }} allowFullScreen loading="lazy" />
-                                </div>
+                                </div></div>
+</div>
+                               
                             </div>
                         </div>
                     </div>

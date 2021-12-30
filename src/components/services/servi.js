@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import { Mainservices } from './Mainservices';
 
 export const Services = () => {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     React.useEffect(() => {
         window.scrollTo(0, 0)
@@ -14,7 +14,7 @@ export const Services = () => {
     return (
         <>
 <div style={{margin:"0 0 150px 0"}}><Mainservices /></div>
-            <section className="u-clearfix u-palette-1-light-3 u-section-6" id="carousel_2bc3">
+            {/* <section className="u-clearfix u-palette-1-light-3 u-section-6" id="carousel_2bc3">
                 <div className="u-clearfix u-sheet u-sheet-1">
                     <div className="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
                         <div className="u-gutter-0 u-layout">
@@ -215,7 +215,7 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </>
     )

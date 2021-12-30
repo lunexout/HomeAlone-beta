@@ -3,11 +3,12 @@ import img1 from './images/so_left1-660b28d697.jpg';
 import img2 from './images/so_left2-00979d4640.jpg';
 import img3 from './images/solution_bg7-f15c48d61f.jpg';
 import img4 from './images/solution_bg5-febe4b3d08.jpg';
+import { BrowserView, MobileView } from "react-device-detect";
 
 
 
 import './../news/News.css';
-import { Footer } from '../footer/Footer';
+// import { Footer } from '../footer/Footer';
 
 import { useTranslation } from 'react-i18next';
 
@@ -20,6 +21,34 @@ export const SmartOffice = () => {
   }, [])
   return (
     <>
+      
+
+      <MobileView>
+      <div className="wrap">
+        <div className="blog">
+          <div className="conteudo">
+            
+            <img alt="home alone"  src={img2} />
+            <hr />
+            <p>
+            {t('officesoltxt1')}            </p>
+            
+          </div>
+
+          <div className="conteudo">
+            
+            <img alt="home alone"  src={img1} />
+            <hr />
+            <p>
+            {t('officesoltxt2')}
+            </p>
+            
+          </div>
+
+        </div>
+      </div>
+      </MobileView>
+      <BrowserView>
       <div>
         <section className="u-clearfix u-section-1" id="carousel_cceb">
           <div className="u-clearfix u-sheet u-sheet-1">
@@ -81,7 +110,8 @@ export const SmartOffice = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      </BrowserView>
+      
     </>
   )
 }

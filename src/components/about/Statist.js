@@ -66,7 +66,7 @@ export const Statist = () => {
                   </div>
                   <h3>Current Projects</h3>
                   <span class="counter-value">
-                    <CountUp duration={20} end={100} />
+                    <CountUp duration={20} end={54} />
                   </span>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export const Statist = () => {
                   </div>
                   <h3>Finished Projects</h3>
                   <span class="counter-value">
-                    <CountUp duration={20} end={100} />
+                    <CountUp duration={20} end={168} />
                   </span>
                 </div>
               </div>
@@ -107,7 +107,7 @@ export const Statist = () => {
                   </div>
                   <h3>Costumers</h3>
                   <span class="counter-value">
-                    <CountUp duration={20} end={100} />
+                    <CountUp duration={20} end={222} />
                   </span>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export const Statist = () => {
                   </div>
                   <h3>Products</h3>
                   <span class="counter-value">
-                    <CountUp duration={20} end={100} />
+                    <CountUp duration={20} end={197} />
                   </span>
                 </div>
               </div>
