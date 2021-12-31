@@ -327,3 +327,10 @@
 .serv-boxes:hover {
   background-color: #aadad0;
 }
+
+
+@media (max-width: 900px){
+  .smart-home-banner {
+    background-image: url("./../../assets/3588002.jpg");
+  }
+}
