@@ -431,19 +431,6 @@ export const Footer = () => {
                       <p>{t("ABOUT")}</p>
                     </NavLink>
                   </li>
-                  <li
-                    id="menu-item-178960"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-178960"
-                  >
-                    <NavLink
-                      className="insidemenu-nav-item"
-                      activeClassName="nav-active"
-                      to="/FAQ"
-                      style={{ textTransform: "lowercase" }}
-                    >
-                      <p>FAQ</p>
-                    </NavLink>
-                  </li>
                 </ul>
               </div>
             </div>

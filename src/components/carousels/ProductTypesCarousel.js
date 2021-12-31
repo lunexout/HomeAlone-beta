@@ -10,7 +10,7 @@ const options = {
       items: 2.5,
   },
   450: {
-      items: 2.5,
+      items: 2,
   },
   800: {
       items: 4.5,

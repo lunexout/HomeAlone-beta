@@ -8,7 +8,12 @@ import CountUp from "react-countup";
 import { FaSuitcaseRolling } from "react-icons/fa";
 
 import { FaHeadSideVirus } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+
+
 export const Statist = () => {
+  const { t } = useTranslation();
+
   <script
     type="text/javascript"
     src="https://code.jquery.com/jquery-1.12.0.min.js"
@@ -49,7 +54,7 @@ export const Statist = () => {
           className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
           style={{ textTransform: "capitalize" }}
         >
-          Our Project Statistics
+          {t('Our Project Statistics')}
         </h1>
       </div>
 
@@ -64,7 +69,7 @@ export const Statist = () => {
                   <div class="counter-icon">
                     <FaGlobe />
                   </div>
-                  <h3>Current Projects</h3>
+                  <h3>{t('Current Projects')}</h3>
                   <span class="counter-value">
                     <CountUp duration={20} end={54} />
                   </span>
@@ -84,7 +89,7 @@ export const Statist = () => {
                   <div class="counter-icon">
                     <FaRocket />
                   </div>
-                  <h3>Finished Projects</h3>
+                  <h3>{t('Finished Projects')}</h3>
                   <span class="counter-value">
                     <CountUp duration={20} end={168} />
                   </span>
@@ -105,7 +110,7 @@ export const Statist = () => {
                   <div class="counter-icon">
                     <FaSuitcaseRolling />
                   </div>
-                  <h3>Costumers</h3>
+                  <h3>{t('Costumers')}</h3>
                   <span class="counter-value">
                     <CountUp duration={20} end={222} />
                   </span>
@@ -124,7 +129,7 @@ export const Statist = () => {
                   <div class="counter-icon">
                     <FaHeadSideVirus />
                   </div>
-                  <h3>Products</h3>
+                  <h3>{t('Products')}</h3>
                   <span class="counter-value">
                     <CountUp duration={20} end={197} />
                   </span>
