@@ -41,7 +41,6 @@ export const BannerCarousel = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
           className="mySwiper"
         >
           {Banners.map((el,index) => {
