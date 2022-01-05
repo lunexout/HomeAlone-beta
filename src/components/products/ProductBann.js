@@ -9,6 +9,7 @@ import logoprod5 from './../../assets/Curtain_4ae1b6b39b529.png';
 import logoprod6 from './../../assets/hvac.png';
 import logoprod7 from './../../assets/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png';
 import logoprod8 from './../../assets/home.png';
+import logoprod9 from './../../assets/hotel.png';
 export const ProductBann = () => {
     return (
         <div>
@@ -23,6 +24,7 @@ export const ProductBann = () => {
                     { mainImage: logoprod6, name: 'Temperature Control', type: 'Smart_HVAC' },
                     { mainImage: logoprod7, name: 'Home Entertaiment', type: 'Home_Entertaiment' },
                     { mainImage: logoprod8, name: 'Domestic Appliances', type: 'Domestic_Appliances' },
+                    { mainImage: logoprod9, name: 'Hotel System', type: 'Hotel_System' },
                 ]} />
             </div>
         </div>
