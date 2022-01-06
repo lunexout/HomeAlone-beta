@@ -18,6 +18,7 @@ import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
 import Autoslider from "../carousels/Autoslider";
 import { Statist } from "../about/Statist";
+import { Helmet } from "react-helmet";
 
 
 export const Home = () => {
@@ -35,6 +36,10 @@ export const Home = () => {
 
   return (
     <>
+    <Helmet>
+    <meta name="keywords" content="smart home, home alone, smart security, smart sensors, smart audio, Smart Curtain, Automatic, Home Entertaiment, Modern, Colors, Sensor, Sensors, Robot, Leak, Detection, Smart, Lightning, vacuum cleaner, lighting control, window sensors, Alexa, domestic appliance, motion detection, AI, Iot Temperature Control, Curtain, RGB, camera monitoring, appliance control, modern home, door sensors, smart tech, control, smoke sensors, smart light, co sensors, smart lighting, door access, მტვერსასრუტი, მარტო სახლში, რობოტი, მართვა, სმარტი, განათება, ფარდა, კონტროლი, ნათელი, ჭკვიანი სახლი, სენსორი, თანამედროვე ფერები, სენსორები, ჭკვიანი, ჭკვიანი სენსორი, Iot სისტემები, wifi კამერით სახლის მონიტორინგი, ალექსა, აუტომატური, გაზის co სენსორი, განათების კონტროლი, გართობის სისტემა, თანამედროვე სახლი, კარის დაშვების სისტემა, კარის სენსორები, კვამლის სენსორი, მსოფლიოს ნებისმიერი წერტილიდან, საყოფაცხოვრებო ტექნიკის კონტროლი, სახლის კინო თეატრი, სახლის ტექნიკა, სახლის ტექნოლოგია, ტემპერატურის მართვა, ფანჯრების სენსორები, ფერადი განათება, შუქის დეტექტორი, წყლის გაჟონვის სენსორი, ჭკვიანი აუდიო, ჭკვიანი განათება, ჭკვიანი დაცვა, ჭკვიანი დაცვის სისტემა, ჭკვიანი დინამიკი, ჭკვიანი სისტემები, ჭკვიანი ტექნოლოგია, ჭკვიანი ფარდა, ჭკვიანი ფარდის სისტემა"/>
+    </Helmet>
+
       {spinner ? (
         <>
           <div style={{ height: '100vh', backgroundColor: '#20232A', display: 'flex', justifyContent: 'center', alignItems: 'center', borderTop: '4px solid #32363E' }}>
