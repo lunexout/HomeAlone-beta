@@ -24,7 +24,7 @@ export const ProductBann = () => {
                     { mainImage: logoprod6, name: 'Temperature Control', type: 'Smart_HVAC' },
                     { mainImage: logoprod7, name: 'Home Entertaiment', type: 'Home_Entertaiment' },
                     { mainImage: logoprod8, name: 'Domestic Appliances', type: 'Domestic_Appliances' },
-                    { mainImage: logoprod9, name: 'Hotel System', type: 'Hotel_System' },
+                    { mainImage: logoprod9, name: 'Hotel System', type: 'hotel_system' },
                 ]} />
             </div>
         </div>
