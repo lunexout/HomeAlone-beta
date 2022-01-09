@@ -17,7 +17,13 @@ export const Products = () => {
     useEffect(() => {
         // window.scrollTo(0, 0);
         setSpinner(true);
+        
         axios.get(`${apiJSON.API_URL}api/getallprod`).then(r => {
+            r.data.sort(function(a, b) {
+                var textA = a.type;
+                var textB = b.type;
+                return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+            });
             console.log(r.data)
             // setData(r.data)
             if (localStorage.getItem("lang") === "ru") {
@@ -28,11 +34,16 @@ export const Products = () => {
                 setData(r.data.filter((item) => [item, item.name = item.nameGE, item.description = item.descriptionGE]))
             )
             setSpinner(false);
+            
         })
 
     }, [])
+    
+    
+
 
     const listItems = data.map((item) =>
+    
         <NavLink to={`/products/${item._id}`} style={{ textDecoration: 'none' }}>
             <div className="card" key={item.id}>
                 <div className="card_img">
