@@ -15,7 +15,7 @@ export const Groups = ({ match }) => {
         window.scrollTo(0, 0);
         setSpinner(true);
         axios.get(`${apiJSON.API_URL}api/getconcrettypeprod/${match.params.group_id}`).then(r => {
-            r.data.sort(function(a, b) {
+            r.data[0].products.sort(function(a, b) {
                 var textA = a.type;
                 var textB = b.type;
                 return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
@@ -57,7 +57,7 @@ export const Groups = ({ match }) => {
                     </>
                 ) : (
                     <div className="main_content">
-                        {console.log(data)}
+                        {/* {console.log(data)} */}
                         {listItems}
                     </div>
                 )}
