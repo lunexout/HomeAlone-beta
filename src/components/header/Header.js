@@ -131,6 +131,9 @@ export const Header = () => {
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{ textDecoration: 'none' }}>
                                         <p>{t('Domestic Appliances')}</p>
                                     </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/hotel_system' style={{ textDecoration: 'none' }}>
+                                        <p>{t('Hotel System')}</p>
+                                    </NavLink>
                                 </div>
                                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                                     <h3>{t('Audio Products')}</h3>
