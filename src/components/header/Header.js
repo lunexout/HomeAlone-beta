@@ -203,13 +203,14 @@ export const Header = () => {
               <div className="full-box-div">
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <NavLink
-                        className="nav-item"
-                        activeClassName="nav-active"
-                        to="/products/group/all-Audio"
-                        style={{ textDecoration: "none" }}
-                      >
-                        <p>{t("Audio Products")}</p>
-                      </NavLink>
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/hotel_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Hotel System")}</p>
+                  </NavLink>
+
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
@@ -226,6 +227,8 @@ export const Header = () => {
                   >
                     <p>{t("Smart Lighting")}</p>
                   </NavLink>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
@@ -250,6 +253,8 @@ export const Header = () => {
                   >
                     <p>{t("Smart HVAC")}</p>
                   </NavLink>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
@@ -269,10 +274,10 @@ export const Header = () => {
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
-                    to="/products/group/hotel_system"
+                    to="/products/group/all-Audio"
                     style={{ textDecoration: "none" }}
                   >
-                    <p>{t("Hotel System")}</p>
+                    <p>{t("Audio Products")}</p>
                   </NavLink>
                 </div>
                 <div
@@ -283,8 +288,7 @@ export const Header = () => {
                     padding: 0,
                     borderRadius: 25,
                   }}
-                >
-                </div>
+                ></div>
               </div>
             </div>
           </>
