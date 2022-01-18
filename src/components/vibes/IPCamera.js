@@ -14,34 +14,7 @@ import photo8 from './img/bg11-0bf87b2f7a.jpg'
 export const IPCamera = () => {
     return (
         <div>
-            <style
-                dangerouslySetInnerHTML={{
-                    __html: `
-                    @media screen and (min-width:1760px) {
-                        html {
-                            font-size: 100px
-                        }
-                    }
-                    
-                    @media (min-width:1360px) and (max-width:1760px) {
-                        html {
-                            font-size: calc((100vw - 160px)/ 16)
-                        }
-                    }
-                    
-                    @media screen and (max-width:1360px) {
-                        html {
-                            font-size: 75px
-                        }
-                    }
-                    
-                    @media screen and (min-width:1920px) {
-                        html{
-                            font-size: calc(83.34vw / 16)
-                        }
-                    }        `
-                }}
-            />
+            
             <div className="yt__container">
                 <div className="yt__sec1 s__bg">
                     <div className="sec1__content">

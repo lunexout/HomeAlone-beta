@@ -6,34 +6,7 @@ import { Footer } from './../footer/Footer'
 export const MixPadSAllinoneGatewayPanel = () => {
     return (
         <div>
-            <style
-                dangerouslySetInnerHTML={{
-                    __html: `
-                    @media screen and (min-width:1760px) {
-                        html {
-                            font-size: 100px
-                        }
-                    }
-                    
-                    @media (min-width:1360px) and (max-width:1760px) {
-                        html {
-                            font-size: calc((100vw - 160px)/ 16)
-                        }
-                    }
-                    
-                    @media screen and (max-width:1360px) {
-                        html {
-                            font-size: 75px
-                        }
-                    }
-                    
-                    @media screen and (min-width:1920px) {
-                        html{
-                            font-size: calc(83.34vw / 16)
-                        }
-                    }        `
-                }}
-            />
+            
 
             <div className="page_mixpads">
                 <div className="banner lazy sec1" data-original="https://static.orvibo.com/guanwang_second/front/en/images/mixpads/sec1-84b3c35c9f.jpg" style={{ backgroundImage: 'url("https://static.orvibo.com/guanwang_second/front/en/images/mixpads/sec1-84b3c35c9f.jpg")' }}>
