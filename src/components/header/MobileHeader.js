@@ -117,8 +117,9 @@ export const MobileHeader = () => {
                         <h5 style={{color: '#fff'}} onClick={() => closeProdMenu()}>{t('Back')}</h5>
                             <div style={{display:'flex', justifyContent:'space-between', alignItems: 'flex-start', flexDirection: 'row', marginTop: 40,marginBottom: 40}}>
                                     <div style={{display:'flex',justifyContent:'center', alignItems: 'flex-start', flexDirection: 'column'}}>
-                                    <p onClick={() => setIsAudioOpen(true)}>{t('Audio Products')} {`>`}</p>
-
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/all-Audio' style={{textDecoration: 'none'}}>
+                                    <p>{t('Audio Products')}</p>
+                                    </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Interaction_Center' style={{textDecoration: 'none'}}>
                                     <p>{t('Interaction Center')}</p>
                                     </NavLink>
@@ -143,6 +144,9 @@ export const MobileHeader = () => {
                                     </NavLink>
                                     <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/Domestic_Appliances' style={{textDecoration: 'none'}}>
                                     <p>{t('Domestic Appliances')}</p>
+                                    </NavLink>
+                                    <NavLink className='nav-item' activeClassName="nav-active" to='/products/group/hotel_system' style={{textDecoration: 'none'}}>
+                                    <p>{t('Hotel System')}</p>
                                     </NavLink>
 
                                 </div>

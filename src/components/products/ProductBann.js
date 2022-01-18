@@ -16,7 +16,7 @@ export const ProductBann = () => {
             <div>
 
                 <ProductTypesCarousel ProductList={[
-                    { mainImage: logoprod1, name: 'Audio Products', type: 'Audio_Products' },
+                    { mainImage: logoprod1, name: 'Audio Products', type: 'all-Audio' },
                     { mainImage: logoprod2, name: 'Interaction Center', type: 'Interaction_Center' },
                     { mainImage: logoprod3, name: 'Smart Lighting', type: 'Smart_Lighting' },
                     { mainImage: logoprod4, name: 'Home Security', type: 'Home_Security' },
