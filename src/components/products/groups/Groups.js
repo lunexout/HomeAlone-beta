@@ -21,15 +21,16 @@ export const Groups = ({ match }) => {
 
         setSpinner(false);
       });
-      // .sort(function (a, b) {
-        //   var textA = a.type;
-        //   var textB = b.type;
-        //   return textA < textB ? -1 : textA > textB ? 1 : 0;
-        // })
   }, [match.params.group_id]);
   const listItems = data.map((item) =>
     item.products.length > 0 ? (
-      item.products.map((item) => {
+      item.products
+        .sort(function (a, b) {
+          var textA = a.type;
+          var textB = b.type;
+          return textA < textB ? -1 : textA > textB ? 1 : 0;
+        })
+        .map((item) => {
           item.unicProduct && console.log(item.unicProduct);
           return (
             <NavLink
