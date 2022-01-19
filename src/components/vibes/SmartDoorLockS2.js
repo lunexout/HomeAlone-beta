@@ -1,7 +1,7 @@
 import React from 'react'
 import './SmartDoorLockS2.css'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 import photo1 from './img/sec1-295ad1a8b1.png'
 import photo2 from './img/sec2-74daa2d6eb.png'
@@ -20,7 +20,34 @@ import photo13 from './img/sec14-053f13edbe.png'
 export const SmartDoorLockS2 = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="mixpad__s2">
                 <div className="s2__banner s__bg">
                     <div className="banner__content">
@@ -114,7 +141,8 @@ export const SmartDoorLockS2 = () => {
                     <div className="sec14__bg s__bg lazy" style={{ backgroundImage: `url(${photo13})` }}>
                     </div>
                 </div>
-            </div>          <Footer />
+            </div>        
+              {/* <Footer /> */}
 
         </div>
     )

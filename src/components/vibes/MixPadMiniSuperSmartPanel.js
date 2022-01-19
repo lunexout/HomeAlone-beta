@@ -12,13 +12,40 @@ import vid9 from './img/sec5_3-3f2cce9470.png'
 import vid10 from './img/sec5.mp4'
 import vid13 from './img/M7mxwABFyt4A.mp4'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 export const MixPadMiniSuperSmartPanel = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="mixpadMiniPage">
                 <div className="banner">
                     <div className="text">
@@ -182,7 +209,7 @@ export const MixPadMiniSuperSmartPanel = () => {
 
 
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

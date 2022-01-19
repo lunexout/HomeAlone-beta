@@ -3,7 +3,7 @@ import './IPCamera.css'
 import photo1 from './img/bg3-8d876ab46b.png'
 
 import photo2 from './img/bg4-a9ad58dac1.png'
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 import photo3 from './img/bg5-f6b42bb1de.png'
 import photo4 from './img/bg7-42ea7ab39c.png'
@@ -14,7 +14,34 @@ import photo8 from './img/bg11-0bf87b2f7a.jpg'
 export const IPCamera = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="yt__container">
                 <div className="yt__sec1 s__bg">
                     <div className="sec1__content">
@@ -174,7 +201,8 @@ export const IPCamera = () => {
                         </div>
                     </div>
                 </div>
-            </div>          <Footer />
+            </div>         
+             {/* <Footer /> */}
 
         </div>
     )

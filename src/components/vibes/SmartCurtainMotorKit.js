@@ -1,12 +1,39 @@
 import React from 'react'
 import './SmartCurtainMotorKit.css'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 export const SmartCurtainMotorKit = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <section className="sec1">
                 <h1 style={{ color: '#000000' }}>SMART CURTAIN MOTOR KIT</h1>
                 <p>Remote Control | Voice Control | Silent Design | Easy Installation</p>
@@ -62,7 +89,8 @@ export const SmartCurtainMotorKit = () => {
                         </p>
                     </div>
                 </div>
-            </section>          <Footer />
+            </section>        
+              {/* <Footer /> */}
 
         </div>
     )

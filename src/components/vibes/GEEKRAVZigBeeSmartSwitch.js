@@ -1,6 +1,6 @@
 import React from 'react'
 import './GEEKRAVZigBeeSmartSwitch.css'
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 export const GEEKRAVZigBeeSmartSwitch = () => {
     return (
@@ -8,8 +8,28 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
             <style
                 dangerouslySetInnerHTML={{
                     __html: `
-                     ul{
-                        list-style-type: none;
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
                     }        `
                 }}
             />
@@ -279,7 +299,8 @@ export const GEEKRAVZigBeeSmartSwitch = () => {
                         </ul>
                     </div>
                 </div>
-            </div>          <Footer />
+            </div>          
+            {/* <Footer /> */}
 
         </div>
     )

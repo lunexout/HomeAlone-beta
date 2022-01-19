@@ -1,11 +1,38 @@
 import React from 'react'
 import './SmartCurtainMotor.css'
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 export const SmartCurtainMotor = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="body_content" style={{ fontSize: '42.8125px' }}>
                 <section className="kaihe_sec1">
                     <h1>Smart Curtain Motor</h1>
@@ -202,7 +229,8 @@ export const SmartCurtainMotor = () => {
                         </div>
                     </div>
                 </section>
-            </div>          <Footer />
+            </div>         
+             {/* <Footer /> */}
 
         </div>
     )

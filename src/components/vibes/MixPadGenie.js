@@ -19,13 +19,40 @@ import cid11 from './img/mixpad_elf_top.mp4'
 import cid12 from './img/mixpad_elf_color.mp4'
 import cid13 from './img/mixpad_elf_footer.mp4'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 export const MixPadGenie = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="elf">
                 <div className="elf__banner s__bg"><video id="banner-video" className="banner__video" src={cid1} autoPlay preload muted />
                     <div id="banner-info" className="banner__info">
@@ -88,7 +115,7 @@ export const MixPadGenie = () => {
                 </div>
 
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div >
     )

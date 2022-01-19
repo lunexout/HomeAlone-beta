@@ -1,11 +1,39 @@
 import React from 'react'
 import './DoorWindowSensor.css'
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 export const DoorWindowSensor = ({ match }) => {
     return (
         <div >
             <html>
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
                 <section className="free_model clear">
                     <div className="dw_sec_1">
 
@@ -134,7 +162,8 @@ export const DoorWindowSensor = ({ match }) => {
                         <p className="normal_p">Your private customized.</p>
                     </div>
                 </section>
-            </html>          <Footer />
+            </html>         
+             {/* <Footer /> */}
 
         </div >
     )

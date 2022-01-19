@@ -4,7 +4,7 @@ import photo1 from './img/en_bg2_01-6c3424cdf2.jpg'
 import photo2 from './img/bg2_02-240f11ec25.jpg'
 import PHOTO3 from './img/bg2_03-c21368682d.jpg'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 
@@ -14,10 +14,30 @@ export const AlloneProRFIRHub = () => {
         <div>
             <style
                 dangerouslySetInnerHTML={{
-                    __html: ` 
-                    ul{
-                        list-style-type: none;
-                    }       `
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
                 }}
             />
             <section className="free_model clear">
@@ -137,7 +157,7 @@ export const AlloneProRFIRHub = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

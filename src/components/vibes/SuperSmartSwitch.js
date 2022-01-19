@@ -19,12 +19,39 @@ import photo15 from './img/sec7_3-1471fdabc8.png'
 import photo16 from './img/sec7_4-09edd34032.png'
 
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 export const SuperSmartSwitch = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div className="switch__container">
                 <div className="banner">
                     <div className="content"><img src={photo1} alt="" />
@@ -197,7 +224,8 @@ export const SuperSmartSwitch = () => {
                         </div>
                     </div>
                 </div>
-            </div>          <Footer />
+            </div>          
+            {/* <Footer /> */}
 
         </div>
     )

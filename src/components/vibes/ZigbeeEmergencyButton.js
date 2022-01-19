@@ -2,7 +2,7 @@ import React from 'react'
 import './ZigbeeEmergencyButton.css'
 
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 import photo1 from './img/sec3-a70c9766cb.png'
@@ -19,8 +19,28 @@ export const ZigbeeEmergencyButton = () => {
             <style
                 dangerouslySetInnerHTML={{
                     __html: `
-                     ul{
-                        list-style-type: none;
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
                     }        `
                 }}
             />
@@ -75,7 +95,7 @@ export const ZigbeeEmergencyButton = () => {
                     call parents. Now just one press on the button, parents will get alarm<br />message and take action at once.
                 </p><img alt="Home Alone" src={photo3} id="iphone6_2" />
             </section>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

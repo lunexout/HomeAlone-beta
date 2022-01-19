@@ -11,7 +11,7 @@ import photo7 from './img/xf_circle.png'
 import photo8 from './img/xf_music.png'
 import photo9 from './img/new1-73e9d8f842.jpg'
 import photo10 from './img/new2-5142243776.jpg'
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 
@@ -19,14 +19,33 @@ export const MagicCubeWifiIRController = () => {
   return (
     <div>
       <style
-        dangerouslySetInnerHTML={{
-          __html: `
-                     
-                    ul{
-                      list-style-type: none;
-                  }        `
-        }}
-      />
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
       <section className="free_model clear">
         <section className="xf_page xf_first_en">
           <div className="xf_container">
@@ -196,7 +215,8 @@ export const MagicCubeWifiIRController = () => {
             </div>
           </div>
         </section>
-      </section>          <Footer />
+      </section>         
+       {/* <Footer /> */}
 
     </div>
   )

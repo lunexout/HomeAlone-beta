@@ -15,13 +15,40 @@ import photo4 from './img/bg_15-a135483b7f.png'
 
 import photo7 from './img/bg_16-a7dd153171.png'
 
-import { Footer } from './../footer/Footer'
+// import { Footer } from './../footer/Footer'
 
 
 export const SmartLEDLight = () => {
     return (
         <div>
-            
+            <style
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    @media screen and (min-width:1760px) {
+                        html {
+                            font-size: 100px
+                        }
+                    }
+                    
+                    @media (min-width:1360px) and (max-width:1760px) {
+                        html {
+                            font-size: calc((100vw - 160px)/ 16)
+                        }
+                    }
+                    
+                    @media screen and (max-width:1360px) {
+                        html {
+                            font-size: 75px
+                        }
+                    }
+                    
+                    @media screen and (min-width:1920px) {
+                        html{
+                            font-size: calc(83.34vw / 16)
+                        }
+                    }        `
+                }}
+            />
             <div class="downlight">
                 <div class="led__banner s__bgsll">
                     <div class="secsll__subtitle">Full House Lighting Above 100㎡</div>
@@ -133,7 +160,8 @@ export const SmartLEDLight = () => {
                         </div>
                     </div>
                 </div>
-            </div>          <Footer />
+            </div>      
+                {/* <Footer /> */}
 
         </div>
     )
