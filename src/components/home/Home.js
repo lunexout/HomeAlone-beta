@@ -11,7 +11,7 @@ import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
-
+import df from "./lhajWAwgNDMA.gif"
 import { useTranslation } from 'react-i18next';
 import { Partnersfor } from "../partners/Partnersfor";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
@@ -126,6 +126,12 @@ export const Home = () => {
               </p>
             </div>
           </div>
+
+          <div class="boxgif">
+            <img src={df} alt="Example gif" style={{width: '100%', height: "auto"}}/>
+        </div>
+
+
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
