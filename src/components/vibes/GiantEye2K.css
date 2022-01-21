@@ -1,0 +1,928 @@
+.sec__desc,
+.sec__title {
+  font-family: PingFang SC;
+  text-align: center;
+}
+
+.d__sec {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.s__bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d__sec {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.1rem;
+}
+
+.sec__title {
+  font-size: 0.48rem;
+  font-weight: 800;
+  line-height: 0.76rem;
+  color: #fff;
+}
+
+.sec__desc {
+  margin-top: 0.3rem;
+  font-size: 0.28rem;
+  font-weight: 500;
+  line-height: 0.48rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 1760px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1760px) {
+  html {
+    font-size: calc((100vw - 160px) / 16);
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  html {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: calc(83.34vw / 16);
+  }
+}
+
+.camera__container {
+  background-color: #000;
+}
+
+.camera__container .sec__video {
+  display: block;
+}
+
+.camera__container .sec__title {
+  font-size: 0.54rem;
+  color: #fff;
+}
+
+.camera__container .sec__desc {
+  margin-top: 0.3rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.camera__container .camera__banner {
+  position: relative;
+  height: 10.33rem;
+  background-image: url(banner-e7b3fa8eaf.png);
+}
+
+.camera__container .camera__banner .banner__content {
+  position: absolute;
+  top: 3.27rem;
+  left: 2.7rem;
+  font-family: PingFang SC;
+}
+
+.camera__container .camera__banner .banner__title {
+  line-height: 0.78rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  background-image: linear-gradient(
+    158deg,
+    #abd5ff 0,
+    #fbeaf0 49%,
+    #b9ecff 100%
+  );
+  background-image: -webkit-linear-gradient(
+    158deg,
+    #abd5ff 0,
+    #fbeaf0 49%,
+    #b9ecff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.camera__container .camera__banner .banner__desc {
+  margin-top: 0.55rem;
+  font-size: 0.2rem;
+  font-weight: 400;
+  line-height: 0.36rem;
+  color: #fff;
+}
+
+.camera__container .camera__banner .banner__logo {
+  margin-top: 2.35rem;
+  width: 3.37rem;
+  height: 0.5rem;
+  background-image: url(banner_logo-221925fbc6.png);
+}
+
+.camera__container .sec1 {
+  position: relative;
+  height: 10.49rem;
+}
+
+.camera__container .sec1 .sec1__content {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0;
+  width: 100%;
+  font-family: PingFang SC;
+  text-align: center;
+}
+
+.camera__container .sec1 .sec1__title {
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 0.76rem;
+  color: #fff;
+  letter-spacing: 0.04rem;
+}
+
+.camera__container .sec1 .sec1__desc {
+  margin-top: 0.23rem;
+  font-size: 0.22rem;
+  font-weight: 500;
+  line-height: 0.36rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.camera__container .sec2 {
+  padding-top: 1.2rem;
+  padding-bottom: 1.47rem;
+  box-sizing: border-box;
+}
+
+.camera__container .sec2 .sec2__bg {
+  margin-top: 0.9rem;
+  width: 13.61rem;
+  height: 7.99rem;
+}
+
+.camera__container .sec4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.2rem;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.camera__container .sec4 .sec4__1 {
+  display: flex;
+  margin-top: 0.75rem;
+  padding-bottom: 1.36rem;
+}
+
+.camera__container .sec4 .sec4__video {
+  width: 10.81rem;
+  height: 7.67rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.camera__container .sec4 .sec__video {
+  width: 100%;
+  height: 100%;
+}
+
+.camera__container .sec4 .sec4__1_right {
+  position: relative;
+  width: 4.95rem;
+  height: 7.67rem;
+  margin-left: 0.4rem;
+  background-color: #121314;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.camera__container .sec4 .right__content {
+  position: absolute;
+  left: 0;
+  top: 0.64rem;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: PingFang SC;
+  color: #fff;
+}
+
+.camera__container .sec4 .content__title {
+  font-size: 0.22rem;
+  font-weight: 800;
+  line-height: 0.36rem;
+}
+
+.camera__container .sec4 .content__desc {
+  margin-top: 0.23rem;
+  text-align: center;
+  font-size: 0.16rem;
+  font-weight: 400;
+  line-height: 0.24rem;
+}
+
+.camera__container .sec4 .prd__box {
+  position: absolute;
+  left: 0.99rem;
+  top: 1.47rem;
+  width: 2.66rem;
+  height: 2.66rem;
+}
+
+.camera__container .sec4 .radio__item {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  overflow: hidden;
+  animation-name: circleWave;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.camera__container .sec4 .radio__item1 {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 76, 146, 0.36);
+}
+
+.camera__container .sec4 .radio__item2 {
+  left: 0.36rem;
+  top: 0.36rem;
+  width: 1.94rem;
+  height: 1.94rem;
+  background-color: rgba(27, 76, 146, 0.54);
+  animation-delay: 0.5s;
+}
+
+.camera__container .sec4 .radio__item3 {
+  left: 0.69rem;
+  top: 0.69rem;
+  width: 1.28rem;
+  height: 1.28rem;
+  background-color: rgba(27, 76, 146, 0.72);
+  animation-delay: 1s;
+}
+
+.camera__container .sec4 .prd__camera {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 0.56rem;
+  height: 0.82rem;
+  background-image: url(sec4_4-ab094f1782.png);
+}
+
+.camera__container .sec4 .right__bg {
+  position: absolute;
+  bottom: 0;
+  left: 0.1rem;
+  width: 4.36rem;
+  height: 3.64rem;
+}
+
+.camera__container .sec4 .sec4__2 {
+  margin-top: 1.09rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+}
+
+.camera__container .sec4 .sec4__item1 {
+  width: 6.3rem;
+}
+
+.camera__container .sec4 .item1__bg {
+  width: 100%;
+  height: 9.3rem;
+}
+
+.camera__container .sec4 .item__desc {
+  margin-top: 0.37rem;
+  font-size: 0.2rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 0.36rem;
+  color: #fff;
+}
+
+.camera__container .sec4 .sec4__item2 {
+  margin-left: 0.57rem;
+  padding-top: 1.34rem;
+  width: 9.14rem;
+}
+
+.camera__container .sec4 .sec4__item2 .item__desc {
+  margin-top: 0.58rem;
+}
+
+.camera__container .sec4 .item2__bg {
+  width: 100%;
+  height: 5.93rem;
+}
+
+.camera__container .sec5 {
+  padding-top: 1.32rem;
+  padding-bottom: 2.02rem;
+  background-color: #101010;
+}
+
+.camera__container .sec5 .sec5__bg_1 {
+  margin: 1.06rem auto 1.85rem;
+  width: 16rem;
+  height: 7.7rem;
+}
+
+.camera__container .sec5 .sec5__all {
+  position: relative;
+  margin-top: 0.66rem;
+  width: 16rem;
+  height: 5.47rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.camera__container .sec5 .all__bg {
+  width: 23.99rem;
+  height: 100%;
+  transform: translate(-25%, 0);
+  transition: all 0.66s ease-in-out;
+}
+
+.camera__container .sec5 .sec5__arrow {
+  position: absolute;
+  left: 7.16rem;
+  bottom: 0.48rem;
+  z-index: 5;
+  width: 1.69rem;
+  height: 1.69rem;
+  background-image: url(icon_arrow-445ec5fa28.png);
+}
+
+.camera__container .sec5 .arrow__text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 0.4rem;
+  font-size: 0.18rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 0.4rem;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.camera__container .sec5 .arrow__text.left {
+  left: -0.48rem;
+  padding-right: 0.6rem;
+  padding-left: 0.1rem;
+}
+
+.camera__container .sec5 .arrow__text.right {
+  right: -0.48rem;
+  padding-left: 0.6rem;
+  padding-right: 0.1rem;
+}
+
+.camera__container .sec6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 18rem;
+  padding-top: 1.2rem;
+}
+
+.camera__container .sec6 .feature__list {
+  margin-top: 0.52rem;
+  display: flex;
+  align-items: center;
+}
+
+.camera__container .sec6 .feature__item {
+  margin-right: 2rem;
+}
+
+.camera__container .sec6 .feature__item:last-of-type {
+  margin-right: 0;
+}
+
+.camera__container .sec6 .feature__title {
+  font-size: 0.56rem;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 0.78rem;
+  color: #57d1ff;
+  text-align: center;
+}
+
+.camera__container .sec6 .feature__desc {
+  margin-top: 0.19rem;
+  font-size: 0.24rem;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 0.32rem;
+  color: #fff;
+  text-align: center;
+}
+
+.camera__container .sec6 .sec6__video {
+  position: absolute;
+  bottom: 0.63rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.camera__container .sec6 .video__list {
+  display: flex;
+}
+
+.camera__container .sec6 .video__item {
+  position: relative;
+  margin-right: 0.22rem;
+  width: 4.6rem;
+  height: 6.05rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.camera__container .sec6 .video__item:last-of-type {
+  margin-right: 0;
+}
+
+.camera__container .sec6 .video__title {
+  position: absolute;
+  left: 0;
+  bottom: 0.7rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.26rem;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 0.36rem;
+  color: #fff;
+}
+
+.camera__container .sec6 .video__desc {
+  margin-top: 0.56rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.16rem;
+  font-family: PingFang SC;
+  font-weight: 700;
+  line-height: 0.22rem;
+  color: #fff;
+}
+
+.camera__container .sec7 {
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.camera__container .sec7 .sec7__bg {
+  margin-top: 0.9rem;
+  width: 15.6rem;
+  height: 8rem;
+}
+
+.camera__container .sec8 .sec8__bg {
+  position: relative;
+  margin-top: 0.56rem;
+  width: 9.88rem;
+  height: 15.96rem;
+}
+
+.camera__container .sec8 .dialog_1 {
+  position: absolute;
+  left: -1.38rem;
+  top: 9.92rem;
+  width: 5.56rem;
+  height: 2.38rem;
+}
+
+.camera__container .sec8 .dialog_2 {
+  position: absolute;
+  right: -0.78rem;
+  top: 4.8rem;
+  width: 4.97rem;
+  height: 2.91rem;
+}
+
+.camera__container .sec8 .dialog_3 {
+  position: absolute;
+  left: -2.1rem;
+  top: 3.2rem;
+  width: 5.56rem;
+  height: 2.86rem;
+}
+
+.camera__container .sec8 .dialog_4 {
+  position: absolute;
+  right: -1.36rem;
+  top: 7.66rem;
+  width: 4.73rem;
+  height: 2.86rem;
+}
+
+.camera__container .sec9 .sec9__bg {
+  margin-top: 0.9rem;
+  width: 16rem;
+  height: 6.6rem;
+}
+
+.camera__container .sec10 {
+  margin-top: 2.25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.camera__container .sec10 .sec10__content {
+  width: 16rem;
+}
+
+.camera__container .sec10 .sec__title {
+  text-align: left;
+}
+
+.camera__container .sec10 .sec10__swiper {
+  position: relative;
+  margin-top: 0.7rem;
+  height: 4.54rem;
+}
+
+.camera__container .sec10 .swiper__container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.camera__container .sec10 .swiper__item {
+  position: relative;
+  height: 100%;
+  width: 7.51rem;
+  margin-right: 0.32rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.camera__container .sec10 .swiper__item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.36s ease;
+}
+
+.camera__container .sec10 .swiper__item.hide::after {
+  opacity: 0.75;
+}
+
+.camera__container .sec11 {
+  margin-top: 2.08rem;
+  padding-bottom: 1.91rem;
+}
+
+.camera__container .sec11 .sec11__bg {
+  position: relative;
+  margin-top: 0.93rem;
+  width: 16rem;
+  height: 4.62rem;
+}
+
+.camera__container .sec12 {
+  padding-bottom: 1.47rem;
+  background-image: linear-gradient(#000 0, #121314 100%);
+}
+
+.camera__container .sec12 .sec12__prd {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.camera__container .sec12 .sec12__prd::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3rem;
+  width: 100%;
+  height: 5.73rem;
+  background: url(sec12_bg-51eeb37d3c.png) center/cover no-repeat;
+  z-index: 10;
+}
+
+.camera__container .sec12 .prd__title {
+  position: relative;
+  z-index: 15;
+}
+
+.camera__container .sec12 .prd__container {
+  position: absolute;
+  left: 50%;
+  top: 2.26rem;
+  z-index: 5;
+  width: 5.3rem;
+  height: 5.3rem;
+  transform: translate(-50%, 0);
+}
+
+.camera__container .sec12 .prd__bg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 15;
+  width: 2.32rem;
+  height: 3.44rem;
+  transform: translate(-50%, -50%);
+}
+
+.camera__container .sec12 .prd__radio {
+  position: absolute;
+  background-image: radial-gradient(#000 0, #10325c 100%);
+  border-radius: 50%;
+  opacity: 0;
+  overflow: hidden;
+  animation-name: circleWave;
+  animation-duration: 2.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.camera__container .sec12 .prd__radio.prd__radio1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  animation-delay: 1s;
+}
+
+.camera__container .sec12 .prd__radio.prd__radio2 {
+  width: 8.66rem;
+  height: 8.66rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -4.33rem;
+  margin-top: -4.33rem;
+}
+
+.camera__container .sec12 .prd__radio.prd__radio3 {
+  width: 6.86rem;
+  height: 6.86rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -3.43rem;
+  margin-top: -3.43rem;
+  animation-delay: 0.5s;
+}
+
+.camera__container .sec12 .dialog__item {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #fff;
+  background-color: #31445b;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 5;
+  transform: scale(0);
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 0.66s;
+  transition-timing-function: ease-in-out;
+}
+
+.camera__container .sec12 .dialog__item.move {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.camera__container .sec12 .dialog__item.move.dialog__6,
+.camera__container .sec12 .dialog__item.move.dialog__8,
+.camera__container .sec12 .dialog__item.move.dialog__9 {
+  opacity: 0.22;
+}
+
+.camera__container .sec12 .dialog__item.move.dialog__10,
+.camera__container .sec12 .dialog__item.move.dialog__7 {
+  opacity: 0.54;
+}
+
+.camera__container .sec12 .dialog__item.dialog__1 {
+  width: 2.58rem;
+  height: 2.58rem;
+  left: 3rem;
+  top: 3.49rem;
+  transition-delay: 0.3s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__2 {
+  width: 1.94rem;
+  height: 1.94rem;
+  font-size: 0.18rem;
+  left: 5.3rem;
+  top: 1.6rem;
+  transition-delay: 0.66s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__3 {
+  width: 1.34rem;
+  height: 1.34rem;
+  font-size: 0.16rem;
+  left: 9.8rem;
+  top: 1.4rem;
+  transition-delay: 0.66s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__4 {
+  width: 2.24rem;
+  height: 2.24rem;
+  right: 3.4rem;
+  top: 2.7rem;
+  transition-delay: 0.3s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__5 {
+  width: 2.24rem;
+  height: 2.24rem;
+  right: 4.9rem;
+  top: 5.2rem;
+  transition-delay: 0.3s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__6 {
+  width: 1.48rem;
+  height: 1.48rem;
+  font-size: 0.16rem;
+  right: 1.4rem;
+  top: 1.7rem;
+  transition-delay: 1.96s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__7 {
+  width: 1.52rem;
+  height: 1.52rem;
+  right: 2.4rem;
+  top: 5rem;
+  transition-delay: 1.32s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__8 {
+  width: 1.52rem;
+  height: 1.52rem;
+  font-size: 0.2rem;
+  right: 2rem;
+  top: 7.3rem;
+  transition-delay: 1.96s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__9 {
+  width: 1.52rem;
+  height: 1.52rem;
+  font-size: 0.16rem;
+  left: 1.6rem;
+  top: 5.9rem;
+  transition-delay: 1.96s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__10 {
+  width: 1.92rem;
+  height: 1.92rem;
+  left: 5rem;
+  top: 5.8rem;
+  transition-delay: 1.32s;
+}
+
+.camera__container .sec12 .dialog__item.dialog__11 {
+  width: 1.52rem;
+  height: 1.52rem;
+  font-size: 0.22rem;
+  left: 1.6rem;
+  top: 2.1rem;
+  transition-delay: 0.66s;
+}
+
+.camera__container .sec12 .sec12__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera__container .sec12 .sec12__list .list__row {
+  display: flex;
+  margin-top: 1.08rem;
+}
+
+.camera__container .sec12 .sec12__list .list__row:first-of-type {
+  margin-top: 0;
+}
+
+.camera__container .sec12 .sec12__list .row__item:first-of-type {
+  margin-right: 0.7rem;
+}
+
+.camera__container .sec12 .sec12__list .item__bg {
+  position: relative;
+  width: 100%;
+  height: 6.6rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.camera__container .sec12 .sec12__list .item__desc {
+  margin-top: 0.4rem;
+  text-align: left;
+  font-size: 0.24rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 0.43rem;
+  color: #fff;
+}
+
+.camera__container .sec12 .sec12__list .bg__desc {
+  position: absolute;
+  left: 0;
+  bottom: 0.43rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.16rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 0.33rem;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.camera__container .sec13 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.48rem;
+  padding-bottom: 2rem;
+  background-color: #0a0a0a;
+}
+
+.camera__container .sec13 .sec13__content {
+  display: flex;
+  justify-content: space-between;
+  width: 14.2rem;
+}
+
+.camera__container .sec13 .bg__box {
+  width: 2.22rem;
+  height: 2.22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camera__container .sec13 .row__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera__container .sec13 .item__bg {
+  width: 100%;
+}
+
+.camera__container .sec13 .item__desc {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.2rem;
+  font-family: PingFang SC;
+  font-weight: 800;
+  line-height: 0.48rem;
+  color: #fff;
+}

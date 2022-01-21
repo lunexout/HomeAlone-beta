@@ -48,6 +48,7 @@ import { Singlemain } from "./Singlemain";
 import axios from "axios";
 import dataJSON from "./../../../API.json";
 import { BrowserView, MobileView } from "react-device-detect";
+import GiantEye2K from "../../vibes/GiantEye2K";
 
 SwiperCore.use([Pagination, Navigation]);
 
@@ -115,7 +116,9 @@ export const SingleProduct = ({ match }) => {
         return <GEEKRAVZigBeeSmartSwitch match={match} />;
       } else if (product.product.unicProduct === "OWFC") {
         return <ORVIBOWIFICAMERA match={match} />;
-      } else {
+      }else if (product.product.unicProduct === "GE2") 
+      return <GiantEye2K match={match} />
+      else {
         return <Singlemain match={match} />;
       }
     }
