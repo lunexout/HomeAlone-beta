@@ -1,246 +1,254 @@
 .clear:after {
-	display: block;
-	clear: both;
-	content: "\0020";
-	visibility: hidden;
-	height: 0
+  display: block;
+  clear: both;
+  content: "\0020";
+  visibility: hidden;
+  height: 0;
 }
 
 #superContainer,
 .section {
-	position: relative
+  position: relative;
 }
 
-
 #superContainer {
-	height: 100%
+  height: 100%;
 }
 
 .section {
-	box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .section.table {
-	display: table;
-	width: 100%
+  display: table;
+  width: 100%;
 }
 
 .tableCell {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	height: 100%
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 
 .nav_txt {
-	position: fixed;
-	z-index: 100;
-	top: 50%;
-	opacity: 1;
-	right: 45px;
-	margin-top: -50px
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  opacity: 1;
+  right: 45px;
+  margin-top: -50px;
 }
 
 .nav_txt ul li {
-	height: 20px;
-	opacity: 0
+  height: 20px;
+  opacity: 0;
 }
 
 .section {
-	width: 100%;
-	height: 100%;
-	font-size: 50px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .jirui_page1,
 .jirui_page3,
 .section .ib_slider,
 .section .ib_slider li {
-	height: 100vh
+  height: 100vh;
 }
 
 .jirui_page1 .ib_slider li.ibs1 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg1_en-be60df4edb.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg1_en-be60df4edb.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page1 .ib_slider li.ibs2 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg2_en-36c12ace7b.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg2_en-36c12ace7b.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page1 .ib_slider li.ibs3 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg3_en-4f121e77c6.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg3_en-4f121e77c6.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .i_banner .ib_mark {
-	position: absolute;
-	width: 170px;
-	left: 50%;
-	margin-left: -85px;
-	bottom: 50px;
-	z-index: 999
+  position: absolute;
+  width: 170px;
+  left: 50%;
+  margin-left: -85px;
+  bottom: 50px;
+  z-index: 999;
 }
 
 .i_banner .ib_mark li {
-	width: 50px;
-	margin-right: 10px;
-	float: left
+  width: 50px;
+  margin-right: 10px;
+  float: left;
 }
 
 .i_banner .ib_mark li a {
-	display: block;
-	width: 100%;
-	height: 10px;
-	position: relative
+  display: block;
+  width: 100%;
+  height: 10px;
+  position: relative;
 }
 
 .i_banner .ib_mark li a div {
-	position: absolute;
-	top: 50%;
-	margin-top: -1px;
-	height: 2px;
-	width: 50px;
-	background-color: #2f2f2f;
-	overflow: hidden;
-	left: 0;
-	z-index: 1
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  height: 2px;
+  width: 50px;
+  background-color: #2f2f2f;
+  overflow: hidden;
+  left: 0;
+  z-index: 1;
 }
 
 .i_banner .ib_mark li a .im_progress {
-	width: 0;
-	background-color: #ccc;
-	z-index: 9
+  width: 0;
+  background-color: #ccc;
+  z-index: 9;
 }
 
 .jp1_text {
-	z-index: 99;
-	left: 100px;
-	top: 50%;
-	position: absolute;
-	margin-top: -62px
+  z-index: 99;
+  left: 100px;
+  top: 50%;
+  position: absolute;
+  margin-top: -62px;
 }
 
 .jp1_text h2 {
-	font-weight: 400;
-	font-size: 36px;
-	color: #fff;
-	text-align: left
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
 }
 
 .jp1_text p {
-	font-size: 22px;
-	color: #ccc;
-	margin-top: 20px;
-	line-height: 26px;
-	text-align: left
+  font-size: 22px;
+  color: #ccc;
+  margin-top: 20px;
+  line-height: 26px;
+  text-align: left;
 }
 
 .jirui_page2 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg4-ec8dd602c1.jpg);
-	text-align: center;
-	position: relative;
-	z-index: 10
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg4-ec8dd602c1.jpg);
+  text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
 .jirui_page2 h2 {
-	font-size: 36px;
-	color: #fff;
-	padding-top: 128px;
-	font-weight: 400;
-	text-align: center
+  font-size: 36px;
+  color: #fff;
+  padding-top: 128px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .jirui_page2 p {
-	font-size: 22px;
-	color: #fff;
-	margin-top: 24px;
-	text-align: center
+  font-size: 22px;
+  color: #fff;
+  margin-top: 24px;
+  text-align: center;
 }
 
 .jirui_page3 .ib_slider li.ibs1 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg5-9ced26858a.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg5-9ced26858a.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page3 .ib_slider li div {
-	position: absolute;
-	width: 310px;
-	height: 535px;
-	left: 6%;
-	bottom: 16%
+  position: absolute;
+  width: 310px;
+  height: 535px;
+  left: 6%;
+  bottom: 16%;
 }
 
 .jirui_page3 .ib_slider li.ibs1 div {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone1_en-7fce7bb6ee.png) center no-repeat
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone1_en-7fce7bb6ee.png)
+    center no-repeat;
 }
 
 .jirui_page3 .ib_slider li.ibs2 div {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone2_en-7d810bc566.png) center no-repeat
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone2_en-7d810bc566.png)
+    center no-repeat;
 }
 
 .jirui_page3 .ib_slider li.ibs3 div {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone3_en-98d929756f.png) center no-repeat
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/phone3_en-98d929756f.png)
+    center no-repeat;
 }
 
 .jirui_page3 .ib_slider li.ibs2 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg6-d6e7ab32f8.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg6-d6e7ab32f8.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page3 .ib_slider li.ibs3 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg7-92509ea0da.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg7-92509ea0da.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jp3_text {
-	position: absolute;
-	z-index: 99;
-	bottom: 100px;
-	right: 10%
+  position: absolute;
+  z-index: 99;
+  bottom: 100px;
+  right: 10%;
 }
 
 .jp3_text h2 {
-	font-weight: 400;
-	font-size: 36px;
-	color: #fff;
-	margin-bottom: 24px;
-	text-align: right
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: right;
 }
 
 .jp3_text p {
-	font-size: 22px;
-	color: grey;
-	line-height: 30px;
-	text-align: right
+  font-size: 22px;
+  color: grey;
+  line-height: 30px;
+  text-align: right;
 }
 
 .jp3_text p.active {
-	color: #fff
+  color: #fff;
 }
 
 .jirui_page4 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg8-3b3561de36.jpg);
-	position: relative;
-	z-index: 10
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg8-3b3561de36.jpg);
+  position: relative;
+  z-index: 10;
 }
 
 .jirui_page4 .jp4_mask {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 99;
-	background: #000;
-	opacity: 0;
-	-webkit-filter: (opacity=0);
-	filter: (opacity=0);
-	transition: opacity 1s .2s ease-in-out
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background: #000;
+  opacity: 0;
+  -webkit-filter: (opacity=0);
+  filter: (opacity=0);
+  transition: opacity 1s 0.2s ease-in-out;
 }
 
 .jp4_text,
@@ -248,10 +256,10 @@
 .jp6_text,
 .jp7_text,
 .jp8_text {
-	position: absolute;
-	z-index: 100;
-	text-align: center;
-	width: 100%
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  width: 100%;
 }
 
 .jp4_text h2,
@@ -259,349 +267,360 @@
 .jp6_text h2,
 .jp7_text h2,
 .jp8_text h2 {
-	font-weight: 400;
-	font-size: 36px;
-	color: #fff;
-	padding-top: 7%
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-top: 7%;
 }
 
 .jp4_text p,
 .jp5_text p,
 .jp7_text p,
 .jp8_text p {
-	font-size: 22px;
-	color: #fff;
-	margin-top: 28px
+  font-size: 22px;
+  color: #fff;
+  margin-top: 28px;
 }
 
 .jp4_lights {
-	width: 880px;
-	margin: 476px auto 0
+  width: 880px;
+  margin: 476px auto 0;
 }
 
 .jp4_lights li {
-	width: 92px;
-	height: 20px;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/light-04cdfa59ee.png);
-	margin-right: 300px;
-	float: left;
-	opacity: 0
+  width: 92px;
+  height: 20px;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/light-04cdfa59ee.png);
+  margin-right: 300px;
+  float: left;
+  opacity: 0;
 }
 
 .jirui_page5,
 .jirui_page6,
 .jirui_page7,
 .jirui_page8 {
-	position: relative;
-	z-index: 10
+  position: relative;
+  z-index: 10;
 }
 
 .jirui_page5 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg9-7e669fc6ec.jpg)
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg9-7e669fc6ec.jpg);
 }
 
 .tableCell {
-	vertical-align: top
+  vertical-align: top;
 }
 
 .jp5_con {
-	width: 1120px;
-	margin: 20% auto 0;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic1-d17474ba48.png) center no-repeat;
-	height: 316px
+  width: 1120px;
+  margin: 20% auto 0;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic1-d17474ba48.png)
+    center no-repeat;
+  height: 316px;
 }
 
 .jp5_left {
-	float: left;
-	width: 50%;
-	text-align: left;
-	margin-top: 100px
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin-top: 100px;
 }
 
 .jp5_left p {
-	padding-left: 180px;
-	font-size: 20px;
-	color: #fff
+  padding-left: 180px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .jp5_left p span {
-	font-size: 72px;
-	font-weight: 600
+  font-size: 72px;
+  font-weight: 600;
 }
 
 .jirui_page6 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg10-17d35f6b4e.jpg)
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg10-17d35f6b4e.jpg);
 }
 
 .jp6_pro {
-	width: 1161px;
-	height: 479px;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pro-849616414d.png) center no-repeat;
-	left: 50%;
-	top: 50%;
-	margin-top: -240px;
-	margin-left: -580px;
-	position: absolute
+  width: 1161px;
+  height: 479px;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pro-849616414d.png)
+    center no-repeat;
+  left: 50%;
+  top: 50%;
+  margin-top: -240px;
+  margin-left: -580px;
+  position: absolute;
 }
 
-.jp6_pro>div {
-	position: absolute;
-	width: 180px;
-	text-align: center;
-	opacity: 0;
-	-webkit-filter: (opacity=0);
-	filter: (opacity=0)
+.jp6_pro > div {
+  position: absolute;
+  width: 180px;
+  text-align: center;
+  opacity: 0;
+  -webkit-filter: (opacity=0);
+  filter: (opacity=0);
 }
 
-.jp6_pro>div>div {
-	display: block;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/lines-c077e9ad39.png) center no-repeat;
-	margin: 0 auto
+.jp6_pro > div > div {
+  display: block;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/lines-c077e9ad39.png)
+    center no-repeat;
+  margin: 0 auto;
 }
 
-.jp6_pro>div>p {
-	font-size: 18px;
-	color: grey;
-	margin-top: 16px
+.jp6_pro > div > p {
+  font-size: 18px;
+  color: grey;
+  margin-top: 16px;
 }
 
 .jp6_pro .jp6_line1 {
-	top: 388px;
-	left: 280px
+  top: 388px;
+  left: 280px;
 }
 
-.jp6_pro .jp6_line1>div {
-	height: 157px;
-	width: 13px;
-	background-position: -26px 0
+.jp6_pro .jp6_line1 > div {
+  height: 157px;
+  width: 13px;
+  background-position: -26px 0;
 }
 
 .jp6_pro .jp6_line2 {
-	top: 488px;
-	right: 140px
+  top: 488px;
+  right: 140px;
 }
 
-.jp6_pro .jp6_line2>div {
-	height: 59px;
-	width: 13px;
-	background-position: -13px 0
+.jp6_pro .jp6_line2 > div {
+  height: 59px;
+  width: 13px;
+  background-position: -13px 0;
 }
 
 .jp6_pro .jp6_line3 {
-	top: 420px;
-	right: -30px
+  top: 420px;
+  right: -30px;
 }
 
-.jp6_pro .jp6_line3>div {
-	height: 124px;
-	width: 13px;
-	background-position: 0 0
+.jp6_pro .jp6_line3 > div {
+  height: 124px;
+  width: 13px;
+  background-position: 0 0;
 }
 
 .jirui_page7 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg11-84305561ae.jpg)
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg11-84305561ae.jpg);
 }
 
 .jp7_con {
-	position: absolute;
-	height: 300px;
-	top: 50%;
-	margin-top: -90px;
-	width: 1000px;
-	left: 50%;
-	margin-left: -500px
+  position: absolute;
+  height: 300px;
+  top: 50%;
+  margin-top: -90px;
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
 }
 
 .jp7_con .jp7_item {
-	width: 33.3333%;
-	float: left;
-	opacity: 0;
-	-webkit-filter: (opacity=0);
-	filter: (opacity=0)
+  width: 33.3333%;
+  float: left;
+  opacity: 0;
+  -webkit-filter: (opacity=0);
+  filter: (opacity=0);
 }
 
 .jp7_con .jp7_item div {
-	width: 260px;
-	height: 172px;
-	margin: 0 auto;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/icons-bf481914b4.png) center no-repeat
+  width: 260px;
+  height: 172px;
+  margin: 0 auto;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/icons-bf481914b4.png)
+    center no-repeat;
 }
 
 .jp7_con .jp7_item .icon1 {
-	background-position: -520px 0
+  background-position: -520px 0;
 }
 
 .jp7_con .jp7_item .icon2 {
-	background-position: -260px 0
+  background-position: -260px 0;
 }
 
 .jp7_con .jp7_item .icon3 {
-	background-position: 0 0
+  background-position: 0 0;
 }
 
 .jp7_con .jp7_item .jp7_txt1 {
-	font-size: 24px;
-	color: #fff;
-	margin-top: 28px;
-	text-align: center
+  font-size: 24px;
+  color: #fff;
+  margin-top: 28px;
+  text-align: center;
 }
 
 .jp7_con .jp7_item .jp7_txt2 {
-	font-size: 16px;
-	color: #fff;
-	margin-top: 14px;
-	text-align: center
+  font-size: 16px;
+  color: #fff;
+  margin-top: 14px;
+  text-align: center;
 }
 
 .jirui_page8 {
-	background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg12-e298384ad9.jpg)
+  background-image: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg12-e298384ad9.jpg);
 }
 
 .jp8_con {
-	width: 930px;
-	position: absolute;
-	height: 360px;
-	left: 50%;
-	top: 50%;
-	margin-left: -450px;
-	margin-top: -100px
+  width: 930px;
+  position: absolute;
+  height: 360px;
+  left: 50%;
+  top: 50%;
+  margin-left: -450px;
+  margin-top: -100px;
 }
 
 .jp8_item {
-	float: left;
-	text-align: center;
-	opacity: 0;
-	-webkit-filter: (opacity=0);
-	filter: (opacity=0)
+  float: left;
+  text-align: center;
+  opacity: 0;
+  -webkit-filter: (opacity=0);
+  filter: (opacity=0);
 }
 
 .jp8_item p {
-	font-size: 22px;
-	color: #fff;
-	margin-top: 40px
+  font-size: 22px;
+  color: #fff;
+  margin-top: 40px;
 }
 
 .jp8_item1 {
-	transition: opacity .6s ease-in-out
+  transition: opacity 0.6s ease-in-out;
 }
 
 .jp8_item2 {
-	transition: opacity .6s .4s ease-in-out
+  transition: opacity 0.6s 0.4s ease-in-out;
 }
 
 .jp8_item3 {
-	transition: opacity .6s .8s ease-in-out
+  transition: opacity 0.6s 0.8s ease-in-out;
 }
 
-.jp8_item1>div {
-	width: 174px;
-	height: 253px;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic5-9f78512853.png) center no-repeat
+.jp8_item1 > div {
+  width: 174px;
+  height: 253px;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic5-9f78512853.png)
+    center no-repeat;
 }
 
-.jp8_item2>div {
-	width: 242px;
-	height: 118px;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic6-1572590a55.png) center no-repeat;
-	margin-top: 50px
+.jp8_item2 > div {
+  width: 242px;
+  height: 118px;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic6-1572590a55.png)
+    center no-repeat;
+  margin-top: 50px;
 }
 
-.jp8_item3>div {
-	width: 107px;
-	height: 202px;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic7-e2b91a71f4.png) center no-repeat
+.jp8_item3 > div {
+  width: 107px;
+  height: 202px;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/pic7-e2b91a71f4.png)
+    center no-repeat;
 }
 
 .jp8_line {
-	width: 55px;
-	height: 4px;
-	float: left;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/dot-99977e4a9e.png) center no-repeat;
-	margin-top: 100px;
-	margin-left: 60px;
-	margin-right: 60px;
-	opacity: 0;
-	-webkit-filter: (opacity=0);
-	filter: (opacity=0)
+  width: 55px;
+  height: 4px;
+  float: left;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/dot-99977e4a9e.png)
+    center no-repeat;
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  opacity: 0;
+  -webkit-filter: (opacity=0);
+  filter: (opacity=0);
 }
 
 .jp8_line1 {
-	transition: opacity .6s .2s ease-in-out
+  transition: opacity 0.6s 0.2s ease-in-out;
 }
 
 .jp8_line2 {
-	transition: opacity .6s .6s ease-in-out
+  transition: opacity 0.6s 0.6s ease-in-out;
 }
 
 .jirui_page9 .ib_slider li.ibs1 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg13-0eeb3fc43b.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg13-0eeb3fc43b.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page9 .ib_slider li.ibs2 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg14-a8494e11a7.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg14-a8494e11a7.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page9 .ib_slider li.ibs3 {
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg15-96fc1f4ea6.jpg) center no-repeat;
-	background-size: cover
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jirui/bg15-96fc1f4ea6.jpg)
+    center no-repeat;
+  background-size: cover;
 }
 
 .jirui_page9 p {
-	position: absolute;
-	top: 30%;
-	left: 8%;
-	font-size: 36px;
-	color: #fff;
-	z-index: 99
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  font-size: 36px;
+  color: #fff;
+  z-index: 99;
 }
 
-@media (max-height:842px) {
-	.jp4_lights {
-		margin-top: 360px;
-		width: 760px
-	}
-	.jp4_lights li {
-		margin-right: 230px
-	}
-	.jp6_pro {
-		height: 350px;
-		width: 848px;
-		background-size: contain;
-		margin-left: -424px;
-		margin-top: -140px
-	}
-	.jp6_pro>div>p {
-		margin-top: 6px;
-		font-size: 14px
-	}
-	.jp6_pro .jp6_line1 {
-		top: 280px;
-		left: 180px
-	}
-	.jp6_pro .jp6_line2 {
-		top: 374px;
-		right: 80px
-	}
-	.jp6_pro .jp6_line3 {
-		top: 308px;
-		right: -40px
-	}
-	.jirui_page3 .ib_slider li div {
-		bottom: 10%
-	}
-	.jirui_page9 p {
-		left: 4%
-	}
-	.jp4_text h2,
-	.jp5_text h2,
-	.jp6_text h2,
-	.jp7_text h2,
-	.jp8_text h2 {
-		padding-top: 4%
-	}
-	.jp6_pro {
-		top: 46%
-	}
+@media (max-height: 842px) {
+  .jp4_lights {
+    margin-top: 360px;
+    width: 760px;
+  }
+  .jp4_lights li {
+    margin-right: 230px;
+  }
+  .jp6_pro {
+    height: 350px;
+    width: 848px;
+    background-size: contain;
+    margin-left: -424px;
+    margin-top: -140px;
+  }
+  .jp6_pro > div > p {
+    margin-top: 6px;
+    font-size: 14px;
+  }
+  .jp6_pro .jp6_line1 {
+    top: 280px;
+    left: 180px;
+  }
+  .jp6_pro .jp6_line2 {
+    top: 374px;
+    right: 80px;
+  }
+  .jp6_pro .jp6_line3 {
+    top: 308px;
+    right: -40px;
+  }
+  .jirui_page3 .ib_slider li div {
+    bottom: 10%;
+  }
+  .jirui_page9 p {
+    left: 4%;
+  }
+  .jp4_text h2,
+  .jp5_text h2,
+  .jp6_text h2,
+  .jp7_text h2,
+  .jp8_text h2 {
+    padding-top: 4%;
+  }
+  .jp6_pro {
+    top: 46%;
+  }
 }

@@ -48,9 +48,9 @@
   height: 100%;
   object-fit: cover;
 }
-.boxgif{
+.boxgif {
   display: flex;
-        justify-content: center;
+  justify-content: center;
 }
 .swiper-container {
   margin-left: auto;
@@ -331,8 +331,7 @@
   background-color: #aadad0;
 }
 
-
-@media (max-width: 900px){
+@media (max-width: 900px) {
   .smart-home-banner {
     background-image: url("./../../assets/3588002.jpg");
   }

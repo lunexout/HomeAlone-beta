@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
 import logo from "./../../assets/logo.png";
-// import Right from "./../../assets/right1.png";
 import TBC_LOGO from "./../../assets/TBC_Bank_logo.png";
 
 import PARTNER1 from "./../partners/images/al mare batumi.jpg";

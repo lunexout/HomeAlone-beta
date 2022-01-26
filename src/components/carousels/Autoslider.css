@@ -1,34 +1,45 @@
-.slideblocker{
-    display: block;
+.slideblocker {
+  display: block;
 }
-#slidy-container { 
-    width: 100%; overflow: hidden; margin: 0 auto;
+#slidy-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.img-slider .slider-container {
+  /* position: absolute; */
+  width: 300%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  animation: slider 26s infinite;
+}
+.img-slider .slider-container .slide {
+  position: relative;
+  width: 33.33333333%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.img-slider .slider-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@keyframes slider {
+  0%,
+  25%,
+  100% {
+    left: 0;
   }
-  .img-slider .slider-container {
-      /* position: absolute; */
-      width: 300%;
-      top: 0;
-      left: 0;
-      overflow: hidden;
-      animation: slider 26s infinite;
+
+  30%,
+  55% {
+    left: -100%;
   }
-  .img-slider .slider-container .slide {
-      position: relative;
-      width: 33.33333333%;
-      height: 100%;
-      float: left;
-      overflow: hidden
+
+  60%,
+  85% {
+    left: -200%;
   }
-  .img-slider .slider-container .slide img {
-    display: block;
-    width: 100%;
-    height: 100%
-  }
-  @keyframes slider {
-      0%, 25%, 100%{left: 0}
-      
-      30%, 55%{left: -100%}
-      
-      60%, 85%{left: -200%}
-  }
-  
+}

@@ -6,15 +6,41 @@
   font-weight: 400;
 }
 
-.more, .sec1, .sec10, .sec11 .fix, .sec12, .sec13, .sec13 h2, .sec15 .container .pic, .sec15 .container h2, .sec15 .container > p, .sec15 .link, .sec15 .table table, .sec2 .block1, .sec2 .block1 .view_container .item .text, .sec2 .block1 .view_port, .sec2 .block2, .sec2 .block2 .pics .item, .sec3, .sec4 .block1, .sec5 h2, .sec8 .container, .sec9, .sec_add1, .sec_add2, .sec_add2 .container p {
+.more,
+.sec1,
+.sec10,
+.sec11 .fix,
+.sec12,
+.sec13,
+.sec13 h2,
+.sec15 .container .pic,
+.sec15 .container h2,
+.sec15 .container > p,
+.sec15 .link,
+.sec15 .table table,
+.sec2 .block1,
+.sec2 .block1 .view_container .item .text,
+.sec2 .block1 .view_port,
+.sec2 .block2,
+.sec2 .block2 .pics .item,
+.sec3,
+.sec4 .block1,
+.sec5 h2,
+.sec8 .container,
+.sec9,
+.sec_add1,
+.sec_add2,
+.sec_add2 .container p {
   text-align: center;
 }
-.sec1, .sec2 .block1 {
+.sec1,
+.sec2 .block1 {
   width: 100%;
   text-align: center;
 }
 
-.ffandie, html {
+.ffandie,
+html {
   font-family: "PingFang SC", Helvetica, "Microsoft YaHei";
 }
 .sec1 p {
@@ -78,7 +104,8 @@
   content: "\0020";
   height: 0;
 }
-.apply_dialog .isnotNeed, .clear:after {
+.apply_dialog .isnotNeed,
+.clear:after {
   visibility: hidden;
 }
 .sec2 .block1 .view_container .item {
@@ -112,7 +139,8 @@
   color: #2f2f2f;
   font-weight: 400;
 }
-.sec3 h2, .sec4 .block1 h2 {
+.sec3 h2,
+.sec4 .block1 h2 {
   font-size: 36px;
   padding-top: 70px;
 }

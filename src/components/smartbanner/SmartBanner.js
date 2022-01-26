@@ -1,14 +1,14 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-import NEXT from './../../assets/next.png'
+import NEXT from "./../../assets/next.png";
 
 export const SmartBanner = () => {
-    return (
-        <>
-            <style
-                dangerouslySetInnerHTML={{
-                    __html: `
+  return (
+    <>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
 .blobs-container {
   display: flex;
 }
@@ -40,15 +40,15 @@ export const SmartBanner = () => {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-       `
-                }}
-            />
+       `,
+        }}
+      />
 
-            <div className='smart-home-banner'>
-                <NavLink className='test-btn' to='/test-system'>
-                    <img className="blob" src={NEXT} alt='testing' />
-                </NavLink>
-            </div>
-        </>
-    )
-}
+      <div className="smart-home-banner">
+        <NavLink className="test-btn" to="/test-system">
+          <img className="blob" src={NEXT} alt="testing" />
+        </NavLink>
+      </div>
+    </>
+  );
+};

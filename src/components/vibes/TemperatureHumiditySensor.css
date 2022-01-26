@@ -10,8 +10,7 @@
 .getTop {
   display: none;
   cursor: pointer;
-  background: url(img/getTop-39af3f63e1.png)
-    center/contain no-repeat;
+  background: url(img/getTop-39af3f63e1.png) center/contain no-repeat;
   width: 68px;
   height: 68px;
   opacity: 0.6;
@@ -38,8 +37,7 @@
   width: 100%;
   height: 800px;
   position: relative;
-  background: url(img/bg_01-dcee45720f.jpg)
-    center no-repeat;
+  background: url(img/bg_01-dcee45720f.jpg) center no-repeat;
 }
 .temp_sec_1 .fp_content {
   width: 450px;
@@ -65,8 +63,7 @@
   position: relative;
 }
 .temp_sec2 .bg_shadow {
-  background: url(img/b_shadow_03-8b2699d3a5.png)
-    no-repeat;
+  background: url(img/b_shadow_03-8b2699d3a5.png) no-repeat;
   width: 1181px;
   position: absolute;
   left: 19.27%;
@@ -116,8 +113,7 @@
   background-image: url(img/bg_02_05-a638717ed7.jpg);
 }
 .temp_sec3 {
-  background: url(img/bg_07-4614c17434.jpg)
-    no-repeat;
+  background: url(img/bg_07-4614c17434.jpg) no-repeat;
   height: 831px;
   padding-top: 120px;
   position: relative;
@@ -160,8 +156,7 @@
   height: 82px;
 }
 .temp_sec4 {
-  background: url(img/bg_03-9a58dabb92.jpg)
-    center no-repeat;
+  background: url(img/bg_03-9a58dabb92.jpg) center no-repeat;
   width: 100%;
   height: 959px;
   background-size: cover;
@@ -189,8 +184,7 @@
   opacity: 0;
 }
 .temp_sec5 {
-  background: url(img/bg_04-f096072e1b.jpg)
-    center no-repeat;
+  background: url(img/bg_04-f096072e1b.jpg) center no-repeat;
   width: 100%;
   height: 959px;
   color: #fff;
@@ -213,8 +207,7 @@
   top: 369px;
 }
 .temp_sec6 {
-  background: url(img/bg_06-aec4abf3b7.jpg)
-    center no-repeat;
+  background: url(img/bg_06-aec4abf3b7.jpg) center no-repeat;
   width: 100%;
   height: 960px;
 }

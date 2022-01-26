@@ -1,290 +1,7 @@
-// import React from "react";
-// import "./Footer.css";
-// import { NavLink } from "react-router-dom";
-
-// import { useTranslation } from 'react-i18next';
-
-// export const Footer = () => {
-//   const { t } = useTranslation();
-//   return (
-//     <>
-
-//       <style
-//         dangerouslySetInnerHTML={{
-//           __html: `
-//           .foot .content {
-//             max-width: 1760px;
-//             min-width: 1280px;
-//             box-sizing: border-box
-//         }
-
-//         .foot {
-//             width: 100%;
-//             background-color: #000;
-//             padding: 49px 0 0;
-//             font-family: OPPOSans-Medium, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial
-//         }
-
-//         .foot .content {
-//             padding: 0 288.5px;
-//             margin: 0 auto
-//         }
-
-//         @media screen and (max-width:1440px) {
-//             .foot .content {
-//                 padding: 40px;
-//                 max-width: 1280px !important
-//             }
-//         }
-
-//         .foot .foot_top {
-//             display: flex;
-//             justify-content: space-between;
-//             flex-wrap: nowrap;
-//             margin-bottom: 38px
-//         }
-
-//         .foot .link_list>ul>li {
-//             margin-bottom: 10px;
-//             line-height: 20px;
-//             font-size: 14px;
-//             color: rgba(255, 255, 255, .6)
-//         }
-
-//         .foot .link_list>ul>li:hover {
-//             color: #fff
-//         }
-
-//         .foot .link_list>ul>li>a {
-//             font-size: 14px;
-//             color: rgba(255, 255, 255, .6);
-//             font-weight: 500
-//         }
-
-//         .foot .link_list>ul>li>a:hover {
-//             color: #fff
-//         }
-
-//         .foot .link_list .first_li {
-//             font-size: 16px;
-//             line-height: 22px;
-//             font-weight: 600;
-//             color: #fff;
-//             margin-bottom: 20px
-//         }
-
-//         .foot .foot_middle {
-//             position: relative;
-//             padding-bottom: 21px;
-//             border-bottom: 1px solid rgba(255, 255, 255, .16)
-//         }
-
-//         .foot .foot_middle .contactus {
-//             font-size: 16px;
-//             line-height: 22px;
-//             color: #fff;
-//             font-weight: 500;
-//             margin-bottom: 10px
-//         }
-
-//         .foot .foot_middle .service {
-//             line-height: 40px;
-//             text-align: center;
-//             display: block;
-//             font-size: 14px;
-//             width: 156px;
-//             height: 40px;
-//             background: 0 0;
-//             border: 1px solid rgba(255, 255, 255, .6);
-//             border-radius: 2px;
-//             position: relative
-//         }
-
-//         .foot .foot_middle .service:hover .img alt="home alone"alt="home alone"{
-//             background: url(online_service_active-4780add6bf.png) center no-repeat
-//         }
-
-//         .foot .foot_middle .service:hover span {
-//             color: #111
-//         }
-
-//         .foot .foot_middle .service:hover:before {
-//             transition: all .3s;
-//             width: 100%
-//         }
-
-//         .foot .foot_middle .service .img alt="home alone"{
-//             position: relative;
-//             z-index: 1;
-//             vertical-align: middle;
-//             display: inline-block;
-//             margin-right: 5px;
-//             width: 19px;
-//             height: 16px;
-//             background: url(online_service-c8e92ccade.png) center no-repeat;
-//             background-size: cover
-//         }
-
-//         .foot .foot_middle .service span {
-//             position: relative;
-//             z-index: 1;
-//             color: rgba(255, 255, 255, .6);
-//             transition: all .3s
-//         }
-
-//         .foot .copyright,
-//         .foot .copyright a {
-//             color: rgba(255, 255, 255, .5)
-//         }
-
-//         .foot .foot_middle .service:before {
-//             content: '';
-//             height: 100%;
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-//             border-radius: 2px;
-//             background: #fff;
-//             transition: all .3s;
-//             width: 0
-//         }
-
-//         .foot .foot_middle .contact {
-//             position: absolute;
-//             right: 0;
-//             bottom: 21px;
-//             display: flex;
-//             align-items: center
-//         }
-
-//         .foot .copyright {
-//             padding: 20px 0 60px;
-//             font-size: 14px;
-//             line-height: 20px;
-//             display: flex;
-//             justify-content: center
-//         }
-
-//         .foot .lan {
-//             display: flex
-//         }
-
-//         .foot .lan a {
-//             display: block;
-//             color: #fff;
-//             font-size: 14px;
-//             line-height: 20px
-//         }
-
-//         .foot .lan a:nth-child(1) {
-//             color: rgba(255, 255, 255, .6);
-//             padding: 0 17px
-//         }
-
-//         .foot .lan a:nth-child(1):hover {
-//             color: #fff
-//         }
-
-//         .foot .lan a:nth-child(2) {
-//             color: rgba(255, 255, 255, .6);
-//             padding-left: 16px
-//         }
-
-//         .foot .lan a:nth-child(2):hover {
-//             color: #fff
-//         }
-
-//         @media screen and (min-width:1920px) {
-//             html {
-//                 font-size: calc(83.34vw / 16)
-//             }
-//         }
-
-//         li,
-//         ul {
-//             list-style: none
-//         }     `
-//         }}
-//       />
-//       <footer className="foot">
-//         <div className="content">
-//           <div className="foot_top">
-//             <div className="link_list">
-//               <ul>
-//                 <li className="first_li">{t('ABOUT')}</li>
-
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/showroom' style={{ textTransform: 'lowercase' }}>
-//                   <p>{t('Showroom')}</p></NavLink></li>
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/gallery' style={{ textTransform: 'lowercase' }}>
-//                   <p >{t('Gallery')}</p>
-//                 </NavLink></li>
-
-//               </ul>
-//             </div>
-//             <div className="link_list">
-//               <ul>
-//                 <li className="first_li">{t('PRODUCTS')}</li>
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" exact to='/' style={{ textTransform: 'lowercase' }}>
-//                   <p >{t('HOME')}</p>
-//                 </NavLink></li>
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/services' style={{ textTransform: 'lowercase' }}>
-//                   <p >{t('SERVICES')}</p>
-//                 </NavLink></li>
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/products' style={{ textTransform: 'lowercase' }}>
-//                   <p>{t('PRODUCTS')}</p>
-//                 </NavLink></li>
-//               </ul>
-//             </div>
-//             <div className="link_list">
-//               <ul>
-//                 <li className="first_li">{t('coop')}</li>
-//                 <li>
-//                   <NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/about/partners' style={{ textTransform: 'lowercase' }}>
-//                     <p >{t('Partners')}</p>
-//                   </NavLink></li>
-//               </ul>
-//             </div>
-//             <div className="link_list">
-//               <ul className="followus">
-//                 <li className="first_li">{t('Solutions')}</li>
-//                 <li>
-//                   <NavLink to='/services/smarthome' className='insidemenu-nav-item' activeClassName="nav-active" ><p>{t('Smart Home System')}</p></NavLink>
-//                 </li>
-//                 <li>
-//                   <NavLink to='/services/smarthotel' className='insidemenu-nav-item' activeClassName="nav-active" ><p>{t('Smart Hotel System')}</p></NavLink>
-//                 </li>
-//                 <li>
-//                   <NavLink to='/services/smartoffice' className='insidemenu-nav-item' activeClassName="nav-active" ><p>{t('Smart Office System')}</p></NavLink>
-//                 </li>
-//               </ul>
-//             </div>
-//             <div className="link_list">
-//               <ul className="messageus">
-//                 <li className="first_li">{t('FeedBack')}</li>
-//                 <li><NavLink className='insidemenu-nav-item' activeClassName="nav-active" to='/contact'>
-//                   <p style={{ textTransform: 'lowercase' }}>{t('CONTACT')}</p>
-//                 </NavLink></li>
-//               </ul>
-//             </div>
-//           </div>
-//           <div className="foot_middle">
-//             <div>
-//               <p className="contactus">{t('becpart')}</p><span className="img" />
-//             </div>
-//           </div>
-//           <div className="copyright">
-//             <p>© Copyright - All Rights Reserved | Powered by Cyber Solution LTD</p>
-//           </div>
-//         </div>
-//       </footer>
-//     </>
-//   );
-// };
-
 import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
- import photo1 from './../../assets/logo.png'
+import photo1 from "./../../assets/logo.png";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
@@ -308,7 +25,7 @@ export const Footer = () => {
             <div className="footer-content-column">
               <div className="footer-logo">
                 <span className="hidden-link-text">LOGO</span>
-                < img alt="home alone"src={photo1} width={200}/>
+                <img alt="home alone" src={photo1} width={200} />
               </div>
               <div className="footer-menu">
                 <h2 className="footer-menu-name">{t("GetStarted")}</h2>
@@ -483,10 +200,7 @@ export const Footer = () => {
                 <h2 className="footer-call-to-action-title">
                   {t("Contact Us")}
                 </h2>
-                <p className="footer-call-to-action-description">
-                  {" "}
-                  
-                </p>
+                <p className="footer-call-to-action-description"> </p>
               </div>
             </div>
             <br />
@@ -505,7 +219,8 @@ export const Footer = () => {
               <a
                 className="footer-social-link linkedin"
                 href="https://www.facebook.com/homealoneltd"
-                 target="_blank"  rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <span className="hidden-link-text">Facebook</span>
                 {/* <svg
@@ -523,13 +238,17 @@ export const Footer = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                 >
-                  <path fill="#fff" d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z" />
+                  <path
+                    fill="#fff"
+                    d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z"
+                  />
                 </svg>
               </a>
               <a
                 className="footer-social-link twitter"
                 href="https://www.instagram.com/ltdhome.alone/"
-                 target="_blank"  rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <span className="hidden-link-text">Instagram</span>
 
@@ -538,28 +257,32 @@ export const Footer = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                 >
-                  <path fill="#fff" d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z" />
+                  <path
+                    fill="#fff"
+                    d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
+                  />
                 </svg>
               </a>
               <a
                 className="footer-social-link youtube"
                 href="https://wa.me/+995577410510"
-                 target="_blank"  rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <span className="hidden-link-text">whatsapp</span>
-                <svg
-                  
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   {" "}
-                  <path fill="#fff" d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z" />
+                  <path
+                    fill="#fff"
+                    d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"
+                  />
                 </svg>
               </a>
               <a
                 className="footer-social-link github"
                 href="https://www.tiktok.com/@ltd.home.alone"
-                 target="_blank"  rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <span className="hidden-link-text">Tik Tok</span>
 
@@ -601,11 +324,15 @@ export const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div className="footer-copyright">
             <div className="footer-copyright-wrapper">
               <p className="footer-copyright-text">
-                <a className="footer-copyright-link" href="cyso.ge" target="_self">
+                <a
+                  className="footer-copyright-link"
+                  href="cyso.ge"
+                  target="_self"
+                >
                   {" "}
                   © Copyright - All Rights Reserved | Powered by Cyber Solution
                   LTD{" "}

@@ -1,67 +1,62 @@
-@mixin transition($x, $y, $z){
-    transition: $x $y $z;
-    -moz-transition: $x $y $z;
-    -ms-transition: $x $y $z;
-    -webkit-transition: $x $y $z;
-    -o-transition: $x $y $z;
+@mixin transition($x, $y, $z) {
+  transition: $x $y $z;
+  -moz-transition: $x $y $z;
+  -ms-transition: $x $y $z;
+  -webkit-transition: $x $y $z;
+  -o-transition: $x $y $z;
+}
+
+@mixin rotate($x) {
+  -ms-transform: rotate($x); /* IE 9 */
+  -webkit-transform: rotate($x); /* Chrome, Safari, Opera */
+  transform: rotate($x);
+}
+
+@mixin scale($x) {
+  transform: scale($x);
+  -moz-transform: scale($x);
+  -webkit-transform: scale($x);
+  -o-transform: scale($x);
+  -ms-transform: scale($x);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex-flow: row wrap;
+  overflow: hidden;
+}
+
+//Use this class as wrapper to keep content INSIDE the card
+.flex-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.cardn {
+  display: inline-block;
+  max-width: 300px;
+  height: auto;
+  margin: 1rem 1rem 0 0;
+  box-shadow: 0 1px 3px 0 rgba(58, 62, 75, 0.25);
+  flex: 0 0 25%;
+  align-items: flex-start;
+  align-content: flex-start;
+  border-radius: 0.2rem;
+  margin-top: 40px;
+  @include transition(all, 250ms, ease-in-out);
+
+  &:hover {
+    @include scale(1.1);
+    filter: saturate(50%);
+    @include rotate(3deg);
   }
 
-  @mixin rotate($x){
-    -ms-transform: rotate($x); /* IE 9 */
-     -webkit-transform: rotate($x); /* Chrome, Safari, Opera */
-     transform: rotate($x);
+  &:active {
+    filter: blur(0.05rem);
+    @include rotate(-3deg);
   }
-  
-  @mixin scale($x){
-    transform: scale($x);
-    -moz-transform: scale($x);
-    -webkit-transform: scale($x);
-    -o-transform: scale($x);
-    -ms-transform: scale($x); 
-  }
-  
-  .flex-row {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    flex-flow: row wrap;
-    overflow: hidden;
-  }
-  
-  //Use this class as wrapper to keep content INSIDE the card
-  .flex-wrapper {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .cardn {
-    display: inline-block;
-    max-width: 300px;
-    height: auto;
-    margin: 1rem 1rem 0 0;
-    box-shadow: 0 1px 3px 0 rgba(58, 62, 75, 0.25);
-    flex: 0 0 25%;
-    align-items: flex-start;
-    align-content: flex-start;
-    border-radius: .2rem;
-    margin-top: 40px;
-    @include transition(all, 250ms, ease-in-out);
-    
-    &:hover {
-      @include scale(1.1);
-      filter: saturate(50%);
-      @include rotate(3deg);
-    }
-    
-    &:active {
-      filter: blur(.05rem);
-      @include rotate(-3deg);
-    }
-  
-    
-  
-    
-  }
-  
+}

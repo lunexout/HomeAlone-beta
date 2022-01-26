@@ -7,7 +7,6 @@
 }
 .rf_sec1 {
   background-size: cover;
-  
 }
 .rf_sec1 .content h1 {
   font-size: 36px;
@@ -172,7 +171,8 @@
   margin-top: 20px;
   font-size: 20px;
 }
-.rf_sec8 h2, .rf_sec8 p {
+.rf_sec8 h2,
+.rf_sec8 p {
   text-align: center;
   color: #fff;
 }
@@ -338,7 +338,8 @@
   top: 136px;
   left: 200px;
 }
-.oi_six .os_left .os_line2, .oi_six .os_left .os_line7 {
+.oi_six .os_left .os_line2,
+.oi_six .os_left .os_line7 {
   transition: opacity 0.4s 1.6s linear;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -373,7 +374,8 @@
   filter: alpha(opacity=0);
   opacity: 0;
 }
-.oi_six .os_left, .oi_six .os_right {
+.oi_six .os_left,
+.oi_six .os_right {
   width: 543px;
   height: 220px;
   position: absolute;
@@ -383,7 +385,8 @@
   right: 0;
   width: 533px;
 }
-.oi_six .os_left, .oi_six .os_right {
+.oi_six .os_left,
+.oi_six .os_right {
   width: 543px;
   height: 220px;
   position: absolute;
@@ -428,7 +431,8 @@
   top: 30px;
   right: 76px;
 }
-.oi_six .os_left .os_line6, .oi_six .os_right .os_line3 {
+.oi_six .os_left .os_line6,
+.oi_six .os_right .os_line3 {
   transition: opacity 0.4s 2.4s linear;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -506,7 +510,9 @@
   left: 56px;
   transition: opacity 0.4s 1.2s linear;
 }
-.oi_six .os_right .os_icon1, .oi_six .os_right .os_line3, .oi_six .os_right .os_line7 {
+.oi_six .os_right .os_icon1,
+.oi_six .os_right .os_line3,
+.oi_six .os_right .os_line7 {
   height: 49px;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -552,17 +558,20 @@
   position: relative;
   text-align: center;
 }
-.oi_six .os_left > div, .oi_six .os_right > div {
+.oi_six .os_left > div,
+.oi_six .os_right > div {
   position: absolute;
 }
 .oi_six .os_container {
   text-align: center;
   padding-top: 100px;
 }
-.oi_six .os_left div, .oi_six .os_right div {
+.oi_six .os_left div,
+.oi_six .os_right div {
   background: url(img/pics-1ea9546574.png) center no-repeat;
 }
-.oi_six .os_right .os_icon2, .oi_six .os_right .os_icon4 {
+.oi_six .os_right .os_icon2,
+.oi_six .os_right .os_icon4 {
   transition: opacity 0.4s 2s linear;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -578,7 +587,8 @@
   opacity: 0;
 }
 
-.oi_six .os_left div.animate, .oi_six .os_right div.animate {
+.oi_six .os_left div.animate,
+.oi_six .os_right div.animate {
   opacity: 1;
   filter: alpha(opacity=100);
 }

@@ -1,190 +1,188 @@
 .clear:after {
-	visibility: hidden
+  visibility: hidden;
 }
 
 .clear:after {
-	display: block;
-	clear: both;
-	content: '\0020';
-	height: 0
+  display: block;
+  clear: both;
+  content: "\0020";
+  height: 0;
 }
 
-
 .clear:after {
-	visibility: hidden
+  visibility: hidden;
 }
 
-
 .clear:after {
-	display: block;
-	clear: both;
-	content: '\0020';
-	height: 0
+  display: block;
+  clear: both;
+  content: "\0020";
+  height: 0;
 }
 
 .gas_sensor_container {
-	width: 1200px;
-	margin: 0 auto
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .gas_sensor_sec1 {
-	height: 986px;
-	background: url(img/gas_bg_01-434c2e6544.jpg) center center no-repeat;
-	text-align: center
+  height: 986px;
+  background: url(img/gas_bg_01-434c2e6544.jpg) center center no-repeat;
+  text-align: center;
 }
 
 .gas_sensor_sec1 h1 {
-	font-size: 42px;
-	color: #333;
-	text-align: center;
-	margin-bottom: 63px;
-	padding-top: 172px
+  font-size: 42px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 63px;
+  padding-top: 172px;
 }
 
 .gas_sensor_sec2 {
-	height: 935px;
-	background: url(img/gas_bg_02-7f1b5b7d6f.jpg) center center no-repeat;
-	text-align: center
+  height: 935px;
+  background: url(img/gas_bg_02-7f1b5b7d6f.jpg) center center no-repeat;
+  text-align: center;
 }
 
 .gas_sensor_sec2 h1 {
-	padding-top: 360px;
-	font-size: 36px;
-	line-height: 30px;
-	color: #fff
+  padding-top: 360px;
+  font-size: 36px;
+  line-height: 30px;
+  color: #fff;
 }
 
 .gas_sensor_sec2 p {
-	margin-top: 48px;
-	font-size: 24px;
-	line-height: 36px;
-	color: #fff
+  margin-top: 48px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
 }
 
 .gas_sensor_sec3 h1,
 .gas_sensor_sec4 h1 {
-	font-size: 36px;
-	line-height: 45px;
-	font-weight: 400
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
 }
 
 .gas_sensor_sec3 {
-	height: 960px;
-	background: url(img/gas_bg_03-16f2d95966.jpg) center center no-repeat;
-	text-align: center
+  height: 960px;
+  background: url(img/gas_bg_03-16f2d95966.jpg) center center no-repeat;
+  text-align: center;
 }
 
 .gas_sensor_sec3 h1 {
-	padding-top: 626px;
-	color: #333
+  padding-top: 626px;
+  color: #333;
 }
 
 .gas_sensor_sec4 {
-	height: 951px;
-	background: url(img/gas_bg_04-3912665008.jpg) center center no-repeat;
-	text-align: center
+  height: 951px;
+  background: url(img/gas_bg_04-3912665008.jpg) center center no-repeat;
+  text-align: center;
 }
 
 .gas_sensor_sec4 h1 {
-	padding-top: 70px;
-	color: #333
+  padding-top: 70px;
+  color: #333;
 }
 
 .gas_sensor_sec4 p {
-	font-size: 16px;
-	line-height: 24px;
-	color: #333;
-	margin-top: 10px
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  margin-top: 10px;
 }
 
 .gas_sensor_sec5 {
-	height: 959px;
-	background: url(img/gas_bg_05-a4cb64c912.jpg) center center no-repeat;
-	text-align: center
+  height: 959px;
+  background: url(img/gas_bg_05-a4cb64c912.jpg) center center no-repeat;
+  text-align: center;
 }
 
 .gas_sensor_sec5 h1 {
-	font-size: 36px;
-	font-weight: 400;
-	line-height: 45px;
-	color: #333;
-	padding-top: 90px
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #333;
+  padding-top: 90px;
 }
 
 .gas_sensor_sec5 p {
-	margin-top: 40px;
-	font-size: 16px;
-	line-height: 24px;
-	color: #333
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
 }
 
 .gas_sensor_sec6 {
-	height: 959px;
-	background: url(img/gas_bg_06-59632193ff.jpg) center center no-repeat
+  height: 959px;
+  background: url(img/gas_bg_06-59632193ff.jpg) center center no-repeat;
 }
 
 .gas_sensor_sec6 .gas_sensor_container .txtbox {
-	padding-top: 346px;
-	padding-left: 660px;
-	color: #333
+  padding-top: 346px;
+  padding-left: 660px;
+  color: #333;
 }
 
 .gas_sensor_sec6 .gas_sensor_container .txtbox h1 {
-	font-size: 36px;
-	line-height: 45px;
-	font-weight: 400
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 400;
 }
 
 .gas_sensor_sec6 .gas_sensor_container .txtbox p {
-	margin-top: 50px;
-	font-size: 18px;
-	line-height: 32px
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .gas_sensor_sec7 {
-	background-color: #f7f7f7
+  background-color: #f7f7f7;
 }
 
 .gas_sensor_sec7 h1 {
-	font-size: 36px;
-	font-weight: 400;
-	color: #333;
-	padding-top: 120px;
-	text-align: center
+  font-size: 36px;
+  font-weight: 400;
+  color: #333;
+  padding-top: 120px;
+  text-align: center;
 }
 
-.gas_sensor_sec7 ul>li {
-	width: 25%;
-	float: left;
-	padding: 170px 0 270px
+.gas_sensor_sec7 ul > li {
+  width: 25%;
+  float: left;
+  padding: 170px 0 270px;
 }
 
-.gas_sensor_sec7 ul>li>i {
-	width: 146px;
-	height: 146px;
-	display: block;
-	margin: 0 auto
+.gas_sensor_sec7 ul > li > i {
+  width: 146px;
+  height: 146px;
+  display: block;
+  margin: 0 auto;
 }
 
-.gas_sensor_sec7 ul>li>i.gss7_icon1 {
-	background: url(img/icon_01-c0815f1d33.png) center center no-repeat
+.gas_sensor_sec7 ul > li > i.gss7_icon1 {
+  background: url(img/icon_01-c0815f1d33.png) center center no-repeat;
 }
 
-.gas_sensor_sec7 ul>li>i.gss7_icon2 {
-	background: url(img/icon_02-be6560e6de.png) center center no-repeat
+.gas_sensor_sec7 ul > li > i.gss7_icon2 {
+  background: url(img/icon_02-be6560e6de.png) center center no-repeat;
 }
 
-.gas_sensor_sec7 ul>li>i.gss7_icon3 {
-	background: url(img/icon_03-c9e85d7c84.png) center center no-repeat
+.gas_sensor_sec7 ul > li > i.gss7_icon3 {
+  background: url(img/icon_03-c9e85d7c84.png) center center no-repeat;
 }
 
-.gas_sensor_sec7 ul>li>i.gss7_icon4 {
-	background: url(img/icon_04-8d8fb43026.png) center center no-repeat
+.gas_sensor_sec7 ul > li > i.gss7_icon4 {
+  background: url(img/icon_04-8d8fb43026.png) center center no-repeat;
 }
 
-.gas_sensor_sec7 ul>li>p {
-	font-size: 18px;
-	color: #333;
-	margin-top: 40px;
-	text-align: center
+.gas_sensor_sec7 ul > li > p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 40px;
+  text-align: center;
 }

@@ -1,138 +1,134 @@
 .main_content {
-    height: 100%;
-    padding: 50px 0 0;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    max-width: 1586px;
-    background-color: #20232A;
-    flex-wrap:wrap;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    width: 100%;
-      margin: 70px auto;
+  height: 100%;
+  padding: 50px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1586px;
+  background-color: #20232a;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  width: 100%;
+  margin: 70px auto;
+}
+.prod-div-center {
+  background-color: #20232a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #2d343e;
+  margin: 0 auto;
+  max-width: 4000px;
+  width: 100%;
+}
+.main_content h3 {
+  left: 0;
+  top: 0;
+  color: #2d343e;
+  font-size: 10.5vw;
+}
 
-  }
-  .prod-div-center {
-    background-color: #20232A;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    border-top: 3px solid #2d343e; 
-    margin: 0 auto;
-    max-width:4000px;
-    width: 100%;
-  }
-  .main_content h3 {
-    left: 0;
-    top: 0;
-    color: #2d343e;
-    font-size: 10.5vw;
-  }
-  
+.main_content .card {
+  width: 500px;
+  border-radius: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 70px;
+}
+@media all and (max-width: 768px) {
   .main_content .card {
-    width: 500px;
-    border-radius: 15px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    margin-bottom: 70px;
-    
+    width: inherit;
   }
-  @media all and (max-width: 768px) {
-    .main_content .card {
-     width: inherit; 
-    }
-  }
-  .main_content .card .card_img {
-    margin-top: -5vw;
-  }
-  
-  .main_content .card .card_img img {
-    width: 300px;
-    /* background-image: url('./LPT.jpg'); */
-  }
-  
-  .main_content .card .card_header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    color: #fff;
-    margin: 25px 0;
-  }
-  
-  .main_content .card .card_header h2 {
-    font-size: 18px;
-  }
-  
-  .main_content .card .card_header p {
-    font-size: 14px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    margin: 8px 0;
-  }
-  
-  .main_content .card .card_header .price {
-    font-size: 25px;
-    color: #fe8033;
-  }
-  
-  .main_content .card .card_header .price span {
-    font-size: 15px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  .main_content .card:hover {
-    background-color: #2b3039;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    cursor: pointer;
-  }
-  
-  .main_content .card:hover .btn {
-    background-color: #11886e;
-    color: #fff;
-  }
-  
- 
-  .row-div {
-    font-family: "Gowun Dodum", sans-serif;
-    font-weight: bolder;
-    color: #fff;
-    width: 100%;
-  }
-  .prop-div {
-    background-color: #20232A;
-    border: 1px solid #32363E;
-  }
-  .value-div {
-    background-color: #11886e;
-    border: 1px solid #32363E;
+}
+.main_content .card .card_img {
+  margin-top: -5vw;
+}
 
+.main_content .card .card_img img {
+  width: 300px;
+  /* background-image: url('./LPT.jpg'); */
+}
+
+.main_content .card .card_header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+  margin: 25px 0;
+}
+
+.main_content .card .card_header h2 {
+  font-size: 18px;
+}
+
+.main_content .card .card_header p {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 8px 0;
+}
+
+.main_content .card .card_header .price {
+  font-size: 25px;
+  color: #fe8033;
+}
+
+.main_content .card .card_header .price span {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main_content .card:hover {
+  background-color: #2b3039;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main_content .card:hover .btn {
+  background-color: #11886e;
+  color: #fff;
+}
+
+.row-div {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  width: 100%;
+}
+.prop-div {
+  background-color: #20232a;
+  border: 1px solid #32363e;
+}
+.value-div {
+  background-color: #11886e;
+  border: 1px solid #32363e;
+}
+.single-prod-header {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: bolder;
+}
+.single-desc {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+}
+@media all and (max-width: 1005px) {
+  .single-prod-cont {
+    flex-direction: column;
   }
-  .single-prod-header {
-    font-family: "Gowun Dodum", sans-serif;
-    font-weight: bolder;
-  }
-  .single-desc {
-    font-family: "Gowun Dodum", sans-serif;
-    font-weight: bolder;
-    font-size: 22px;
-  }
-  @media all and (max-width: 1005px) {
-    .single-prod-cont{
-      flex-direction: column;
-    }
-  }
+}

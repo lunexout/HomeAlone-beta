@@ -1,20 +1,20 @@
 import React from "react";
 import "./Partners.css";
-import options from './PartnerInfo'
+import options from "./PartnerInfo";
 
-import { Footer } from '../footer/Footer';
+import { Footer } from "../footer/Footer";
 export const PartnerPage = ({ match }) => {
   React.useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   let describtion;
-  if (localStorage.getItem('lang') === 'ru') {
-    describtion = options[match.params.id].describtionru
-  } else if (localStorage.getItem('lang') === 'ge') {
-    describtion = options[match.params.id].describtiongeo
+  if (localStorage.getItem("lang") === "ru") {
+    describtion = options[match.params.id].describtionru;
+  } else if (localStorage.getItem("lang") === "ge") {
+    describtion = options[match.params.id].describtiongeo;
   } else {
-    describtion = options[match.params.id].describtioneng
+    describtion = options[match.params.id].describtioneng;
   }
   return (
     <>
@@ -32,9 +32,7 @@ export const PartnerPage = ({ match }) => {
           <div class="about-us-info">
             <h2>{options[match.params.id].CompanyName}</h2>
 
-            <p>
-              {describtion}
-            </p>
+            <p>{describtion}</p>
           </div>
         </div>
 
@@ -52,10 +50,13 @@ export const PartnerPage = ({ match }) => {
             <h2>Cooperation</h2>
 
             <p>
-              Ltd “Home alone” and building company “{options[match.params.id].CompanyName}” have signed a cooperation,
-              which allows the residents of {options[match.params.id].CompanyName} to use the services of a smart home,
-              remotely manage and smarten up any home appliances in the house. We offer a fast,
-              easy and ideal solution for the comfort of your home.
+              Ltd “Home alone” and building company “
+              {options[match.params.id].CompanyName}” have signed a cooperation,
+              which allows the residents of{" "}
+              {options[match.params.id].CompanyName} to use the services of a
+              smart home, remotely manage and smarten up any home appliances in
+              the house. We offer a fast, easy and ideal solution for the
+              comfort of your home.
             </p>
           </div>
         </div>

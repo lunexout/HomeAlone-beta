@@ -1,18 +1,18 @@
-import React from 'react'
-import './spinner.css'
+import React from "react";
+import "./spinner.css";
 export const Spinner = () => {
-    return(
-        <>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-        </>
-    )
-}
+  return (
+    <>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </>
+  );
+};

@@ -14,7 +14,6 @@
   }
 }
 
-
 .cursor {
   width: 20px;
   height: 20px;
@@ -22,7 +21,7 @@
   border-radius: 50%;
   position: absolute;
   z-index: 9999999999;
-  animation: cursorAnim .5s infinite alternate;
+  animation: cursorAnim 0.5s infinite alternate;
   pointer-events: none;
 }
 
@@ -32,47 +31,46 @@
   height: 20px;
   position: absolute;
   z-index: 99999999;
-  border: 8px solid #20232A;
+  border: 8px solid #20232a;
   border-radius: 50%;
-  opacity: .5;
+  opacity: 0.5;
   top: -8px;
   left: -8px;
-  animation: cursorAnim2 .5s infinite alternate;
+  animation: cursorAnim2 0.5s infinite alternate;
 }
 
 @keyframes cursorAnim {
   from {
-      transform: scale(1);
+    transform: scale(1);
   }
   to {
-      transform: scale(.7);
+    transform: scale(0.7);
   }
 }
 
 @keyframes cursorAnim2 {
   from {
-      transform: scale(1);
+    transform: scale(1);
   }
   to {
-      transform: scale(.4);
+    transform: scale(0.4);
   }
 }
 
 @keyframes cursorAnim3 {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
   50% {
-      transform: scale(3);
+    transform: scale(3);
   }
   100% {
-      transform: scale(1);
-      opacity: 0;
+    transform: scale(1);
+    opacity: 0;
   }
 }
 
 .expand {
-  animation: cursorAnim3 .1s forwards;
-  border: 1px solid #008E72;
-} 
-
+  animation: cursorAnim3 0.1s forwards;
+  border: 1px solid #008e72;
+}

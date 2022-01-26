@@ -1,248 +1,254 @@
 .jg_sec1,
 .jg_sec1 img {
-	width: 100%;
-	height: auto
+  width: 100%;
+  height: auto;
 }
 
 .jg_sec1 {
-	position: relative;
-	background: url(//static.orvibo.com/guanwang_second/front/en/images/jiguang/bg1-3886e08062.jpg) top center no-repeat;
-	min-height: 60px
+  position: relative;
+  background: url(//static.orvibo.com/guanwang_second/front/en/images/jiguang/bg1-3886e08062.jpg)
+    top center no-repeat;
+  min-height: 60px;
 }
 
 .jg_sec1 .s1_con {
-	margin-left: 0;
-	width: 42%;
-	position: absolute;
-	z-index: 2;
-	text-align: center;
-	top: 20%
+  margin-left: 0;
+  width: 42%;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 20%;
 }
 
 .jg_sec1 h1 {
-	font-size: 36px;
-	color: #2f2f2f;
-	font-weight: 400
+  font-size: 36px;
+  color: #2f2f2f;
+  font-weight: 400;
 }
 
 .jg_sec1 p,
-.jg_sec2>p,
-.jg_sec3>p {
-	font-size: 16px;
-	color: #2f2f2f
+.jg_sec2 > p,
+.jg_sec3 > p {
+  font-size: 16px;
+  color: #2f2f2f;
 }
 
 .jg_sec1 p.s1_text1 {
-	margin-top: 14px;
-	font-size: 24px
+  margin-top: 14px;
+  font-size: 24px;
 }
 
 .jg_sec1 p.s1_text2 {
-	margin-top: 32px
+  margin-top: 32px;
 }
 
-@media screen and (max-width:1440px) {
-	.jg_sec1 h1 {
-		font-size: 30px
-	}
-	.jg_sec1 p {
-		font-size: 14px
-	}
-	.jg_sec1 p.s1_text1 {
-		font-size: 20px
-	}
+@media screen and (max-width: 1440px) {
+  .jg_sec1 h1 {
+    font-size: 30px;
+  }
+  .jg_sec1 p {
+    font-size: 14px;
+  }
+  .jg_sec1 p.s1_text1 {
+    font-size: 20px;
+  }
 }
 
 .jg_sec2 {
-	height: 915px;
-	width: 100%;
-	background: url(//static.orvibo.com/guanwang_second/front/en/images/jiguang/bg2-4a8b9bb4d9.jpg) center center no-repeat;
-	text-align: center;
-	margin-top: -5px
+  height: 915px;
+  width: 100%;
+  background: url(//static.orvibo.com/guanwang_second/front/en/images/jiguang/bg2-4a8b9bb4d9.jpg)
+    center center no-repeat;
+  text-align: center;
+  margin-top: -5px;
 }
 
 .jg_sec2 h2,
 .jg_sec3 h2 {
-	font-size: 36px;
-	color: #2f2f2f;
-	padding-top: 130px;
-	line-height: 48px;
-	font-weight: 400;
-	margin-bottom: 0
+  font-size: 36px;
+  color: #2f2f2f;
+  padding-top: 130px;
+  line-height: 48px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
-.jg_sec2>p,
-.jg_sec3>p {
-	margin-top: 24px
+.jg_sec2 > p,
+.jg_sec3 > p {
+  margin-top: 24px;
 }
 
 .jg_sec3 h2 {
-	padding-top: 70px
+  padding-top: 70px;
 }
 
 .jg_sec3 .s3_con {
-	width: 1188px;
-	margin: 0 auto;
-	position: relative
+  width: 1188px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .jg_sec3 .s3_con p {
-	font-size: 18px;
-	color: #757575;
-	text-align: left;
-	position: absolute
+  font-size: 18px;
+  color: #757575;
+  text-align: left;
+  position: absolute;
 }
 
 .jg_sec3 {
-	height: 915px;
-	width: 100%;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg3-176731530c.jpg) center center no-repeat;
-	text-align: center
+  height: 915px;
+  width: 100%;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg3-176731530c.jpg)
+    center center no-repeat;
+  text-align: center;
 }
 
 .jg_sec3 .s3_con p.s3_t1 {
-	top: 404px;
-	left: -100px
+  top: 404px;
+  left: -100px;
 }
 
 .jg_sec3 .s3_con p.s3_t2 {
-	top: 540px;
-	left: -90px
+  top: 540px;
+  left: -90px;
 }
 
 .jg_sec5 {
-	width: 100%;
-	height: 1149px;
-	background-color: #fff
+  width: 100%;
+  height: 1149px;
+  background-color: #fff;
 }
 
 .jg_sec5 h2 {
-	font-size: 42px;
-	color: #2f2f2f;
-	padding-top: 62px;
-	line-height: 48px;
-	margin-bottom: 64px;
-	height: 48px;
-	text-align: center;
-	font-weight: 400
+  font-size: 42px;
+  color: #2f2f2f;
+  padding-top: 62px;
+  line-height: 48px;
+  margin-bottom: 64px;
+  height: 48px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .jg_sec5 .s5_con {
-	height: 977px;
-	width: 100%;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg7-fa69714054.jpg) center no-repeat
+  height: 977px;
+  width: 100%;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg7-fa69714054.jpg)
+    center no-repeat;
 }
 
 .jg_sec5 .s5_con .s5_title {
-	font-size: 36px;
-	color: #2f2f2f;
-	padding-top: 82px;
-	text-align: center
+  font-size: 36px;
+  color: #2f2f2f;
+  padding-top: 82px;
+  text-align: center;
 }
 
 .jg_sec5 .s5_con .s5_container {
-	width: 750px;
-	margin: 40px auto 0
+  width: 750px;
+  margin: 40px auto 0;
 }
 
 .jg_sec5 .s5_con .s5_container .left {
-	width: 400px;
-	float: left;
-	text-align: left
+  width: 400px;
+  float: left;
+  text-align: left;
 }
 
 .jg_sec5 .s5_con .s5_container .left p {
-	font-size: 20px;
-	color: #2f2f2f
+  font-size: 20px;
+  color: #2f2f2f;
 }
 
 .jg_sec5 .s5_con .s5_container .left p span {
-	font-size: 42px
+  font-size: 42px;
 }
 
 .jg_sec5 .s5_con .s5_container .right {
-	width: 300px;
-	float: right;
-	text-align: left;
-	margin-left: 50px
+  width: 300px;
+  float: right;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .jg_sec5 .s5_con .s5_container .right p {
-	font-size: 20px;
-	color: #2f2f2f
+  font-size: 20px;
+  color: #2f2f2f;
 }
 
 .jg_sec5 .s5_con .s5_container .right p span {
-	font-size: 42px
+  font-size: 42px;
 }
 
 .jg_sec6 {
-	height: 1080px;
-	width: 100%;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg8-757f43ddb6.jpg) center no-repeat;
-	text-align: center
+  height: 1080px;
+  width: 100%;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg8-757f43ddb6.jpg)
+    center no-repeat;
+  text-align: center;
 }
 
 .jg_sec6 h2 {
-	font-size: 36px;
-	color: #fff;
-	padding-top: 76px;
-	margin-bottom: 26px;
-	font-weight: 400
+  font-size: 36px;
+  color: #fff;
+  padding-top: 76px;
+  margin-bottom: 26px;
+  font-weight: 400;
 }
 
 .jg_sec6 .s6_con {
-	position: relative;
-	width: 1188px;
-	margin: 0 auto
+  position: relative;
+  width: 1188px;
+  margin: 0 auto;
 }
 
 .jg_sec6 .s6_con p {
-	position: absolute;
-	font-size: 24px;
-	color: #fff;
-	text-align: left;
-	line-height: 26px
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  line-height: 26px;
 }
 
 .jg_sec6 .s6_con p span {
-	font-size: 16px;
-	color: #fff
+  font-size: 16px;
+  color: #fff;
 }
 
 .jg_sec6 .s6_con .s6_t1 {
-	top: 654px;
-	left: 300px
+  top: 654px;
+  left: 300px;
 }
 
 .jg_sec6 .s6_con .s6_t2 {
-	top: 610px;
-	right: 40px
+  top: 610px;
+  right: 40px;
 }
 
 .jg_sec7 {
-	height: 858px;
-	width: 100%;
-	background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg9-c19e1a9a4e.jpg) center no-repeat
+  height: 858px;
+  width: 100%;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg9-c19e1a9a4e.jpg)
+    center no-repeat;
 }
 
 .jg_sec7 .s7_con {
-	width: 1188px;
-	margin: 0 auto;
-	padding-top: 365px
+  width: 1188px;
+  margin: 0 auto;
+  padding-top: 365px;
 }
 
 .jg_sec7 .s7_con h2 {
-	font-size: 36px;
-	color: #f6f6f6;
-	line-height: 40px;
-	font-weight: 400;
-	margin-bottom: 24px;
-	padding-left: 130px
+  font-size: 36px;
+  color: #f6f6f6;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  padding-left: 130px;
 }
 
 .jg_sec7 .s7_con p {
-	padding-left: 130px;
-	color: #f6f6f6;
-	font-size: 16px
+  padding-left: 130px;
+  color: #f6f6f6;
+  font-size: 16px;
 }

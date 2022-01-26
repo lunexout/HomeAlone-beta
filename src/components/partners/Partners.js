@@ -1,8 +1,8 @@
-import React from 'react'
-import './Partners.css'
-import './Partners.scss'
-import PartnerWith from './partnetwith'
-import { Footer } from '../footer/Footer'
+import React from "react";
+import "./Partners.css";
+import "./Partners.scss";
+import PartnerWith from "./partnetwith";
+import { Footer } from "../footer/Footer";
 
 // import IMG14 from './images/7th heaven.jpg'
 // import IMG2  from './images/Alley palace.jpg'
@@ -45,12 +45,12 @@ import { Footer } from '../footer/Footer'
 // ]
 
 export const Partners = () => {
-    return (
-        <>
-        <PartnerWith/>
-        <Footer/>
-        </>
-    )
-}
+  return (
+    <>
+      <PartnerWith />
+      <Footer />
+    </>
+  );
+};
 
-export default Partners
+export default Partners;

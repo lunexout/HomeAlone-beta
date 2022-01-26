@@ -1,8 +1,3 @@
-
-export const Mobile = () =>{
-    return(
-        <>
-    
-        </>
-    )
-} 
+export const Mobile = () => {
+  return <></>;
+};

@@ -2,7 +2,7 @@ import React from "react";
 // import './GiantEye2K.css'
 const GiantEye2K = () => {
   return (
-      <></>
+    <></>
     // <div className="camera__container">
     //   <div className="camera__banner s__bg">
     //     <div className="banner__content">

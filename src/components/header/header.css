@@ -1,6 +1,6 @@
 .socialphoto {
-  height: 120px!important;
-  width: 120px!important;
+  height: 120px !important;
+  width: 120px !important;
 }
 .header {
   display: flex;
@@ -19,17 +19,17 @@
   transition: 0.5s ease all;
 }
 .header div .nav-item {
-    outline: none;
-    text-decoration: none;
-  }
+  outline: none;
+  text-decoration: none;
+}
 .insidemenu-nav-item {
   outline: none;
   text-decoration: none;
-  color: #fff;  
+  color: #fff;
 }
 .insidemenu-nav-item:hover {
   /* text-decoration: line-through; */
-  color: #067B65;
+  color: #067b65;
   cursor: pointer;
   font-weight: 700;
 }
@@ -37,7 +37,7 @@
   /* background-color: #32363e; */
   /* border: 1px solid #008b70; */
   /* text-decoration: line-through; */
-  color: #067B65;
+  color: #067b65;
   cursor: pointer;
   font-weight: 700;
 }
@@ -61,10 +61,9 @@
   border-bottom: 1px solid #32363e;
   padding: 3px 10px;
 }
-@media all and (max-width:900px) {
+@media all and (max-width: 900px) {
   .product-box div div p {
     font-size: 3.5vmin;
-    
   }
   .product-box div div {
     width: 100%;
@@ -82,13 +81,13 @@
   cursor: pointer;
 }
 .product-box div .partners img:hover {
-    box-shadow: #32363e 0px 7px 29px 0px;
+  box-shadow: #32363e 0px 7px 29px 0px;
 }
 .product-box div .products-right img:hover {
-    box-shadow: #008B70 0px 7px 29px 0px;
+  box-shadow: #008b70 0px 7px 29px 0px;
 }
 .product-box div .products-right2 img {
-  box-shadow: #008B70 0px 7px 29px 0px;
+  box-shadow: #008b70 0px 7px 29px 0px;
 }
 .full-box-div {
   display: flex;
@@ -100,7 +99,9 @@
   transition-duration: 2s;
 }
 .footer-div {
-  margin: 0 auto; max-width: 1366px; width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -122,40 +123,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 @media all and (min-width: 1200px) {
   .full-box-div {
-      max-width: 1200px;
+    max-width: 1200px;
   }
 }
 @media all and (min-width: 1919px) {
-    .full-box-div {
-        max-width: 1266px;
-    }
-    .footer-div {
-      max-width: 1266px;
-    }
+  .full-box-div {
+    max-width: 1266px;
+  }
+  .footer-div {
+    max-width: 1266px;
+  }
 }
 @media all and (min-width: 2559px) {
-    .full-box-div {
-        max-width: 1618px;
-    }
-    .footer-div {
-      max-width: 1618px;
+  .full-box-div {
+    max-width: 1618px;
+  }
+  .footer-div {
+    max-width: 1618px;
   }
 }
 @media all and (min-width: 4508px) {
-    .full-box-div {
-        max-width: 2066px;
-    }
-    .footer-div {
-      max-width: 2066px;
+  .full-box-div {
+    max-width: 2066px;
+  }
+  .footer-div {
+    max-width: 2066px;
   }
 }
 .nav-active p {
-        /* background-color: #32363e !important; */
-        color: #067B65 !important;
+  /* background-color: #32363e !important; */
+  color: #067b65 !important;
   /* text-decoration: line-through; */
   font-weight: 700 !important;
 }
@@ -163,39 +163,38 @@
   color: #fff !important;
   /* text-decoration: line-through; */
   font-weight: 700 !important;
-  padding-right: 0px!important;
+  padding-right: 0px !important;
 }
 
-.nav-item-lang-mobile{
+.nav-item-lang-mobile {
   color: #fff !important;
   /* text-decoration: line-through; */
   font-size: 5;
 }
-.nav-item-lang-mobile:hover{
-  color: #067B65 !important;
+.nav-item-lang-mobile:hover {
+  color: #067b65 !important;
   /* text-decoration: line-through; */
   font-weight: 700 !important;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   .nav-item-lang-mobile {
-    font-size: 2.7vmin!important;
-}
+    font-size: 2.7vmin !important;
+  }
 
-
-.product-box div .nav-item-lang-mobile{
-  text-align: center;
-}
+  .product-box div .nav-item-lang-mobile {
+    text-align: center;
+  }
 }
 
 .nav-item-lang:hover {
-  color: #067B65 !important;
+  color: #067b65 !important;
   /* text-decoration: line-through; */
   font-weight: 700 !important;
 }
-.nav-active  {
+.nav-active {
   /* background-color: #32363e !important; */
-  color: #067B65 !important;
-/* text-decoration: line-through; */
-font-weight: 700 !important;
+  color: #067b65 !important;
+  /* text-decoration: line-through; */
+  font-weight: 700 !important;
 }

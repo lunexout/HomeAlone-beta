@@ -1,323 +1,329 @@
-.page_mixpads .white{
-  color:#fff
+.page_mixpads .white {
+  color: #fff;
 }
-.page_mixpads .black{
-  color:#111
+.page_mixpads .black {
+  color: #111;
 }
-.page_mixpads .op8{
-  opacity:.8
+.page_mixpads .op8 {
+  opacity: 0.8;
 }
-.page_mixpads .title{
-  font-size:.45rem;
-  font-weight:600;
-  letter-spacing:.02rem;
-  line-height:1em;
-  text-align:center
+.page_mixpads .title {
+  font-size: 0.45rem;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+  line-height: 1em;
+  text-align: center;
 }
-.page_mixpads .desc{
-  text-align:center;
-  font-size:.24rem;
-  margin-top:.32rem
+.page_mixpads .desc {
+  text-align: center;
+  font-size: 0.24rem;
+  margin-top: 0.32rem;
 }
-.page_mixpads .sec1{
-  height:8.67rem
+.page_mixpads .sec1 {
+  height: 8.67rem;
 }
-.page_mixpads .sec1 .subtitle{
-  margin-left:1rem;
-  font-size:.3rem;
-  line-height:1em;
-  margin-top:1.88rem
+.page_mixpads .sec1 .subtitle {
+  margin-left: 1rem;
+  font-size: 0.3rem;
+  line-height: 1em;
+  margin-top: 1.88rem;
 }
-.page_mixpads .sec1 .title{
-  margin-left:1rem;
-  font-size:.48rem;
-  line-height:1em;
-  margin-top:.35rem;
-  text-align:left
+.page_mixpads .sec1 .title {
+  margin-left: 1rem;
+  font-size: 0.48rem;
+  line-height: 1em;
+  margin-top: 0.35rem;
+  text-align: left;
 }
-.page_mixpads .sec2{
-  height:11.52rem
+.page_mixpads .sec2 {
+  height: 11.52rem;
 }
-.page_mixpads .sec2 .title{
-  margin-top:1.2rem;
-  line-height:1.6em
+.page_mixpads .sec2 .title {
+  margin-top: 1.2rem;
+  line-height: 1.6em;
 }
-.page_mixpads .sec3mixp{
-  height:12.8rem
-}
-
-.page_mixpads .sec3mixp .title{
-  margin-top:1.4rem
-}
-.page_mixpads .sec3mixp .container{
-  height:1.8rem;
-  width:16.17rem;
-  display:flex;
-  margin:6rem auto 0
-}
-.page_mixpads .sec3mixp .container .content{
-  flex:1
-}
-.page_mixpads .sec3mixp .container .content .c_subtitle{
-  font-weight:600;
-  font-size:.22rem;
-  line-height:1em;
-  text-align:center;
-  margin-top:.5rem
-}
-.page_mixpads .sec3mixp .container .content .c_title{
-  font-weight:600;
-  font-size:.3rem;
-  line-height:1.2em;
-  text-align:center;
-  margin-top:.16rem
-}
-.page_mixpads .sec3mixp .container .content .c_desc{
-  text-align:center;
-  font-size:.16rem;
-  margin-top:.22rem
-}
-.page_mixpads .sec4{
-  height:9.87rem
-}
-.page_mixpads .sec4 .title{
-  margin-top:1.1rem
-}
-.page_mixpads .sec5mixp{
-  height:11.89rem
-}
-.page_mixpads .sec5mixp .title{
-  margin-top:1.2rem
-}
-.page_mixpads .sec5mixp .video{
-  margin-top:.9rem
-}
-.page_mixpads .sec5mixp .video .bg{
-  width:16rem;
-  height:7.2rem;
-  overflow:hidden;
-  position:relative;
-  cursor:pointer
-}
-.page_mixpads .sec5mixp .video .bg img{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:100%;
-  height:100%;
-  transition:all .3s;
-  z-index:1
-}
-.page_mixpads .sec5mixp .video .bg:after{
-  opacity:0;
-  content:'';
-  position:absolute;
-  top:50%;
-  left:50%;
-  width:.8rem;
-  height:.8rem;
-  transform:translate(-50%,-50%);
-  background:url(//static.orvibo.com/guanwang_second/front/images/2019/index/video/icon_play-525abb68fd.png) center no-repeat;
-  background-size:cover;
-  transition:.5s all ease;
-  z-index:3
-}
-.page_mixpads .sec5mixp .video .bg:before{
-  opacity:0;
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  background:rgba(0,0,0,.2);
-  transition:.5s all ease;
-  z-index:2
-}
-.page_mixpads .sec5mixp .video .bg:hover img{
-  width:110%;
-  height:110%
-}
-.page_mixpads .sec5mixp .video .bg:hover:after,.page_mixpads .sec5mixp .video .bg:hover:before{
-  opacity:1
-}
-.page_mixpads .sec7{
-  height:11.63rem;
-  position:relative
-}
-.page_mixpads .sec7 .title{
-  margin-top:1.2rem;
-  line-height:1.6em
-}
-.page_mixpads .sec8 .title,.page_mixpads .sec9 .title{
-  margin-top:1rem;
-  line-height:1.6em
-}
-.page_mixpads .sec7 .video{
-  position:absolute;
-  width:3.41rem;
-  height:3.41rem;
-  left:50%;
-  top:5.36rem;
-  transform:translateX(-50%)
-}
-.page_mixpads .sec8{
-  height:15rem
-}
-.page_mixpads .sec9{
-  height:30.24rem;
-  overflow:hidden
-}
-.page_mixpads .sec9 .container{
-  margin-top:.74rem
-}
-.page_mixpads .sec9 .container .content{
-  height:5.76rem;
-  margin-bottom:.6rem
-}
-.page_mixpads .sec10{
-  height:20.25rem
-}
-.page_mixpads .sec10 .title{
-  line-height:1.6em
-}
-.page_mixpads .sec10 .img{
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover
-}
-.page_mixpads .sec10 .img1{
-  height:8.95rem;
-  margin-top:.8rem
-}
-.page_mixpads .sec10 .imgs{
-  margin-top:.4rem;
-  display:flex;
-  justify-content:space-between
-}
-.page_mixpads .sec10 .imgs .img{
-  width:7.8rem;
-  height:7.8rem
-}
-.page_mixpads .sec11{
-  height:12.27rem
-}
-.page_mixpads .sec11 .title{
-  margin-top:1.35rem
-}
-.page_mixpads .sec12{
-  height:10.61rem
-}
-.page_mixpads .sec12 .title{
-  margin-top:1.1rem;
-  opacity:.6
-}
-.banner1{
-  min-width:1280px
+.page_mixpads .sec3mixp {
+  height: 12.8rem;
 }
 
-.video_mask,.video_modal{
-  display:none
+.page_mixpads .sec3mixp .title {
+  margin-top: 1.4rem;
+}
+.page_mixpads .sec3mixp .container {
+  height: 1.8rem;
+  width: 16.17rem;
+  display: flex;
+  margin: 6rem auto 0;
+}
+.page_mixpads .sec3mixp .container .content {
+  flex: 1;
+}
+.page_mixpads .sec3mixp .container .content .c_subtitle {
+  font-weight: 600;
+  font-size: 0.22rem;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.page_mixpads .sec3mixp .container .content .c_title {
+  font-weight: 600;
+  font-size: 0.3rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 0.16rem;
+}
+.page_mixpads .sec3mixp .container .content .c_desc {
+  text-align: center;
+  font-size: 0.16rem;
+  margin-top: 0.22rem;
+}
+.page_mixpads .sec4 {
+  height: 9.87rem;
+}
+.page_mixpads .sec4 .title {
+  margin-top: 1.1rem;
+}
+.page_mixpads .sec5mixp {
+  height: 11.89rem;
+}
+.page_mixpads .sec5mixp .title {
+  margin-top: 1.2rem;
+}
+.page_mixpads .sec5mixp .video {
+  margin-top: 0.9rem;
+}
+.page_mixpads .sec5mixp .video .bg {
+  width: 16rem;
+  height: 7.2rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.page_mixpads .sec5mixp .video .bg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+  z-index: 1;
+}
+.page_mixpads .sec5mixp .video .bg:after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  transform: translate(-50%, -50%);
+  background: url(//static.orvibo.com/guanwang_second/front/images/2019/index/video/icon_play-525abb68fd.png)
+    center no-repeat;
+  background-size: cover;
+  transition: 0.5s all ease;
+  z-index: 3;
+}
+.page_mixpads .sec5mixp .video .bg:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transition: 0.5s all ease;
+  z-index: 2;
+}
+.page_mixpads .sec5mixp .video .bg:hover img {
+  width: 110%;
+  height: 110%;
+}
+.page_mixpads .sec5mixp .video .bg:hover:after,
+.page_mixpads .sec5mixp .video .bg:hover:before {
+  opacity: 1;
+}
+.page_mixpads .sec7 {
+  height: 11.63rem;
+  position: relative;
+}
+.page_mixpads .sec7 .title {
+  margin-top: 1.2rem;
+  line-height: 1.6em;
+}
+.page_mixpads .sec8 .title,
+.page_mixpads .sec9 .title {
+  margin-top: 1rem;
+  line-height: 1.6em;
+}
+.page_mixpads .sec7 .video {
+  position: absolute;
+  width: 3.41rem;
+  height: 3.41rem;
+  left: 50%;
+  top: 5.36rem;
+  transform: translateX(-50%);
+}
+.page_mixpads .sec8 {
+  height: 15rem;
+}
+.page_mixpads .sec9 {
+  height: 30.24rem;
+  overflow: hidden;
+}
+.page_mixpads .sec9 .container {
+  margin-top: 0.74rem;
+}
+.page_mixpads .sec9 .container .content {
+  height: 5.76rem;
+  margin-bottom: 0.6rem;
+}
+.page_mixpads .sec10 {
+  height: 20.25rem;
+}
+.page_mixpads .sec10 .title {
+  line-height: 1.6em;
+}
+.page_mixpads .sec10 .img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page_mixpads .sec10 .img1 {
+  height: 8.95rem;
+  margin-top: 0.8rem;
+}
+.page_mixpads .sec10 .imgs {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.page_mixpads .sec10 .imgs .img {
+  width: 7.8rem;
+  height: 7.8rem;
+}
+.page_mixpads .sec11 {
+  height: 12.27rem;
+}
+.page_mixpads .sec11 .title {
+  margin-top: 1.35rem;
+}
+.page_mixpads .sec12 {
+  height: 10.61rem;
+}
+.page_mixpads .sec12 .title {
+  margin-top: 1.1rem;
+  opacity: 0.6;
+}
+.banner1 {
+  min-width: 1280px;
 }
 
-.banner1,.w{
-  margin:0 auto
+.video_mask,
+.video_modal {
+  display: none;
 }
 
-.w{
-  width:16rem;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:cover
+.banner1,
+.w {
+  margin: 0 auto;
 }
 
-.video_mask::after{
-  content:''
+.w {
+  width: 16rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.banner1{
-  position:relative;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  overflow:hidden
+.video_mask::after {
+  content: "";
 }
-.video_modal{
-  position:fixed;
-  width:1190px;
-  height:600px;
-  left:50%;
-  top:50%;
-  margin-left:-595px;
-  margin-top:-300px;
-  z-index:99999
+
+.banner1 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 }
-.video_mask{
-  position:fixed;
-  background-color:#101010;
-  overflow:hidden;
-  top:0;
-  left:0;
-  z-index:99998;
-  -webkit-overflow-scrolling:touch
+.video_modal {
+  position: fixed;
+  width: 1190px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -595px;
+  margin-top: -300px;
+  z-index: 99999;
 }
-.video_mask::after{
-  display:block;
-  position:absolute;
-  right:24px;
-  top:24px;
-  width:36px;
-  height:36px;
-  cursor:pointer;
-  background:url(//static.orvibo.com/guanwang_second/front/images/new/vedio_t1_close-e909f77947.png) center no-repeat;
-  background-size:cover;
-  opacity:.5;
-  filter:alpha(opacity=50)
+.video_mask {
+  position: fixed;
+  background-color: #101010;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 99998;
+  -webkit-overflow-scrolling: touch;
 }
-.install{
-  width:1200px;
-  margin:0 auto;
-  padding-top:30px;
-  padding-bottom:160px;
-  position:relative
+.video_mask::after {
+  display: block;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background: url(//static.orvibo.com/guanwang_second/front/images/new/vedio_t1_close-e909f77947.png)
+    center no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
-.install:before{
-  content:'* All the above data are from the ORVIBO laboratory. The actual results may vary slightly depending on the measurement method.';
-  position:absolute;
-  left:0;
-  line-height:2em;
-  height:2em;
-  font-size:.14px;
-  color:#111;
-  bottom:120px
+.install {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 160px;
+  position: relative;
 }
-.install .block{
-  display:flex;
-  overflow:hidden;
-  padding:90px 0
+.install:before {
+  content: "* All the above data are from the ORVIBO laboratory. The actual results may vary slightly depending on the measurement method.";
+  position: absolute;
+  left: 0;
+  line-height: 2em;
+  height: 2em;
+  font-size: 0.14px;
+  color: #111;
+  bottom: 120px;
 }
-.install .block:not(:last-child){
-  border-bottom:1px solid rgba(17,17,17,.2)
+.install .block {
+  display: flex;
+  overflow: hidden;
+  padding: 90px 0;
 }
-.install .block .title{
-  flex:0 0 auto;
-  width:300px;
-  font-size:30px;
-  font-weight:600;
-  color:#111;
-  line-height:1.6em;
-  text-align:left;
-  padding-right:70px
+.install .block:not(:last-child) {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
 }
-.install .block ul{
-  flex:1;
-  margin-top:-10px;
-  margin-bottom:-10px
+.install .block .title {
+  flex: 0 0 auto;
+  width: 300px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #111;
+  line-height: 1.6em;
+  text-align: left;
+  padding-right: 70px;
 }
-.install .block li{
-  font-size:16px;
-  line-height:2em;
-  height:2em;
-  color:#111
+.install .block ul {
+  flex: 1;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.install .block li {
+  font-size: 16px;
+  line-height: 2em;
+  height: 2em;
+  color: #111;
 }
