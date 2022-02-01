@@ -173,7 +173,7 @@ export const Home = () => {
               className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
               style={{ textTransform: "capitalize" }}
             >
-              {t(" Only with one click")}
+              {t("Only")}
             </h1>
           </div>
           <div class="boxgif">

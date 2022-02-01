@@ -120,7 +120,7 @@ const resources = {
       "Finished Projects": "Finished Projects",
       "Costumers": "Costumers",
       "Products": "Products",
-      "Only with one click":"Only with one click"
+      "Only":"Only with one click"
     }
   },
   ge: {
@@ -241,7 +241,7 @@ const resources = {
       "Finished Projects": "დასრულებული პროექტები",
       "Costumers": "მომხმარებლები",
       "Products": "პროდუქტები",
-      "Only with one click":"ღილაკზე მხოლოდ ერთი დაჭერით "
+      "Only":"ღილაკზე მხოლოდ ერთი დაჭერით"
 
 
     }
@@ -364,7 +364,7 @@ const resources = {
     "Finished Projects": "Готовые проекты",
     "Costumers": "Костюмеры",
     "Products": "Продукты",
-    "Only with one click":"Только одним нажатием на кнопку"
+    "Only":"Только одним нажатием на кнопку"
 
 
     }
