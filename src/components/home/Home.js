@@ -80,8 +80,21 @@ export const Home = () => {
           </div>
 
           <Mainservices />
-
-          <Shower />
+          <div className="single-div" style={{ marginTop: 40 }}>
+            <h1
+              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+              style={{ textTransform: "capitalize" }}
+            >
+              {t("Only")}
+            </h1>
+          </div>
+          <div class="boxgif">
+            <img
+              src={df}
+              alt="Example gif"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1
@@ -168,21 +181,8 @@ export const Home = () => {
               </p>
             </div>
           </div>
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("Only")}
-            </h1>
-          </div>
-          <div class="boxgif">
-            <img
-              src={df}
-              alt="Example gif"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
+          
+          <Shower />
 
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
