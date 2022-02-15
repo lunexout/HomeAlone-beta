@@ -8,7 +8,7 @@ export const Shower = () => {
           <div className="content">
             <div className="item1">
               <a
-                href="http://localhost:3000/products/615b61cf14b1962f14b41f53"
+                href="https://homealone.ge/products/615b61cf14b1962f14b41f53"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -19,7 +19,7 @@ export const Shower = () => {
             </div>
             <div className="item2">
               <a
-                href="http://localhost:3000/products/615b5d6c14b1962f14b41f26"
+                href="https://homealone.ge/products/615b52b314b1962f14b41eaf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -30,7 +30,7 @@ export const Shower = () => {
             </div>
             <div className="item4">
               <a
-                href="http://localhost:3000/products/61533377ddd32b20b0def609"
+                href="https://homealone.ge/products/61533377ddd32b20b0def609"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -41,7 +41,7 @@ export const Shower = () => {
             </div>
             <div className="item5">
               <a
-                href="http://localhost:3000/products/6139ca9e96ece31228af1204"
+                href="https://homealone.ge/products/6139ca9e96ece31228af1204"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,7 +52,7 @@ export const Shower = () => {
             </div>
             <div className="item6">
               <a
-                href="http://localhost:3000/products/615b649214b1962f14b41fa3"
+                href="https://homealone.ge/products/615b649214b1962f14b41fa3"
                 target="_blank"
                 rel="noreferrer"
               >

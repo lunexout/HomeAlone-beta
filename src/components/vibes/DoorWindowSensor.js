@@ -37,7 +37,7 @@ export const DoorWindowSensor = ({ match }) => {
         <section className="free_model clear">
           <div className="dw_sec_1">
             <div className="container">
-              <h1>Door &amp; Window Sensor</h1>BUY NOW
+              <h1>Door &amp; Window Sensor</h1>
             </div>
           </div>
           <div className="dw_sec_2">
