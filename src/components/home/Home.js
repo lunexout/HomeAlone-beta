@@ -13,12 +13,13 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 
 import df from "./lhajWAwgNDMA.gif";
 import { useTranslation } from "react-i18next";
-import { Partnersfor } from "../partners/Partnersfor";
+// import { Partnersfor } from "../partners/Partnersfor";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
 import Autoslider from "../carousels/Autoslider";
 import { Statist } from "../about/Statist";
 import { Helmet } from "react-helmet";
+import { Automation } from "../automation/Automation.js";
 
 export const Home = () => {
   const [spinner, setSpinner] = React.useState(false);
@@ -104,7 +105,6 @@ export const Home = () => {
               {t("TOP PRODUCT")}
             </h1>
           </div>
-
           <Autoslider />
 
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
@@ -188,8 +188,9 @@ export const Home = () => {
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
           </div>*/}
+<Automation />
 
-          <Partnersfor />
+          {/* <Partnersfor /> */}
 
           <Statist />
 
