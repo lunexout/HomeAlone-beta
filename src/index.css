@@ -11,7 +11,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
 
-  background-color: #fff;
+  background-color: #028761;
   cursor: none;
 }
 code {
@@ -29,7 +29,7 @@ code {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #008e72;
+  background: #008e72; 
 }
 
 /* Handle on hover */

@@ -8,7 +8,7 @@ import IMG4 from "./department_images/245051853_4013007205471453_302810621762395
 import IMG5 from "./department_images/109803647_3404564399587947_6244733945744512342_n.jpg";
 import IMG6 from "./department_images/264083702_2174636466051423_5454546767082989622_n.jpg";
 import IMG7 from "./department_images/74226527_2893185477372846_2201737228206473216_n.jpg";
-import IMG8 from "./department_images/88c41e34-960c-46dc-a9be-3f82c698ba8c.jfif";
+import IMG8 from "./department_images/88c41e34-960c-46dc-a9be-3f82c698ba8c.jpg";
 
 import { useTranslation } from "react-i18next";
 

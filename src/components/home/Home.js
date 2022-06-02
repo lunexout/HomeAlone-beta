@@ -17,7 +17,7 @@ import { useTranslation } from "react-i18next";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
 import Autoslider from "../carousels/Autoslider";
-import { Statist } from "../about/Statist";
+// import { Statist } from "../about/Statist";
 import { Helmet } from "react-helmet";
 import { Automation } from "../automation/Automation.js";
 
@@ -192,7 +192,7 @@ export const Home = () => {
 
           {/* <Partnersfor /> */}
 
-          <Statist />
+          {/* <Statist /> */}
 
           <MessengerCustomerChat
             pageId="112617230247518"

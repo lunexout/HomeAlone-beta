@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./mobile-header.css";
 
-import logo from "./../../assets/logo.png";
+import logo from "./../../assets/logomobile.png";
 import menu from "./../../assets/burger.png";
 import close from "./../../assets/close.svg";
 import { NavLink } from "react-router-dom";
@@ -84,7 +84,7 @@ export const MobileHeader = () => {
             <img
               src={logo}
               className="App-logo"
-              style={{ height: "18vmin" }}
+              style={{ height: "40px", margin: "5px 0 5px 25px"}}
               alt="logo"
             />
           </div>
