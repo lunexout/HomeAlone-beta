@@ -61,7 +61,6 @@ export const Home = () => {
       ) : (
         <>
           <BannerCarousel />
-          <SmartBanner />
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1
               className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
@@ -81,6 +80,9 @@ export const Home = () => {
           </div>
 
           <Mainservices />
+
+          <SmartBanner />
+
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1
               className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
@@ -123,7 +125,75 @@ export const Home = () => {
             </h1>
           </div>
           <SwiperCarousel />
-          <div style={{ display: "block" }}>
+<div  className="backer">
+          <div className="container1">
+            <div className="layout1">
+              <div className="widther">
+                  <span style={{ fontSize: "4vmin" , fontWeight: "bold" }}>
+                  {t("prodiskr12")}
+                </span>
+                <p className="clean" style={{ fontSize: "3vmin" }}>
+                  {t("prodiskr13")}
+                </p>       
+              </div>
+              <div class="col1 col-complementary1" role="complementary">
+              <img
+                  style={{ width: "100%", height: "auto" }}
+                  src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_1-9453ebf6fd.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="container1">
+            <div className="layout1">
+              
+              <div class="col1 col-complementary1" role="complementary">
+              <img
+                  style={{ width: "100%", height: "auto" }}
+                  src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_3_en-3f2cce9470.png"
+                  alt=""
+                />
+              </div>
+              <div className="widther2">
+              <span style={{ fontSize: "4vmin" }}>
+                  {t("prodiskr14")}
+                </span>
+                <p className="clean" style={{ fontSize: "3vmin" }}>
+                  {t("prodiskr15")}
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          {/* <div className="single-div" style={{ display: "flex" }}>
+            <div>
+              <img
+                style={{ width: "100%", height: "auto" }}
+                src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_3_en-3f2cce9470.png"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                flexDirection: "column",
+                width: "60%",
+                backgroundColor: "lightgray",
+              }}
+            >
+              <span style={{ fontFamily: "Anton", fontSize: "5vmin" }}>
+                {t("prodiskr14")}
+              </span>
+              <p className="clean" style={{ fontSize: "3vmin" }}>
+                {t("prodiskr15")}
+              </p>
+            </div>
+          </div> */}
+          {/* <div style={{ display: "block" }}>
             <div
               className="single-div slideblocker"
               style={{ display: "flex" }}
@@ -153,42 +223,17 @@ export const Home = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="single-div" style={{ display: "flex" }}>
-            <div>
-              <img
-                style={{ width: "100%", height: "auto" }}
-                src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_3_en-3f2cce9470.png"
-                alt=""
-              />
-            </div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column",
-                width: "60%",
-                backgroundColor: "lightgray",
-              }}
-            >
-              <span style={{ fontFamily: "Anton", fontSize: "5vmin" }}>
-                {t("prodiskr14")}
-              </span>
-              <p className="clean" style={{ fontSize: "3vmin" }}>
-                {t("prodiskr15")}
-              </p>
-            </div>
-          </div>
           
+
           <Shower />
 
           {/* <div style={{ width: '100%', marginTop: 30, position: 'relative' }}>
             <p style={{ position: 'absolute', color: '#fff', top: 20, left: '50%', transform: 'translateX(-50%)', fontFamily: "Anton" }} className='banner-font'>{t('prodiskr1')}</p>
             <img style={{ maxWidth: '100%', width: '100%', height: 'auto', }} src="https://static.orvibo.com/guanwang_second/front/en/images/product/mixPadmini/sec2-dde2fd6ca7.png" alt="" />
           </div>*/}
-<Automation />
+          <Automation />
 
           {/* <Partnersfor /> */}
 

@@ -98,7 +98,7 @@ export const Mainservices = () => {
           <div
             className="column imageContainer3 vcenter"
             style={{
-              backgroundColor: "#028761",
+              backgroundColor: "#a7cbab",
               backgroundImage: `url(${image3})`,
               backgroundRepeat: "no-repeat",
               margin: "auto",
@@ -120,7 +120,7 @@ export const Mainservices = () => {
         <div
           className="column imageContainer1 vcenter"
           style={{
-            backgroundColor: "#028761",
+            backgroundColor: "#a7cbab",
             backgroundImage: `url(${image1})`,
             backgroundRepeat: "no-repeat",
           }}
@@ -141,7 +141,7 @@ export const Mainservices = () => {
           <div
             className="column imageContainer2 vcenter"
             style={{
-              backgroundColor: "#028761",
+              backgroundColor: "#a7cbab",
               backgroundImage: `url(${image2})`,
               backgroundRepeat: "no-repeat",
             }}

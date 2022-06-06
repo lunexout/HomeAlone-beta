@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import logo from "./../../assets/logo.png";
+import logo from "./../../assets/logomobile.png";
 import TBC_LOGO from "./../../assets/TBC_Bank_logo.png";
 
 import PARTNER1 from "./../partners/images/al mare batumi.jpg";
@@ -38,7 +38,32 @@ export const Header = () => {
       setAboutBox(false);
     }
   };
-
+  let langname;
+  if (localStorage.getItem("lang") === "en") {
+    langname = <p
+    style={{ borderRight: "none" }}
+    className="nav-item-lang"
+    onClick={() => changeLanguageHandler("en")}
+  >
+    EN
+  </p>
+  } else if (localStorage.getItem("lang") === "ru") {
+    langname = <p
+    style={{ borderRight: "none" }}
+    className="nav-item-lang"
+    onClick={() => changeLanguageHandler("ru")}
+  >
+    RU
+  </p>
+  } else {
+    langname = <p
+    style={{ borderRight: "none" }}
+    className="nav-item-lang"
+    onClick={() => changeLanguageHandler("ge")}
+  >
+    GE
+  </p>
+  }
   return (
     <>
       <div className="header">
@@ -50,6 +75,14 @@ export const Header = () => {
             alignItems: "center",
           }}
         >
+          <NavLink className="nav-item" activeClassName="nav-active" exact to="/">
+          <div
+            onMouseEnter={() => OpenBox(0)}
+            className="animate__animated animate__zoomIn"
+          >
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+        </NavLink>
           <div onMouseEnter={() => OpenBox(0)}>
             <NavLink
               className="nav-item"
@@ -91,14 +124,14 @@ export const Header = () => {
             </NavLink>
           </div>
         </div>
-        <NavLink className="nav-item" activeClassName="nav-active" exact to="/">
+        {/* <NavLink className="nav-item" activeClassName="nav-active" exact to="/">
           <div
             onMouseEnter={() => OpenBox(0)}
             className="animate__animated animate__zoomIn"
           >
             <img src={logo} className="App-logo" alt="logo" />
           </div>
-        </NavLink>
+        </NavLink> */}
 
         <div
           className="animate__animated animate__fadeInRight"
@@ -132,6 +165,10 @@ export const Header = () => {
             </NavLink>
           </div>
           <div style={{ display: "flex" }}>
+
+
+          {/* <p>{langname}</p> */}
+
             <p
               style={{ borderRight: "none" }}
               className="nav-item-lang"
