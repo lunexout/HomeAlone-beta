@@ -4,6 +4,14 @@
   align-content: start;
   color: white;
 }
+@media (min-width: 0px) and (max-width: 1366px){
+  .myhidden{
+visibility: hidden;
+height:0px;
+  }
+}
+
+
 @media (min-width: 900px) and (max-width: 1366px) {
   .yt1__container {
     background-image: url(./img/1.jpg);

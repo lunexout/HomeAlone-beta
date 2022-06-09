@@ -78,7 +78,7 @@ export const Home = () => {
               {t("SERVICES")}
             </h1>
           </div>
-
+ 
           <Mainservices />
 
           <SmartBanner />

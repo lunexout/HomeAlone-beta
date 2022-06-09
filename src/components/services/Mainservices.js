@@ -13,13 +13,13 @@ export const Mainservices = () => {
       <style
         dangerouslySetInnerHTML={{
           __html: `
-                    .grid-container {
+                    .grid-container1 {
                         display: grid;
                         grid-template-columns: auto auto auto;
                         gap: 10px;
                     }
             
-                    .grid-container>div {
+                    .grid-container1>div {
                         text-align: center;
                     }
             
@@ -30,6 +30,7 @@ export const Mainservices = () => {
                         font-weight: 800;
                         color: #fff;
                         vertical-align: bottom;
+                        font-size:30px;
                     }
             
                   
@@ -74,7 +75,7 @@ export const Mainservices = () => {
                     }      
                     
                     @media  only screen and (max-width: 900px) {
-                        .grid-container{
+                        .grid-container1{
                             grid-template-columns: auto;
                         }
                         
@@ -87,13 +88,23 @@ export const Mainservices = () => {
                         vertical-align: bottom;
 
                     }
+
+                    .imageContainer1,
+                    .imageContainer2,
+                    .imageContainer3 {
+                        height: 300px;
+                        font-weight: 800;
+                        color: #fff;
+                        vertical-align: bottom;
+                        font-size:22px;
+                    }
                       }
                     
                     `,
         }}
       />
 
-      <div className="grid-container">
+      <div className="grid-container1">
         <div>
           <div
             className="column imageContainer3 vcenter"

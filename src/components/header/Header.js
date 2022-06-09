@@ -38,32 +38,32 @@ export const Header = () => {
       setAboutBox(false);
     }
   };
-  let langname;
-  if (localStorage.getItem("lang") === "en") {
-    langname = <p
-    style={{ borderRight: "none" }}
-    className="nav-item-lang"
-    onClick={() => changeLanguageHandler("en")}
-  >
-    EN
-  </p>
-  } else if (localStorage.getItem("lang") === "ru") {
-    langname = <p
-    style={{ borderRight: "none" }}
-    className="nav-item-lang"
-    onClick={() => changeLanguageHandler("ru")}
-  >
-    RU
-  </p>
-  } else {
-    langname = <p
-    style={{ borderRight: "none" }}
-    className="nav-item-lang"
-    onClick={() => changeLanguageHandler("ge")}
-  >
-    GE
-  </p>
-  }
+  // let langname;
+  // if (localStorage.getItem("lang") === "en") {
+  //   langname = <p
+  //   style={{ borderRight: "none" }}
+  //   className="nav-item-lang"
+  //   onClick={() => changeLanguageHandler("en")}
+  // >
+  //   EN
+  // </p>
+  // } else if (localStorage.getItem("lang") === "ru") {
+  //   langname = <p
+  //   style={{ borderRight: "none" }}
+  //   className="nav-item-lang"
+  //   onClick={() => changeLanguageHandler("ru")}
+  // >
+  //   RU
+  // </p>
+  // } else {
+  //   langname = <p
+  //   style={{ borderRight: "none" }}
+  //   className="nav-item-lang"
+  //   onClick={() => changeLanguageHandler("ge")}
+  // >
+  //   GE
+  // </p>
+  // }
   return (
     <>
       <div className="header">

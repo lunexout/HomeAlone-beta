@@ -23,9 +23,21 @@
   border-radius: 5px;
   font-family: "Gowun Dodum", sans-serif;
 }
+
+
+@media  only screen and (max-width: 900px) {
 .marginizer {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  font-size: 25px!important;
+}
+}
+
+
+.marginizer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 35px!important;
 }
 
 .fontsizer {
@@ -2219,8 +2231,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  /* -webkit-print-color-adjust: exact;
+  color-adjust: exact; */
 }
 .form-check-input[type="checkbox"] {
   border-radius: 0.25em;

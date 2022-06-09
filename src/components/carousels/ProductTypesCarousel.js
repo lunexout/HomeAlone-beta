@@ -10,13 +10,13 @@ const options = {
     items: 2,
   },
   450: {
-    items: 2,
+    items: 2.2,
   },
   800: {
-    items: 4,
+    items: 4.2,
   },
   1200: {
-    items: 9,
+    items: 6.2,
   },
   1400: {
     items: 9,
