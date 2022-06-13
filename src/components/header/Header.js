@@ -15,6 +15,7 @@ export const Header = () => {
   const [ProductsBox, setProductsBox] = useState(false);
   const [ServicesBox, setServicesBox] = useState(false);
   const [AboutBox, setAboutBox] = useState(false);
+  const [LangBox, setLangBox] = useState(false);
   const changeLanguageHandler = (lang) => {
     localStorage.setItem("lang", lang);
     window.location.reload();
@@ -24,46 +25,61 @@ export const Header = () => {
       setProductsBox(true);
       setServicesBox(false);
       setAboutBox(false);
+      setLangBox(false);
     } else if (arg === 3) {
       setProductsBox(false);
       setServicesBox(true);
       setAboutBox(false);
+      setLangBox(false);
     } else if (arg === 4) {
       setProductsBox(false);
       setServicesBox(false);
       setAboutBox(true);
+      setLangBox(false);
+    } else if (arg === 6) {
+      setProductsBox(false);
+      setServicesBox(false);
+      setAboutBox(false);
+      setLangBox(true);
     } else {
       setProductsBox(false);
       setServicesBox(false);
       setAboutBox(false);
+      setLangBox(false);
     }
   };
-  // let langname;
-  // if (localStorage.getItem("lang") === "en") {
-  //   langname = <p
-  //   style={{ borderRight: "none" }}
-  //   className="nav-item-lang"
-  //   onClick={() => changeLanguageHandler("en")}
-  // >
-  //   EN
-  // </p>
-  // } else if (localStorage.getItem("lang") === "ru") {
-  //   langname = <p
-  //   style={{ borderRight: "none" }}
-  //   className="nav-item-lang"
-  //   onClick={() => changeLanguageHandler("ru")}
-  // >
-  //   RU
-  // </p>
-  // } else {
-  //   langname = <p
-  //   style={{ borderRight: "none" }}
-  //   className="nav-item-lang"
-  //   onClick={() => changeLanguageHandler("ge")}
-  // >
-  //   GE
-  // </p>
-  // }
+  let langname;
+  if (localStorage.getItem("lang") === "en") {
+    langname = (
+      <p
+        style={{ borderRight: "none" }}
+        className="nav-item-lang"
+        onClick={() => changeLanguageHandler("en")}
+      >
+        EN
+      </p>
+    );
+  } else if (localStorage.getItem("lang") === "ru") {
+    langname = (
+      <p
+        style={{ borderRight: "none" }}
+        className="nav-item-lang"
+        onClick={() => changeLanguageHandler("ru")}
+      >
+        RU
+      </p>
+    );
+  } else {
+    langname = (
+      <p
+        style={{ borderRight: "none" }}
+        className="nav-item-lang"
+        onClick={() => changeLanguageHandler("ge")}
+      >
+        GE
+      </p>
+    );
+  }
   return (
     <>
       <div className="header">
@@ -75,14 +91,19 @@ export const Header = () => {
             alignItems: "center",
           }}
         >
-          <NavLink className="nav-item" activeClassName="nav-active" exact to="/">
-          <div
-            onMouseEnter={() => OpenBox(0)}
-            className="animate__animated animate__zoomIn"
+          <NavLink
+            className="nav-item"
+            activeClassName="nav-active"
+            exact
+            to="/"
           >
-            <img src={logo} className="App-logo" alt="logo" />
-          </div>
-        </NavLink>
+            <div
+              onMouseEnter={() => OpenBox(0)}
+              className="animate__animated animate__zoomIn"
+            >
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+          </NavLink>
           <div onMouseEnter={() => OpenBox(0)}>
             <NavLink
               className="nav-item"
@@ -164,12 +185,16 @@ export const Header = () => {
               <p>{t("CONTACT")}</p>
             </NavLink>
           </div>
-          <div style={{ display: "flex" }}>
-
-
-          {/* <p>{langname}</p> */}
-
-            <p
+          <div onMouseEnter={() => OpenBox(6)} activeClassName="nav-active" >
+          <NavLink
+              className="nav-item"
+              activeClassName="nav-active"
+              to="/"
+              onClick={() => OpenBox(5)}
+            >
+            <p >{langname}</p>
+            </NavLink>
+            {/* <p
               style={{ borderRight: "none" }}
               className="nav-item-lang"
               onClick={() => changeLanguageHandler("en")}
@@ -189,7 +214,7 @@ export const Header = () => {
               onClick={() => changeLanguageHandler("ru")}
             >
               RU
-            </p>
+            </p> */}
           </div>
         </div>
         <div>
@@ -475,6 +500,40 @@ export const Header = () => {
                       </NavLink>
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
+        {LangBox && (
+          <>
+            <div
+              onMouseLeave={() => setAboutBox(false)}
+              className="product-box12 animate__animated animate__fadeInRight"
+            >
+              <div className="full-box-div12">
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <p
+                    style={{ borderRight: "none" }}
+                    className="nav-item-lang insidemenu-nav-item"
+                    onClick={() => changeLanguageHandler("en")}
+                  >
+                    EN
+                  </p>
+                  <p
+                    style={{ borderRight: "none" }}
+                    className="nav-item-lang insidemenu-nav-item"
+                    onClick={() => changeLanguageHandler("ge")}
+                  >
+                    GE
+                  </p>
+                  <p
+                    style={{ borderRight: "none" }}
+                    className="nav-item-lang insidemenu-nav-item"
+                    onClick={() => changeLanguageHandler("ru")}
+                  >
+                    RU
+                  </p>
                 </div>
               </div>
             </div>

@@ -3,7 +3,9 @@ import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import photo1 from "./../../assets/logo.png";
 import { useTranslation } from "react-i18next";
-
+import { MdLocationPin } from "react-icons/md";
+import { MdMarkunreadMailbox } from "react-icons/md";
+import { MdPermPhoneMsg } from "react-icons/md";
 export const Footer = () => {
   const { t } = useTranslation();
   return (
@@ -190,7 +192,22 @@ export const Footer = () => {
                 <h2 className="footer-call-to-action-title">
                   {t("Contact Us")}
                 </h2>
-                <p className="footer-call-to-action-description"> </p>
+                <p className="footer-call-to-action-description">
+                <ul className="contact-list">
+                        <li>
+                          <MdLocationPin fontSize="30px" />
+                          <div className="content1">{t("addressline")}</div>
+                        </li>
+                        <li>
+                          <MdMarkunreadMailbox fontSize="30px" />
+                          <div className="content1">info@homealone.ge</div>
+                        </li>
+                        <li>
+                          <MdPermPhoneMsg fontSize="30px" />
+                          <div className="content1">+995 577 410 510</div>
+                        </li>
+                      </ul>
+                </p>
               </div>
             </div>
             <br />

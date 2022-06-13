@@ -101,7 +101,7 @@ export const Contact = () => {
                       <div className="divider" />
                       <iframe
                         title="Map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.779890917539!2d41.614655820316976!3d41.64027186772413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067860ad78297a3%3A0x34459cc7869cc754!2zNDHCsDM4JzE4LjEiTiA0McKwMzcnMDAuMSJF!5e0!3m2!1ska!2sge!4v1637671754634!5m2!1ska!2sge"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383.68060312146974!2d41.61195937457422!3d41.63275298935509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406785e12d768d4d%3A0x215791348a2a253b!2zNzMg4YOi4YOR4YOU4YOaLeGDkOGDkeGDo-GDoeGDlOGDoOGDmOGDq-GDmOGDoSDhg6Xhg6Phg6nhg5AsIOGDkeGDkOGDl-GDo-GDm-GDmA!5e0!3m2!1ska!2sge!4v1654782523742!5m2!1ska!2sge"
                         width={570}
                         height={525}
                         style={{ border: 0 }}
