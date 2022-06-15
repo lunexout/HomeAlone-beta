@@ -20,13 +20,19 @@
 }
 .header div p {
   color: #fff;
-  border-right: 1px solid #32363e;
+  /* border-right: 1px solid #32363e; */
   /* border-left:  1px solid #32363E; */
   padding: 20px;
   font-family: "Gowun Dodum", sans-serif;
   font-size: 1.9vmin;
   font-weight: 500;
   transition: 0.5s ease all;
+}
+
+
+.langer{
+  padding: 0px!important;
+
 }
 .header div .nav-item {
   outline: none;

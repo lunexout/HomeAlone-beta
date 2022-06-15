@@ -114,27 +114,6 @@ export const DoorWindowSensor = ({ match }) => {
             </p>
             <div className="dt_pic" />
           </div>
-          <div className="dw_sec_7">
-            <h2>
-              Our secure Zigbee security system provides you a true peace of
-              mind.
-            </h2>
-            <div className="dn_icons clearfix">
-              <div className="dn_icon one">
-                <div />
-                <p>ZigBee Mini Hub</p>
-              </div>
-              <div className="dn_icon two">
-                <div />
-                <p>Door＆Window sensor</p>
-              </div>
-              <div className="dn_icon three">
-                <div />
-                <p>Motion Sensor</p>
-              </div>
-            </div>
-            SEE MORE
-          </div>
           <div className="dw_sec_8">
             <div className="dt_container clearfix">
               <h1 className="dt_title">Product parameters</h1>

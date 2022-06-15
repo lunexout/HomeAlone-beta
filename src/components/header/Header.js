@@ -185,14 +185,14 @@ export const Header = () => {
               <p>{t("CONTACT")}</p>
             </NavLink>
           </div>
-          <div onMouseEnter={() => OpenBox(6)} activeClassName="nav-active" >
+          <div onMouseEnter={() => OpenBox(6)} activeClassName="nav-active langer" style={{ borderRight: "none" }}  >
           <NavLink
               className="nav-item"
               activeClassName="nav-active"
               to="/"
               onClick={() => OpenBox(5)}
             >
-            <p >{langname}</p>
+            <p className="langer">{langname}</p>
             </NavLink>
             {/* <p
               style={{ borderRight: "none" }}

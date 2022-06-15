@@ -239,10 +239,10 @@ export const Home = () => {
 
           {/* <Statist /> */}
 
-          <MessengerCustomerChat
+          {/* <MessengerCustomerChat
             pageId="112617230247518"
             appId="436362961214275"
-          />
+          /> */}
           <Footer />
         </>
       )}
