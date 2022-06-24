@@ -75,23 +75,27 @@ export const Contact = () => {
                       <br />
                       <br />
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        <br /> Laborum ratione autem quidem veritatis!
-                      </p>
-                      <ul className="contact-list">
+                      Tell us about your project ideas or just say hello. Whether 
+                      <br />you’ve got a big idea or need some inspiration with a smart 
+                      <br />system project, we are here to create perfect Smart Systems. 
+                      <br />From concept to creation, let us inspire you.
+                        </p>
+                        <ul className="contact-list">
                         <li>
                           <MdLocationPin fontSize="30px" />
-                          <div className="content">{t("addressline")}</div>
+                          <div className="content1" style={{color: "black"}}>{t("addressline")}</div>
                         </li>
                         <li>
                           <MdMarkunreadMailbox fontSize="30px" />
-                          <div className="content">info@homealone.ge</div>
+                          <div className="content1" style={{color: "black"}}>info@homealone.ge</div>
                         </li>
                         <li>
                           <MdPermPhoneMsg fontSize="30px" />
-                          <div className="content">+995 577 410 510</div>
+                          <div className="content1" style={{color: "black"}}>+995 577 410 510</div>
                         </li>
-                      </ul>
+                      </ul>   
+                      
+                      
                     </div>
                   </div>
                   <div>

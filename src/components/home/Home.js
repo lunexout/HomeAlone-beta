@@ -9,7 +9,7 @@ import { Spinner } from "./../spinner/Spinner";
 // import { Will } from "../services/Will";
 import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
-import MessengerCustomerChat from "react-messenger-customer-chat";
+// import MessengerCustomerChat from "react-messenger-customer-chat";
 
 import df from "./lhajWAwgNDMA.gif";
 import { useTranslation } from "react-i18next";
