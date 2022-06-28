@@ -1,84 +1,102 @@
 import React from "react";
 import "./Autoslider.css";
 import { useEffect } from "react";
+import * as $ from 'jquery';
 
-import photo1 from "../services/sec2_2-3d2d369dc4.jpg";
-import photo2 from "../services/sec2_1-a63e90a5e2.jpg";
-import photo3 from "../services/752287_middle.jpg";
+// import photo1 from "../services/sec2_2-3d2d369dc4.jpg";
+// import photo2 from "../services/sec2_1-a63e90a5e2.jpg";
+// import photo3 from "../services/752287_middle.jpg";
 const Autoslider = () => {
   useEffect(() => {
-    /* user defined variables */
-    var timeOnSlide = 2,
-      // the time each image will remain static on the screen, measured in seconds
-      timeBetweenSlides = 1,
-      // the time taken to transition between images, measured in seconds
-
-      // test if the browser supports animation, and if it needs a vendor prefix to do so
-      // animationstring = 'animation',
-      animation = false,
-      keyframeprefix = "",
-      domPrefixes = "Webkit Moz O Khtml".split(" "),
-      // array of possible vendor prefixes
-      pfx = "",
-      slidy = document.getElementById("slidy");
-    if (slidy.style.animationName !== undefined) {
-      animation = true;
-    }
-    // browser supports keyframe animation w/o prefixes
-
-    if (animation === false) {
-      for (var i = 0; i < domPrefixes.length; i++) {
-        if (slidy.style[domPrefixes[i] + "AnimationName"] !== undefined) {
-          pfx = domPrefixes[i];
-          // animationstring = pfx + 'Animation';
-          keyframeprefix = "-" + pfx.toLowerCase() + "-";
-          animation = true;
-          break;
+    $('.slider').each(function() {
+      var $this = $(this);
+      var $group = $this.find('.slide_group');
+      var $slides = $this.find('.slide');
+      var bulletArray = [];
+      var currentIndex = 0;
+      var timeout;
+      
+      function move(newIndex) {
+        var animateLeft, slideLeft;
+        
+        advance();
+        
+        if ($group.is(':animated') || currentIndex === newIndex) {
+          return;
         }
+        
+        bulletArray[currentIndex].removeClass('active');
+        bulletArray[newIndex].addClass('active');
+        
+        if (newIndex > currentIndex) {
+          slideLeft = '100%';
+          animateLeft = '-100%';
+        } else {
+          slideLeft = '-100%';
+          animateLeft = '100%';
+        }
+        
+        $slides.eq(newIndex).css({
+          display: 'block',
+          left: slideLeft
+        });
+        $group.animate({
+          left: animateLeft
+        }, function() {
+          $slides.eq(currentIndex).css({
+            display: 'none'
+          });
+          $slides.eq(newIndex).css({
+            left: 0
+          });
+          $group.css({
+            left: 0
+          });
+          currentIndex = newIndex;
+        });
       }
-    }
-
-    if (animation === false) {
-      // animate in JavaScript fallback
-    } else {
-      var images = slidy.getElementsByTagName("img"),
-        firstImg = images[0],
-        // get the first image inside the "slidy" element.
-        imgWrap = firstImg.cloneNode(false); // copy it.
-      slidy.appendChild(imgWrap); // add the clone to the end of the images
-      var imgCount = images.length, // count the number of images in the slide, including the new cloned element
-        totalTime = (timeOnSlide + timeBetweenSlides) * (imgCount - 1), // calculate the total length of the animation by multiplying the number of _actual_ images by the amount of time for both static display of each image and motion between them
-        slideRatio = (timeOnSlide / totalTime) * 100, // determine the percentage of time an induvidual image is held static during the animation
-        moveRatio = (timeBetweenSlides / totalTime) * 100, // determine the percentage of time for an individual movement
-        basePercentage = 100 / imgCount, // work out how wide each image should be in the slidy, as a percentage.
-        position = 0, // set the initial position of the slidy element
-        css = document.createElement("style"); // start marking a new style sheet
-      css.type = "text/css";
-      css.innerHTML +=
-        "#slidy { text-align: left; margin: 0; font-size: 0; position: relative; width: " +
-        imgCount * 100 +
-        "%;  }\n"; // set the width for the slidy container
-      css.innerHTML +=
-        "#slidy img { float: left; width: " + basePercentage + "%; }\n";
-      css.innerHTML += "@" + keyframeprefix + "keyframes slidy {\n";
-      for (i = 0; i < imgCount - 1; i++) {
-        //
-        position += slideRatio; // make the keyframe the position of the image
-        css.innerHTML += position + "% { left: -" + i * 100 + "%; }\n";
-        position += moveRatio; // make the postion for the _next_ slide
-        css.innerHTML += position + "% { left: -" + (i + 1) * 100 + "%; }\n";
+      
+      function advance() {
+        clearTimeout(timeout);
+        timeout = setTimeout(function() {
+          if (currentIndex < ($slides.length - 1)) {
+            move(currentIndex + 1);
+          } else {
+            move(0);
+          }
+        }, 4000);
       }
-      css.innerHTML += "}\n";
-      css.innerHTML +=
-        "#slidy { left: 0%; " +
-        keyframeprefix +
-        "transform: translate3d(0,0,0); " +
-        keyframeprefix +
-        "animation: " +
-        totalTime +
-        "s slidy infinite; }\n"; // call on the completed keyframe animation sequence
-      document.body.appendChild(css); // add the new stylesheet to the end of the document
-    }
+      
+      $('.next_btn').on('click', function() {
+        if (currentIndex < ($slides.length - 1)) {
+          move(currentIndex + 1);
+        } else {
+          move(0);
+        }
+      });
+      
+      $('.previous_btn').on('click', function() {
+        if (currentIndex !== 0) {
+          move(currentIndex - 1);
+        } else {
+          move(3);
+        }
+      });
+      
+      $.each($slides, function(index) {
+        var $button = $('<a class="slide_btn">&bull;</a>');
+        
+        if (index === currentIndex) {
+          $button.addClass('active');
+        }
+        $button.on('click', function() {
+          move(index);
+        }).appendTo('.slide_buttons');
+        bulletArray.push($button);
+      });
+      
+      advance();
+    });
   });
   return (
     // <div className='slideblocker' style={{display: 'inline-block'}}>
@@ -97,14 +115,18 @@ const Autoslider = () => {
     //     </section>
     // </div>
     <>
-      <div id="slidy-container">
-        <figure id="slidy">
-          <img src={photo1} alt="eyes" />
-          <img src={photo2} alt="lou" />
-          <img src={photo3} alt="lucie-2" />
-          <img src={photo2} alt="lucie" />
-        </figure>
+      <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+        </div>
       </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </>
   );
 };
