@@ -96,21 +96,6 @@ const Autoslider = () => {
     });
   });
   return (
-    // <div className='slideblocker' style={{display: 'inline-block'}}>
-    //     <section className="img-slider">
-    //         <div className="slider-container">
-    //             <div className="slide">
-    //                 <img alt="Home Alone" src={photo1} />
-    //             </div>
-    //             <div className="slide">
-    //                 <img alt="Home Alone" src={photo2} />
-    //             </div>
-    //             <div className="slide">
-    //                 <img alt="Home Alone" src={photo3} />
-    //             </div>
-    //         </div>
-    //     </section>
-    // </div>
     <>
       <div class="slider">
         <div class="slide_viewer">

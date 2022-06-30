@@ -1,5 +1,5 @@
 import React from "react";
-import "./Departments.css";
+import "./About.css";
 
 import IMG1 from "./../../assets/241261132_1863637503809892_4035385193378907772_n.jpg";
 import IMG2 from "./../../assets/240389366_5031814000178606_5407943068340778411_n.jpg";

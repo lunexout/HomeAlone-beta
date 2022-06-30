@@ -1,13 +1,13 @@
 import React from "react";
 import { useEffect } from "react";
-import "./newcss.css";
+import "./Autoslider.css";
 
 import * as $ from 'jquery';
 export const SwiperCarousel = () => {
   useEffect(() => {
-    $('.slider1').each(function() {
+    $('.slider').each(function() {
       var $this = $(this);
-      var $group = $this.find('.slide_group1');
+      var $group = $this.find('.slide_group');
       var $slides = $this.find('.slide1');
       var bulletArray = [];
       var currentIndex = 0;
@@ -64,7 +64,7 @@ export const SwiperCarousel = () => {
         }, 4000);
       }
       
-      $('.next_btn1').on('click', function() {
+      $('.next_btn').on('click', function() {
         if (currentIndex < ($slides.length - 1)) {
           move(currentIndex + 1);
         } else {
@@ -72,7 +72,7 @@ export const SwiperCarousel = () => {
         }
       });
       
-      $('.previous_btn1').on('click', function() {
+      $('.previous_btn').on('click', function() {
         if (currentIndex !== 0) {
           move(currentIndex - 1);
         } else {
@@ -88,7 +88,7 @@ export const SwiperCarousel = () => {
         }
         $button.on('click', function() {
           move(index);
-        }).appendTo('.slide_buttons1');
+        }).appendTo('.slide_buttons');
         bulletArray.push($button);
       });
       
@@ -97,18 +97,9 @@ export const SwiperCarousel = () => {
   });
   return (
     <>
-      {/* <div id="slidy-container">
-        <figure id="slidy">
-          <img src={photo0} alt="eyes" />
-          <img src={photo1} alt="lou" />
-          <img src={photo2} alt="lucie-2" />
-          <img src={photo3} alt="lucie" />
-        </figure>
-      </div> */}
-
-      <div class="slider1">
-        <div class="slide_viewer1">
-          <div class="slide_group1">
+      <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group">
             <div class="slide1"></div>
             <div class="slide1"></div>
             <div class="slide1"></div>
