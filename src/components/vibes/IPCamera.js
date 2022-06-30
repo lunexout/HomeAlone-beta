@@ -1,16 +1,16 @@
 import React from "react";
 import "./IPCamera.css";
-import photo1 from "./img/bg3-8d876ab46b.png";
+import photo1 from "./../../assets/bg3-8d876ab46b.png";
 
-import photo2 from "./img/bg4-a9ad58dac1.png";
+import photo2 from "./../../assets/bg4-a9ad58dac1.png";
 // import { Footer } from './../footer/Footer'
 
-import photo3 from "./img/bg5-f6b42bb1de.png";
-import photo4 from "./img/bg7-42ea7ab39c.png";
-import photo5 from "./img/bg8-b6638db0ec.png";
-import photo6 from "./img/bg9-fdd4699c6d.png";
-import photo7 from "./img/bg10-1f2864fa16.png";
-import photo8 from "./img/bg11-0bf87b2f7a.jpg";
+import photo3 from "./../../assets/bg5-f6b42bb1de.png";
+import photo4 from "./../../assets/bg7-42ea7ab39c.png";
+import photo5 from "./../../assets/bg8-b6638db0ec.png";
+import photo6 from "./../../assets/bg9-fdd4699c6d.png";
+import photo7 from "./../../assets/bg10-1f2864fa16.png";
+import photo8 from "./../../assets/bg11-0bf87b2f7a.jpg";
 export const IPCamera = () => {
   return (
     <div>

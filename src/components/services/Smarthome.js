@@ -1,13 +1,12 @@
 import React from "react";
-import img1 from "./home/1.jpg";
-import img2 from "./home/2.jpg";
-import img3 from "./home/3.jpg";
-import img4 from "./home/4.jpg";
+import img1 from "./../../assets/home1.jpg";
+import img2 from "./../../assets/home2.jpg";
+import img3 from "./../../assets/home3.jpg";
+import img4 from "./../../assets/home4.jpg";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
 import "./../news/News.css";
-// import { Footer } from '../footer/Footer';
 import { useTranslation } from "react-i18next";
 
 export const SmartHome = () => {

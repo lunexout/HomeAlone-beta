@@ -1,7 +1,6 @@
 import React from "react";
 import "./ZigbeeCOSensor.css";
-import photo1 from "./img/sp20-b16ced416b.png";
-// import { Footer } from './../footer/Footer'
+import photo1 from "./../../assets/sp20-b16ced416b.png";
 
 export const ZigbeeCOSensor = () => {
   return (
@@ -113,7 +112,7 @@ export const ZigbeeCOSensor = () => {
         <img
           alt="Home Alone"
           id="iphone6_1"
-          src="img/iphone6_01-633a1b10a6.png"
+          src="./../../assets/iphone6_01-633a1b10a6.png"
         />
       </section>
       <section className="sp20_sec_5">
@@ -153,7 +152,7 @@ export const ZigbeeCOSensor = () => {
         <img
           alt="Home Alone"
           id="iphone6_2"
-          src="img/iphone6_02-36dd365196.png"
+          src="./../../assets/iphone6_02-36dd365196.png"
         />
       </section>
       <section className="sp20_sec_7">

@@ -1,21 +1,21 @@
 import React from "react";
 import "./SuperSmartSwitch.css";
 
-import photo1 from "./img/banner_logo-4933e94378.png";
-import photo2 from "./img/sec1_1-2b5c2c26ca.png";
-import photo3 from "./img/sec1_2-4ec665530e.png";
-import photo4 from "./img/sec1_3-d2d79be704.png";
-import photo5 from "./img/sec1_4-5fb30626aa.png";
-import photo6 from "./img/sec2_logo-fb4fb7c374.png";
-import photo7 from "./img/sec2_text-90eb107c2a.png";
-import photo8 from "./img/sec5_1-a767705051.png";
-import photo9 from "./img/sec5_2-02f32cefdd.png";
-import photo11 from "./img/sec6_1-9453ebf6fd.png";
-import photo12 from "./img/sec6_3_en-3f2cce9470.png";
-import photo13 from "./img/sec7_1-81778a3b40.png";
-import photo14 from "./img/sec7_2-3f12abdf60.png";
-import photo15 from "./img/sec7_3-1471fdabc8.png";
-import photo16 from "./img/sec7_4-09edd34032.png";
+import photo1 from "./../../assets/banner_logo-4933e94378.png";
+import photo2 from "./../../assets/sec1_1-2b5c2c26ca.png";
+import photo3 from "./../../assets/sec1_2-4ec665530e.png";
+import photo4 from "./../../assets/sec1_3-d2d79be704.png";
+import photo5 from "./../../assets/sec1_4-5fb30626aa.png";
+import photo6 from "./../../assets/sec2_logo-fb4fb7c374.png";
+import photo7 from "./../../assets/sec2_text-90eb107c2a.png";
+import photo8 from "./../../assets/sec5_1-a767705051.png";
+import photo9 from "./../../assets/sec5_2-02f32cefdd.png";
+import photo11 from "./../../assets/sec6_1-9453ebf6fd.png";
+import photo12 from "./../../assets/sec6_3_en-3f2cce9470.png";
+import photo13 from "./../../assets/sec7_1-81778a3b40.png";
+import photo14 from "./../../assets/sec7_2-3f12abdf60.png";
+import photo15 from "./../../assets/sec7_3-1471fdabc8.png";
+import photo16 from "./../../assets/sec7_4-09edd34032.png";
 
 // import { Footer } from './../footer/Footer'
 

@@ -1,16 +1,16 @@
 import React from "react";
 import "./MagicCubeWifiIRController.css";
 
-import photo1 from "./img/xiaofang_en.jpg";
-import photo2 from "./img/xf_wind.png";
-import photo3 from "./img/xf_light.png";
-import photo4 from "./img/xf_logo_default.png";
-import photo5 from "./img/xf_logo_active.png";
-import photo6 from "./img/xf_dot.png";
-import photo7 from "./img/xf_circle.png";
-import photo8 from "./img/xf_music.png";
-import photo9 from "./img/new1-73e9d8f842.jpg";
-import photo10 from "./img/new2-5142243776.jpg";
+import photo1 from "./../../assets/xiaofang_en.jpg";
+import photo2 from "./../../assets/xf_wind.png";
+import photo3 from "./../../assets/xf_light.png";
+import photo4 from "./../../assets/xf_logo_default.png";
+import photo5 from "./../../assets/xf_logo_active.png";
+import photo6 from "./../../assets/xf_dot.png";
+import photo7 from "./../../assets/xf_circle.png";
+import photo8 from "./../../assets/xf_music.png";
+import photo9 from "./../../assets/new1-73e9d8f842.jpg";
+import photo10 from "./../../assets/new2-5142243776.jpg";
 // import { Footer } from './../footer/Footer'
 
 export const MagicCubeWifiIRController = () => {

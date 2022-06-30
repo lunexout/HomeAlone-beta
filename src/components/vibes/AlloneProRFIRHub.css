@@ -1,5 +1,5 @@
 .rf_sec1 {
-  background-image: url(img/bg_01-0e3d385d30.jpg);
+  background-image: url(./../../assets/bg_01-0e3d385d30.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -101,7 +101,7 @@
   margin: 40px 50px;
 }
 .rf_sec2 .icon {
-  background-image: url(img/icon1-39cd4bda64.png);
+  background-image: url(./../../assets/icon1-39cd4bda64.png);
   background-repeat: no-repeat;
 }
 .rf_sec2 ul li {
@@ -153,13 +153,13 @@
   background-position: -114px 0;
 }
 .rf_sec3 .num {
-  background-image: url(img/num-16bbfa11e9.png);
+  background-image: url(./../../assets/num-16bbfa11e9.png);
   background-repeat: no-repeat;
   margin-bottom: 22px;
 }
 .rf_sec8 {
   height: 1000px;
-  background: url(img/rf_sec8_bg-44b226c53b.jpg) center no-repeat;
+  background: url(./../../assets/rf_sec8_bg-44b226c53b.jpg) center no-repeat;
   margin-bottom: 10px;
 }
 
@@ -179,7 +179,7 @@
 .oi_six {
   width: 100%;
   height: 1052px;
-  background: url(img/bg3-61f1c90153.jpg) center no-repeat;
+  background: url(./../../assets/bg3-61f1c90153.jpg) center no-repeat;
 }
 .oi_six .os_container {
   width: 1366px;
@@ -223,7 +223,7 @@
   width: 330px;
   height: 585px;
   margin: 120px auto 0;
-  background: url(img/phone-984528591d.png) center no-repeat;
+  background: url(./../../assets/phone-984528591d.png) center no-repeat;
   text-align: center;
   transition: opacity 0.4s 0.4s linear;
   -webkit-transition: opacity 0.4s 0.4s linear;
@@ -234,7 +234,7 @@
   width: 330px;
   height: 585px;
   margin: 54px auto;
-  background: url(img/phone-984528591d.png) center no-repeat;
+  background: url(./../../assets/phone-984528591d.png) center no-repeat;
   text-align: center;
   transition: opacity 0.4s 0.4s linear;
   -webkit-transition: opacity 0.4s 0.4s linear;
@@ -568,7 +568,7 @@
 }
 .oi_six .os_left div,
 .oi_six .os_right div {
-  background: url(img/pics-1ea9546574.png) center no-repeat;
+  background: url(./../../assets/pics-1ea9546574.png) center no-repeat;
 }
 .oi_six .os_right .os_icon2,
 .oi_six .os_right .os_icon4 {

@@ -7,7 +7,7 @@ import { SmartBanner } from "../smartbanner/SmartBanner";
 import { Spinner } from "./../spinner/Spinner";
 import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
-import df from "./lhajWAwgNDMA.gif";
+import df from "./../../assets/lhajWAwgNDMA.gif";
 import { useTranslation } from "react-i18next";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";

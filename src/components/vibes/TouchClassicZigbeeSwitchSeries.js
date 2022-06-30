@@ -1,10 +1,10 @@
 import React from "react";
 import "./TouchClassicZigbeeSwitchSeries.css";
 
-import photo1 from "./img/bg8-8a217b8d8b.jpg";
-import photo2 from "./img/bg9-c4418b7818.jpg";
-import photo3 from "./img/bg5_1-f369faa914.png";
-import photo4 from "./img/bg6-4268f08482.jpg";
+import photo1 from "./../../assets/bg8-8a217b8d8b.jpg";
+import photo2 from "./../../assets/bg9-c4418b7818.jpg";
+import photo3 from "./../../assets/bg5_1-f369faa914.png";
+import photo4 from "./../../assets/bg6-4268f08482.jpg";
 // import { Footer } from './../footer/Footer'
 
 export const TouchClassicZigbeeSwitchSeries = () => {

@@ -48,7 +48,7 @@
   transform: translate(0, -50%);
   width: 0.26rem;
   height: 0.26rem;
-  background: url(img/icon_player-7fc7fa8ef7.png) center/cover no-repeat;
+  background: url(./../../assets/icon_player-7fc7fa8ef7.png) center/cover no-repeat;
 }
 .elf .elf__banner {
   display: flex;
@@ -67,7 +67,7 @@
   width: 7.8rem;
   height: 7.8rem;
   opacity: 0;
-  background: url(img/banner-367e6f175d.png) center/cover no-repeat;
+  background: url(./../../assets/banner-367e6f175d.png) center/cover no-repeat;
   animation: bannerRotate 20s ease-in-out infinite;
 }
 .elf .secginie4,

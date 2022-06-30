@@ -5,7 +5,7 @@
 
 .smoke_sensor_sec1 {
   height: 990px;
-  background: url(img/smoke_bg_01-ffd5645af7.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_01-ffd5645af7.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
 
 .smoke_sensor_sec2 {
   height: 934px;
-  background: url(img/smoke_bg_02-f97e5b7867.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_02-f97e5b7867.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -46,7 +46,7 @@
 
 .smoke_sensor_sec3 {
   height: 960px;
-  background: url(img/smoke_bg_03-983f1d4a75.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_03-983f1d4a75.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@
 
 .smoke_sensor_sec4 {
   height: 950px;
-  background: url(img/smoke_bg_04-8fbb547dae.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_04-8fbb547dae.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -75,7 +75,7 @@
 
 .smoke_sensor_sec5 {
   height: 957px;
-  background: url(img/smoke_bg_05-b5956b9f13.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_05-b5956b9f13.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@
 
 .smoke_sensor_sec6 {
   height: 959px;
-  background: url(img/smoke_bg_06-e86a658484.jpg) center center no-repeat;
+  background: url(./../../assets/smoke_bg_06-e86a658484.jpg) center center no-repeat;
 }
 
 .smoke_sensor_sec6 .smoke_sensor_container .txtbox {
@@ -144,19 +144,19 @@
 }
 
 .smoke_sensor_sec7 ul > li > i.gss7_icon1 {
-  background: url(img/icon_01-71a5e713c3.png) center center no-repeat;
+  background: url(./../../assets/icon_01-71a5e713c3.png) center center no-repeat;
 }
 
 .smoke_sensor_sec7 ul > li > i.gss7_icon2 {
-  background: url(img/icon_02-ecbd0c549e.png) center center no-repeat;
+  background: url(./../../assets/icon_02-ecbd0c549e.png) center center no-repeat;
 }
 
 .smoke_sensor_sec7 ul > li > i.gss7_icon3 {
-  background: url(img/icon_03-a1c8bfb0fb.png) center center no-repeat;
+  background: url(./../../assets/icon_03-a1c8bfb0fb.png) center center no-repeat;
 }
 
 .smoke_sensor_sec7 ul > li > i.gss7_icon4 {
-  background: url(img/icon_04-41e69a77fb.png) center center no-repeat;
+  background: url(./../../assets/icon_04-41e69a77fb.png) center center no-repeat;
 }
 
 .smoke_sensor_sec7 ul > li > p {

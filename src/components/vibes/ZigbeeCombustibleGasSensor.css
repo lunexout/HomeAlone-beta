@@ -27,7 +27,7 @@
 
 .gas_sensor_sec1 {
   height: 986px;
-  background: url(img/gas_bg_01-434c2e6544.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_01-434c2e6544.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@
 
 .gas_sensor_sec2 {
   height: 935px;
-  background: url(img/gas_bg_02-7f1b5b7d6f.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_02-7f1b5b7d6f.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@
 
 .gas_sensor_sec3 {
   height: 960px;
-  background: url(img/gas_bg_03-16f2d95966.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_03-16f2d95966.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -79,7 +79,7 @@
 
 .gas_sensor_sec4 {
   height: 951px;
-  background: url(img/gas_bg_04-3912665008.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_04-3912665008.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@
 
 .gas_sensor_sec5 {
   height: 959px;
-  background: url(img/gas_bg_05-a4cb64c912.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_05-a4cb64c912.jpg) center center no-repeat;
   text-align: center;
 }
 
@@ -118,7 +118,7 @@
 
 .gas_sensor_sec6 {
   height: 959px;
-  background: url(img/gas_bg_06-59632193ff.jpg) center center no-repeat;
+  background: url(./../../assets/gas_bg_06-59632193ff.jpg) center center no-repeat;
 }
 
 .gas_sensor_sec6 .gas_sensor_container .txtbox {
@@ -165,19 +165,19 @@
 }
 
 .gas_sensor_sec7 ul > li > i.gss7_icon1 {
-  background: url(img/icon_01-c0815f1d33.png) center center no-repeat;
+  background: url(./../../assets/icon_01-c0815f1d33.png) center center no-repeat;
 }
 
 .gas_sensor_sec7 ul > li > i.gss7_icon2 {
-  background: url(img/icon_02-be6560e6de.png) center center no-repeat;
+  background: url(./../../assets/icon_02-be6560e6de.png) center center no-repeat;
 }
 
 .gas_sensor_sec7 ul > li > i.gss7_icon3 {
-  background: url(img/icon_03-c9e85d7c84.png) center center no-repeat;
+  background: url(./../../assets/icon_03-c9e85d7c84.png) center center no-repeat;
 }
 
 .gas_sensor_sec7 ul > li > i.gss7_icon4 {
-  background: url(img/icon_04-8d8fb43026.png) center center no-repeat;
+  background: url(./../../assets/icon_04-8d8fb43026.png) center center no-repeat;
 }
 
 .gas_sensor_sec7 ul > li > p {

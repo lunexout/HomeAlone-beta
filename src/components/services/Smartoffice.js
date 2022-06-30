@@ -1,12 +1,11 @@
 import React from "react";
-import img1 from "./images/so_left1-660b28d697.jpg";
-import img2 from "./images/so_left2-00979d4640.jpg";
-import img3 from "./images/solution_bg7-f15c48d61f.jpg";
-import img4 from "./images/solution_bg5-febe4b3d08.jpg";
+import img1 from "./../../assets/so_left1-660b28d697.jpg";
+import img2 from "./../../assets/so_left2-00979d4640.jpg";
+import img3 from "./../../assets/solution_bg7-f15c48d61f.jpg";
+import img4 from "./../../assets/solution_bg5-febe4b3d08.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
 
 import "./../news/News.css";
-// import { Footer } from '../footer/Footer';
 
 import { useTranslation } from "react-i18next";
 

@@ -1,21 +1,21 @@
 import React from "react";
 import "./MixPadGenie.css";
-import cid1 from "./img/mixpad_elf_banner.mp4";
+import cid1 from "./../../assets/mixpad_elf_banner.mp4";
 
-import cid2 from "./img/sec8-835815b895.png";
+import cid2 from "./../../assets/sec8-835815b895.png";
 
-import cid3 from "./img/sec6_1-568eadad1c.png";
-import cid4 from "./img/sec6_2-a4bbb47a1f.png";
-import cid5 from "./img/sec6_3-223014e9b7.png";
-import cid6 from "./img/sec6_4-d89d46655a.png";
-import cid7 from "./img/sec6_5-fdaf076235.png";
+import cid3 from "./../../assets/sec6_1-568eadad1c.png";
+import cid4 from "./../../assets/sec6_2-a4bbb47a1f.png";
+import cid5 from "./../../assets/sec6_3-223014e9b7.png";
+import cid6 from "./../../assets/sec6_4-d89d46655a.png";
+import cid7 from "./../../assets/sec6_5-fdaf076235.png";
 
-import cid8 from "./img/sec4-3ccc82047c.png";
+import cid8 from "./../../assets/sec4-3ccc82047c.png";
 
-import cid10 from "./img/sec1-ab76cedaea.png";
-import cid11 from "./img/mixpad_elf_top.mp4";
-import cid12 from "./img/mixpad_elf_color.mp4";
-import cid13 from "./img/mixpad_elf_footer.mp4";
+import cid10 from "./../../assets/sec1-ab76cedaea.png";
+import cid11 from "./../../assets/mixpad_elf_top.mp4";
+import cid12 from "./../../assets/mixpad_elf_color.mp4";
+import cid13 from "./../../assets/mixpad_elf_footer.mp4";
 
 // import { Footer } from './../footer/Footer'
 

@@ -3,19 +3,19 @@ import "./SmartDoorLockS2.css";
 
 // import { Footer } from './../footer/Footer'
 
-import photo1 from "./img/sec1-295ad1a8b1.png";
-import photo2 from "./img/sec2-74daa2d6eb.png";
-import photo3 from "./img/sec3-a9957962ea.png";
-import photo4 from "./img/sec4-bdbeb69dc8.png";
-import photo5 from "./img/sec5-5c056f2923.png";
-import photo6 from "./img/sec6-5d122effcc.png";
-import photo7 from "./img/sec7-aa643b4242.png";
-import photo8 from "./img/sec8-87609f8c4e.png";
-import photo9 from "./img/sec9-566accef9e.png";
-import photo10 from "./img/sec10-73ebbc05d6.png";
-import photo11 from "./img/sec11-2ca85e3974.png";
-import photo12 from "./img/sec12-09486da6d0.png";
-import photo13 from "./img/sec14-053f13edbe.png";
+import photo1 from "./../../assets/sec1-295ad1a8b1.png";
+import photo2 from "./../../assets/sec2-74daa2d6eb.png";
+import photo3 from "./../../assets/sec3-a9957962ea.png";
+import photo4 from "./../../assets/sec4-bdbeb69dc8.png";
+import photo5 from "./../../assets/sec5-5c056f2923.png";
+import photo6 from "./../../assets/sec6-5d122effcc.png";
+import photo7 from "./../../assets/sec7-aa643b4242.png";
+import photo8 from "./../../assets/sec8-87609f8c4e.png";
+import photo9 from "./../../assets/sec9-566accef9e.png";
+import photo10 from "./../../assets/sec10-73ebbc05d6.png";
+import photo11 from "./../../assets/sec11-2ca85e3974.png";
+import photo12 from "./../../assets/sec12-09486da6d0.png";
+import photo13 from "./../../assets/sec14-053f13edbe.png";
 
 export const SmartDoorLockS2 = () => {
   return (

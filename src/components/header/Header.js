@@ -3,11 +3,12 @@ import "./header.css";
 import logo from "./../../assets/logomobile.png";
 import TBC_LOGO from "./../../assets/TBC_Bank_logo.png";
 
-import PARTNER1 from "./../partners/images/al mare batumi.jpg";
-import PARTNER2 from "./../partners/images/citron.jpg";
-import PARTNER3 from "./../partners/images/like house.jpg";
-import imagefb from "./Facebook-logo.png";
-import imageins from "./Symbol-Instagram.png";
+import PARTNER1 from "./../../assets/al mare batumi.jpg";
+import PARTNER2 from "./../../assets/citron.jpg";
+import PARTNER3 from "./../../assets/like house.jpg";
+import imagefb from "./../../assets/Facebook-logo.png";
+import imageins from "./../../assets/Symbol-Instagram.png";
+
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 export const Header = () => {

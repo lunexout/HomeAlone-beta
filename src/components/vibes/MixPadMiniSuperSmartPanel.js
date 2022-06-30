@@ -1,16 +1,16 @@
 import React from "react";
 import "./MixPadMiniSuperSmartPanel.css";
-import vid1 from "./img/sec1.mp4";
-import vid2 from "./img/sec3_play-39c57c26d7.png";
-import vid3 from "./img/7OgiAiuKATQA.mp4";
-import vid4 from "./img/left_1-e79f777a04.png";
-import vid5 from "./img/left_2-3a905854da.png";
-import vid6 from "./img/sec4_1.mp4";
-import vid7 from "./img/curtain.mp4";
-import vid8 from "./img/sec5_1-44ad8a51b5.png";
-import vid9 from "./img/sec5_3-3f2cce9470.png";
-import vid10 from "./img/sec5.mp4";
-import vid13 from "./img/M7mxwABFyt4A.mp4";
+import vid1 from "./../../assets/sec1.mp4";
+import vid2 from "./../../assets/sec3_play-39c57c26d7.png";
+import vid3 from "./../../assets/7OgiAiuKATQA.mp4";
+import vid4 from "./../../assets/left_1-e79f777a04.png";
+import vid5 from "./../../assets/left_2-3a905854da.png";
+import vid6 from "./../../assets/sec4_1.mp4";
+import vid7 from "./../../assets/curtain.mp4";
+import vid8 from "./../../assets/sec5_1-44ad8a51b5.png";
+import vid9 from "./../../assets/sec5_3-3f2cce9470.png";
+import vid10 from "./../../assets/sec5.mp4";
+import vid13 from "./../../assets/M7mxwABFyt4A.mp4";
 
 // import { Footer } from './../footer/Footer'
 

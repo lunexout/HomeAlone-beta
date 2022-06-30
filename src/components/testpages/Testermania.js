@@ -1,9 +1,9 @@
 import React from "react";
 import "./Testermania.css";
 
-import photo1 from "./photo1.jpg";
-import photo2 from "./photo2.jpg";
-import photo3 from "./photo3.jpg";
+import photo1 from "./../../assets/photo1.jpg";
+import photo2 from "./../../assets/photo2.jpg";
+import photo3 from "./../../assets/photo3.jpg";
 
 const Testermania = () => {
   return (

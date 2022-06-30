@@ -1,13 +1,11 @@
 import React from "react";
-import img4 from "./hotel/1.jpg";
-import img1 from "./hotel/2.jpg";
-// import img3 from './hotel/3.jpg';
-import img2 from "./hotel/4.jpg";
+import img4 from "./../../assets/hotel1.jpg";
+import img1 from "./../../assets/hotel2.jpg";
+import img2 from "./../../assets/hotel4.jpg";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
 import "./../news/News.css";
-// import { Footer } from '../footer/Footer';
 
 import { useTranslation } from "react-i18next";
 

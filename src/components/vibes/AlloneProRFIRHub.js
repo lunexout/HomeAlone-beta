@@ -1,8 +1,8 @@
 import React from "react";
 import "./AlloneProRFIRHub.css";
-import photo1 from "./img/en_bg2_01-6c3424cdf2.jpg";
-import photo2 from "./img/bg2_02-240f11ec25.jpg";
-import PHOTO3 from "./img/bg2_03-c21368682d.jpg";
+import photo1 from "./../../assets/en_bg2_01-6c3424cdf2.jpg";
+import photo2 from "./../../assets/bg2_02-240f11ec25.jpg";
+import PHOTO3 from "./../../assets/bg2_03-c21368682d.jpg";
 
 // import { Footer } from './../footer/Footer'
 

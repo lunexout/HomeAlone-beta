@@ -1,7 +1,7 @@
 import React from "react";
 import "./AirMasterCentralACControlKit.css";
 
-import photo3 from "./img/sec2_bg3-cfcda3ebb8.jpg";
+import photo3 from "./../../assets/sec2_bg3-cfcda3ebb8.jpg";
 import dataJSON from "./../../API.json";
 // import { Footer } from './../footer/Footer'
 

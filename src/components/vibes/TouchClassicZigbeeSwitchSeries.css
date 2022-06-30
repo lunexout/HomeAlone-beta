@@ -22,7 +22,7 @@
 .sectczcs1 {
   width: 100%;
   height: 971px;
-  background: url(img/bg1-deb18126e5.jpg) center no-repeat;
+  background: url(./../../assets/bg1-deb18126e5.jpg) center no-repeat;
 }
 .sectczcs1 h1 {
   padding-top: 110px;
@@ -63,19 +63,19 @@
 .index_sec2 .slider_box .ib_slider li.ibs1 {
   width: 100%;
   height: 100%;
-  background: url(img/carousel1-50006c8807.jpg) center no-repeat;
+  background: url(./../../assets/carousel1-50006c8807.jpg) center no-repeat;
   background-size: 100%;
 }
 .index_sec2 .slider_box .ib_slider li.ibs2 {
   width: 100%;
   height: 100%;
-  background: url(img/carousel2-c84ce3ce14.jpg) center no-repeat;
+  background: url(./../../assets/carousel2-c84ce3ce14.jpg) center no-repeat;
   background-size: 100%;
 }
 .index_sec2 .slider_box .ib_slider li.ibs3 {
   width: 100%;
   height: 100%;
-  background: url(img/carousel3-83192944e0.jpg) center no-repeat;
+  background: url(./../../assets/carousel3-83192944e0.jpg) center no-repeat;
   background-size: 100%;
 }
 .index_sec2 .slider_box .ib_mark {
@@ -152,7 +152,7 @@
 }
 .sectczcs3 {
   height: 928px;
-  background: url(img/bg2-28c0c7742b.jpg) center no-repeat;
+  background: url(./../../assets/bg2-28c0c7742b.jpg) center no-repeat;
 }
 .sectczcs3 h1 {
   padding-top: 80px;
@@ -168,7 +168,7 @@
 }
 .sectczcs4 {
   height: 1034px;
-  background: url(img/bg11-63b3eb37b2.jpg) center no-repeat;
+  background: url(./../../assets/bg11-63b3eb37b2.jpg) center no-repeat;
 }
 .sectczcs4 .s4_mainbox .s4m_title {
   position: absolute;
@@ -220,7 +220,7 @@
 .sectczcs5 {
   width: 100%;
   height: 958px;
-  background: url(img/bg4-af83f4156b.jpg) center no-repeat;
+  background: url(./../../assets/bg4-af83f4156b.jpg) center no-repeat;
   text-align: center;
 }
 .sectczcs5 h1 {
@@ -338,7 +338,7 @@
 }
 .sectczcs8 {
   height: 956px;
-  background: url(img/bg7-06c9790320.jpg) center no-repeat;
+  background: url(./../../assets/bg7-06c9790320.jpg) center no-repeat;
   text-align: center;
 }
 .sectczcs10,
@@ -427,7 +427,7 @@
   width: 393px;
   height: 115px;
   opacity: 0;
-  background: url(img/chat_1-552af6c1e9.png) center no-repeat;
+  background: url(./../../assets/chat_1-552af6c1e9.png) center no-repeat;
 }
 .sectczcs10 .chat2 {
   position: absolute;
@@ -436,7 +436,7 @@
   width: 478px;
   height: 55px;
   opacity: 0;
-  background: url(img/chat_2-676f1aa97b.png) center no-repeat;
+  background: url(./../../assets/chat_2-676f1aa97b.png) center no-repeat;
 }
 @media screen and (max-width: 1440px) {
   .sectczcs10 .s10_txtbox {
@@ -457,7 +457,7 @@
 .sectczcs11 {
   width: 100%;
   height: 816px;
-  background: url(img/bg10-c5b4d70838.jpg) center no-repeat;
+  background: url(./../../assets/bg10-c5b4d70838.jpg) center no-repeat;
   text-align: center;
 }
 .sectczcs11 h1 {

@@ -12,7 +12,7 @@
 .yt__container .yt__sec1 {
   position: relative;
   height: 8.8rem;
-  background-image: url(img/bg1-1726d80a93.png);
+  background-image: url(./../../assets/bg1-1726d80a93.png);
 }
 .yt__container .yt__sec1 .sec1__content {
   position: absolute;
@@ -75,13 +75,13 @@
 .yt__container .yt__sec2 .sec2__bg {
   position: relative;
   height: 6rem;
-  background-image: url(img/bg2_1080-6ef6f047d7.jpg);
+  background-image: url(./../../assets/bg2_1080-6ef6f047d7.jpg);
 }
 .yt__container .yt__sec2 .blur {
   width: 50%;
   height: 100%;
   background-position: 0 0;
-  background-image: url(img/bg2_720-08fc741f98.jpg);
+  background-image: url(./../../assets/bg2_720-08fc741f98.jpg);
   border-right: 1px solid #fff;
 }
 .yt__container .yt__sec2 .resize {
@@ -92,7 +92,7 @@
   width: 0.49rem;
   height: 0.49rem;
   transform: translate(-50%, -50%);
-  background-image: url(img/icon_move-8137c0cd59.png);
+  background-image: url(./../../assets/icon_move-8137c0cd59.png);
 }
 .yt__container .yt__sec2 .sec2__size {
   margin-top: 0.16rem;
@@ -187,7 +187,7 @@
   display: block;
   width: 95px;
   height: 95px;
-  background: url(img/circle-52298c8217.png) center no-repeat;
+  background: url(./../../assets/circle-52298c8217.png) center no-repeat;
   animation: sh-ripple 2s ease infinite;
 }
 .yt__container .yt__sec10 .content .item1 a {
@@ -200,12 +200,12 @@
   left: 14px;
   width: 367px;
   height: 423px;
-  background: url(img/item1-4776484c55.png) center no-repeat;
+  background: url(./../../assets/item1-4776484c55.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item1 .icon {
   left: 22px;
   top: 22px;
-  background: url(img/icon_1-d113562c9b.png) center center no-repeat;
+  background: url(./../../assets/icon_1-d113562c9b.png) center center no-repeat;
 }
 .yt__container .yt__sec10 .content .item2 a {
   left: 183px;
@@ -217,12 +217,12 @@
   left: 222px;
   width: 405px;
   height: 182px;
-  background: url(img/item2-c70e4d6585.png) center no-repeat;
+  background: url(./../../assets/item2-c70e4d6585.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item2 .icon {
   left: 23px;
   top: 23px;
-  background: url(img/icon_2-8ba6d4fd8f.png) center center no-repeat;
+  background: url(./../../assets/icon_2-8ba6d4fd8f.png) center center no-repeat;
 }
 .yt__container .yt__sec10 .content .item3 a {
   left: 403px;
@@ -234,12 +234,12 @@
   left: 411px;
   width: 394px;
   height: 314px;
-  background: url(img/item3-b23dd1d63f.png) center no-repeat;
+  background: url(./../../assets/item3-b23dd1d63f.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item3 .icon {
   left: 23px;
   top: 23px;
-  background: url(img/icon_3-df61aca51a.png) center center no-repeat;
+  background: url(./../../assets/icon_3-df61aca51a.png) center center no-repeat;
 }
 .yt__container .yt__sec10 .content .item4 a {
   left: 498px;
@@ -251,12 +251,12 @@
   left: 594px;
   width: 529px;
   height: 212px;
-  background: url(img/item4-8d3a95c011.png) center no-repeat;
+  background: url(./../../assets/item4-8d3a95c011.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item4 .icon {
   left: 23px;
   top: 23px;
-  background: url(img/icon_4-f92fc49b40.png) center center no-repeat;
+  background: url(./../../assets/icon_4-f92fc49b40.png) center center no-repeat;
 }
 .yt__container .yt__sec10 .content .item5 a {
   left: 643px;
@@ -268,12 +268,12 @@
   left: 692px;
   width: 499px;
   height: 170px;
-  background: url(img/item5-ee88283a96.png) center no-repeat;
+  background: url(./../../assets/item5-ee88283a96.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item5 .icon {
   left: 23px;
   top: 22px;
-  background: url(img/icon_5-1c175085e0.png) center center no-repeat;
+  background: url(./../../assets/icon_5-1c175085e0.png) center center no-repeat;
 }
 .yt__container .yt__sec10 .content .item6 a {
   left: 950px;
@@ -285,12 +285,12 @@
   left: 761px;
   width: 423px;
   height: 387px;
-  background: url(img/item6-ff9af95359.png) center no-repeat;
+  background: url(./../../assets/item6-ff9af95359.png) center no-repeat;
 }
 .yt__container .yt__sec10 .content .item6 .icon {
   left: 23px;
   top: 22px;
-  background: url(img/icon_6-df8becc4f2.png) center center no-repeat;
+  background: url(./../../assets/icon_6-df8becc4f2.png) center center no-repeat;
 }
 
 .sec__desc,

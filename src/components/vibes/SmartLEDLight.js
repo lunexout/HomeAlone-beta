@@ -1,17 +1,17 @@
 import React from "react";
 import "./SmartLEDLight.css";
 
-import photo5 from "./img/bg_05-cb540fcb71.png";
-import photo6 from "./img/bg_06-e79e8f4af8.png";
+import photo5 from "./../../assets/bg_05-cb540fcb71.png";
+import photo6 from "./../../assets/bg_06-e79e8f4af8.png";
 
-import photo1 from "./img/bg_08-51c68dff5a.png";
+import photo1 from "./../../assets/bg_08-51c68dff5a.png";
 
-import photo2 from "./img/bg_07-aa6b07e57a.png";
+import photo2 from "./../../assets/bg_07-aa6b07e57a.png";
 
-import photo3 from "./img/bg_14-cd1fb40162.png";
-import photo4 from "./img/bg_15-a135483b7f.png";
+import photo3 from "./../../assets/bg_14-cd1fb40162.png";
+import photo4 from "./../../assets/bg_15-a135483b7f.png";
 
-import photo7 from "./img/bg_16-a7dd153171.png";
+import photo7 from "./../../assets/bg_16-a7dd153171.png";
 
 // import { Footer } from './../footer/Footer'
 

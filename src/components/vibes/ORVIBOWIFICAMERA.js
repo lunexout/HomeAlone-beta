@@ -1,15 +1,15 @@
 import React from "react";
 import "./ORVIBOWIFICAMERA.css";
-import photo1 from "./img/bg_01-51b38d595a.jpg";
+import photo1 from "./../../assets/bg_01-51b38d595a.jpg";
 
-import photo2 from "./img/phone_01-ac8ab80fa7.png";
+import photo2 from "./../../assets/phone_01-ac8ab80fa7.png";
 
-import photo3 from "./img/phone2-b1680b2e66.png";
-import photo4 from "./img/phone3-9dc2d3477b.png";
-import photo5 from "./img/phone4-3d04649908.png";
-import photo6 from "./img/sc_w-4808566ebf.png";
+import photo3 from "./../../assets/phone2-b1680b2e66.png";
+import photo4 from "./../../assets/phone3-9dc2d3477b.png";
+import photo5 from "./../../assets/phone4-3d04649908.png";
+import photo6 from "./../../assets/sc_w-4808566ebf.png";
 
-import photo7 from "./img/sc_b-8789132710.png";
+import photo7 from "./../../assets/sc_b-8789132710.png";
 
 // import { Footer } from './../footer/Footer'
 

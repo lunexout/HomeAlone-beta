@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "./images/Bank-of-Georgia-1280x720.jpg";
-import img2 from "./images/TBC.png";
+import img1 from "./../../assets/Bank-of-Georgia-1280x720.jpg";
+import img2 from "./../../assets/TBC.png";
 
 import "./../news/News.css";
 import { Footer } from "../footer/Footer";

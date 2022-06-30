@@ -73,19 +73,19 @@
 }
 
 .slide:nth-of-type(1) {
-  background-image: url("./../services/sec2_2-3d2d369dc4.jpg");
+  background-image: url("./../../assets/sec2_2-3d2d369dc4.jpg");
 }
 
 .slide:nth-of-type(2) {
-  background-image: url("./../services/sec2_1-a63e90a5e2.jpg");
+  background-image: url("./../../assets/sec2_1-a63e90a5e2.jpg");
 }
 
 .slide:nth-of-type(3) {
-  background-image: url("./../services/752287_middle.jpg");
+  background-image: url("./../../assets/752287_middle.jpg");
 }
 
 .slide:nth-of-type(4) {
-  background-image: url("./../services/sec6_5-fdaf076235.png");
+  background-image: url("./../../assets/sec6_5-fdaf076235.png");
 }
 
 .slide_buttons {

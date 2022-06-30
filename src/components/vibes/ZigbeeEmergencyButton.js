@@ -1,13 +1,11 @@
 import React from "react";
 import "./ZigbeeEmergencyButton.css";
 
-// import { Footer } from './../footer/Footer'
+import photo1 from "./../../assets/sec3-a70c9766cb.png";
 
-import photo1 from "./img/sec3-a70c9766cb.png";
+import photo2 from "./../../assets/sec4_phone-2471198216.png";
 
-import photo2 from "./img/sec4_phone-2471198216.png";
-
-import photo3 from "./img/sec5_phone-c7d104ef99.png";
+import photo3 from "./../../assets/sec5_phone-c7d104ef99.png";
 export const ZigbeeEmergencyButton = () => {
   return (
     <div>

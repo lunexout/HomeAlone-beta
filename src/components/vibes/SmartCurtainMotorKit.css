@@ -52,7 +52,7 @@ html {
 
 .sec1 {
   height: 800px;
-  background: url(img/bg1-c37e179b4b.jpg) center no-repeat;
+  background: url(./../../assets/bg1-c37e179b4b.jpg) center no-repeat;
 }
 
 .sec2 .block1 > h2 {
@@ -71,7 +71,7 @@ html {
   width: 490px;
   height: 86px;
   margin: 12px auto 0;
-  background: url(img/add_icon1-810bfb3511.png) center no-repeat;
+  background: url(./../../assets/add_icon1-810bfb3511.png) center no-repeat;
 }
 
 .sec2 .block1 .view_port {
@@ -117,7 +117,7 @@ html {
 }
 .sec_add1 {
   height: 770px;
-  background: url(img/bg16-dbbf26ed41.jpg) center no-repeat;
+  background: url(./../../assets/bg16-dbbf26ed41.jpg) center no-repeat;
 }
 .sec_add1 h2 {
   font-size: 36px;
@@ -132,7 +132,7 @@ html {
 }
 .sec3 {
   height: 933px;
-  background: url(img/add_bg1-192403559e.jpg) center no-repeat;
+  background: url(./../../assets/add_bg1-192403559e.jpg) center no-repeat;
   width: 100%;
 }
 .sec3 h2 {
@@ -147,7 +147,7 @@ html {
 .sec5 {
   height: 889px;
   width: 100%;
-  background: url(img/bg6-e2aa851da4.jpg) center bottom no-repeat #fff;
+  background: url(./../../assets/bg6-e2aa851da4.jpg) center bottom no-repeat #fff;
 }
 .sec5 .container {
   width: 1188px;
@@ -175,7 +175,7 @@ html {
 .sec6 {
   height: 701px;
   width: 100%;
-  background: url(img/bg7-ebf6417399.jpg) center no-repeat;
+  background: url(./../../assets/bg7-ebf6417399.jpg) center no-repeat;
 }
 .sec6 .container {
   width: 1188px;
@@ -189,7 +189,7 @@ html {
 .sec6 .container .icon {
   width: 48px;
   height: 14px;
-  background: url(img/arrow-59c2288d12.png) center no-repeat;
+  background: url(./../../assets/arrow-59c2288d12.png) center no-repeat;
   animation: move 1.6s infinite linear;
 }
 .sec6 .container .icon2 {

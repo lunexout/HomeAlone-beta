@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import image1 from "./hotel.png";
-import image2 from "./office.png";
-import image3 from "./house.png";
+import image1 from "./../../assets/hotel.png";
+import image2 from "./../../assets/office.png";
+import image3 from "./../../assets/house.png";
 import { useTranslation } from "react-i18next";
 
 export const Mainservices = () => {

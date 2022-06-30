@@ -4,17 +4,13 @@ import "./Partners.scss";
 
 import { Link, NavLink } from "react-router-dom";
 
-import IMG14 from "./images/7th heaven.jpg";
-import IMG2 from "./images/Alley palace.jpg";
-import IMG1 from "./images/al mare batumi.jpg";
+import IMG14 from "./../../assets/7th heaven.jpg";
+import IMG2 from "./../../assets/Alley palace.jpg";
+import IMG1 from "./../../assets/al mare batumi.jpg";
 import { useTranslation } from "react-i18next";
-
 export const Partnersfor = () => {
   const { t } = useTranslation();
 
-  // React.useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
   return (
     <>
       <style

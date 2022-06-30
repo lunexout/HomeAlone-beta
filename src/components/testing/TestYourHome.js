@@ -50,12 +50,8 @@ import geVideoCamera from "./../../videos/for site parts/Smart Video Camera/ge.m
 import geTHsensor from "./../../videos/for site parts/TH sensor/ge.mp4";
 import geTVcontroll from "./../../videos/for site parts/TV remote controller/ge.mp4";
 
-import STATUS from "./../mobile/status.png";
+import STATUS from "./../../assets/status.png";
 
-// import BACKVIDEO from "./../../videos/backvideo.mp4";
-
-// import  from './../../assets/358800.jpg'
-// import CLOSE from './../../assets/close.svg'
 
 export const TestYourHome = () => {
   //ACcontroll

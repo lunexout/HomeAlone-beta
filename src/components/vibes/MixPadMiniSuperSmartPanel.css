@@ -50,7 +50,7 @@
   position: relative;
   height: 10.8rem;
   width: 100%;
-  background-image: url(img/banner-b2c3965395.jpg);
+  background-image: url(./../../assets/banner-b2c3965395.jpg);
 }
 .mixpadMiniPage .banner .f36 {
   letter-spacing: 0.01rem;
@@ -83,7 +83,7 @@
   position: relative;
   height: 8.64rem;
   padding-top: 1.13rem;
-  background-image: url(img/sec1-fa9ae635db.png);
+  background-image: url(./../../assets/sec1-fa9ae635db.png);
 }
 .mixpadMiniPage .secmini1 .title {
   color: #111;
@@ -99,7 +99,7 @@
   margin-left: -4.83rem;
   width: 2.09rem;
   height: 2.01rem;
-  background-image: url(img/sec1_mask-a1797f89d3.png);
+  background-image: url(./../../assets/sec1_mask-a1797f89d3.png);
   background-size: cover;
   z-index: 1;
   opacity: 0.3;
@@ -115,7 +115,7 @@
 .mixpadMiniPage .secmini2 {
   height: 11.52rem;
   padding-top: 1.13rem;
-  background-image: url(img/sec2-dde2fd6ca7.png);
+  background-image: url(./../../assets/sec2-dde2fd6ca7.png);
 }
 .mixpadMiniPage .secmini2 .desc {
   margin-top: 0.3rem;
@@ -183,7 +183,7 @@
   width: 13.05rem;
   height: 9.6rem;
   position: relative;
-  background-image: url(img/left_1-e79f777a04.png);
+  background-image: url(./../../assets/left_1-e79f777a04.png);
   background-size: cover;
 }
 .mixpadMiniPage .secmini4_1 .left img {
@@ -217,7 +217,7 @@
   width: 6.14rem;
   height: 9.6rem;
   position: relative;
-  background-image: url(img/r_active_1-b21b5a6d78.png);
+  background-image: url(./../../assets/r_active_1-b21b5a6d78.png);
   background-size: cover;
 }
 .mixpadMiniPage .secmini4_1 .right .right_1 {
@@ -226,7 +226,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/r_1-19f833d153.png);
+  background-image: url(./../../assets/r_1-19f833d153.png);
   background-size: cover;
   z-index: 2;
   opacity: 1;
@@ -237,7 +237,7 @@
   left: 1.47rem;
   width: 2.62rem;
   height: 2.86rem;
-  background-image: url(img/r_active_mask-ddda100613.png);
+  background-image: url(./../../assets/r_active_mask-ddda100613.png);
   background-size: cover;
   z-index: 1;
   opacity: 0.3;
@@ -307,7 +307,7 @@
 }
 .mixpadMiniPage .secmini4_4 {
   height: 9.6rem;
-  background-image: url(img/sec4_4-e8ace2e1bd.png);
+  background-image: url(./../../assets/sec4_4-e8ace2e1bd.png);
   background-size: cover;
   padding-top: 1.25rem;
   position: relative;
@@ -325,7 +325,7 @@
   width: 1.74rem;
   height: 1.29rem;
   margin-left: 3.84rem;
-  background-image: url(img/tembg-52e22a4881.png);
+  background-image: url(./../../assets/tembg-52e22a4881.png);
   background-size: cover;
   color: #fff;
 }
@@ -359,7 +359,7 @@
   margin-right: -8.6rem;
   width: 4.23rem;
   height: 2.36rem;
-  background-image: url(img/sec4_4_cold-c433d9227e.png);
+  background-image: url(./../../assets/sec4_4_cold-c433d9227e.png);
 }
 .mixpadMiniPage .secmini4_4 .guide {
   opacity: 0;
@@ -370,7 +370,7 @@
   margin-left: 5.59rem;
   width: 1.03rem;
   height: 0.57rem;
-  background-image: url(img/guide-495fe96c27.svg);
+  background-image: url(./../../assets/guide-495fe96c27.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -453,7 +453,7 @@
   margin-left: -2.7rem;
   width: 4.53rem;
   height: 4.52rem;
-  background-image: url(img/sec5_mask-fc7eaa6f28.png);
+  background-image: url(./../../assets/sec5_mask-fc7eaa6f28.png);
   background-size: cover;
   z-index: 1;
   opacity: 0.4;
@@ -465,7 +465,7 @@
   width: 3.93rem;
   height: 3.79rem;
   margin-left: -2.3rem;
-  background-image: url(img/sec5_video-fc245a1abe.png);
+  background-image: url(./../../assets/sec5_video-fc245a1abe.png);
   background-size: cover;
 }
 .mixpadMiniPage .animated {
@@ -857,7 +857,7 @@
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background: url(img/vedio_t1_close-e909f77947.png) center no-repeat;
+  background: url(./../../assets/vedio_t1_close-e909f77947.png) center no-repeat;
   background-size: cover;
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -912,7 +912,7 @@
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background: url(img/vedio_t1_close-e909f77947.png) center no-repeat;
+  background: url(./../../assets/vedio_t1_close-e909f77947.png) center no-repeat;
   background-size: cover;
   opacity: 0.5;
   filter: alpha(opacity=50);
