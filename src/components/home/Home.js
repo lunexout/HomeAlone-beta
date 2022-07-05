@@ -91,7 +91,7 @@ export const Home = () => {
               alt="Example gif"
               style={{ width: "100%", height: "auto" }}
             />
-          </div>
+          </div> 
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1
