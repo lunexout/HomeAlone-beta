@@ -5,9 +5,9 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
-import engvideo from "../../videos/eng full.mp4";
-import geovideo from "../../videos/geo full.mp4";
-import ruvideo from "../../videos/ru full.mp4";
+import engvideo from "./../../assets/eng full.mp4";
+import geovideo from "./../../assets/geo full.mp4";
+import ruvideo from "./../../assets/ru full.mp4";
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 SwiperCore.use([Pagination, Navigation]);
