@@ -3,7 +3,7 @@ import "./home.css";
 
 import { BannerCarousel } from "./../carousels/BannerCarousel";
 import { Footer } from "./../footer/Footer";
-import { SmartBanner } from "../smartbanner/SmartBanner";
+// import { SmartBanner } from "../smartbanner/SmartBanner";
 import { Spinner } from "./../spinner/Spinner";
 import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
@@ -75,7 +75,7 @@ export const Home = () => {
 
           <Mainservices />
 
-          <SmartBanner />
+          {/* <SmartBanner /> */}
 
           <div className="single-div" style={{ marginTop: 40 }}>
             <h1
