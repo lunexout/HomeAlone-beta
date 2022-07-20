@@ -7,6 +7,9 @@ import ruvideo from "./../../assets/ru full.mp4";
 import "./Showroom.css";
 
 export const ShowRoom = () => {
+  window.scrollTo(0, 0);
+
+
   let bckVideo;
   if (localStorage.getItem("lang") === "ru") {
     bckVideo = ruvideo;

@@ -4,6 +4,8 @@ import { Footer } from "./../footer/Footer";
 import { useTranslation } from "react-i18next";
 import Departments from "./Departments";
 export const About = () => {
+  window.scrollTo(0, 0);
+
   const { t } = useTranslation();
   return (
     <>

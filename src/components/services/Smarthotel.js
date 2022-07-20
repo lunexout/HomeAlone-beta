@@ -2,6 +2,7 @@ import React from "react";
 import img4 from "./../../assets/hotel1.jpg";
 import img1 from "./../../assets/hotel2.jpg";
 import img2 from "./../../assets/hotel4.jpg";
+import { Footer } from "./../footer/Footer";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
@@ -128,6 +129,8 @@ export const SmartHotel = () => {
           </section>
         </div>
       </BrowserView>
+      <Footer />
+
     </>
   );
 };

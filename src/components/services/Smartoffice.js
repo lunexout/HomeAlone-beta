@@ -4,6 +4,7 @@ import img2 from "./../../assets/so_left2-00979d4640.jpg";
 import img3 from "./../../assets/solution_bg7-f15c48d61f.jpg";
 import img4 from "./../../assets/solution_bg5-febe4b3d08.jpg";
 import { BrowserView, MobileView } from "react-device-detect";
+import { Footer } from "./../footer/Footer";
 
 import "./../news/News.css";
 
@@ -130,6 +131,8 @@ export const SmartOffice = () => {
           </section>
         </div>
       </BrowserView>
+      <Footer />
+
     </>
   );
 };

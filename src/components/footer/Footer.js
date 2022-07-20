@@ -118,10 +118,10 @@ export const Footer = () => {
                     id="menu-item-170434"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434"
                   >
-                    <NavLink
+                   <NavLink
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
-                      to="/about/showroom"
+                      to="/showroom/showroom"
                       style={{ textTransform: "lowercase" }}
                     >
                       <p>{t("Showroom")}</p>

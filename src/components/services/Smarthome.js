@@ -3,6 +3,7 @@ import img1 from "./../../assets/home1.jpg";
 import img2 from "./../../assets/home2.jpg";
 import img3 from "./../../assets/home3.jpg";
 import img4 from "./../../assets/home4.jpg";
+import { Footer } from "./../footer/Footer";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
@@ -134,6 +135,8 @@ export const SmartHome = () => {
           </section>
         </div>
       </BrowserView>
+      <Footer />
+
     </>
   );
 };
