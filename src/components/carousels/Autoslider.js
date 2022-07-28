@@ -2,8 +2,11 @@ import React from "react";
 import "./Autoslider.css";
 import { useEffect } from "react";
 import * as $ from 'jquery';
+import { useTranslation } from "react-i18next";
 
 const Autoslider = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
     $('.slider').each(function() {
       var $this = $(this);
@@ -97,6 +100,16 @@ const Autoslider = () => {
   });
   return (
     <>
+
+<div className="single-div" style={{ marginTop: 40 }}>
+            <h1
+              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+              style={{ textTransform: "capitalize" }}
+            >
+              {t("TOP PRODUCT")}
+            </h1>
+          </div>
+
       <div class="slider">
         <div class="slide_viewer">
           <div class="slide_group">

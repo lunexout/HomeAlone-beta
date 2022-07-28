@@ -76,7 +76,7 @@ export const Products = () => {
         )}
       </div>
 
-      <div>
+      {/* <div>
         <h1
           style={{
             textAlign: "left",
@@ -88,7 +88,7 @@ export const Products = () => {
         >
           Other type of products
         </h1>
-      </div>
+      </div> */}
       <ProductBann />
       <div style={{ marginBottom: 20 }}></div>
 

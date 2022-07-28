@@ -9,7 +9,6 @@ import image2 from "./../../assets/office.png";
 import image3 from "./../../assets/house.png";
 import { useTranslation } from "react-i18next";
 
-
 export const Services = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -110,8 +109,15 @@ export const Services = () => {
                     `,
         }}
       />
-
-      <div className="grid-container1">
+      <div className="single-div" style={{ marginTop: 40 }}>
+        <h1
+          className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+          style={{ textTransform: "capitalize" }}
+        >
+          {t("SERVICES")}
+        </h1>
+      </div>
+      <div className="grid-container1" style={{ marginBottom: "30px" }}>
         <div>
           <div
             className="column imageContainer3 vcenter"
@@ -181,10 +187,6 @@ export const Services = () => {
       <Footer />
     </div>
   );
-      
-      
-    
-
 };
 
 export default Services;

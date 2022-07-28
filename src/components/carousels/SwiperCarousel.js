@@ -1,9 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import "./Autoslider.css";
+import { useTranslation } from "react-i18next";
 
 import * as $ from 'jquery';
 export const SwiperCarousel = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
     $('.slider').each(function() {
       var $this = $(this);
@@ -97,6 +100,14 @@ export const SwiperCarousel = () => {
   });
   return (
     <>
+    <div className="single-div" style={{ marginTop: 40 }}>
+            <h1
+              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+              style={{ textTransform: "capitalize" }}
+            >
+              {t("HomeController")}
+            </h1>
+          </div>
       <div class="slider">
         <div class="slide_viewer">
           <div class="slide_group">

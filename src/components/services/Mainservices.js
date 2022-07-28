@@ -103,7 +103,14 @@ export const Mainservices = () => {
                     `,
         }}
       />
-
+      <div className="single-div" style={{ marginTop: 40 }}>
+        <h1
+          className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+          style={{ textTransform: "capitalize" }}
+        >
+          {t("SERVICES")}
+        </h1>
+      </div>
       <div className="grid-container1">
         <div>
           <div

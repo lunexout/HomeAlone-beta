@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductTypesCarousel } from "../carousels/ProductTypesCarousel";
+// import { SmartBanner } from "../smartbanner/SmartBanner";
 
 import logoprod1 from "./../../assets/audio.png";
 import logoprod2 from "./../../assets/interact.png";
@@ -10,9 +11,21 @@ import logoprod6 from "./../../assets/hvac.png";
 import logoprod7 from "./../../assets/Iynque-Flurry-Extras-9-Apple-Remote-1_80x80.png";
 import logoprod8 from "./../../assets/home.png";
 import logoprod9 from "./../../assets/hotelmain.png";
+import { useTranslation } from "react-i18next";
+
 export const ProductBann = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
+      <div className="single-div" style={{ marginTop: 40 }}>
+            <h1
+              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+              style={{ textTransform: "capitalize" }}
+            >
+              {t("PRODUCTS")}
+            </h1>
+          </div>
       <div>
         <ProductTypesCarousel
           ProductList={[

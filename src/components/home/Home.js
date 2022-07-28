@@ -3,21 +3,20 @@ import "./home.css";
 
 import { BannerCarousel } from "./../carousels/BannerCarousel";
 import { Footer } from "./../footer/Footer";
-// import { SmartBanner } from "../smartbanner/SmartBanner";
 import { Spinner } from "./../spinner/Spinner";
 import { ProductBann } from "../products/ProductBann";
 import { Mainservices } from "../services/Mainservices";
-import df from "./../../assets/lhajWAwgNDMA.gif";
-import { useTranslation } from "react-i18next";
 import { SwiperCarousel } from "../carousels/SwiperCarousel";
 import { Shower } from "./Shower";
 import Autoslider from "../carousels/Autoslider";
 import { Helmet } from "react-helmet";
 import { Automation } from "../automation/Automation.js";
+import { Swiperpages } from "./Swiperpages";
+import { Gifslider } from "./Gifslider";
+
 
 export const Home = () => {
   const [spinner, setSpinner] = React.useState(false);
-  const { t } = useTranslation();
 
   React.useEffect(() => {
     setSpinner(true);
@@ -55,102 +54,18 @@ export const Home = () => {
       ) : (
         <>
           <BannerCarousel />
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("PRODUCTS")}
-            </h1>
-          </div>
+
           <ProductBann />
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("SERVICES")}
-            </h1>
-          </div>
 
           <Mainservices />
 
-          {/* <SmartBanner /> */}
+          <Gifslider />
 
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("Only")}
-            </h1>
-          </div>
-          <div class="boxgif">
-            <img
-              src={df}
-              alt="Example gif"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div> 
-
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("TOP PRODUCT")}
-            </h1>
-          </div>
           <Autoslider />
 
-          <div className="single-div" style={{ marginTop: 40 }}>
-            <h1
-              className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-              style={{ textTransform: "capitalize" }}
-            >
-              {t("HomeController")}
-            </h1>
-          </div>
           <SwiperCarousel />
-          <div className="backer">
-            <div className="container1">
-              <div className="layout1">
-                <div className="widther">
-                  <span style={{ fontSize: "4vmin", fontWeight: "bold" }}>
-                    {t("prodiskr12")}
-                  </span>
-                  <p className="clean" style={{ fontSize: "3vmin" }}>
-                    {t("prodiskr13")}
-                  </p>
-                </div>
-                <div class="col1 col-complementary1" role="complementary">
-                  <img
-                    style={{ width: "100%", height: "auto" }}
-                    src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_1-9453ebf6fd.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
 
-            <div className="container1">
-              <div className="layout1">
-                <div class="col1 col-complementary1" role="complementary">
-                  <img
-                    style={{ width: "100%", height: "auto" }}
-                    src="https://static.orvibo.com/guanwang_second/front/images/products/mixpad_switch/sec6_3_en-3f2cce9470.png"
-                    alt=""
-                  />
-                </div>
-                <div className="widther2">
-                  <span style={{ fontSize: "4vmin" }}>{t("prodiskr14")}</span>
-                  <p className="clean" style={{ fontSize: "3vmin" }}>
-                    {t("prodiskr15")}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Swiperpages />
 
           <Shower />
 
