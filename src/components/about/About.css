@@ -6,7 +6,7 @@
 }
 
 .grid-container>div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   font-size: 30px;
 }
@@ -11988,11 +11988,12 @@ fieldset:disabled .btn {
   font-size: 26px;
   font-weight: 600;
   font-family: "Varela", sans-serif;
-  color: rgba(255, 255, 255, 0.295);
+  color: rgba(0, 255, 0, 0.295);
 }
 
 .container .carddep:hover:after {
-  color: green;
+  color: white;
+  opacity: 0.5;
 }
 
 .container .carddep .imgBx {
