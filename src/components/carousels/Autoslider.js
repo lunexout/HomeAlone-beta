@@ -101,7 +101,7 @@ const Autoslider = () => {
   return (
     <>
 
-<div className="single-div" style={{ marginTop: 40 }}>
+<div className="single-div" style={{ marginTop: 10 }}>
             <h1
               className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
               style={{ textTransform: "capitalize" }}

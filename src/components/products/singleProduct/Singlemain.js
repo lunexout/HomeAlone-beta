@@ -2,13 +2,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import axios from 'axios'
 import React, { useEffect } from 'react'
-
+import './prodcss.css'
 import dataJSON from './../../../API.json'
 
 import { Spinner } from '../../spinner/Spinner'
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
@@ -23,6 +22,7 @@ import { ProductBann } from '../ProductBann';
 SwiperCore.use([Pagination, Navigation]);
 
 export const Singlemain = ({ match }) => {
+    const width_proportion = '33%';
 
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
@@ -58,6 +58,33 @@ export const Singlemain = ({ match }) => {
             })
         })
     }, [])
+
+
+useEffect(()=>{
+    let tabs = document.querySelectorAll(".tabscss li");
+let tabsArray = Array.from(tabs);
+let divs = document.querySelectorAll(".contentcss > div");
+let divsArray = Array.from(divs);
+
+// console.log(tabsArray);
+
+tabsArray.forEach((ele) => {
+  ele.addEventListener("click", function (e) {
+    // console.log(ele);
+    tabsArray.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    e.currentTarget.classList.add("active");
+    divsArray.forEach((div) => {
+      div.style.display = "none";
+    });
+    // console.log(e.currentTarget.dataset.cont);
+    document.querySelector(e.currentTarget.dataset.cont).style.display = "block";
+  });
+});
+})
+
+
     return (
         <>
             {singleProd && console.log(singleProd)}
@@ -69,7 +96,7 @@ export const Singlemain = ({ match }) => {
                 </>
             ) : (
                 <>
-                    <div style={{ display: 'flex', flexDirection: 'column', }}>
+                    {/* <div style={{ display: 'flex', flexDirection: 'column', }}>
                         {singleProd.images && singleProd.images.map((el, eli) => {
                             return (
                                 <>
@@ -103,7 +130,8 @@ export const Singlemain = ({ match }) => {
                                 </>
                             )
                         })}
-                    </div>
+                    </div> */}
+                    
                     <div className='single-div'>
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: 30 }} className="single-prod-cont">
                             <Swiper style={{ display: 'flex', flex: 1.4 }} pagination={{
@@ -129,7 +157,15 @@ export const Singlemain = ({ match }) => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '30px auto' }}>
+                        <ul class="tabscss">
+  <li class="active" data-cont=".one" style={{width: width_proportion, borderRadius: "0px 100px 100px 0px"}}>Properties</li>
+  <li data-cont=".two" style={{width: width_proportion, borderRadius:"100px"}}>Description</li>
+  <li data-cont=".three" style={{width: width_proportion, borderRadius: "100px 0px 0px 100px"}}>Other Features</li>
+</ul>
+<div class="contentcss">
+  <div class="one">
+    
+  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '30px auto' }}>
                             {singleProd.properties && singleProd.properties.map(i => {
                                 return (
                                     <>
@@ -145,6 +181,68 @@ export const Singlemain = ({ match }) => {
                                 )
                             })}
                         </div>
+
+
+  </div>
+  <div class="two">
+    
+
+  <div style={{ display: 'flex', flexDirection: 'column', }}>
+                        {singleProd.images && singleProd.images.map((el, eli) => {
+                            return (
+                                <>
+                                    {singleProd.properties && singleProd.properties.map((ele, elei) => {
+                                        return (
+                                            <>
+                                                {eli === elei && (
+                                                    <>
+                                                        {singleProd.description && singleProd.description.split('●').map((it, i) => {
+                                                            return (
+                                                                <>
+                                                                    {elei === i && (<div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center', gap: 30, color: '#20232A' }}>
+                                                                        <div style={{}}>
+                                                                            <img src={`${dataJSON.API_URL}public/images/` + el.url} alt=""
+                                                                                style={{ width: 900, height: 'auto', maxWidth: '100%' }} className="animate__animated animate__backInLeft" />
+                                                                        </div>
+                                                                        <div style={{ display: 'flex', flexDirection: 'column', fontSize: 30 }} >
+                                                                            <p style={{ fontFamily: "Gowun Dodum", fontSize: 30, fontWeight: 'bold' }} className="animate__animated animate__backInUp">{ele.prop} {ele.value}</p>
+                                                                            <p> {i > 0 && <><span style={{ color: '#009073' }}>●</span></>} {it}</p>
+                                                                        </div>
+                                                                    </div>)}
+                                                                </>
+                                                            )
+                                                        })}
+
+                                                    </>
+                                                )}
+                                            </>
+                                        )
+                                    })}
+                                </>
+                            )
+                        })}
+                    </div> 
+
+
+  </div>
+  <div class="three">Content 3</div>
+</div>
+                        {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '30px auto' }}>
+                            {singleProd.properties && singleProd.properties.map(i => {
+                                return (
+                                    <>
+                                        <div style={{ display: 'flex' }} className='row-div'>
+                                            <div style={{ width: '100%', maxWidth: '100%', padding: 8 }} className='prop-div'>
+                                                {i.prop}:
+                                            </div>
+                                            <div style={{ width: '100%', maxWidth: '100%', padding: 8 }} className='value-div'>
+                                                {i.value}
+                                            </div>
+                                        </div>
+                                    </>
+                                )
+                            })}
+                        </div> */}
                         <div>
                             <h1 style={{ textAlign: 'left', alignItems: 'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073', paddingLeft: 15 }}>Related products</h1>
                         </div>

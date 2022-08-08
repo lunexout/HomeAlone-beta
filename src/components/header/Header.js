@@ -289,6 +289,14 @@ export const Header = () => {
                   >
                     <p>{t("Smart Lighting")}</p>
                   </NavLink>
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/fire_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Fire Security System")}</p>
+                  </NavLink>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <NavLink
@@ -314,6 +322,14 @@ export const Header = () => {
                     style={{ textDecoration: "none" }}
                   >
                     <p>{t("Smart HVAC")}</p>
+                  </NavLink>
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/greenhouse_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Greenhouse System")}</p>
                   </NavLink>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>

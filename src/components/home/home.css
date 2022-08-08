@@ -3,8 +3,12 @@
   height: 70%;
 }
 .prod-item {
-  width: 110px;
-  height: 110px;
+  /* width: 110px;
+  height: 110px; */
+
+
+  width: 85px;
+  height: 85px;
   border-radius: 10%;
   padding: 20px;
   display: flex;

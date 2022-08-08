@@ -1,7 +1,15 @@
 import React from "react";
-import img4 from "./../../assets/hotel1.jpg";
-import img1 from "./../../assets/hotel2.jpg";
-import img2 from "./../../assets/hotel4.jpg";
+// import img4 from "./../../assets/hotel1.jpg";
+// import img1 from "./../../assets/hotel2.jpg";
+// import img2 from "./../../assets/hotel4.jpg";
+
+import img1 from "./../../assets/icon-2.png";
+import img2 from "./../../assets/icon-3.png";
+import img3 from "./../../assets/icon-4.png";
+import img4 from "./../../assets/hotel2.jpg";
+import img5 from "./../../assets/hotel4.jpg";
+
+
 import { Footer } from "./../footer/Footer";
 
 import { BrowserView, MobileView } from "react-device-detect";
@@ -18,6 +26,320 @@ export const SmartHotel = () => {
   }, []);
   return (
     <>
+    <style
+        dangerouslySetInnerHTML={{
+          __html: `
+          *,*::before,*::after{
+            box-sizing:border-box
+        }
+        @media (prefers-reduced-motion: no-preference){
+            :root{
+                scroll-behavior:smooth
+            }
+        }
+        body{
+            margin:0;
+            font-family:"Open Sans",sans-serif;
+            font-size:1rem;
+            font-weight:400;
+            line-height:1.5;
+            color:#777;
+            background-color:#fff;
+            -webkit-text-size-adjust:100%;
+            -webkit-tap-highlight-color:rgba(0,0,0,0)
+        }
+        h1,h3,h4{
+            margin-top:0;
+            margin-bottom:.5rem;
+            font-family:"Teko",sans-serif;
+            font-weight:500;
+            line-height:1.2;
+            color:#252525
+        }
+        h1{
+            font-size:calc(1.375rem + 1.5vw)
+        }
+        @media (min-width: 1200px){
+            h1{
+                font-size:2.5rem
+            }
+        }
+        h3{
+            font-size:calc(1.3rem + .6vw)
+        }
+        @media (min-width: 1200px){
+            h3{
+                font-size:1.75rem
+            }
+        }
+        h4{
+            font-size:calc(1.275rem + .3vw)
+        }
+        @media (min-width: 1200px){
+            h4{
+                font-size:1.5rem
+            }
+        }
+        p{
+            margin-top:0;
+            margin-bottom:1rem
+        }
+        img{
+            vertical-align:middle
+        }
+        button:focus:not(:focus-visible){
+            outline:0
+        }
+        button:not(:disabled),[type="button"]:not(:disabled),[type="reset"]:not(:disabled),[type="submit"]:not(:disabled){
+            cursor:pointer
+        }
+        ::-moz-focus-inner{
+            padding:0;
+            border-style:none
+        }
+        ::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-text,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-year-field{
+            padding:0
+        }
+        ::-webkit-inner-spin-button{
+            height:auto
+        }
+        ::-webkit-search-decoration{
+            -webkit-appearance:none
+        }
+        ::-webkit-color-swatch-wrapper{
+            padding:0
+        }
+        ::file-selector-button{
+            font:inherit
+        }
+        ::-webkit-file-upload-button{
+            font:inherit;
+            -webkit-appearance:button
+        }
+        .display-1{
+            font-size:calc(1.625rem + 4.5vw);
+            font-weight:600;
+            line-height:1.2
+        }
+        @media (min-width: 1200px){
+            .display-1{
+                font-size:5rem
+            }
+        }
+        .display-5{
+            font-size:calc(1.425rem + 2.1vw);
+            font-weight:600;
+            line-height:1.2
+        }
+        @media (min-width: 1200px){
+            .display-5{
+                font-size:3rem
+            }
+        }
+        .img-fluid{
+            max-width:100%;
+            height:auto
+        }
+        .container,.container-fluid,.container-xxl{
+            width:100%;
+            padding-right:var(--bs-gutter-x, .75rem);
+            padding-left:var(--bs-gutter-x, .75rem);
+            margin-right:auto;
+            margin-left:auto
+        }
+        @media (min-width: 576px){
+            .container{
+                max-width:540px
+            }
+        }
+        @media (min-width: 768px){
+            .container{
+                max-width:720px
+            }
+        }
+        @media (min-width: 992px){
+            .container{
+                max-width:960px
+            }
+        }
+        @media (min-width: 1200px){
+            .container{
+                max-width:1140px
+            }
+        }
+        @media (min-width: 1400px){
+            .container,.container-xxl{
+                max-width:1320px
+            }
+        }
+        .row{
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display:flex;
+            flex-wrap:wrap;
+            margin-top:calc(var(--bs-gutter-y) * -1);
+            margin-right:calc(var(--bs-gutter-x) / -2);
+            margin-left:calc(var(--bs-gutter-x) / -2)
+        }
+        .row>*{
+            flex-shrink:0;
+            width:100%;
+            max-width:100%;
+            padding-right:calc(var(--bs-gutter-x) / 2);
+            padding-left:calc(var(--bs-gutter-x) / 2);
+            margin-top:var(--bs-gutter-y)
+        }
+        .col-12{
+            flex:0 0 auto;
+            width:100%
+        }
+        .g-4{
+            --bs-gutter-x: 1.5rem
+        }
+        .g-4{
+            --bs-gutter-y: 1.5rem
+        }
+        .g-5{
+            --bs-gutter-x: 3rem
+        }
+        .g-5{
+            --bs-gutter-y: 3rem
+        }
+        @media (min-width: 992px){
+            .col-lg-6{
+                flex:0 0 auto;
+                width:50%
+            }
+        }
+        .form-control[type="file"]:not(:disabled):not(:read-only){
+            cursor:pointer
+        }
+        .form-control::file-selector-button{
+            padding:.375rem .75rem;
+            margin:-.375rem -.75rem;
+            margin-inline-end:.75rem;
+            color:#777;
+            background-color:#e9ecef;
+            pointer-events:none;
+            border-color:inherit;
+            border-style:solid;
+            border-width:0;
+            border-inline-end-width:1px;
+            border-radius:0;
+            transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out
+        }
+        @media (prefers-reduced-motion: reduce){
+            .form-control::file-selector-button{
+                transition:none
+            }
+        }
+        .form-control:hover:not(:disabled):not(:read-only)::file-selector-button{
+            background-color:#dde0e3
+        }
+        .form-control:hover:not(:disabled):not(:read-only)::-webkit-file-upload-button{
+            background-color:#dde0e3
+        }
+        .form-control-sm::file-selector-button{
+            padding:.25rem .5rem;
+            margin:-.25rem -.5rem;
+            margin-inline-end:.5rem
+        }
+        .form-control-lg::file-selector-button{
+            padding:.5rem 1rem;
+            margin:-.5rem -1rem;
+            margin-inline-end:1rem
+        }
+        .form-control-color:not(:disabled):not(:read-only){
+            cursor:pointer
+        }
+        .visually-hidden-focusable:not(:focus):not(:focus-within){
+            position:absolute !important;
+            width:1px !important;
+            height:1px !important;
+            padding:0 !important;
+            margin:-1px !important;
+            overflow:hidden !important;
+            clip:rect(0, 0, 0, 0) !important;
+            white-space:nowrap !important;
+            border:0 !important
+        }
+        .d-flex{
+            display:flex !important
+        }
+        .flex-shrink-0{
+            flex-shrink:0 !important
+        }
+        .align-items-start{
+            align-items:flex-start !important
+        }
+        .mb-0{
+            margin-bottom:0 !important
+        }
+        .mb-4{
+            margin-bottom:1.5rem !important
+        }
+        .mb-5{
+            margin-bottom:3rem !important
+        }
+        .ms-4{
+            margin-left:1.5rem !important
+        }
+        .py-5{
+            padding-top:3rem !important;
+            padding-bottom:3rem !important
+        }
+        .text-white{
+            color:#fff !important
+        }
+         :root {
+             --primary: #B78D65;
+             --light: #F8F8F8;
+             --dark: #252525;
+        }
+         h1 {
+             font-weight: 600 !important;
+        }
+         h3, h4 {
+             font-weight: 500 !important;
+        }
+        
+         .page-header {
+             background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+             background-size: cover;
+        }
+         .section-title {
+             color: var(--primary);
+             font-weight: 600;
+             letter-spacing: 5px;
+             text-transform: uppercase;
+        }
+         .feature-img {
+             position: relative;
+             height: 100%;
+             min-height: 400px;
+        }
+         .feature-img img {
+             position: absolute;
+             width: 60%;
+             height: 80%;
+             object-fit: cover;
+        }
+         .feature-img img:last-child {
+             margin: 20% 0 0 -40%;
+        }
+         .feature-img::before {
+             position: absolute;
+             content: "";
+             width: 60%;
+             height: 80%;
+             top: 10%;
+             left: 20%;
+             border: 5px solid var(--primary);
+             z-index: -1;
+        }
+                `,
+        }}
+      />
       <MobileView>
         <div className="wrap">
           <div className="blog">
@@ -40,7 +362,61 @@ export const SmartHotel = () => {
         </div>
       </MobileView>
       <BrowserView>
-        <div>
+      <>
+      <div class="container-fluid page-header py-5 mb-5 wow fadeIn">
+        <div class="container py-5">
+            <h1 class="display-1 text-white animated slideInDown">{t("Smart Hotel System")}</h1>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp">
+                    <h4 class="section-title">Why Choose Us!</h4>
+                    <h1 class="display-5 mb-4">Why You Should Trust Us?</h1>
+                    <p class="mb-4">   {t("hotelsoltxt1")}</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src={img1} alt="Icon"/>
+                                <div class="ms-4">
+                                    <h3>Design Approach</h3>
+                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src={img2}  alt="Icon"/>
+                                <div class="ms-4">
+                                    <h3>Innovative Solutions</h3>
+                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src={img3}  alt="Icon"/>
+                                <div class="ms-4">
+                                    <h3>Project Management</h3>
+                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp">
+                    <div class="feature-img">
+                        <img class="img-fluid" src={img4}  alt=""/>
+                        <img class="img-fluid" src={img5}  alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      </>
+        {/* <div>
           <section className="u-clearfix u-section-1" id="carousel_cceb">
             <div className="u-clearfix u-sheet u-sheet-1">
               <div className="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
@@ -127,7 +503,7 @@ export const SmartHotel = () => {
               </div>
             </div>
           </section>
-        </div>
+        </div> */}
       </BrowserView>
       <Footer />
 

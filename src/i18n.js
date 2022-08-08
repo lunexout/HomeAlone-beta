@@ -126,7 +126,10 @@ const resources = {
       "Mikheil":" Mikheil",
       "donadze":" donadze",
       "Ianis":" Ianis",
-      "Ambelidi":" Ambelidi"
+      "Ambelidi":" Ambelidi",
+      "Surmanidze":"Surmanidze",
+      "Fire Security System":"Fire Security System",
+      "Greenhouse System":"Greenhouse System",
     }
   },
   ge: {
@@ -253,8 +256,10 @@ const resources = {
       "Mikheil":"მიხეილ",
       "donadze":"დონაძე",
       "Ianis":"იანის",
-      "Ambelidi":"ამბელიდი"
-
+      "Ambelidi":"ამბელიდი",
+      "Surmanidze":"სურმანიძე",
+      "Fire Security System":"სახანძრო სისტემა",
+      "Greenhouse System":"სასათბურე სისტემა",
     }
   },
   ru: {
@@ -381,7 +386,10 @@ const resources = {
       "Mikheil": "Михеил",
       "donadze": "донадзе",
       "Ianis": "Янис",
-      "Ambelidi": "Амбелиди"
+      "Ambelidi": "Амбелиди",
+      "Surmanidze":"Сурманидзе",
+      "Fire Security System":"Система Пожарной Безопасности",
+      "Greenhouse System":"Парниковая Система",
     }
   }
 };

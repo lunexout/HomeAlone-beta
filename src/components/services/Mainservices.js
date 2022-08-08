@@ -103,7 +103,7 @@ export const Mainservices = () => {
                     `,
         }}
       />
-      <div className="single-div" style={{ marginTop: 40 }}>
+      <div className="single-div" style={{ marginTop: 10 }}>
         <h1
           className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
           style={{ textTransform: "capitalize" }}
@@ -116,7 +116,7 @@ export const Mainservices = () => {
           <div
             className="column imageContainer3 vcenter"
             style={{
-              backgroundColor: "#a7cbab",
+              backgroundColor: "#F7FBFF",
               backgroundImage: `url(${image3})`,
               backgroundRepeat: "no-repeat",
               margin: "auto",
@@ -138,7 +138,7 @@ export const Mainservices = () => {
         <div
           className="column imageContainer1 vcenter"
           style={{
-            backgroundColor: "#a7cbab",
+            backgroundColor: "#F7FBFF",
             backgroundImage: `url(${image1})`,
             backgroundRepeat: "no-repeat",
           }}
@@ -159,7 +159,7 @@ export const Mainservices = () => {
           <div
             className="column imageContainer2 vcenter"
             style={{
-              backgroundColor: "#a7cbab",
+              backgroundColor: "#F7FBFF",
               backgroundImage: `url(${image2})`,
               backgroundRepeat: "no-repeat",
             }}

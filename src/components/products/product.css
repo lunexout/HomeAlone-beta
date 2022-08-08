@@ -34,7 +34,8 @@
 }
 
 .main_content .card {
-  width: 500px;
+  /* width: 500px; */
+  width: 350px;
   border-radius: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -57,7 +58,7 @@
 }
 
 .main_content .card .card_img img {
-  width: 300px;
+  width: 200px;
   /* background-image: url('./LPT.jpg'); */
 }
 

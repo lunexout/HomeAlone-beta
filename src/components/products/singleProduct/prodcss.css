@@ -1,0 +1,43 @@
+.tabscss {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+  }
+  .tabscss li {
+    padding: 10px;
+    background-color: #a7cbab;
+    border-right: 1px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+    font-weight: bolder;
+  }
+  .tabscss li.active,
+  .tabscss li:hover {
+    background-color: #009073;
+    color: white;
+    font-weight: bolder;
+
+  }
+  /* .contentcss { */
+    /* background-color: #ddd; */
+  /* } */
+  .contentcss > div {
+    padding: 20px;
+  } 
+  .contentcss > div:not(:first-child) {
+    display: none;
+  }
+
+  li .one{
+    width: 33%;
+  }
+
+  li   .two{
+    width: 33%;
+  }
+
+  li   .three{
+    width: 33%;
+  }
