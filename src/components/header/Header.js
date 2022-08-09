@@ -3,9 +3,9 @@ import "./header.css";
 import logo from "./../../assets/logomobile.png";
 import TBC_LOGO from "./../../assets/TBC_Bank_logo.png";
 
-import PARTNER1 from "./../../assets/al mare batumi.jpg";
-import PARTNER2 from "./../../assets/citron.jpg";
-import PARTNER3 from "./../../assets/like house.jpg";
+import PARTNER1 from "./../../assets/al_mare_batumi.png";
+import PARTNER2 from "./../../assets/citron.png";
+import PARTNER3 from "./../../assets/like_house.png";
 import imagefb from "./../../assets/Facebook-logo.png";
 import imageins from "./../../assets/Symbol-Instagram.png";
 
