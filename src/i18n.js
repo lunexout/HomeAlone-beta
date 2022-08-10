@@ -130,6 +130,10 @@ const resources = {
       "Surmanidze":"Surmanidze",
       "Fire Security System":"Fire Security System",
       "Greenhouse System":"Greenhouse System",
+      "Smart Door Lock":"Smart Door Lock",
+"Mixpad":"Mixpad",
+"Magic Cube":"Magic Cube",
+"MixPad Genie":"MixPad Genie"
     }
   },
   ge: {
@@ -260,6 +264,10 @@ const resources = {
       "Surmanidze":"სურმანიძე",
       "Fire Security System":"სახანძრო სისტემა",
       "Greenhouse System":"სასათბურე სისტემა",
+      "Smart Door Lock":"ჭკვიანი კარის საკეტი",
+"Mixpad":"მიქსპადი",
+"Magic Cube":"მაგიური კუბი",
+"MixPad Genie":"მიქსპად ჯინი"
     }
   },
   ru: {
@@ -390,6 +398,10 @@ const resources = {
       "Surmanidze":"Сурманидзе",
       "Fire Security System":"Система Пожарной Безопасности",
       "Greenhouse System":"Парниковая Система",
+      "Smart Door Lock":"Умный дверной замок",
+"Mixpad":"Микспад",
+"Magic Cube":"Волшебный куб",
+"MixPad Genie":"MixPad Genie"
     }
   }
 };

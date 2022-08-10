@@ -186,3 +186,8 @@ a.slide_btn {
 .slide1:nth-of-type(4) {
   background-image: url("./../../assets/1.png");
 }
+
+.responsiveslider {
+  width: 100%;
+  height: auto;
+}

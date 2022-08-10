@@ -2,7 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import "./Autoslider.css";
 import { useTranslation } from "react-i18next";
-
+import { BrowserView, MobileView } from "react-device-detect";
+import IMG1 from './../../assets/0.jpg';
 import * as $ from 'jquery';
 export const SwiperCarousel = () => {
   const { t } = useTranslation();
@@ -100,7 +101,26 @@ export const SwiperCarousel = () => {
   });
   return (
     <>
-    <div className="single-div" style={{ marginTop: 10 }}>
+          <MobileView>
+
+          <div className="single-div" style={{ marginTop: 10 }}>
+          <h1
+            className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+            style={{ textTransform: "capitalize" }}
+          >
+             {t("Smart Door Lock")}
+          </h1>
+        </div>
+        <div class="boxgif">
+          <img
+            src={IMG1}
+            alt="Example"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </div>
+      </MobileView>
+      <BrowserView>
+      <div className="single-div" style={{ marginTop: 10 }}>
             <h1
               className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
               style={{ textTransform: "capitalize" }}
@@ -118,8 +138,10 @@ export const SwiperCarousel = () => {
           </div>
         </div>
       </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      </BrowserView>
+
     </>
   );
 };

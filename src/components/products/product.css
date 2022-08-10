@@ -49,6 +49,14 @@
   margin-bottom: 70px;
 }
 @media all and (max-width: 768px) {
+.main_content{
+  display:inline-block;
+
+}
+
+}
+@media all and (max-width: 768px) {
+  
   .main_content .card {
     width: inherit;
   }
