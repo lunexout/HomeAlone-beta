@@ -466,7 +466,7 @@ export const Header = () => {
                     </NavLink>
                   </p>
 
-                  <p>
+                  {/* <p>
                     <NavLink
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
@@ -474,7 +474,7 @@ export const Header = () => {
                     >
                       FAQ
                     </NavLink>
-                  </p>
+                  </p> */}
                 </div>
                 <div
                   className="partners"

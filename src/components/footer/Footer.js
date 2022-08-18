@@ -194,17 +194,19 @@ export const Footer = () => {
                 </h2>
                 <p className="footer-call-to-action-description">
                 <ul className="contact-list">
-                        <li>
-                          <MdLocationPin fontSize="30px" />
-                          <div className="content1">{t("addressline")}</div>
+                <li>
+                          <MdPermPhoneMsg fontSize="30px" />
+                          <div className="content1"><a href="tel:+995577410510">+995 577 410 510</a></div>
                         </li>
                         <li>
                           <MdMarkunreadMailbox fontSize="30px" />
-                          <div className="content1">info@homealone.ge</div>
+                          <div className="content1"><a href="mailto:info@homealone.ge">info@homealone.ge</a></div>
+                          <div className="content1"><a href="mailto:ltd.homealone@gmail.com">ltd.homealone@gmail.com</a></div>
                         </li>
+                        
                         <li>
-                          <MdPermPhoneMsg fontSize="30px" />
-                          <div className="content1">+995 577 410 510</div>
+                          <MdLocationPin fontSize="30px" />
+                          <div className="content1"><a href="https://goo.gl/maps/dyxB9tsXkiRNJAMb7" target="_blank">{t("addressline")}</a></div>
                         </li>
                       </ul>
                 </p>

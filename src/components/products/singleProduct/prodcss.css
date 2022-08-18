@@ -31,13 +31,9 @@
   }
 
   li .one{
-    width: 33%;
+    width: 50%;
   }
 
   li   .two{
-    width: 33%;
-  }
-
-  li   .three{
     width: 33%;
   }

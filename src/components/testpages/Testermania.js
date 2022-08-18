@@ -25,9 +25,11 @@ const Testermania = () => {
 "BATUMI BUILD 2022"<br />
             </div>
             <div className="projcard-tagbox">
-              <span className="projcard-tag">Smart</span>
-              <span className="projcard-tag">Modern</span>
-              <span className="projcard-tag">Great</span>
+              <span className="projcard-tag">Expo</span>
+              <span className="projcard-tag">Batumi</span>
+              <span className="projcard-tag">Renovation</span>
+              <span className="projcard-tag">Smart Home</span>
+
             </div>
           </div>
         </div>

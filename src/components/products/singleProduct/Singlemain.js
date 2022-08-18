@@ -22,7 +22,7 @@ import { ProductBann } from '../ProductBann';
 SwiperCore.use([Pagination, Navigation]);
 
 export const Singlemain = ({ match }) => {
-    const width_proportion = '33%';
+    const width_proportion = '50%';
 
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
@@ -158,9 +158,8 @@ tabsArray.forEach((ele) => {
                             </div>
                         </div>
                         <ul class="tabscss">
-  <li class="active" data-cont=".one" style={{width: width_proportion, borderRadius: "0px 100px 100px 0px"}}>Properties</li>
+  <li class="active" data-cont=".one" style={{width: width_proportion, borderRadius:"100px"}}>Properties</li>
   <li data-cont=".two" style={{width: width_proportion, borderRadius:"100px"}}>Description</li>
-  <li data-cont=".three" style={{width: width_proportion, borderRadius: "100px 0px 0px 100px"}}>Other Features</li>
 </ul>
 <div class="contentcss">
   <div class="one">
@@ -225,7 +224,6 @@ tabsArray.forEach((ele) => {
 
 
   </div>
-  <div class="three">Content 3</div>
 </div>
                         {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '30px auto' }}>
                             {singleProd.properties && singleProd.properties.map(i => {

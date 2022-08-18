@@ -24,11 +24,17 @@ const options = {
 };
 
 export const ProductTypesCarousel = ({ ProductList }) => {
+  function refreshPage() {
+    setTimeout(()=>{
+        window.location.reload(false);
+    }, 500);
+    console.log('page to reload')
+}
   const { t } = useTranslation();
   const RenderProductTypeCarousel = ProductList.map((el, index) => {
     return (
       <>
-        <NavLink
+        <NavLink onClick={refreshPage}
           className="nav-item"
           activeClassName="nav-active"
           to={el.single ? `/products/${el._id}` : `/products/group/${el.type}`}
