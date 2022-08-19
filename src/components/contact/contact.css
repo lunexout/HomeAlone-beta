@@ -429,14 +429,14 @@ body {
   color: #2d2b3a;
 }
 
-a {
+/* a {
   color: #6c55f9;
   text-decoration: none;
   background-color: transparent;
-}
+} */
 
 a:hover {
-  color: #5641df;
+  /* color: #5641df; */
   text-decoration: underline;
 }
 
@@ -449,8 +449,8 @@ a:hover {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active {
   color: #fff;
-  background-color: #6c55f9;
-  border-color: #5d47eb;
+  /* background-color: #6c55f9; */
+  /* border-color: #5d47eb; */
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,

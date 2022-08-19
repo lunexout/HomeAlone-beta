@@ -1,7 +1,7 @@
 import React from "react";
 import "./SuperSmartSwitch.css";
 
-import photo1 from "./../../assets/banner_logo-4933e94378.png";
+// import photo1 from "./../../assets/banner_logo-4933e94378.png";
 import photo2 from "./../../assets/sec1_1-2b5c2c26ca.png";
 import photo3 from "./../../assets/sec1_2-4ec665530e.png";
 import photo4 from "./../../assets/sec1_3-d2d79be704.png";
@@ -45,7 +45,7 @@ export const SuperSmartSwitch = () => {
                     
                     @media screen and (min-width:1920px) {
                         html{
-                            font-size: calc(83.34vw / 16)
+                            font-size: calc(83.34vw / 16);
                         }
                     }        `,
         }}
@@ -53,13 +53,11 @@ export const SuperSmartSwitch = () => {
       <div className="switch__container">
         <div className="banner">
           <div className="content">
-            <img src={photo1} alt="" />
+           
             <div className="banner_title">
-              Technology and Aesthetics
               <br />
-              Wall Art Upgrade
             </div>
-            <div className="banner_desc">Super Smart Switch</div>
+            <div className="banner_desc"></div>
           </div>
         </div>
         <div className="sec_super1">

@@ -43,11 +43,11 @@
   }
 }
 
-@media (min-width: 1360px) and (max-width: 1760px) {
+/* @media (min-width: 1360px) and (max-width: 1760px) {
   html {
     font-size: calc((100vw - 160px) / 16);
   }
-}
+} */
 
 @media screen and (max-width: 1360px) {
   html {
