@@ -16,10 +16,18 @@ import IMG11 from "./../../assets/calligraphy tower.jpg";
 import IMG12 from "./../../assets/mjm group.jpg";
 import IMG13 from "./../../assets/nbg.jpg";
 import IMG1 from "./../../assets/al mare batumi.jpg";
-import IMG15 from "./../../assets/premium group.jpg";
+import IMG15 from "./../../assets/aliance.jpg";
 import IMG16 from "./../../assets/real palace.jpg";
 import IMG17 from "./../../assets/star palace.jpg";
 import IMG18 from "./../../assets/sunrise development.jpg";
+import IMG19 from "./../../assets/greenside.jpg";
+import IMG20 from "./../../assets/premium.jpg";
+import IMG21 from "./../../assets/euromshen.jpg";
+import IMG22 from "./../../assets/foris.jpg";
+import IMG23 from "./../../assets/mziuri-garden.jpg";
+// import IMG24 from "./../../assets/metromain1.png";
+// import IMG25 from "./../../assets/metromain2.png";
+
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -44,6 +52,12 @@ const imageJSON = [
   { src: IMG16 },
   { src: IMG17 },
   { src: IMG18 },
+  { src: IMG19 },
+  { src: IMG20 },
+  { src: IMG21 },
+  { src: IMG22 },
+  { src: IMG23 },
+
 ];
 
 export const PartnerWith = () => {

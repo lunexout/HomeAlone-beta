@@ -5,7 +5,7 @@ const resources = {
   en: {
     translation: {
       "Hotel System":"Smart Hotel System",
-      "GetStarted":"GetStarted",
+      "GetStarted":"Get Started",
       "prodiskr1": "One MixPad Mini is equal to many smart products",
       "prodiskr2": "MIXPAD'S ALL-IN-ONE GATEWAY PANEL",
       "prodiskr3": "ONE PANEL, ALL SMART",
@@ -32,6 +32,16 @@ const resources = {
       "PRODUCTS": "PRODUCTS",
       "SERVICES": "SERVICES",
       "ABOUT": "ABOUT",
+      "HOME1": "Home",
+      "PRODUCTS1": "Products",
+      "SERVICES1": "Services",
+      "ABOUT1": "About",
+      "CONTACT1": "Contact",
+      "Gallery1": "Gallery",
+      "Company1": "COMPANY",
+      "Partners1": "Partners",
+      "Showroom1": "Showroom",
+      "FeedBack1": "FeedBack",
       "TOP PRODUCT": "TOP PRODUCTS",
       "NEWS": "NEWS",
       "CONTACT": "CONTACT",
@@ -131,9 +141,10 @@ const resources = {
       "Fire Security System":"Smart Fire Security System",
       "Greenhouse System":"Smart Greenhouse System",
       "Smart Door Lock":"Smart Door Lock",
-"Mixpad":"Mixpad",
-"Magic Cube":"Magic Cube",
-"MixPad Genie":"MixPad Genie"
+      "Mixpad":"Mixpad",
+      "Magic Cube":"Magic Cube",
+      "MixPad Genie":"MixPad Genie",
+      "dont have products":"Coming Soon"
     }
   },
   ge: {
@@ -265,9 +276,20 @@ const resources = {
       "Fire Security System":"ჭკვიანი სახანძრო სისტემა",
       "Greenhouse System":"ჭკვიანი სასათბურე სისტემა",
       "Smart Door Lock":"ჭკვიანი კარის საკეტი",
-"Mixpad":"მიქსპადი",
-"Magic Cube":"მაგიური კუბი",
-"MixPad Genie":"მიქსპად ჯინი"
+      "Mixpad":"მიქსპადი",
+      "Magic Cube":"მაგიური კუბი",
+      "MixPad Genie":"მიქსპად ჯინი",
+      "dont have products":"გვერდი მზადდება",
+      "HOME1": "მთავარი",
+      "PRODUCTS1": "პროდუქტები",
+      "SERVICES1": "სერვისი",
+      "ABOUT1": "ჩვენს შესახებ",
+      "CONTACT1": "კონტაქტი",
+      "Company1": "კომპანია",
+      "Partners1": "პარტნიორები",
+      "Showroom1": "შოურუმი",
+      "Gallery1": "გალერეა",
+      "FeedBack1": "უკუკავშირი",
     }
   },
   ru: {
@@ -399,9 +421,21 @@ const resources = {
       "Fire Security System":"Умная Система Пожарной Безопасности",
       "Greenhouse System":"Умная Парниковая Система",
       "Smart Door Lock":"Умный дверной замок",
-"Mixpad":"Микспад",
-"Magic Cube":"Волшебный куб",
-"MixPad Genie":"MixPad Genie"
+      "Mixpad":"Микспад",
+      "Magic Cube":"Волшебный куб",
+      "MixPad Genie":"MixPad Genie",
+      "dont have products":"Появится В Скором Времени",
+      "HOME1": "Главная",
+      "PRODUCTS1": "Продукты",
+      "SERVICES1": "Сервисы",
+      "ABOUT1": "О Нас",
+      "CONTACT1": "Контакты",
+      "Company1": "КОМПАНИЯ",
+      "Partners1": "Партнеры",
+      "Showroom1": "Шоурум",
+      "Gallery1": "Галерея",
+      "FeedBack1": "Обратная Связь",
+
     }
   }
 };

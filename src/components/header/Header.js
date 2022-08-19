@@ -8,6 +8,7 @@ import PARTNER2 from "./../../assets/citron.png";
 import PARTNER3 from "./../../assets/like_house.png";
 import imagefb from "./../../assets/Facebook-logo.png";
 import imageins from "./../../assets/Symbol-Instagram.png";
+import imagewhats from "./../../assets/whatsapp.png";
 
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -253,6 +254,26 @@ export const Header = () => {
               alt=""
             />
           </a>
+          <a
+            className="socialphoto"
+            href="https://wa.me/+995577410510"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <img
+              src={imagewhats}
+              style={{
+                height: 30,
+                width: "auto",
+                marginLeft: 0,
+                lineHeight: "30",
+                verticalAlign: "middle",
+              }}
+              alt=""
+            />
+          </a>
+          
         </div>
       </div>
       <div>
@@ -461,6 +482,7 @@ export const Header = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/about/gallery"
+                      style={{textTransform: 'capitalize' }}
                     >
                       {t("Gallery")}
                     </NavLink>

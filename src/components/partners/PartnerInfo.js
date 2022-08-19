@@ -26,14 +26,26 @@ import INSIDE25 from "./../../assets/nbg1.jpg";
 import INSIDE26 from "./../../assets/nbg2.jpg";
 import INSIDE27 from "./../../assets/7th heaven1.jpg";
 import INSIDE28 from "./../../assets/7th heaven2.jpg";
-import INSIDE29 from "./../../assets/premium group1.jpg";
-import INSIDE30 from "./../../assets/premium group2.jpg";
+import INSIDE29 from "./../../assets/aliance1.jpg";
+import INSIDE30 from "./../../assets/aliance2.jpg";
 import INSIDE31 from "./../../assets/real palace1.jpg";
 import INSIDE32 from "./../../assets/real palace2.jpg";
 import INSIDE33 from "./../../assets/star palace1.jpg";
 import INSIDE34 from "./../../assets/star palace2.jpg";
 import INSIDE35 from "./../../assets/sunrise development1.jpg";
 import INSIDE36 from "./../../assets/sunrise development2.jpg";
+import INSIDE37 from "./../../assets/mziuri-garden1.jpg";
+import INSIDE38 from "./../../assets/mziuri-garden2.jpg";
+import INSIDE39 from "./../../assets/foris1.jpg";
+import INSIDE40 from "./../../assets/foris2.jpg";
+import INSIDE41 from "./../../assets/euromshen1.jpg";
+import INSIDE42 from "./../../assets/euromshen2.jpg";
+import INSIDE43 from "./../../assets/premium1.jpg";
+import INSIDE44 from "./../../assets/premium2.jpg";
+import INSIDE45 from "./../../assets/greenside1.jpg";
+import INSIDE46 from "./../../assets/greenside2.jpg";
+import INSIDE47 from "./../../assets/metro1.jpg";
+import INSIDE48 from "./../../assets/metro2.jpg";
 
 export const options = [
   {
@@ -211,7 +223,7 @@ export const options = [
     describtionru:
       "41-этажный многофункциональный комплекс «Альянс Палас» (Alliance Palace) в Батуми, расположен вблизи моря и бульвара, в престижном районе города. На первых 5-ти этажах многофункционального комплекса расположена гостиница на 150 номеров всемирного гостиничного бренда «Кортъярд Мариотт» (Courtyard By Marriott), а на остальных этажах разместятся апартаменты премиум класса. Со всех этажей «Альянс Палас» (Alliance Palace) открываются красивейшие панорамные виды на море и город, комплекс оснащен необходимыми условиями, современной инфраструктурой для комфортного проживания. Управлением многофункционального комплекса занимается швейцарская менеджмент-компания «Sophos Hotels SA».",
     describtiongeo:
-      'გალერეავიდეოპრეზენტაცია 41-სართულიანი მრავალფუნქციური კომპლექსი „ალიანს პალასი“ (Alliance Palace) ბათუმში, ზღვასთან და ბულვართან ახლოს, ქალაქის პრესტიჟულ უბანში მდებარეობს. მრავალფუნქციური კომპლექსის 1-5 სართულზე მსოფლიო სასტუმრო ბრენდის "ქორთიარდ ბაი მარიოტის" (Courtyard By Marriott) 150 ნომრიანი სასტუმრო, ხოლო 6-41 სართულზე პრემიუმ კლასის აპარტამენტები განთავსდება. „ალიანს პალასის“ ყველა სართულიდან იშლება ზღვისა და ქალაქის ულამაზესი პანორამული ხედები, კომპლექსი მოიცავს თანამედროვე ინფრასტრუქტურას და კომფორტული ცხოვრებისთვის აუცილებელი ყველა პირობას. მრავალფუნქციური კომპლექსის მართვას შვეიცარიული მენეჯმენტკომპანია "სოფოს ჰოტელსი" (Sophos Hotels SA).',
+      '41-სართულიანი მრავალფუნქციური კომპლექსი „ალიანს პალასი“ (Alliance Palace) ბათუმში, ზღვასთან და ბულვართან ახლოს, ქალაქის პრესტიჟულ უბანში მდებარეობს. მრავალფუნქციური კომპლექსის 1-5 სართულზე მსოფლიო სასტუმრო ბრენდის "ქორთიარდ ბაი მარიოტის" (Courtyard By Marriott) 150 ნომრიანი სასტუმრო, ხოლო 6-41 სართულზე პრემიუმ კლასის აპარტამენტები განთავსდება. „ალიანს პალასის“ ყველა სართულიდან იშლება ზღვისა და ქალაქის ულამაზესი პანორამული ხედები, კომპლექსი მოიცავს თანამედროვე ინფრასტრუქტურას და კომფორტული ცხოვრებისთვის აუცილებელი ყველა პირობას. მრავალფუნქციური კომპლექსის მართვას შვეიცარიული მენეჯმენტკომპანია "სოფოს ჰოტელსი" (Sophos Hotels SA).',
   },
   {
     items: 16,
@@ -249,6 +261,86 @@ export const options = [
     describtiongeo:
       '"სანრაის დეველოპმენტი" არის სამშენებლო-დეველოპერული კომპანია, რომელიც დაარსებულია ამერიკული-ქართული ინვესტიციით და ავითარებს სამშენებლო-დეველოპერულ და სტუმართმოყვარეობის ბიზნესის პროექტებს. ჩვენი მიზანია შევქმნათ კომფორტული და უსაფრთხო გარემო მომხმარებლებისთვის. ჩვენი ყველაზე დიდი უპირატესობაა ხარისხზე ორიენტირებული მშენებლობა, გადახდის მოქნილი გრაფიკი და მომხმარებელთან მეგობრული მიდგომა. ჩვენი პროექტები ხელს უწყობს ქალაქის ინფრასტრუქტურის, გამწვანებისა და კეთილმოწყობის განვითარებას. პროექტები ხორციელდება საერთაშორისო სტანდარტების დაცვით, ეკოლოგიურად სუფთა, ენერგოეფექტური და მაღალი ხარისხის მასალებით. ',
   },
+  {
+    items: 19,
+    CompanyName: "EVROMSHENI",
+    img1: INSIDE41,
+    img2: INSIDE42,
+    describtioneng:
+      "The construction company \"EVROMSHENI\" LLC was founded in 2014 and its main activity is construction works. The company offers its customers comfortable and high-quality residential apartments built according to modern standards. Our goal is to perform construction work with high quality and safety within strict deadlines, with a 24-hour security service. The project is fully funded!",
+    describtionru:
+      "Строительная компания ООО «ЕВРОМШЕНИ» была основана в 2014 году и ее основным видом деятельности являются строительные работы. Компания предлагает своим клиентам комфортабельные и качественные жилые квартиры, построенные по современным стандартам. Наша цель – качественно и безопасно выполнять строительные работы в строго оговоренные сроки, с круглосуточной службой охраны. Проект полностью профинансирован!",
+    describtiongeo:
+      'სამშენებლო კომპანია შპს „EVROMSHENI“ 2014 წელს დაფუძნდა და მის ძირითად საქმიანობას წარმოადგენს სამშენებლო სამუშაოების წარმოება. კომპანია მომხმარებელს თავაზობს თანამედროვე სტანდარტებით აშენებულ,კომფორტულ და ხარისხიან საცხოვრებელ ბინებს. ჩვენი მიზანია სამშენებლო სამუშაოს მაღალხარისხიანად და უსაფრთხოდ შესრულება მკაცრად გაწერილ ვადებში, 24 საათიანი დაცვის სამსახურით. პროექტი სრულად დაფინანსებულია!',
+  },
+
+  {
+    items: 20,
+    CompanyName: "Foris",
+    img1: INSIDE39,
+    img2: INSIDE40,
+    describtioneng:
+      "Development company Foris carries out construction in the central part of the city",
+    describtionru:
+      "Девелоперская компания Форис осуществляет строительство в центральной части города",
+    describtiongeo:
+      'დეველოპერული კომპანია ფორისი ახორციელებს მშენებლობას ქალაქის ცენტრალურ ნაწილში',
+  },
+
+
+  {
+    items: 21,
+    CompanyName: "Mziuri Gardens",
+    img1: INSIDE37,
+    img2: INSIDE38,
+    describtioneng:
+      "Mziuri Gardens is a new residential complex, which is currently under construction. Is located in resort Makhinjauri, few steps away from the Black Sea beach. The area of the complex stretches over 15 000 sq.m. major part of which will be occupied by a green garden, with century-old pine trees and other endemic plants.",
+    describtionru:
+      "«Мзиури Гарденс» - новый уникальный проект на курорте Махинджаури, строительство которого ведется в нескольких метрах от моря, на месте бывшего санатория. Территория нового мультифункционального комплекса – 15 000 кв/м, большинство территории которого будет отведено под озеленение и рекреационную зону.",
+    describtiongeo:
+      ',,მზიური გარდენსი“ ახალი უნიკალური პროექტია კურორტ მახინჯაურში, რომლის მშენებლობაც ზღვიდან სულ რამდენიმე მეტრში, ყოფილი სანატორიუმის ტერიტორიაზე მიმდინარეობს. მულტიფუნქციური კომპლექსის ტერიტორია 15 000 კვ.მ-ზე იქნება გაშენებული, საიდანაც უდიდესი ნაწილი უშუალოდ რეკრეაციულ ზონას და გამწვანებას დაეთმობა. კომპლექსის რეზიდენტებს წვდომა ექნებათ 5***** სასტუმროს „CROWNE PLAZA-ს“, ინფრასტრუქტურასა და სერვისებთან.',
+  },
+
+
+  {
+    items: 22,
+    CompanyName: "Premium Group",
+    img1: INSIDE43,
+    img2: INSIDE44,
+    describtioneng:
+      "STEPS is a multifunctional residential hotel-type complex located on the heart of Batumi's New Boulevard. The complex is functionally located on 27 floors. On the second floor of the building will be located the largest business center in Batumi. On the 3rd and 4th floors there will be a hotel, affiliated to a global hotel brand. Premium apartments from 24 sq.m. to 124 sq.m. will be located on the 5th floor and above. STEPS - Is the location in the heart of the Batumi New Boulevard the symbol of the great prospects and greatness of the modern architectural style. and most importantly - 3 minutes’ walk from the sea.",
+    describtionru:
+      "Мультифункциональный ЖК гостиничного типа STEPS — это проект мирового уровня, где жилая недвижимость премиум-класса сочетается с современной инфраструктурой. Воплощение настоящего комфорта - Каждая деталь одновременно стильна, роскошна и комфортна. ЖК функционально расположен на 27 этажах. На втором этаже здания будет расположен крупнейший бизнес-центр в Батуми. На 3 и 4 этажах будет функционировать гостиница, которой будет управлять международная менеджмент компания. Апартаменты премиум-класса от 24 кв. до 125 кв. расположены с 5-го этажа и выше. STEPS - это локация в сердце нового Бульвара Батуми - символ больших перспектив и величия современного архитектурного стиля, и что самое главное - в 3 минутах ходьбы от моря.",
+    describtiongeo:
+      'სასტუმროს ტიპის მრავალფუნქციური საცხოვრებელი კომპლექსი წარმოადგენს მსოფლიო დონის პროექტს, სადაც პრემიუმ კლასის უძრავი ქონება ერთიანდება თანამედროვე ინფრასტრუქტურასთან. ნამდვილი კომფორტის შეგრძნება - პროექტში ყველა დეტალი ხარისხიანი და ამავდროულად კომფორტულია. კომპლექსი ფუნქციონალურად განლაგებულია 27 სართულზე. მეორე სართულზე იმოქმედებს ბათუმში უმსხვილესი ბიზნეს-ცენტრი. მე-4 და მე-5 სართულებზე განთავსდება სასტუმრო, რომლის ოპერირებას საერთაშორისო მენეჯმენტ-კომპანია უზრუნველყოფს პრემიუმ-კლასის აპარტამენტები 24 მ²-დან 125 მ²-დე განთავსდება მე-5 სართულიდან ზემოთ. STEPS ეს არის ლოკაცია, ახალი ბულვარის შუაგულში - სიმბოლო თანამედროვე არქიტექტურული დიზაინისა და სამომავლო პერსპექტივებისა, და რაც მთავარია - სანაპირო ზოლის მიმდებარედ... .',
+  },
+
+
+  {
+    items: 23,
+    CompanyName: "Green Side Construction",
+    img1: INSIDE45,
+    img2: INSIDE46,
+    describtioneng:
+      "Green Side Gonio is a seaside complex, 50 meters from the sea and with perfect infrastructure",
+    describtionru:
+      "Green Side Gonio - это приморский комплекс, в 50 метрах от моря и с прекрасной инфраструктурой.",
+    describtiongeo:
+      'Green Side Gonio ზღვისპირა კომპლექსია, ზღვიდან 50 მეტრის მოშორებით და სრულყოფილი ინფრასტუქტურით',
+  },
+
+  {
+    items: 24,
+    CompanyName: "Metro City Complex",
+    img1: INSIDE47,
+    img2: INSIDE48,
+  describtioneng:
+  "Metro City is fast growing development company at real estate market of Georgian. Our primary objective is not only the high quality construction and development of social infrastructure, but also timely occupation and post-sales maintenance. Metro City team not only builds the felicity, but makes it affordable for you.",
+describtionru:
+  "Метро Сити это одна из ведущих и быстро развивающих девелоперских компаний на рынке. Деятельность компании направлена на создание уникальных жилых комплексов отличающихся своей инновационностью, смарт - подходом и высоким качеством. Наша основная задача заключается не только в качественной постройке и развитии социальной инфраструктуры, но и в своевременном заселении и послепродажном обслуживании.",
+describtiongeo:
+  'მეტრო სითი სწრაფი და მზარდი განვითარების კომპანიაა საქართველოს უძრავი ქონების ბაზარზე. ჩვენი ძირითადი მიზანია არა მხოლოდ მაღალი ხარისხის მშენებლობა და სოციალური ინფრასტრუქტურის განვითარება, არამედ გაყიდვების შემდგომი მოვლა.',
+},
 ];
 
 export default options;

@@ -8,7 +8,10 @@ import apiJSON from "./../../../API.json";
 
 import { ProductBann } from "../ProductBann";
 
+import { useTranslation } from "react-i18next";
+
 export const Groups = ({ match }) => {
+  const { t } = useTranslation();
   const [spinner, setSpinner] = React.useState(false);
   const [data, setData] = React.useState([]);
   React.useEffect(() => {
@@ -53,8 +56,8 @@ export const Groups = ({ match }) => {
           );
         })
     ) : (
-      <h1 style={{ color: "#fff", fontSize: 70, textAlign: "center" }}>
-        We dont have products in this section yet.
+      <h1 style={{ color: "#fff", fontSize: 70, textAlign: "center", margin:"auto" }}>
+               {t("dont have products")}
       </h1>
     )
   );

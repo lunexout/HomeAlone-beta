@@ -20,7 +20,7 @@ export const Footer = () => {
                 <img alt="home alone" src={photo1} width={200} />
               </div>
               <div className="footer-menu">
-                <h2 className="footer-menu-name">{t("GetStarted")}</h2>
+                <h2 className="footer-menu-name" style={{ textTransform: "capitalize" }}>{t("GetStarted")}</h2>
                 <ul id="menu-get-started" className="footer-menu-list">
                   <li
                     id="menu-item-173730"
@@ -31,9 +31,9 @@ export const Footer = () => {
                       activeClassName="nav-active"
                       exact
                       to="/"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("HOME")}</p>
+                      <p>{t("HOME1")}</p>
                     </NavLink>
                   </li>
                   <li
@@ -44,9 +44,9 @@ export const Footer = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/products"
-                      style={{ textTransform: "lowercase" }}
+                      style={{textTransform: 'capitalize' }}
                     >
-                      <p>{t("PRODUCTS")}</p>
+                      <p>{t("PRODUCTS1")}</p>
                     </NavLink>
                   </li>
                   <li
@@ -57,9 +57,9 @@ export const Footer = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/about/gallery"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("Gallery")}</p>
+                      <p>{t("Gallery1")}</p>
                     </NavLink>
                   </li>
                 </ul>
@@ -67,7 +67,7 @@ export const Footer = () => {
             </div>
             <div className="footer-content-column">
               <div className="footer-menu">
-                <h2 className="footer-menu-name"> {t("Company")}</h2>
+                <h2 className="footer-menu-name" style={{ textTransform: "capitalize" }}> {t("Company1")}</h2>
                 <ul id="menu-company" className="footer-menu-list">
                   <li
                     id="menu-item-167408"
@@ -78,8 +78,8 @@ export const Footer = () => {
                       activeClassName="nav-active"
                       to="/contact"
                     >
-                      <p style={{ textTransform: "lowercase" }}>
-                        {t("CONTACT")}
+                      <p style={{ textTransform: "capitalize" }}>
+                        {t("CONTACT1")}
                       </p>
                     </NavLink>
                   </li>
@@ -91,9 +91,9 @@ export const Footer = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/about/partners"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("Partners")}</p>
+                      <p>{t("Partners1")}</p>
                     </NavLink>
                   </li>
                   <li
@@ -104,15 +104,15 @@ export const Footer = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/services"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("SERVICES")}</p>
+                      <p>{t("SERVICES1")}</p>
                     </NavLink>
                   </li>
                 </ul>
               </div>
               <div className="footer-menu">
-                <h2 className="footer-menu-name">{t("FeedBack")}</h2>
+                <h2 className="footer-menu-name" style={{ textTransform: "capitalize" }}>{t("FeedBack1")}</h2>
                 <ul id="menu-legal" className="footer-menu-list">
                   <li
                     id="menu-item-170434"
@@ -122,9 +122,9 @@ export const Footer = () => {
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
                       to="/showroom/showroom"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("Showroom")}</p>
+                      <p>{t("Showroom1")}</p>
                     </NavLink>
                   </li>
                   <li
@@ -135,9 +135,9 @@ export const Footer = () => {
                       to="/about"
                       className="insidemenu-nav-item"
                       activeClassName="nav-active"
-                      style={{ textTransform: "lowercase" }}
+                      style={{ textTransform: "capitalize" }}
                     >
-                      <p>{t("ABOUT")}</p>
+                      <p>{t("ABOUT1")}</p>
                     </NavLink>
                   </li>
                 </ul>
@@ -206,7 +206,7 @@ export const Footer = () => {
                         
                         <li>
                           <MdLocationPin fontSize="30px" />
-                          <div className="content1"><a href="https://goo.gl/maps/dyxB9tsXkiRNJAMb7" target="_blank">{t("addressline")}</a></div>
+                          <div className="content1"><a href="https://goo.gl/maps/dyxB9tsXkiRNJAMb7" target="_blank" rel="noreferrer" >{t("addressline")}</a></div>
                         </li>
                       </ul>
                 </p>

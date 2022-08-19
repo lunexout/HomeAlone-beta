@@ -16,7 +16,7 @@ import logoprod11 from "./../../assets/calligraphy tower.jpg";
 import logoprod12 from "./../../assets/mjm group.jpg";
 import logoprod13 from "./../../assets/nbg.jpg";
 import logoprod14 from "./../../assets/7th heaven.jpg";
-import logoprod15 from "./../../assets/premium group.jpg";
+import logoprod15 from "./../../assets/aliance.jpg";
 import logoprod16 from "./../../assets/real palace.jpg";
 import logoprod17 from "./../../assets/star palace.jpg";
 import logoprod18 from "./../../assets/sunrise development.jpg";
