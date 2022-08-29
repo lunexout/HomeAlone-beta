@@ -47,7 +47,7 @@ function PaginationComponent() {
   const [itemsPerPage] = useState(24);
 
   const [pageNumberLimit] = useState(20);
-  const [maxPageNumberLimit, setmaxPageNumberLimit] = useState(20);
+  const [maxPageNumberLimit, setmaxPageNumberLimit] = useState(5);
   const [minPageNumberLimit, setminPageNumberLimit] = useState(0);
 
   const handleClick = (event) => {
