@@ -46,6 +46,8 @@ export const Contact = () => {
                         <a
                           className="social-icon social-icon--instagram"
                           href="https://www.instagram.com/ltdhome.alone/"
+                          target="blank"
+
                         >
                           <FaInstagram fontSize="20px" />
                           <div className="tooltip">{t("Instagram")}</div>
@@ -53,6 +55,8 @@ export const Contact = () => {
                         <a
                           className="social-icon social-icon--facebook"
                           href="https://www.facebook.com/homealoneltd"
+                          target="blank"
+
                         >
                           <FaFacebookF fontSize="20px" />
                           <div className="tooltip">{t("Facebook")}</div>
@@ -60,6 +64,7 @@ export const Contact = () => {
                         <a
                           className="social-icon social-icon--facebook"
                           href="https://www.tiktok.com/@ltd.home.alone"
+                          target="blank"
                         >
                           <FaTiktok fontSize="20px" />
                           <div className="tooltip">{t("TikTok")}</div>
@@ -67,6 +72,8 @@ export const Contact = () => {
                         <a
                           className="social-icon social-icon--facebook"
                           href="https://wa.me/+995577410510"
+                          target="blank"
+
                         >
                           <FaWhatsapp fontSize="20px" />
                           <div className="tooltip">{t("Whatsapp")}</div>
@@ -87,7 +94,7 @@ export const Contact = () => {
                         </li>
                         <li>
                           <MdMarkunreadMailbox fontSize="30px" />
-                          <div className="content1" style={{color: "black"}}>info@homealone.ge</div>
+                          <div className="content1" style={{color: "black"}}>info@homealone.ge<br/>ltd.homealone@gmail.com</div>
                         </li>
                         <li>
                           <MdPermPhoneMsg fontSize="30px" />

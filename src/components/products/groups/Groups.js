@@ -26,6 +26,7 @@ export const Groups = ({ match }) => {
       });
   }, [match.params.group_id]);
   const listItems = data.map((item) =>
+  
     item.products.length > 0 ? (
       item.products
         .sort(function (a, b) {
@@ -33,8 +34,16 @@ export const Groups = ({ match }) => {
           var textB = b.type;
           return textA < textB ? -1 : textA > textB ? 1 : 0;
         })
+                
         .map((item) => {
           item.unicProduct && console.log(item.unicProduct);
+          let namer;
+          if (localStorage.getItem("lang") === "ru") {
+              namer=item.nameRU;
+          } else if (localStorage.getItem("lang") === "en") {
+            namer=item.name;
+          } else
+          namer=item.nameGE;
           return (
             <NavLink
               to={`/products/${item._id}`}
@@ -48,7 +57,7 @@ export const Groups = ({ match }) => {
                   />
                 </div>
                 <div className="card_header">
-                  <h2>{item.name}</h2>
+                  <h2>{namer}</h2>
                   {/* <p>{item.description}</p> */}
                 </div>
               </div>

@@ -1,5 +1,4 @@
 .stepper::before {
-  content: "Click and Explore";
   font-size: 40px;
   align-content: start;
   color: white;

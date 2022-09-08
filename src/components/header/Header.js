@@ -223,6 +223,7 @@ export const Header = () => {
           <a
             className="socialphoto"
             href="https://www.facebook.com/homealoneltd"
+            target="blank"
           >
             <img
               src={imagefb}
@@ -240,6 +241,7 @@ export const Header = () => {
           <a
             className="socialphoto"
             href="https://www.instagram.com/ltdhome.alone/"
+            target="blank"
           >
             {" "}
             <img

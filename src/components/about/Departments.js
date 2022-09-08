@@ -36,7 +36,7 @@ const Departments = () => {
               <div className="contentBx">
                 <h2>{t("Jovani")} <br/> {t("Ghoghoberidze")}</h2>
                 <div className="quote">
-                  <h3>{t("CEO And Co-founde")}r</h3>
+                  <h3>{t("CEO And Co-founder")}</h3>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Departments = () => {
               <div className="contentBx">
                 <h2>{t("Zurab")} <br/> {t("Meskhidze")}</h2>
                 <div className="quote">
-                  <h3>{t("CEO And Co-founde")}</h3>
+                  <h3>{t("CTO")}</h3>
                 </div>
               </div>
             </div>
