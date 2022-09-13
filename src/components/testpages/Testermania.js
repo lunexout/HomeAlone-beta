@@ -4,11 +4,39 @@ import "./Testermania.css";
 import photo1 from "./../../assets/photo1.jpg";
 import photo2 from "./../../assets/photo2.jpg";
 import photo3 from "./../../assets/photo3.jpg";
+import photo5 from  "./../../assets/greensidephotonews.jpg"
 import photo4 from "./../../assets/276058849_519282252914345_4672874935782026919_n-min.jpg";
 
 const Testermania = () => {
   return (
     <div className="projcard-container">
+      <a
+        href="https://www.facebook.com/homealoneltd/posts/pfbid0qjUsqxn61NhLtvypgKzrrG3Pu7aWbXnvmj5fSexG1LtP1vt4RbRJG83qz7teQ5uXl"
+        target="blank"
+      >
+      <div className="projcard projcard-red">
+        <div className="projcard-innerbox">
+          <img alt="Home Alone" className="projcard-img" src={photo5} />
+          <div className="projcard-textbox">
+            <div className="projcard-title">Green Side Construction</div>
+            <div className="projcard-subtitle"></div>
+            <div className="projcard-bar" />
+            <div className="projcard-description">
+            🟩💈 ჭკვიანი სახლის სისტემების კომპანია "Home Alone"-სა  და კომპანია Green Side Construction შორის ურთიერთანამშრომლობის მემორანდუმი ოფიციალურად გაფორმდა. 🤝<br />
+💈 რომელიც გულისხმობს მომხმარებელთათვის მარტივი და მოქნილი სერვისების შეთავაზებას, ყოველდღიური ცხოვრების კიდევ უფრო გასამარტივებლად. 💈<br />
+🟩 სწორედ კომპანიების თანამშრომლობით, შესაძლებელი იქნება გონიოს ცენტრალურ ნაწილში მულტიფუქნციური კომპლექსის  აღჭურვა ჭკვიანი მოწყობილობებით. <br />
+            </div>
+            <div className="projcard-tagbox">
+              <span className="projcard-tag">Green Side Construction</span>
+              <span className="projcard-tag">Smart Project</span>
+              <span className="projcard-tag">Smart Home</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+
+
      <a
         href="https://www.facebook.com/homealoneltd/posts/pfbid02MJqie9eFMTvaMSy81v6PQBas2GbyHQPJgcaP5nsSjMm1hhSFHjeaCb5H8JBZGUSzl"
         target="blank"

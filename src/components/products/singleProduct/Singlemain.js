@@ -18,11 +18,13 @@ import { ProductTypesCarousel } from '../../carousels/ProductTypesCarousel';
 import { SmartBanner } from '../../smartbanner/SmartBanner';
 import { Footer } from '../../footer/Footer';
 import { ProductBann } from '../ProductBann';
+import { useTranslation } from "react-i18next";
 
 SwiperCore.use([Pagination, Navigation]);
 
 export const Singlemain = ({ match }) => {
     const width_proportion = '50%';
+    const { t } = useTranslation();
 
     const [singleProd, setSingleProd] = React.useState({})
     const [relatedProducts, setRelatedProducts] = React.useState([])
@@ -40,13 +42,23 @@ export const Singlemain = ({ match }) => {
             } else {
                 setSingleProd(result.data.product)
             }
+
+
+            
             // setTest({name: result.data.product.name, description: result.data.product.description})
             axios.get(`${dataJSON.API_URL}api/getconcrettypeprod/${result.data.productType}`).then(r => {
                 r.data.map((item) => {
                     let newArr = item.products.map(item => {
+                        let namer;
+                        if (localStorage.getItem("lang") === "ru") {
+                            namer=item.nameRU;
+                        } else if (localStorage.getItem("lang") === "en") {
+                          namer=item.name;
+                        } else
+                        namer=item.nameGE;
                         return {
                             mainImage: `${dataJSON.API_URL}public/images/` + item.mainImage,
-                            name: item.name,
+                            name: namer,
                             type: result.data.productType,
                             single: true,
                             _id: item._id
@@ -242,13 +254,11 @@ tabsArray.forEach((ele) => {
                             })}
                         </div> */}
                         <div>
-                            <h1 style={{ textAlign: 'left', alignItems: 'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073', paddingLeft: 15 }}>Related products</h1>
+                            <h1 style={{ textAlign: 'left', alignItems: 'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073', paddingLeft: 15 }}>{t("Related products")}</h1>
                         </div>
                         <ProductTypesCarousel ProductList={relatedProducts} />
                         <div style={{ marginBottom: 20 }}></div>
-                        <div>
-                            <h1 style={{ textAlign: 'left', alignItems: 'left', fontFamily: "Gowun Dodum", borderLeft: '4px solid #009073', paddingLeft: 15 }}>Other type of products</h1>
-                        </div>
+                        
                         <ProductBann />
                         <div style={{ marginBottom: 20 }}></div>
                     </div>

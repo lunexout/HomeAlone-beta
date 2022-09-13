@@ -336,7 +336,7 @@ export const Header = () => {
                     to="/products/group/Smart_R+T"
                     style={{ textDecoration: "none" }}
                   >
-                    <p>{t("Smart R+T")}</p>
+                    <p>{t("Smart Curtain")}</p>
                   </NavLink>
                   <NavLink
                     className="nav-item"
@@ -344,7 +344,7 @@ export const Header = () => {
                     to="/products/group/Smart_HVAC"
                     style={{ textDecoration: "none" }}
                   >
-                    <p>{t("Smart HVAC")}</p>
+                    <p>{t("Temperature Control")}</p> 
                   </NavLink>
                   <NavLink
                     className="nav-item"

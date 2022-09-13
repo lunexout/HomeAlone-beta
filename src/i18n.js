@@ -146,7 +146,10 @@ const resources = {
       "Mixpad":"Mixpad",
       "Magic Cube":"Magic Cube",
       "MixPad Genie":"MixPad Genie",
-      "dont have products":"Coming Soon"
+      "dont have products":"Coming Soon",
+      "Copyright":"© Copyright - All Rights Reserved, Powered By ",
+      "Related products":"Related products",
+      "Other type of products": "Other type of products"
     }
   },
   ge: {
@@ -294,6 +297,9 @@ const resources = {
       "Showroom1": "შოურუმი",
       "Gallery1": "გალერეა",
       "FeedBack1": "უკუკავშირი",
+      "Copyright":"© საავტორო უფლება - ყველა უფლება დაცულია, წარმოება - ",
+      "Related products":"Მსგავსი პროდუქტები",
+      "Other type of products": "სხვა პროდუქტები"
     }
   },
   ru: {
@@ -441,6 +447,9 @@ const resources = {
       "Showroom1": "Шоурум",
       "Gallery1": "Галерея",
       "FeedBack1": "Обратная Связь",
+      "Copyright":"© Copyright - Все права защищены, производство ",
+      "Related products":"похожие продукты",
+      "Other type of products": "Другой вид продукции"
 
     }
   }

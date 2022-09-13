@@ -99,6 +99,7 @@ export const Contact = () => {
                         <li>
                           <MdPermPhoneMsg fontSize="30px" />
                           <div className="content1" style={{color: "black"}}>+995 577 410 510</div>
+                          <div className="content1" style={{color: "black"}}>+995 577 77 00 90</div>
                         </li>
                       </ul>   
                       
