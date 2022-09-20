@@ -15,7 +15,7 @@ import SwiperCore, {
     Pagination, Navigation
 } from 'swiper/core';
 import { ProductTypesCarousel } from '../../carousels/ProductTypesCarousel';
-import { SmartBanner } from '../../smartbanner/SmartBanner';
+// import { SmartBanner } from '../../smartbanner/SmartBanner';
 import { Footer } from '../../footer/Footer';
 import { ProductBann } from '../ProductBann';
 import { useTranslation } from "react-i18next";
