@@ -85,20 +85,6 @@ export const Groups = ({ match }) => {
           </div>
         )}
       </div>
-
-      <div>
-        <h1
-          style={{
-            textAlign: "left",
-            alignItems: "left",
-            fontFamily: "Gowun Dodum",
-            borderLeft: "4px solid #009073",
-            paddingLeft: 15,
-          }}
-        >
-          Other type of products
-        </h1>
-      </div>
       <ProductBann />
       <div style={{ marginBottom: 20 }}></div>
       <Footer />

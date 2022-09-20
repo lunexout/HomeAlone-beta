@@ -170,8 +170,8 @@ tabsArray.forEach((ele) => {
                             </div>
                         </div>
                         <ul class="tabscss">
-  <li class="active" data-cont=".one" style={{width: width_proportion, borderRadius:"100px"}}>Properties</li>
-  <li data-cont=".two" style={{width: width_proportion, borderRadius:"100px"}}>Description</li>
+  <li class="active" data-cont=".one" style={{width: width_proportion, borderRadius:"100px"}}>{t("Properties")}</li>
+  <li data-cont=".two" style={{width: width_proportion, borderRadius:"100px"}}>{t("Description")}</li>
 </ul>
 <div class="contentcss">
   <div class="one">
@@ -263,9 +263,7 @@ tabsArray.forEach((ele) => {
                         <div style={{ marginBottom: 20 }}></div>
                     </div>
 
-                    <div>
-                        <SmartBanner />
-                    </div>
+                   
                     <Footer />
                 </>
             )}

@@ -149,7 +149,9 @@ const resources = {
       "dont have products":"Coming Soon",
       "Copyright":"© Copyright - All Rights Reserved, Powered By ",
       "Related products":"Related products",
-      "Other type of products": "Other type of products"
+      "Other type of products": "Other type of products",
+      "Properties":"Properties",
+      "Description":"Description",
     }
   },
   ge: {
@@ -169,9 +171,9 @@ const resources = {
       "prodiskr10": "გამორთოს ყველა განათება ერთი ღილაკით და",
       "prodiskr11": "არ დაკარგოთ დრო მათი სათითაოდ გამორთვისთვის.",
       "prodiskr12": "სისტემების მართვა სხვადასხვა სცენის დახმარებით",
-      "prodiskr13": "მატივი და მოსახერხებელი ინტერფეისი.",
-      "prodiskr14": "სისტემის დისტანციური მართვა მობილური აპლიკაციის გამოყენებით",
-      "prodiskr15": "ჩართეთ კონდენციონერი დისტანციურად, იგრძენით კომფორტი სახლში მისვლისთანავე.",
+      "prodiskr13": "მარტივი და მოსახერხებელი ინტერფეისი",
+      "prodiskr14": "სისტემის მართვა მობილური აპლიკაციის მეშვეობით",
+      "prodiskr15": "ჩართეთ კონდენციონერი დისტანციურად, იგრძენით კომფორტი სახლში მისვლისთანავე",
       "Back": "უკან",
       "Contact Us": "დაგვიკავშირდით",
       "Comfort Pack": "კომფორტ პაკეტი",
@@ -189,8 +191,8 @@ const resources = {
       "Smart Lighting": "ჭკვიანი განათების სისტემა",
       "Home Security": "ჭკვიანი დაცვის სისტემა",
       "Smart Curtain": "ჭკვიანი ფარდის სისტემა",
-      "Temperature Control": "ჭკვიანი ტემპერატურის მონიტორინგი",
-      "Home Entertaiment": "ჭკვიანი სახლის სისტემები",
+      "Temperature Control": "ტემპერატურის ჭკვიანი მართვა",
+      "Home Entertaiment": "სახლის ჭკვიანი სისტემები",
       "Domestic Appliances": "ჭკვიანი საყოფაცხოვრებო ტექნიკა",
       "Audio Products": "ჭკვიანი აუდიო სისტემები",
       "Flush Mount Ceiling Speaker": "ჭერის სპიკერები ფარული მონტაჟისთვის",
@@ -247,7 +249,7 @@ const resources = {
       "Solutions": "სისტემები",
       "becpart": "გახდი ჩვენი პარტნიორი",
       "CEO":"ტოპ მენეჯმენტი",
-      "CTO":"ტექნიკური მენეჯერი",
+      "CTO":"ტექნიკური დირექტორი",
       "CEO And Co-founder":"აღმასრულებელი დირექტორი",
       "Marketing":" მარკეტინგი",
       "Marketing Manager":" მარკეტინგის მენეჯერი",
@@ -299,7 +301,9 @@ const resources = {
       "FeedBack1": "უკუკავშირი",
       "Copyright":"© საავტორო უფლება - ყველა უფლება დაცულია, წარმოება - ",
       "Related products":"Მსგავსი პროდუქტები",
-      "Other type of products": "სხვა პროდუქტები"
+      "Other type of products": "სხვა პროდუქტები",
+      "Properties":"ტექნიკური მახასიათებელი",
+      "Description":"აღწერა",
     }
   },
   ru: {
@@ -449,7 +453,9 @@ const resources = {
       "FeedBack1": "Обратная Связь",
       "Copyright":"© Copyright - Все права защищены, производство ",
       "Related products":"похожие продукты",
-      "Other type of products": "Другой вид продукции"
+      "Other type of products": "Другой вид продукции",
+      "Properties":"Характеристики",
+      "Description":"Описание",
 
     }
   }
